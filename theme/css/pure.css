@@ -108,6 +108,7 @@ pre {
     text-align: center;
     padding-bottom: 0;
     padding-top: 20em;
+    margin-top: 10em;
     margin-bottom: 0em;
     background-image: linear-gradient(to top,rgba(0,0,0,0.5) 0,rgba(0,0,0,0.3) 70%,rgba(0,0,0,0) 100%);
 }
@@ -158,7 +159,7 @@ pre {
 
 .header {
     /*top-margin: 0em;*/
-    margin-bottom: 150px;
+    margin-bottom: 50px;
     background-position: center;
     width: 767px;
     max-width: 100%;

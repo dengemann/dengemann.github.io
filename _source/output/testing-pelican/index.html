@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Denis A. Engemann, ">
+
+
+        <title>Testing Pelican // Denis A. Engemann // </title>
+
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.3.0/pure-min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/theme/css/pure.css">
+    <link rel="stylesheet" href="/theme/css/academicons.css">
+    <link rel="stylesheet" href="/theme/css/github-calendar.css">
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="path/to/css/cal-heatmap.css" />
+    <script type="text/javascript" src="path/to/cal-heatmap.min.js"></script> -->
+    <link rel="stylesheet" href="/theme/css/pygments.css">
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script
+      src="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.min.js">
+    </script>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/fitvids/1.0.1/jquery.fitvids.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".content").fitVids();
+        });
+    </script>
+</head>
+
+<body>
+    <div class="pure-g-r" id="layout">
+        <div class="sidebar pure-u">
+            <div class="cover-img" style="background-image: url('./images/cajal.jpg')">
+                <div class="cover-body">
+                    <header class="header">
+                        <hgroup>
+
+                                <img class="avatar" src="./images/dngman_avatar2.jpg">
+
+                            <h1 class="brand-main"><a href="">Dr. Denis A. Engemann</a></h1>
+
+                            <p class="brand-main-sub"><a> psychology / neuro / data science</a></p>
+
+                            <nav id="nav">
+                                <p>
+                                    <ul>
+                                        <li class="nav"><a href="#about" id="about-link" class="skel-layers-ignoreHref">About</a></li>
+                                        <li class="nav"><a href="#events" id="events-link" class="skel-layers-ignoreHref">Events</a></li>
+                                        <li class="nav"><a href="#publications" id="publications-link" class="skel-layers-ignoreHref">Publications</a></li>
+                                        <li class="nav"><a href="#software" id="software-link" class="skel-layers-ignoreHref">Software</a></li>
+                                        <li class="nav"><a href="#collaborators" id="software-link" class="skel-layers-ignoreHref">Collaborators</a></li>
+                                    </ul>
+                                </p>
+                            </nav>
+
+                            <p class="tagline"></p>
+
+                                <p class="social">
+                                    <a href="https://github.com/dengemann/">
+                                        <i class="fa fa-github fa-3x"></i>
+                                    </a>
+                                    <a href="https://twitter.com/dngman">
+                                        <i class="fa fa-twitter-square fa-3x"></i>
+                                    </a>
+                            <!-- XXX HACK to lazy to join css -->
+                                    <a href="https://scholar.google.de/citations?user=ombAzhMAAAAJ&hl=en">
+                                        <i class="ai ai-google-scholar-square ai-3x"></i>
+                                    </a>
+                            <!-- <a class="twitter-timeline" href="https://twitter.com/dngman" data-widget-id="704317254482182144">Tweets by @dngman</a> -->
+                            <!-- <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script> -->
+                            </p>
+
+                    <!-- <div class="twitter"> -->
+
+                    <!-- </div> -->
+                </hgroup>
+            </header>
+
+                </div>
+            </div>
+        </div>
+    <div class="pure-u">
+        <div class="content">
+            <section class="post">
+                <header class="post-header">
+                    <h1>Testing Pelican</h1>
+                        <p class="post-meta">
+                            // under                         </p>
+                </header>
+            </section>
+            <p>I hope I can add some more conetent here soon.</p>
+            <a href="#" class="go-top">Go Top</a>
+<footer class="footer">
+    <p>
+        <!-- &copy; Denis A. Engemann &ndash; -->
+        contact: denis.engemann@gmail.com
+        <!-- Built with joy. -->
+        <!-- Built with <a href="https://github.com/PurePelicanTheme/pure-single">Pure Theme</a> -->
+        <!-- for <a href="http://blog.getpelican.com/">Pelican</a> -->
+    </p>
+</footer>        </div>
+    </div>
+    </div>
+    <script>
+        var $top = $('.go-top');
+
+        // Show or hide the sticky footer button
+        $(window).scroll(function() {
+            if ($(this).scrollTop() > 200) {
+                $top.fadeIn(200);
+            } else {
+                $top.fadeOut(200);
+            }
+        });
+
+        // Animate the scroll to top
+        $top.click(function(event) {
+            event.preventDefault();
+            $('html, body').animate({scrollTop: 0}, 300);
+        })
+
+        // Makes sure that the href="#" attached to the <a> elements
+        // don't scroll you back up the page.
+        $('body').on('click', 'a[href="#"]', function(event) {
+            event.preventDefault();
+        });
+    </script>
+    <script type="text/javascript">
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+        try {
+            var pageTracker = _gat._getTracker("UA-74622344-1");
+            pageTracker._trackPageview();
+            } catch(err) {}
+    </script>
+
+</body>
+</html>

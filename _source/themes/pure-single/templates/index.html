@@ -1,0 +1,322 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <div class="pure-u">
+        <div class="content">
+            <!-- A wrapper for all the blog posts -->
+            <!-- <a class="twitter-timeline" href="https://twitter.com/dngman" data-widget-id="704317254482182144">Tweets by @dngman</a>
+            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script> -->
+            <div id="about" class="posts" >
+                <h1 class="content-nicehead">
+                    About me
+                </h1>
+                <p class='main'>I'm a postdoc in neuroscience living in Paris and London. My background is in psychology, neuroscience, software development and philosophy. My research aims at understanding the relationship between consciousness, social cognition and health at different behavioral and electrophysiological scales.</p>
+                <p class='main'>Interdisciplinary efforts are most fruitful when methods and applied researchers closely colaborate. With my partners from applied mathematics, computer science and medicine I therefore actively develop computational tools and methods.</p>
+                <p class='main'>I hope that this will help promote an active role for psychology in an increasingly technology-driven interdisciplinary future.</p>
+            </div>
+
+            <div id="events" class="posts" >
+
+                <h1 class="content-nicehead">
+                    Events
+                </h1>
+                <input type="radio" id="select-talks" name="color">
+                    <label for="select-talks", class="label-talks">
+                        talks
+                    </label>
+
+                <input type="radio" id="select-teach" name="color">
+                    <label for="select-teach", class="label-teach">
+                        teaching
+                    </label>
+
+                <input type="radio" id="select-awards" name="color">
+                    <label for="select-awards", class="label-awards">
+                        awards
+                    </label>
+
+                <input type="radio" id="select-attend" name="color">
+                    <label for="select-attend", class="label-attend">
+                        random
+                    </label>
+
+
+                <input type="radio" id="reset" name="color">
+                    <label for="reset">reset</label>
+
+                <p class="items">
+
+                    <!-- <p class="post-meta", id="teach-item">
+                        <a class='events-date'>June - 2016</a>
+                        <a class="post-category post-category-teach">workshop</a>
+                        "MNE-Python: sensor and source space analysis of M-EEG data" at the international Pattern Recognition in Neuroimaging Workshop 2016, Trento, Italy.
+                    </p> -->
+
+                    <p class="post-meta", id="attend-item">
+                        <a class='events-date'>October - 2016</a>
+                        <a class="post-category post-category-attend">poster</a>
+                        I will present my recent work on processing the Human Connectome (HCP) MEG data using MNE tools at Biomag, Seoul, Korea
+                    </p>
+
+                    <p class="post-meta", id="attend-item">
+                        <a class='events-date'>June - 2016</a>
+                        <a class="post-category post-category-attend">poster</a>
+                        Our joint work on decoding of disorders of consciousness from clinical EEG is presented by Federico Raimondo and Jacobo Sitt at ASSC 20, Buenos Aires.
+                    </p>
+                    <p class="post-meta", id="awards-item">
+                        <a class='events-date'>May - 2016</a>
+                        <a class="post-category post-category-awards">GSOC</a>
+                        This year's MNE-Python Google Summer of Code (GSOC) is about our decoding API. I'm co-mentoring Ashish Panda with Jaen-Rémi King and Alex Gramfort.
+                    </p>
+
+                    <p class="post-meta", id="teach-item">
+                        <a class='events-date'>April - 2016</a>
+                        <a class="post-category post-category-teach">workshop</a>
+                        "MNE-Python for EEG/MEG analysis" at Goethe university, Frankfurt a. M., Germany.
+                    </p>
+
+                    <p class="post-meta", id="talks-item">
+                        <a class='events-date'>April - 2016</a>
+                        <a class="post-category post-category-talk">talk</a>
+                        "Time resolved neuroimaging", ESGCO 2016, Lancaster, UK.
+                    </p>
+
+                    <p class="post-meta", id="attend-item">
+                        <a class='events-date'>February - 2016</a>
+                        <a class="post-category post-category-attend">sprint</a>
+                        Coding at Brainhack, Paris.
+                    </p>
+
+                    <p class="post-meta", id="teach-item">
+                        <a class='events-date'>January - 2016</a>
+                        <a class="post-category post-category-teach">workshop</a>
+                        Nilearn: statistical learning for fMRI in Python, Aachen, Germany.
+                    </p>
+                    <p class="post-meta", id="teach-item">
+                        <a class='events-date'>January - 2016</a>
+                        <a class="post-category post-category-teach">workshop</a>
+                        "Processing EEG using MNE-Python", University of Salzburg, Austria
+                    </p>
+                    <p class="post-meta", id="teach-item">
+                        <a class='events-date'>January - 2016</a>
+                        <a class="post-category post-category-teach">lecture</a>
+                        "Time-resolved noninvasive electrophysiological neuroimaging", doctoral college, University of Salzburg, Austria
+                    </p>
+                    <p class="post-meta", id="talks-item">
+                        <a class='events-date'>November - 2015</a>
+                        <a class="post-category post-category-talk">talk</a>
+                        "Statistische Quantifizierung und Vorhersage von Bewusstsein anhand von kinischem EEG", Department of Psychiatry and Psychotherapy, University hospital Aachen, Germnany
+                    </p>
+
+                    <p class="post-meta", id="talks-item">
+                        <a class='events-date'>October - 2015</a>
+                        <a class="post-category post-category-talk">talk</a>
+                        "Automated analysis of EEG for disease classification in DOC patients", Bar Ilan niversity, Israel.
+                    </p>
+                    <p class="post-meta", id="teach-item">
+                        <a class='events-date'>October - 2015</a>
+                        <a class="post-category post-category-teach">workshop</a>
+                        MNE-Python training, Bar Ilan niversity, Israel.
+                    </p>
+                    <p class="post-meta", id="awards-item">
+                        <a class='events-date'>October - 2015</a>
+                        <a class="post-category post-category-awards">grant</a>
+                        I received an Amazon in Education grant for research and development on M/EEG resting state dynamics.
+                    </p>
+                    <p class="post-meta", id="teach-item">
+                        <a class='events-date'>September - 2015</a>
+                        <a class="post-category post-category-teach">lecture</a>
+                        "MNE-Python for EEG processing", UBA university, Buenos Aires, Argentina.
+                    </p>
+                    <p class="post-meta", id="talks-item">
+                        <a class='events-date'>September - 2015</a>
+                        <a class="post-category post-category-talk">talk</a>
+                        "Automated analysis of EEG for disease classification in DOC patients", Universidad Torcuato Di Tella, Buenos Aires, Argentina.
+                    </p>
+                    <p class="post-meta", id="attend-item">
+                        <a class='events-date'>June - 2015</a>
+                        <a class="post-category post-category-attend">poster</a>
+                        My work with Alex Gramfort on statistical learning of M/EEG noise covariance estimation and inverse solvers will be presented at the Human Brain Mapping conference 2015, Honolulu, USA
+                    </p>
+
+                    <p class="post-meta", id="talks-item">
+                        <a class='events-date'>June - 2015</a>
+                        <a class="post-category post-category-talk">talk</a>
+                        "Automated Measurement and Prediction of Consciousness in Vegetative and Minimally Conscious Patients" at the neuroimaging workshop at the International Conference of Machine Learning, Lille, France.
+                    </p>
+
+                    <p class="post-meta", id="awards-item">
+                        <a class='events-date'>March - 2014</a>
+                        <a class="post-category post-category-awards">GSOC</a>
+                        MNE-Python got accepted for this year's Google Summer of Code (GSOC). I'm mentoring Jaakko Leppäkangas project on interactive viz tools together with Mainak Jas.
+                    </p>
+
+                    <p class="post-meta", id="teach-item">
+                        <a class='events-date'>December - 2014</a>
+                        <a class="post-category post-category-teach">workshop</a>
+                        MNE-Python workshop for M/EEG processsing, Télécom Paris-Tech, Paris, France.
+                    </p>
+                    <p class="post-meta", id="talks-item">
+                        <a class='events-date'>August - 2014</a>
+                        <a class="post-category post-category-talk">talk</a>
+                        My work on M/EEG noise covariance estimation with Alex Gramfort will be presented at Biomag 2014, Halifax, Canada
+                    </p>
+
+                    <p class="post-meta", id="talks-item">
+                        <a class='events-date'>June - 2014</a>
+                        <a class="post-category post-category-talk">talk</a>
+                        "Automated model selection for covariance estimation and spatial whitening of M/EEG signals", Human Brain Mapping conference 2014, Hamburg, Germany
+                    </p>
+
+                    <p class="post-meta", id="teach-item">
+                        <a class='events-date'>May - 2014</a>
+                        <a class="post-category post-category-teach">workshop</a>
+                        MNE-Python for MEG processsing, MRC Cognition and Brain Sciences Unit, Cambridge, UK.
+                    </p>
+                    <p class="post-meta", id="awards-item">
+                        <a class='events-date'>March - 2014</a>
+                        <a class="post-category post-category-awards">GSOC</a>
+                        MNE-Python got accepted for another Google Summer of Code (GSOC). I'm co-mentoring Mainak Jas' project on HTML-Reporting tools together with Alex Gramfort.
+                    </p>
+
+                    <p class="post-meta", id="teach-item">
+                        <a class='events-date'>December - 2013</a>
+                        <a class="post-category post-category-teach">workshop</a>
+                        MNE-Python for M/EEG processsing, Brain and Spine Institute, Paris, France.
+                    </p>
+                    <p class="post-meta", id="awards-item">
+                        <a class='events-date'>March - 2013</a>
+                        <a class="post-category post-category-awards">GSOC</a>
+                        The first MNE-Python google summer of code (GSOC). I'm co-mentoring Roman Goj project on Beamforming together with Alex Gramfort.
+                    </p>
+
+                </p>
+            </div>
+            <div id="publications" class="posts" >
+                <h1 class="content-nicehead">
+                    Publications
+                </h1>
+                {% for item in PUBLICATION_LIST %}
+                    <p class="post-meta">
+                        {{ item['author'] }} ({{ item['year']}}). <i>{{ item['title']}}</i>.
+                    {% if item['ENTRYTYPE'] == 'inproceedings' %}
+                        {{ item['booktitle'] }}
+                    {% elif item['ENTRYTYPE'] == 'article' %}
+                        {{ item['journal'] }}
+                        {% if 'volume' in item %}
+                            {{ item['volume'] }}: ({{ item['pages'] }}).
+                        {% else %}
+                            .
+                        {% endif %}
+                    {% else %}
+                        42
+                    {% endif %}
+                    </p>
+                {% endfor %}
+
+
+                <!-- {% for item in PUBLICATION_LIST %}
+                    <p class="post-meta">
+                        {{ item['content'] }} will see you on {{ item['date'] }}
+                    </p>
+                {% endfor %} -->
+            </div>
+
+            <!-- <div id="talks" class="posts" >
+                <h1 class="content-nicehead">
+                    Talks
+                </h1>
+            </div> -->
+
+            <div id="software" class="posts" >
+                <h1 class="content-nicehead">
+                    Software
+                </h1>
+                <!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
+                <!-- Prepare a container for your calendar. -->
+                <div class="calendar">
+                    <!-- Loading stuff -->
+                    Loading my contributions data just for you (...)
+                </div>
+
+                <script>
+                    GitHubCalendar(".calendar", "dengemann");
+                </script>
+
+
+                <h3 class="subheading">MNE-Python</h3>
+
+                <img src="images/mne_logo.png" align="right" />
+
+                <p class="main">MNE-Python is the Python open source toolbox for processing and visualizing MEG and EEG data.
+                   It facilitates a wide range of data processing task, including artifact rejection, diagnositc visualizations, decoding, source localization, time-frequency analysis and statistics.</p>
+                   <p class="main">
+                        I have been core developer since 2012.
+                   </p>
+                <ul-softw>
+                    <li><a href="http://martinos.org/mne/dev/index.html">http://martinos.org/mne/dev/index.html</a></li>
+                    <li><a href="https://github.com/mne-tools/mne-python">https://github.com/mne-tools/mne-python</a></li>
+                </ul-softw>
+
+                <h3 class="subheading">Scikit-Learn</h3>
+
+                <img src="images/scikit-learn.png" align="right" />
+
+                <p class="main">Scikit-Learn is a rich statistical learning library that makes available a wide array of statistical models through a coherent interface.
+                </p>
+
+                <p class="main">
+                    I have contributed several performance enhancements and documentation improvements to the decomposition module and computational core functions
+                </p>
+
+                <ul-softw>
+                    <li><a href="http://scikit-learn.org/dev/">http://scikit-learn.org/dev/</a></li>
+                    <li><a href="https://github.com/scikit-learn/scikit-learn">https://github.com/scikit-learn/scikit-learn</a></li>
+                </ul-softw>
+
+                <h3 class="subheading">Miscellaneous</h3>
+
+                <p class="main">Smaller projects and libraries that I am authoring</p>
+
+                <ul-softw>
+                    <li><a href="https://github.com/dengemann/meeg-preprocessing">meeg-preprocessing: utils for cleaning reporting M/EEG data</a></li>
+                    <li><a href="https://github.com/h5io">h5io: a convenient highlevel interface to hdf5 files</a></li>
+                    <li><a href="https://github.com/pyeparse/pyeparse">pyeyeparse: MNE-style access to eyelink eye-tracking data</a></li>
+                    <li><a href="https://github.com/PyMed/PyMed">PyMed: utils for processing PubMed records</a></li>
+                </ul-softw>
+
+            <div id="sci-review" class="posts" >
+                <h1 class="content-nicehead">
+                        Scientific Referee Activities
+                </h1>
+                <ul-softw>
+                    <li><a href="http://www.nature.com/srep/">Nature Scientific Reports</a></li>
+                    <li><a href="http://www.journals.elsevier.com/neuroimage/">Neuroimage</a></li>
+                    <li><a href="http://onlinelibrary.wiley.com/journal/10.1002/(ISSN)1097-0193">Human Brain Mapping</a></li>
+                    <li><a href="http://link.springer.com/journal/10548">Brain Topography</a></li>
+                    <li><a href="http://www.j-alz.com/">Journal of Alzheimer's Disease</a></li>
+                    <li><a href="http://journals.plos.org/plosone/">PLOS ONE</a></li>
+                </ul-softw>
+            </div>
+
+            <div id="collaborators" class="posts" >
+                <h1 class="content-nicehead">
+                    Collaborators
+                </h1>
+                <p class="post-meta">
+                (in alphabetical order)
+                </p>
+                {% for name, desc, loc, link in COLLABORATORS_LIST %}
+                    <p class="post-meta">
+                        {% if link %}
+                            <a class='collaborator'  href='{{ link }}'>{{ name }}</a> {{ desc }}, <em>{{loc}}</em>
+                        {% else %}
+                            <a class='collaborator'>{{ name }}</a> {{ desc }}, <em>{{loc}}</em>
+                        {% endif %}
+                    </p>
+                {% endfor %}
+            </div>
+            </div>
+        </div>
+    </div>
+{% endblock content %}

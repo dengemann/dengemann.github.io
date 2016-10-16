@@ -5,15 +5,20 @@ import bibtexparser
 
 # DATA ########################################################################
 
-def make_nice_author(author, emphasize='Engemann, D.'):
+
+def make_nice_author(author, emphasize=('Engemann<sup>&#10033;</sup>, D.', 'Engemann, D.',)):
     split_author = author.split(' and ')
     insert_pos = len(split_author) - 1
     names_split = [au.split(', ') for au in split_author]
     names = ['{}, {}.'.format(n[0], n[1][:1]) for n in names_split]
     author_edit = ', '.join(names[:insert_pos]) + ' and ' + names[insert_pos]
+    # print(author_edit)
     if emphasize:
-        author_edit = author_edit.replace(
-            emphasize, '<strong><em>' + emphasize + '</em></strong>')
+        for emp in emphasize:
+            if emp in author_edit:
+                # print(emp)
+                author_edit = author_edit.replace(
+                    emp, '<strong><em>' + emp + '</em></strong>')
     return author_edit
 
 """ XXX

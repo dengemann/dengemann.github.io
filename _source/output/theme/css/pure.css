@@ -269,6 +269,18 @@ pre {
     letter-spacing: 0.1em;
 }
 
+.subsubheading{
+    font-family: sans-serif;
+    color: #ff5722;
+    text-transform: capitalize;
+    padding-left: : 0em;
+    padding-bottom: 0em;
+    padding-top: 0.2em;
+    font-size: 110%;
+    font-weight: 300;
+    letter-spacing: 0.03em;
+}
+
 .content {
     padding: 2em 3em 0;
     max-width: 1000px;

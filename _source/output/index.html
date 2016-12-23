@@ -85,7 +85,7 @@
                 <h1 class="content-nicehead">
                     About me
                 </h1>
-                <p class='main'>I am a <a href="https://team.inria.fr/parietal/team-members/">researcher</a> at the French Institute for Research in Computer Science and Automation <a href="https://www.inria.fr/en/">(INRIA)</a> and a certified psychologist living in Paris.</p>
+                <p class='main'>I am a <a href="https://team.inria.fr/parietal/team-members/">researcher</a> at the French Institute for Research in Computer Science and Automation <a href="https://www.inria.fr/en/">(INRIA)</a> and a certified psychologist, working and living in Paris.</p>
                 <p class='main'>Over the last years I specialized in time-resolved physiological neuroimaging, i.e., magneto- and electroencephalography. My main interest lies in the functional architecture of brain dynamics in both healthy and clinical populations. At the same time, I am fascinated with collective behavior and social cognition at diverse scales, the glue that links human brain dynamics with societal fate.</p>
                 <p class='main'>
                 A common unifying motif consists in data scientific underpinnings. Reproducible research, scalable numerical methods and data sharing are major concerns in contemporary data-intense science. As part of my work, I devote considerable energy to developing open source software that confronts these bottlenecks by facilitating automated data processing and fast access to data resources.</p>
@@ -431,10 +431,50 @@
                     <li><a href="http://martinos.org/mne/dev/index.html">http://martinos.org/mne/dev/index.html</a></li>
                     <li><a href="https://github.com/mne-tools/mne-python">https://github.com/mne-tools/mne-python</a></li>
                 </ul-softw>
+
                 <p class="main">
                      My most recent major contribution to MNE is the subproject <a href="http://mne-tools.github.io/mne-hcp/">MNE-HCP</a></li> for fast access to the <a href="http://www.humanconnectomeproject.org">Human Connectome Project</a> MEG data.
                 </p>
 
+                <h3 class="subheading">Tools for large-scale analysis of MEG and EEG data</h3>
+                <p class='main'>Over the last years I developed novel methods and tools that facilitate analysis of MEG and EEG at diverse scales by adaptively automating common processing steps and simplifying access to data resources.</p>
+
+                <h4 class='subsubheading'>The problem of data cleaning</h4>
+
+                <p class='main'>Removing artifacts from EEG and MEG signals is a common and necessary step in data analysis and, unfortunately, has claimed significant investment of human attention in the past. I developed and evaluated a novel algorithm, termed autoreject, for detecting and handling contaminated MEG and EEG data segments.
+                    Autoreject is described in Jas et al 2016 and is readily usable in a "plug and play" manner in a wide array of situations.
+                    Notably, its successful usage does not require deep understanding of the method as it uses machine learning technology to handle artifact rejection in a data-driven manner, hence, reducing human processing time.
+                    It will soon be disseminated through the MNE Software. The code is accessible on <a href="http://autoreject.github.io">github</a>.</p>
+
+                <h4 class='subsubheading'>The problem of covariance estimation for spatial whitening</h4>
+
+                <p class="main">Spatial whitening based on the between-sensors covariance is a common element of source localization techniques and affects scaling and geometry of the estimated sources.
+                    Unfortunately, the practically unknown effective sampling density can call for data-dependent regularization to ensure well-posed covariance estimates.
+                    I developed and validated a novel algorithm that achieves scalable and data-driven regularization of the covariance (Engemann and Gramfort 2015, Engemann et al. 2015) by exploiting machine learning techniques
+                    and the negative log-likelihood of the covariance as objective.
+                    The code is dissiminated through the MNE-Software and can be used through the <a href="http://martinos.org/mne/stable/auto_examples/visualization/plot_evoked_whitening.html">high-level functions for covariance estimation</a>.
+                    This functionality allows to re-allocate human attentional resources by automating a common problem of the most popular inverse solution techniques.
+                    For an overview, consider these <a href="https://speakerdeck.com/dengemann/eeg-sensor-covariance-using-cross-validation">slides</a>.
+                </p>
+
+                <h4 class='subsubheading'>Automated extraction of diagnostics from clinical EEG</h4>
+                <p class="main">
+                    EEG is a commonly used technique used in neurology to supplement diagnostics of disorders of consciousness.
+                    At the <a href="http://icm-institute.org/en/team/team-bartolomeo-cohen-naccache/">Brain and Spine Institute (ICM)</a>, Paris,
+                    §and in collaboration with the intensive care unit at the Pitié-Salpêtrière Hospital, I developed an automated, scalable pipeline for extraction of EEG-biomarkers and automated diagnostical assistance.
+                    This tool-stack can be run on various computational architectures, including <a href="https://aws.amazon.com">Amazon Webservices</a>, and is capitalizing on web-technology.
+                    For example, it can be plugged into a webserver with remote-control over web browser and generates HTML reports by using the <a href="https://martinos.org/mne/stable/tutorials/report.html">MNE-Report technology</a>.
+                    The solution is described in Engemann, Fraimondo et al 2015. Unfortunately, the source code is currently not compatible with open source licensing.
+                    Parts of the code will be made available soon on github.
+                </p>
+
+                <h4 class='subsubheading'>Fast access to the Human Connectome Project MEG data</h4>
+                <p class="main">
+                    The <a href="http://www.humanconnectomeproject.org">Human Connectome Project</a> is one important data resource providing a wealth of information, i.e., hemodynamic and electrophysiological signals from task and resting state contexts, psycho-medical and genetic data.
+                    By providing curated pipeline outputs at vairous processing stages, next to the raw data, this resource lends itself to validation for various research questions.
+                    I am the founder of the <a href="http://mne-tools.github.io/mne-hcp/">MNE-HCP</a>, a novel library designed to maximize the comfort when using this data resource for analysis of MEG.
+                    MNE-HCP abstracts away difficulties due to diverging coordinate systems, distributed information, and file format conventions.
+                    Providing a simple and consistent access to HCP MEG data facilitates emergence of standardized data analysis practices and helps to drastically reduce human processing time when accessing these data from within Python.</p>
                 <h3 class="subheading">Scikit-Learn</h3>
 
                 <img src="images/scikit-learn.png" align="right" />

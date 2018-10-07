@@ -56,9 +56,15 @@
                     <p class="post-meta", id="teach-item">
                         <a class='events-date'>October - 2018</a>
                         <a class="post-category post-category-teach">talk</a>
-                        I will give a lecture on largscale analysis of M/EEG and and 2-day workshop at CRNL Lyon.
+                        I will give a lecture on largscale analysis of M/EEG and and 2-day MNE workshop at CRNL Lyon.
                     </p>
 
+                    <p class="post-meta", id="awards-item">
+                        <a class='events-date'>October - 2018</a>
+                        <a class="post-category post-category-awards">grant</a>
+                        I received the ``médicne numérique'' grant from the French National Institute of Health (Inserm) and the French National Institute of Computer Science (INRIA) to fund the PhD of my student David Sabbagh. We will work on EEG-based machine learing of optimal drug dosage during anesthesia in collaboraiton with Étienne Gayat and his team at the Lariboisière hospital Paris.
+                    </p>
+                    
                     <p class="post-meta", id="attend-item">
                         <a class='events-date'>August - 2018</a>
                         <a class="post-category post-category-attend">poster</a>
@@ -291,7 +297,7 @@
                     {% elif item['ENTRYTYPE'] == 'article' %}
                         {{ item['journal'] }}
                         {% if 'volume' in item %}
-                            {{ item['volume'] }}: ({{ item['pages'] }}).
+                            {{ item['volume'] }}: ({{item['pages']}}).
                         {% else %}
                             .
                         {% endif %}

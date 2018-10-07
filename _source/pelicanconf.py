@@ -8,6 +8,7 @@ import bibtexparser
 
 def make_nice_author(author,
         emphasize=('Engemann<sup>&#10033;</sup>, D.', 'Engemann, D.',)):
+    author = author.replace('\u200b', '')
     split_author = author.split(' and ')
     insert_pos = len(split_author) - 1
     names_split = [au.split(', ') for au in split_author]

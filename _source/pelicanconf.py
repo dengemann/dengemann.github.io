@@ -113,7 +113,7 @@ DEFAULT_LANG = 'en'
 THEME = "themes/pure-single"
 # COVER_IMG_URL = 'https://upload.wikimedia.org/wikipedia/commons/b/b6/Cajal_Retina.jpg'
 COVER_IMG_URL = './images/cajal.jpg'
-PROFILE_IMG_URL = './images/dngman_avatar2.jpg'
+PROFILE_IMG_URL = './images/boston.jpg'
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None

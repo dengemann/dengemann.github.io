@@ -376,6 +376,17 @@
                 <h3 class="subheading">Tools for large-scale analysis of MEG and EEG data</h3>
                 <p class='main'>Over the last years I developed novel methods and tools that facilitate analysis of MEG and EEG at diverse scales by adaptively automating common processing steps and simplifying access to data resources.</p>
 
+    
+                <h4 class='subsubheading'>EEG-assisted diagnosis in the intensive care unit</h4>
+                <p class="main">
+                    EEG is a commonly used technique used in neurology to supplement diagnostics of disorders of consciousness.
+                    At the <a href="http://icm-institute.org/en/team/team-bartolomeo-cohen-naccache/">Brain and Spine Institute (ICM)</a>, Paris,
+                    and in collaboration with the intensive care unit at the Pitié-Salpêtrière Hospital, I developed an automated, scalable pipeline for extraction of EEG-biomarkers and automated diagnostical assistance.
+                    This tool-stack can be run on various computational architectures, including <a href="https://aws.amazon.com">Amazon Webservices</a>, and is capitalizing on web-technology.
+                    For example, it can be plugged into a webserver with remote-control over web browser and generates HTML reports by using the <a href="https://martinos.org/mne/stable/tutorials/report.html">MNE-Report technology</a>.
+                    The solution is described in Engemann, Raimondo et al 2015 and used for robust EEG-based classification of disorders of consciousness in Engemann, Raimondo et al 2018. Unfortunately, the source code is currently not entirely compatible with open source licensing. The marker computationa and feature extraction code is now available <a href="https://github.com/nice-tools/nice">on github</a>.
+                </p>
+
                 <h4 class='subsubheading'>The problem of data cleaning</h4>
 
                 <p class='main'>Removing artifacts from EEG and MEG signals is a common and necessary step in data analysis and, unfortunately, has claimed significant investment of human attention in the past. I developed and evaluated a novel algorithm, termed autoreject, for detecting and handling contaminated MEG and EEG data segments.
@@ -394,16 +405,6 @@
                     The code is dissiminated through the MNE-Software and can be used through the <a href="http://martinos.org/mne/stable/auto_examples/visualization/plot_evoked_whitening.html">high-level functions for covariance estimation</a>.
                     This functionality allows to re-allocate human attentional resources by automating a common problem of the most popular inverse solution techniques.
                     For an overview, consider these <a href="https://speakerdeck.com/dengemann/eeg-sensor-covariance-using-cross-validation">slides</a>.
-                </p>
-
-                <h4 class='subsubheading'>Automated extraction of diagnostics from clinical EEG</h4>
-                <p class="main">
-                    EEG is a commonly used technique used in neurology to supplement diagnostics of disorders of consciousness.
-                    At the <a href="http://icm-institute.org/en/team/team-bartolomeo-cohen-naccache/">Brain and Spine Institute (ICM)</a>, Paris,
-                    §and in collaboration with the intensive care unit at the Pitié-Salpêtrière Hospital, I developed an automated, scalable pipeline for extraction of EEG-biomarkers and automated diagnostical assistance.
-                    This tool-stack can be run on various computational architectures, including <a href="https://aws.amazon.com">Amazon Webservices</a>, and is capitalizing on web-technology.
-                    For example, it can be plugged into a webserver with remote-control over web browser and generates HTML reports by using the <a href="https://martinos.org/mne/stable/tutorials/report.html">MNE-Report technology</a>.
-                    The solution is described in Engemann, Raimondo et al 2015 and used for robust EEG-based classification of disorders of consciousness in Engemann, Raimondo et al 2018. Unfortunately, the source code is currently not entirely compatible with open source licensing. The marker computationa and feature extraction code is now available <a href="https://github.com/nice-tools/nice">on github</a>.
                 </p>
 
                 <h4 class='subsubheading'>Fast access to the Human Connectome Project MEG data</h4>

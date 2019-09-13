@@ -1,0 +1,1545 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.4.0">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Denis A. Engemann">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Supplementing diagnosis in disorders of consciousnes with EEG and ML">
+
+  
+  <link rel="alternate" hreflang="en-us" href="http://dengemann.github.io/project/doc/">
+
+  
+
+
+  
+  
+  
+  <meta name="theme-color" content="#2962ff">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,400italic,700|Roboto+Mono&display=swap">
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.min.04a87a1cb9027e3c50f566322527c56f.css">
+
+  
+
+  
+  
+    <script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'UA-74622344-1', 'auto');
+      
+      ga('require', 'eventTracker');
+      ga('require', 'outboundLinkTracker');
+      ga('require', 'urlChangeTracker');
+      ga('send', 'pageview');
+    </script>
+    <script async src="https://www.google-analytics.com/analytics.js"></script>
+    
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
+    
+  
+  
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon-32.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="http://dengemann.github.io/project/doc/">
+
+  
+  
+  
+  
+    
+  
+  
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="og:site_name" content="">
+  <meta property="og:url" content="http://dengemann.github.io/project/doc/">
+  <meta property="og:title" content="Tackling disorders of consciousness with Cognitive Neuroscience, EEG and Machine Learning | ">
+  <meta property="og:description" content="Supplementing diagnosis in disorders of consciousnes with EEG and ML"><meta property="og:image" content="http://dengemann.github.io/project/doc/featured.jpg">
+  <meta property="twitter:image" content="http://dengemann.github.io/project/doc/featured.jpg"><meta property="og:locale" content="en-us">
+  
+    
+      <meta property="article:published_time" content="2012-08-23T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2012-08-23T00:00:00&#43;00:00">
+  
+
+  
+
+
+  
+
+
+
+
+
+  <title>Tackling disorders of consciousness with Cognitive Neuroscience, EEG and Machine Learning | </title>
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0 compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+      <a class="navbar-brand" href="/"></a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav mr-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>About</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#featured"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#software"><span>Projects</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+      
+      </ul>
+      <ul class="navbar-nav ml-auto">
+      
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+
+        
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+  <article class="article article-project" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+
+<div class="article-container pt-3">
+  <h1 itemprop="name">Tackling disorders of consciousness with Cognitive Neuroscience, EEG and Machine Learning</h1>
+
+  
+
+  
+
+
+
+<meta content="2012-08-23 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2012-08-23 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    <time>Aug 23, 2012</time>
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+
+  
+  
+
+  
+    
+
+  
+
+</div>
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 540px;">
+  <div style="position: relative">
+    <img src="/project/doc/featured_hu2ffd572ea52f0e1605b6a22b1cde0271_543510_720x0_resize_q90_lanczos.jpg" alt="" class="featured-image">
+    <span class="article-header-caption">By Denis A. Engemann ICM, Paris</span>
+  </div>
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style" itemprop="articleBody">
+      <p>One of my key interests is enhancing research and clinical practice in clinical neuroscience. Between 2014 and 2018, I have focused on EEG-based diagnosis in disorders of consciousness (DoC). My interdisciplinary research activities have led to software solutions for automated large-scale processing and reporting of clinical EEG, introduced at the neuroscience workshop of the International Conference on Machine Learning <a href="https://hal.inria.fr/hal-01225254/" target="_blank">(ICML)</a> 2015 and leading to the <a href="https://autoreject.github.io/" target="_blank">AutoReject</a> algorithm. Ever since, these tools have been used at the Pitié-Salpêtrière hospital, Paris, France and have led to several original research contributions and critical commentaries that I have co-authored.</p>
+
+<p>My work on DoC progressively developed into the, so far (2018), most extensive validation of EEG-biomarkers of consciousness based on more than 320 clinical EEG-recordings from two top-notch European clinical research groups (Paris, Pitié-Salêtrière, Paris, France, and, Coma Science Groups, Liège, Belgium). Our <a href="http://dengemann.github.io/publication/engemann_raimondo_2018/" target="_blank">key paper</a> demonstrates the possibility of cross-protocol and cross-site generalization of predictions of diagnosis obtained from machine learning algorithms.
+If you have no time to read the paper, this twitter thread gives you the gist:</p>
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">1/ New paper out! <a href="https://twitter.com/Brain1878?ref_src=twsrc%5Etfw">@Brain1878</a> <a href="https://t.co/l3VIfg4s9F">https://t.co/l3VIfg4s9F</a> Robust <a href="https://twitter.com/hashtag/MachineLearning?src=hash&amp;ref_src=twsrc%5Etfw">#MachineLearning</a> of diagnosis from <a href="https://twitter.com/hashtag/EEG?src=hash&amp;ref_src=twsrc%5Etfw">#EEG</a> in disorders of <a href="https://twitter.com/hashtag/consciousness?src=hash&amp;ref_src=twsrc%5Etfw">#consciousness</a> powered by <a href="https://twitter.com/CEAParisSaclay?ref_src=twsrc%5Etfw">@CEAParisSaclay</a> <a href="https://twitter.com/cdf1530?ref_src=twsrc%5Etfw">@cdf1530</a> <a href="https://twitter.com/Coma_Science?ref_src=twsrc%5Etfw">@Coma_Science</a> @dc_uba <a href="https://twitter.com/ERC_Research?ref_src=twsrc%5Etfw">@ERC_Research</a> <a href="https://twitter.com/Inria_Saclay?ref_src=twsrc%5Etfw">@Inria_Saclay</a> <a href="https://twitter.com/Inserm?ref_src=twsrc%5Etfw">@Inserm</a> <a href="https://twitter.com/mne_news?ref_src=twsrc%5Etfw">@mne_news</a> <a href="https://twitter.com/NeuroSpin_91?ref_src=twsrc%5Etfw">@NeuroSpin_91</a> <a href="https://twitter.com/icm_institute?ref_src=twsrc%5Etfw">@icm_institute</a> <a href="https://twitter.com/scikit_learn?ref_src=twsrc%5Etfw">@scikit_learn</a> <a href="https://t.co/JsDMUYWw6C">pic.twitter.com/JsDMUYWw6C</a></p>&mdash; Denis A. Engemann (@dngman) <a href="https://twitter.com/dngman/status/1047774447422394368?ref_src=twsrc%5Etfw">October 4, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+    </div>
+
+    
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tags/eeg/">EEG</a>
+  
+  <a class="badge badge-light" href="/tags/disorders-of-consciousness/">Disorders of Consciousness</a>
+  
+  <a class="badge badge-light" href="/tags/clinicical-neuroscience/">Clinicical neuroscience</a>
+  
+  <a class="badge badge-light" href="/tags/inria/">Inria</a>
+  
+  <a class="badge badge-light" href="/tags/inserm/">Inserm</a>
+  
+  <a class="badge badge-light" href="/tags/scikit-learn/">scikit-learn</a>
+  
+  <a class="badge badge-light" href="/tags/mne-python/">MNE-Python</a>
+  
+</div>
+
+
+    
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  <div class="media author-card" itemscope itemtype="http://schema.org/Person">
+    
+      
+      <img class="portrait mr-3" src="/authors/admin/avatar_hucaaf8574d96b93ee80ab9b4c025f1d76_640027_250x250_fill_q90_lanczos_center.jpeg" itemprop="image" alt="Avatar">
+    
+
+    <div class="media-body">
+      <h5 class="card-title" itemprop="name"><a href="http://dengemann.github.io">Denis A. Engemann</a></h5>
+      <h6 class="card-subtitle">Research Scientist, Prinicpal Investigator</h6>
+      <p class="card-text" itemprop="description">I study brain function with neurophysiology and computational statistics</p>
+      <ul class="network-icon" aria-hidden="true">
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="/#contact" >
+              <i class="fas fa-envelope"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://twitter.com/dngman" target="_blank" rel="noopener">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://scholar.google.de/citations?user=ombAzhMAAAAJ&amp;hl=fr" target="_blank" rel="noopener">
+              <i class="ai ai-google-scholar"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://github.com/dengemann" target="_blank" rel="noopener">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+
+
+
+    
+
+
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+      <h2>Publications</h2>
+      
+        
+          
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+
+<div class="media stream-item" itemscope itemtype="http://schema.org/ScholarlyArticle">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/publication/hermann_2019/"  itemprop="url">Combined behavioral and electrophysiological evidence for a direct cortical effect of prefrontal tDCS on disorders of consciousness</a>
+    </h3>
+
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div itemprop="author">
+        
+
+
+
+  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/bertrand-hermann/">Bertrand Hermann</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/federico-raimondo/">Federico Raimondo</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/lukas-hirsch/">Lukas Hirsch</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/yu-huang/">Yu Huang</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/melanie-denis-valente/">Mélanie Denis-Valente</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/pauline-perez/">Pauline Pérez</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/denis-engemann/">Denis Engemann</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/frederic-faugeras/">Frédéric Faugeras</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/nicolas-weiss/">Nicolas Weiss</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/sophie-demeret/">Sophie Demeret</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/benjamin-rohaut/">Benjamin Rohaut</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/lucas-c-parra/">Lucas C Parra</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/jacobo-d-sitt/">Jacobo D Sitt</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/lionel-naccache/">Lionel Naccache</a></span>
+
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.biorxiv.org/content/biorxiv/early/2019/04/18/612309.full-text.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/hermann_2019/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/doc/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1101/612309%20" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+        
+      
+        
+          
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+  
+
+
+<div class="media stream-item" itemscope itemtype="http://schema.org/ScholarlyArticle">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/publication/engemann_raimondo_2018/"  itemprop="url">Robust EEG-based cross-site and cross-protocol classification of states of consciousness</a>
+    </h3>
+
+    
+    <div class="article-style" itemprop="articleBody">
+      Click the Cite button above to demo the feature to enable visitors to import publication metadata into their reference management …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div itemprop="author">
+        
+
+
+
+  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/denis-a-engemann/">Denis A Engemann</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/federico-raimondo/">Federico Raimondo</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/jean-remi-king/">Jean-Rémi King</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/benjamin-rohaut/">Benjamin Rohaut</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/gilles-louppe/">Gilles Louppe</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/frederic-faugeras/">Frédéric Faugeras</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/jitka-annen/">Jitka Annen</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/helena-cassol/">Helena Cassol</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/olivia-gosseries/">Olivia Gosseries</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/diego-fernandez-slezak/">Diego Fernandez-Slezak</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/steven-laureys/">Steven Laureys</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/lionel-naccache/">Lionel Naccache</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/stanislas-dehaene/">Stanislas Dehaene</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/jacobo-d-sitt/">Jacobo D Sitt</a></span>
+
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="http://www.unicog.org/publications/awy251.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
+        data-filename="/publication/engemann_raimondo_2018/cite.bib">
+  Cite
+</button>
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/nice-tools/nice" target="_blank" rel="noopener">
+  Code
+</a>
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/doc/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1093/brain/awy251" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    <a href="/publication/engemann_raimondo_2018/" >
+      <img src="/publication/engemann_raimondo_2018/featured_hufab1ce2dbbd4cc98f147573e3a3e47e5_1265356_150x0_resize_lanczos_2.png" itemprop="image">
+    </a>
+    
+  </div>
+</div>
+
+        
+      
+        
+          
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+
+<div class="media stream-item" itemscope itemtype="http://schema.org/ScholarlyArticle">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/publication/faugeras_2018/"  itemprop="url">Survival and consciousness recovery are better in the minimally conscious state than in the vegetative state</a>
+    </h3>
+
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div itemprop="author">
+        
+
+
+
+  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/frederic-faugeras/">Frédéric Faugeras</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/benjamin-rohaut/">Benjamin Rohaut</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/melanie-valente/">Mélanie Valente</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/jacobo-sitt/">Jacobo Sitt</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/sophie-demeret/">Sophie Demeret</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/francis-bolgert/">Francis Bolgert</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/nicolas-weiss/">Nicolas Weiss</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/alexandra-grinea/">Alexandra Grinea</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/clemence-marois/">Clémence Marois</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/marion-quirins/">Marion Quirins</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/athena-demertzi/">Athena Demertzi</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/federico-raimondo/">Federico Raimondo</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/damien-galanaud/">Damien Galanaud</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/marie-odile-habert/">Marie-Odile Habert</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/denis-engemann/">Denis Engemann</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/louis-puybasset/">Louis Puybasset</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/lionel-naccache/">Lionel Naccache</a></span>
+
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://orbi.uliege.be/bitstream/2268/216627/1/Faugeras2018_BrInjury.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/doc/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/https://doi.org/10.1080/02699052.2017.1364421" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+        
+      
+        
+          
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+
+<div class="media stream-item" itemscope itemtype="http://schema.org/ScholarlyArticle">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/publication/raimondo_2017/"  itemprop="url">Brain–heart interactions reveal consciousness in noncommunicating patients</a>
+    </h3>
+
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div itemprop="author">
+        
+
+
+
+  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/federico-raimondo/">Federico Raimondo</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/benjamin-rohaut/">Benjamin Rohaut</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/athena-demertzi/">Athena Demertzi</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/melanie-valente/">Melanie Valente</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/denis-a-engemann/">Denis A Engemann</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/moti-salti/">Moti Salti</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/diego-fernandez-slezak/">Diego Fernandez Slezak</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/lionel-naccache-jacobo-d-sitt/">Lionel Naccache, Jacobo D Sitt</a></span>
+
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://hal.inria.fr/hal-01225254" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/doc/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/https://hal.inria.fr/hal-01225254/document" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+        
+      
+        
+          
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+
+<div class="media stream-item" itemscope itemtype="http://schema.org/ScholarlyArticle">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/publication/nacache_2016/"  itemprop="url">Reply: Replicability and impact of statistics in the detection of neural responses of consciousness</a>
+    </h3>
+
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div itemprop="author">
+        
+
+
+
+  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/lionel-naccache/">Lionel Naccache</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/jacobo-sitt/">Jacobo Sitt</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/jean-remi-king/">Jean-Rémi King</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/benjamin-rohaut/">Benjamin Rohaut</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/frederic-faugeras/">Frédéric Faugeras</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/srivas-chennu/">Srivas Chennu</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/melanie-strauss/">Mélanie Strauss</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/melanie-valente/">Mélanie Valente</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/denis-engemann/">Denis Engemann</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/federico-raimondo/">Federico Raimondo</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/athena-demertzi/">Athena Demertzi</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/tristan-bekinschtein/">Tristan Bekinschtein</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/stanislas-dehaene/">Stanislas Dehaene</a></span>
+
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://academic.oup.com/brain/article-pdf/139/6/e31/6697228/aww060.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/doc/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/%20https://doi.org/10.1093/brain/aww060" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+        
+      
+        
+          
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+
+<div class="media stream-item" itemscope itemtype="http://schema.org/ScholarlyArticle">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/publication/engemann_raimondo_2015/"  itemprop="url">Automated measurement and prediction of consciousness in vegetative and minimally conscious patients</a>
+    </h3>
+
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div itemprop="author">
+        
+
+
+
+  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/denis-engemann/">Denis Engemann</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/federico-raimondo/">Federico Raimondo</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/jean-remi-king/">Jean-Remi King</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/mainak-jas/">Mainak Jas</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/alexandre-gramfort/">Alexandre Gramfort</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/stanislas-dehaene/">Stanislas Dehaene</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/lionel-naccache/">Lionel Naccache</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/jacobo-sitt/">Jacobo Sitt</a></span>
+
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://hal.inria.fr/hal-01225254" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/doc/">
+    Project
+  </a>
+  
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/automated/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/https://hal.inria.fr/hal-01225254/document" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+        
+      
+        
+          
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+
+<div class="media stream-item" itemscope itemtype="http://schema.org/ScholarlyArticle">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/publication/naccache_2015/"  itemprop="url">Neural detection of complex sound sequences or of statistical regularities in the absence of consciousness?</a>
+    </h3>
+
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+      <div itemprop="author">
+        
+
+
+
+  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/lionel-naccache/">Lionel Naccache</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/jean-remi-king/">Jean-Rémi King</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/jacobo-sitt/">Jacobo Sitt</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/denis-engemann/">Denis Engemann</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/imen-el-karoui/">Imen El Karoui</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/benjamin-rohaut/">Benjamin Rohaut</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/frederic-faugeras/">Frédéric Faugeras</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/srivas-chennu/">Srivas Chennu</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/melanie-strauss/">Mélanie Strauss</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/tristan-bekinschtein/">Tristan Bekinschtein</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/stanislas-dehaene/">Stanislas Dehaene</a></span>
+
+      </div>
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.frontiersin.org/articles/10.3389/fnhum.2013.00232" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/doc/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/doi:10.1093/brain/awv190" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+  </div>
+</div>
+
+        
+      
+    
+
+    
+    
+    
+
+  </div>
+</article>
+
+
+
+      
+
+    
+    
+    
+    <script src="/js/mathjax-config.js"></script>
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js" integrity="sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/languages/r.min.js"></script>
+        
+      
+
+      
+      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_CHTML-full" integrity="sha256-GhM+5JHb6QUzOQPXSJLEWP7R73CbkisjzK5Eyij4U9w=" crossorigin="anonymous" async></script>
+      
+    
+
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'results': "results found",
+        'no_results': "No results found"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.16bbb3750feb7244c9bc409a5a4fe678.js"></script>
+
+    
+
+
+
+
+
+
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" id="back_to_top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

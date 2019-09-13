@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Stefania de Vito | </title>
+    <link>http://dengemann.github.io/authors/stefania-de-vito/</link>
+      <atom:link href="http://dengemann.github.io/authors/stefania-de-vito/index.xml" rel="self" type="application/rss+xml" />
+    <description>Stefania de Vito</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 20 Feb 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://dengemann.github.io/img/icon-192.png</url>
+      <title>Stefania de Vito</title>
+      <link>http://dengemann.github.io/authors/stefania-de-vito/</link>
+    </image>
+    
+    <item>
+      <title>Thoughts of death disrupt foresight: the&#39;ostrich bias&#39;</title>
+      <link>http://dengemann.github.io/publication/devito_2017/</link>
+      <pubDate>Mon, 20 Feb 2017 00:00:00 +0000</pubDate>
+      <guid>http://dengemann.github.io/publication/devito_2017/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

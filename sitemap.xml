@@ -1,0 +1,1047 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://dengemann.github.io/</loc>
+    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/talk/example/</loc>
+    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/talk/</loc>
+    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/publication_types/3/</loc>
+    <lastmod>2019-06-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/alexandre-gramfort/</loc>
+    <lastmod>2019-06-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/tags/arxiv/</loc>
+    <lastmod>2019-06-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/</loc>
+    <lastmod>2019-06-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/tags/brain-age/</loc>
+    <lastmod>2019-06-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/david-sabbagh/</loc>
+    <lastmod>2019-06-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/denis-a.-engemann/</loc>
+    <lastmod>2019-06-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/gael-varoquaux/</loc>
+    <lastmod>2019-06-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/publication/sabbagh_ablin_neurips_2019/</loc>
+    <lastmod>2019-06-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/tags/meg/</loc>
+    <lastmod>2019-06-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/tags/neurips2019/</loc>
+    <lastmod>2019-06-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/pierre-ablin/</loc>
+    <lastmod>2019-06-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/publication_types/</loc>
+    <lastmod>2019-06-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/publication/</loc>
+    <lastmod>2019-06-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/tags/</loc>
+    <lastmod>2019-06-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/benjamin-rohaut/</loc>
+    <lastmod>2019-05-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/bertrand-hermann/</loc>
+    <lastmod>2019-05-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/publication/hermann_2019/</loc>
+    <lastmod>2019-05-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/denis-engemann/</loc>
+    <lastmod>2019-05-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/tags/disorders-of-consciousness/</loc>
+    <lastmod>2019-05-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/tags/eeg/</loc>
+    <lastmod>2019-05-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/federico-raimondo/</loc>
+    <lastmod>2019-05-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/frederic-faugeras/</loc>
+    <lastmod>2019-05-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/jacobo-d-sitt/</loc>
+    <lastmod>2019-05-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/lionel-naccache/</loc>
+    <lastmod>2019-05-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/lucas-c-parra/</loc>
+    <lastmod>2019-05-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/lukas-hirsch/</loc>
+    <lastmod>2019-05-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/tags/machine-learning/</loc>
+    <lastmod>2019-05-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/melanie-denis-valente/</loc>
+    <lastmod>2019-05-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/nicolas-weiss/</loc>
+    <lastmod>2019-05-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/pauline-perez/</loc>
+    <lastmod>2019-05-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/sophie-demeret/</loc>
+    <lastmod>2019-05-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/tags/tdcs/</loc>
+    <lastmod>2019-05-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/yu-huang/</loc>
+    <lastmod>2019-05-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/tags/alpha-band/</loc>
+    <lastmod>2019-02-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/tags/beta-band/</loc>
+    <lastmod>2019-02-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/daria-la-rocca/</loc>
+    <lastmod>2019-02-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/denis-alexander-engemann/</loc>
+    <lastmod>2019-02-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/publication/larocca_2019/</loc>
+    <lastmod>2019-02-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/tags/functional-connectivity/</loc>
+    <lastmod>2019-02-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/tags/multi-sensory-learning/</loc>
+    <lastmod>2019-02-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/tags/neuronal-oscillations/</loc>
+    <lastmod>2019-02-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/philippe-ciuciu/</loc>
+    <lastmod>2019-02-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/virginie-van-wassenhove/</loc>
+    <lastmod>2019-02-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/tags/blindness/</loc>
+    <lastmod>2019-02-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/tags/evoked-responses/</loc>
+    <lastmod>2019-02-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/laurent-cohen/</loc>
+    <lastmod>2019-02-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/sami-abboud/</loc>
+    <lastmod>2019-02-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/publication/abboud_2019/</loc>
+    <lastmod>2019-02-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/tags/semantic-processing/</loc>
+    <lastmod>2019-02-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/publication_types/2/</loc>
+    <lastmod>2018-10-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/tags/alpha-band-oscillations/</loc>
+    <lastmod>2018-10-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/tags/biomarker/</loc>
+    <lastmod>2018-10-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/denis-a-engemann/</loc>
+    <lastmod>2018-10-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/diego-fernandez-slezak/</loc>
+    <lastmod>2018-10-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/gilles-louppe/</loc>
+    <lastmod>2018-10-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/helena-cassol/</loc>
+    <lastmod>2018-10-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/jean-remi-king/</loc>
+    <lastmod>2018-10-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/jitka-annen/</loc>
+    <lastmod>2018-10-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/olivia-gosseries/</loc>
+    <lastmod>2018-10-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/tags/random-forests/</loc>
+    <lastmod>2018-10-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/publication/engemann_raimondo_2018/</loc>
+    <lastmod>2018-10-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/stanislas-dehaene/</loc>
+    <lastmod>2018-10-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/steven-laureys/</loc>
+    <lastmod>2018-10-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/alexandra-grinea/</loc>
+    <lastmod>2018-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/athena-demertzi/</loc>
+    <lastmod>2018-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/clemence-marois/</loc>
+    <lastmod>2018-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/damien-galanaud/</loc>
+    <lastmod>2018-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/francis-bolgert/</loc>
+    <lastmod>2018-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/jacobo-sitt/</loc>
+    <lastmod>2018-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/louis-puybasset/</loc>
+    <lastmod>2018-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/marie-odile-habert/</loc>
+    <lastmod>2018-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/marion-quirins/</loc>
+    <lastmod>2018-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/melanie-valente/</loc>
+    <lastmod>2018-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/publication/faugeras_2018/</loc>
+    <lastmod>2018-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/alexandre-barachant/</loc>
+    <lastmod>2018-07-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/chris-holdgraf/</loc>
+    <lastmod>2018-07-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/publication/king_2018/</loc>
+    <lastmod>2018-07-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/eric-larson/</loc>
+    <lastmod>2018-07-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/jona-sassenhagen/</loc>
+    <lastmod>2018-07-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/laura-gwilliams/</loc>
+    <lastmod>2018-07-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/tags/mne/</loc>
+    <lastmod>2018-07-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/tags/open-source-software/</loc>
+    <lastmod>2018-07-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/tags/python/</loc>
+    <lastmod>2018-07-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/tags/source-localization/</loc>
+    <lastmod>2018-07-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/tags/visualization/</loc>
+    <lastmod>2018-07-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/bertrand-thirion/</loc>
+    <lastmod>2018-05-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/danilo-bzdok/</loc>
+    <lastmod>2018-05-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/tags/inference/</loc>
+    <lastmod>2018-05-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/tags/lasso/</loc>
+    <lastmod>2018-05-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/tags/linear-models/</loc>
+    <lastmod>2018-05-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/olivier-grisel/</loc>
+    <lastmod>2018-05-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/tags/p-values/</loc>
+    <lastmod>2018-05-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/tags/prediction/</loc>
+    <lastmod>2018-05-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/publication/bzdok_2018/</loc>
+    <lastmod>2018-05-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/tags/variable-importance/</loc>
+    <lastmod>2018-05-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/publication/jas_2018/</loc>
+    <lastmod>2018-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/jaakko-leppakangas/</loc>
+    <lastmod>2018-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/mainak-jas/</loc>
+    <lastmod>2018-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/matti-hamalainen/</loc>
+    <lastmod>2018-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/samu-taulu/</loc>
+    <lastmod>2018-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/tags/artifact-rejection/</loc>
+    <lastmod>2017-10-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/tags/automation/</loc>
+    <lastmod>2017-10-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/publication/jas_engemann_2015/</loc>
+    <lastmod>2017-10-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/tags/bayesian-optimization/</loc>
+    <lastmod>2017-10-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/yousra-bekhti/</loc>
+    <lastmod>2017-10-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/publication_types/1/</loc>
+    <lastmod>2017-10-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/publication/raimondo_2017/</loc>
+    <lastmod>2017-10-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/lionel-naccache-jacobo-d-sitt/</loc>
+    <lastmod>2017-10-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/moti-salti/</loc>
+    <lastmod>2017-10-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/andres-hoyos-idrobo/</loc>
+    <lastmod>2017-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/publication/varoq_2016/</loc>
+    <lastmod>2017-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/tags/cross-validation/</loc>
+    <lastmod>2017-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/tags/fmri/</loc>
+    <lastmod>2017-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/tags/neuroimaging/</loc>
+    <lastmod>2017-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/pradeep-reddy-raamana/</loc>
+    <lastmod>2017-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/yannick-schwartz/</loc>
+    <lastmod>2017-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/alessandra-capuozzo/</loc>
+    <lastmod>2017-02-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/tags/future-episodic-thinking/</loc>
+    <lastmod>2017-02-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/jean-francois-bonnefon/</loc>
+    <lastmod>2017-02-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/maria-adriana-neroni/</loc>
+    <lastmod>2017-02-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/maria-antonella-brandimonte/</loc>
+    <lastmod>2017-02-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/tags/memory/</loc>
+    <lastmod>2017-02-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/tags/prospective-memory/</loc>
+    <lastmod>2017-02-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/sergio-della-sala/</loc>
+    <lastmod>2017-02-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/tags/social-cognition/</loc>
+    <lastmod>2017-02-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/stefania-de-vito/</loc>
+    <lastmod>2017-02-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/publication/devito_2017/</loc>
+    <lastmod>2017-02-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/anders-levermann/</loc>
+    <lastmod>2016-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/carl-friedrich-schleussner/</loc>
+    <lastmod>2016-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/publication/schleussner_2016/</loc>
+    <lastmod>2016-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/tags/co-evolution/</loc>
+    <lastmod>2016-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/tags/computaitonal-modeling/</loc>
+    <lastmod>2016-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/tags/dynmic-networks/</loc>
+    <lastmod>2016-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/tags/graph-theory/</loc>
+    <lastmod>2016-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/jonathan-f.-donges/</loc>
+    <lastmod>2016-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/tags/public-health/</loc>
+    <lastmod>2016-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/tags/smoking/</loc>
+    <lastmod>2016-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/tags/artefact-rejection/</loc>
+    <lastmod>2016-05-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/publication/jas_2016/</loc>
+    <lastmod>2016-05-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/melanie-strauss/</loc>
+    <lastmod>2016-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/publication/nacache_2016/</loc>
+    <lastmod>2016-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/srivas-chennu/</loc>
+    <lastmod>2016-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/tristan-bekinschtein/</loc>
+    <lastmod>2016-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/publication/engemann_raimondo_2015/</loc>
+    <lastmod>2015-07-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/imen-el-karoui/</loc>
+    <lastmod>2015-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/publication/naccache_2015/</loc>
+    <lastmod>2015-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/publication_types/7/</loc>
+    <lastmod>2015-04-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/tags/covariance/</loc>
+    <lastmod>2015-04-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/tags/eye-gaze/</loc>
+    <lastmod>2015-04-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/publication/engemann_thesis_2015/</loc>
+    <lastmod>2015-04-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/tags/reaction-time/</loc>
+    <lastmod>2015-04-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/tags/stimulus-response-compatibility/</loc>
+    <lastmod>2015-04-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/publication/engemann_2015/</loc>
+    <lastmod>2015-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/daniel-strohmeier/</loc>
+    <lastmod>2015-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/publication/engemann_2015b/</loc>
+    <lastmod>2015-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/tags/shrinkage/</loc>
+    <lastmod>2015-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/christian-brodbeck/</loc>
+    <lastmod>2014-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/lauri-parkkonen/</loc>
+    <lastmod>2014-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/martin-luessi/</loc>
+    <lastmod>2014-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/matti-s-hamalainen/</loc>
+    <lastmod>2014-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/publication/gramfort_2013/</loc>
+    <lastmod>2014-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/publication/gramfort_2014/</loc>
+    <lastmod>2014-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/roman-goj/</loc>
+    <lastmod>2014-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/teon-brooks/</loc>
+    <lastmod>2014-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/bahar-koymen/</loc>
+    <lastmod>2013-10-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/publication/koykmen_2014/</loc>
+    <lastmod>2013-10-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/tags/development/</loc>
+    <lastmod>2013-10-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/tags/developmental-psychology/</loc>
+    <lastmod>2013-10-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/elena-lieven/</loc>
+    <lastmod>2013-10-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/tags/experimental-psychology/</loc>
+    <lastmod>2013-10-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/felix-warneken/</loc>
+    <lastmod>2013-10-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/hannes-rakoczy/</loc>
+    <lastmod>2013-10-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/michael-tomasello/</loc>
+    <lastmod>2013-10-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/tags/normativity/</loc>
+    <lastmod>2013-10-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/tags/peer-interactions/</loc>
+    <lastmod>2013-10-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/tags/social-interaction/</loc>
+    <lastmod>2013-10-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/angela-r-laird/</loc>
+    <lastmod>2013-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/tags/funtional-connectivity/</loc>
+    <lastmod>2013-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/leonhard-schilbach/</loc>
+    <lastmod>2013-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/tags/medial-prefrontal-cortex/</loc>
+    <lastmod>2013-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/peter-t-fox/</loc>
+    <lastmod>2013-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/robert-langner/</loc>
+    <lastmod>2013-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/publication/bzdok_2013/</loc>
+    <lastmod>2013-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/simon-eickhoff/</loc>
+    <lastmod>2013-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/tags/aneshtesia/</loc>
+    <lastmod>2012-08-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/project/automated/</loc>
+    <lastmod>2012-08-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/tags/clinicical-neuroscience/</loc>
+    <lastmod>2012-08-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/tags/inria/</loc>
+    <lastmod>2012-08-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/tags/inserm/</loc>
+    <lastmod>2012-08-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/project/mne/</loc>
+    <lastmod>2012-08-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/tags/mne-python/</loc>
+    <lastmod>2012-08-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/project/inserm_inria_2018/</loc>
+    <lastmod>2012-08-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/project/</loc>
+    <lastmod>2012-08-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/tags/r/</loc>
+    <lastmod>2012-08-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/tags/scikit-learn/</loc>
+    <lastmod>2012-08-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/tags/software/</loc>
+    <lastmod>2012-08-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/project/doc/</loc>
+    <lastmod>2012-08-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/tags/cooperation/</loc>
+    <lastmod>2012-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/publication/engemann_2013/</loc>
+    <lastmod>2012-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/tags/joint-attention/</loc>
+    <lastmod>2012-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/kai-vogeley/</loc>
+    <lastmod>2012-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/simon-b-eickhoff/</loc>
+    <lastmod>2012-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/admin/</loc>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/post/</loc>
+  </url>
+  
+</urlset>

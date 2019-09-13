@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Brain-Age | </title>
+    <link>http://dengemann.github.io/tags/brain-age/</link>
+      <atom:link href="http://dengemann.github.io/tags/brain-age/index.xml" rel="self" type="application/rss+xml" />
+    <description>Brain-Age</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 04 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://dengemann.github.io/img/icon-192.png</url>
+      <title>Brain-Age</title>
+      <link>http://dengemann.github.io/tags/brain-age/</link>
+    </image>
+    
+    <item>
+      <title>Manifold-regression to predict from MEG/EEG brain signals without source modeling</title>
+      <link>http://dengemann.github.io/publication/sabbagh_ablin_neurips_2019/</link>
+      <pubDate>Tue, 04 Jun 2019 00:00:00 +0000</pubDate>
+      <guid>http://dengemann.github.io/publication/sabbagh_ablin_neurips_2019/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

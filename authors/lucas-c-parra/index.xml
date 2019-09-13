@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lucas C Parra | </title>
+    <link>http://dengemann.github.io/authors/lucas-c-parra/</link>
+      <atom:link href="http://dengemann.github.io/authors/lucas-c-parra/index.xml" rel="self" type="application/rss+xml" />
+    <description>Lucas C Parra</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 20 May 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://dengemann.github.io/img/icon-192.png</url>
+      <title>Lucas C Parra</title>
+      <link>http://dengemann.github.io/authors/lucas-c-parra/</link>
+    </image>
+    
+    <item>
+      <title>Combined behavioral and electrophysiological evidence for a direct cortical effect of prefrontal tDCS on disorders of consciousness</title>
+      <link>http://dengemann.github.io/publication/hermann_2019/</link>
+      <pubDate>Mon, 20 May 2019 00:00:00 +0000</pubDate>
+      <guid>http://dengemann.github.io/publication/hermann_2019/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

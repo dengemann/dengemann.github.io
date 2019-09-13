@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Olivier Grisel | </title>
+    <link>http://dengemann.github.io/authors/olivier-grisel/</link>
+      <atom:link href="http://dengemann.github.io/authors/olivier-grisel/index.xml" rel="self" type="application/rss+xml" />
+    <description>Olivier Grisel</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 20 May 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://dengemann.github.io/img/icon-192.png</url>
+      <title>Olivier Grisel</title>
+      <link>http://dengemann.github.io/authors/olivier-grisel/</link>
+    </image>
+    
+    <item>
+      <title>Prediction and inference diverge in biomedicine: Simulations and real-world data</title>
+      <link>http://dengemann.github.io/publication/bzdok_2018/</link>
+      <pubDate>Sun, 20 May 2018 00:00:00 +0000</pubDate>
+      <guid>http://dengemann.github.io/publication/bzdok_2018/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

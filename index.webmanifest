@@ -2,8 +2,8 @@
   "name": "",
   "short_name": "",
   "lang": "en-us",
-  "theme_color": "#2962ff",
-  "background_color": "#2962ff",
+  "theme_color": "#1976cf",
+  "background_color": "#1976cf",
   "icons": [{
     "src": "img/icon-192.png",
     "sizes": "192x192",

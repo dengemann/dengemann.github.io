@@ -4,17 +4,27 @@
   
   <url>
     <loc>http://dengemann.github.io/</loc>
-    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
+    <lastmod>2019-06-25T09:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://dengemann.github.io/talk/example/</loc>
-    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
+    <loc>http://dengemann.github.io/authors/admin/</loc>
+    <lastmod>2019-06-25T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/talk/mne_glasgow2019/</loc>
+    <lastmod>2019-06-25T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/</loc>
+    <lastmod>2019-06-25T09:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://dengemann.github.io/talk/</loc>
-    <lastmod>2030-06-01T13:00:00+00:00</lastmod>
+    <lastmod>2019-06-25T09:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -29,11 +39,6 @@
   
   <url>
     <loc>http://dengemann.github.io/tags/arxiv/</loc>
-    <lastmod>2019-06-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://dengemann.github.io/authors/</loc>
     <lastmod>2019-06-04T00:00:00+00:00</lastmod>
   </url>
   
@@ -188,6 +193,11 @@
   </url>
   
   <url>
+    <loc>http://dengemann.github.io/talk/mne_birmingham2019/</loc>
+    <lastmod>2019-04-01T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://dengemann.github.io/tags/alpha-band/</loc>
     <lastmod>2019-02-25T00:00:00+00:00</lastmod>
   </url>
@@ -265,6 +275,11 @@
   <url>
     <loc>http://dengemann.github.io/tags/semantic-processing/</loc>
     <lastmod>2019-02-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/talk/mne_frankfurt2019/</loc>
+    <lastmod>2019-01-21T09:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -1030,10 +1045,6 @@
   <url>
     <loc>http://dengemann.github.io/authors/simon-b-eickhoff/</loc>
     <lastmod>2012-06-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://dengemann.github.io/authors/admin/</loc>
   </url>
   
   <url>

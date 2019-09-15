@@ -5,12 +5,36 @@
     <link>http://dengemann.github.io/authors/admin/</link>
       <atom:link href="http://dengemann.github.io/authors/admin/index.xml" rel="self" type="application/rss+xml" />
     <description></description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 25 Jun 2019 09:00:00 +0000</lastBuildDate>
     <image>
       <url>http://dengemann.github.io/img/icon-192.png</url>
       <title></title>
       <link>http://dengemann.github.io/authors/admin/</link>
     </image>
+    
+    <item>
+      <title>Analyzing EEG and MEG in Python and MNE</title>
+      <link>http://dengemann.github.io/talk/mne_glasgow2019/</link>
+      <pubDate>Tue, 25 Jun 2019 09:00:00 +0000</pubDate>
+      <guid>http://dengemann.github.io/talk/mne_glasgow2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Analyzing EEG and MEG in Python and MNE</title>
+      <link>http://dengemann.github.io/talk/mne_birmingham2019/</link>
+      <pubDate>Mon, 01 Apr 2019 09:00:00 +0000</pubDate>
+      <guid>http://dengemann.github.io/talk/mne_birmingham2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Analyzing EEG and MEG in Python and MNE</title>
+      <link>http://dengemann.github.io/talk/mne_frankfurt2019/</link>
+      <pubDate>Mon, 21 Jan 2019 09:00:00 +0000</pubDate>
+      <guid>http://dengemann.github.io/talk/mne_frankfurt2019/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

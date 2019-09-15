@@ -5,12 +5,25 @@
     <link>http://dengemann.github.io/authors/</link>
       <atom:link href="http://dengemann.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 04 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 25 Jun 2019 09:00:00 +0000</lastBuildDate>
     <image>
       <url>http://dengemann.github.io/img/icon-192.png</url>
       <title>Authors</title>
       <link>http://dengemann.github.io/authors/</link>
     </image>
+    
+    <item>
+      <title></title>
+      <link>http://dengemann.github.io/authors/admin/</link>
+      <pubDate>Tue, 25 Jun 2019 09:00:00 +0000</pubDate>
+      <guid>http://dengemann.github.io/authors/admin/</guid>
+      <description>&lt;p&gt;I am a researcher at the French National Institute of Computer Science &lt;a href=&#34;https://team.inria.fr/parietal/team-members/&#34; target=&#34;_blank&#34;&gt;(INRIA)&lt;/a&gt; and a certified psychologist, working and living in Paris.&lt;/p&gt;
+
+&lt;p&gt;My goal is to tackle brain disorders by combining cognitive neuroscience and machine learning. I have specialized in large-scale data analysis and predictive modeling with electrophysiology (EEG, MEG) in neurology. A central part of my work is about orchestrating the study of neuronal dynamics with development of domain-sensitive biomarkers, statistical methods and computational algorithms for effective learning from brain data.&lt;/p&gt;
+
+&lt;p&gt;What brought me here is inpsiration drawn from social cognition research which I have been studying since my undergraduate days and which has profoundly shaped my view of science and society. The research of tomorrow will be increasingly interdisciplinary and cooperation-driven. I therefore keep investing in the social infrastructure of science by openly developing and disseminating academic software for data analysis, building on top of the freely available open source programming languages Python and R.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Alexandre Gramfort</title>
@@ -762,19 +775,6 @@
       <pubDate>Fri, 01 Jun 2012 00:00:00 +0000</pubDate>
       <guid>http://dengemann.github.io/authors/simon-b-eickhoff/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://dengemann.github.io/authors/admin/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://dengemann.github.io/authors/admin/</guid>
-      <description>&lt;p&gt;I am a researcher at the French National Institute of Computer Science &lt;a href=&#34;https://team.inria.fr/parietal/team-members/&#34; target=&#34;_blank&#34;&gt;(INRIA)&lt;/a&gt; and a certified psychologist, working and living in Paris.&lt;/p&gt;
-
-&lt;p&gt;My goal is to tackle brain disorders by combining cognitive neuroscience and machine learning. I have specialized in large-scale data analysis and predictive modeling with electrophysiology (EEG, MEG) in neurology. A central part of my work is about orchestrating the study of neuronal dynamics with development of domain-sensitive biomarkers, statistical methods and computational algorithms for effective learning from brain data.&lt;/p&gt;
-
-&lt;p&gt;What brought me here is inpsiration drawn from social cognition research which I have been studying since my undergraduate days and which has profoundly shaped my view of science and society. The research of tomorrow will be increasingly interdisciplinary and cooperation-driven. I therefore keep investing in the social infrastructure of science by openly developing and disseminating academic software for data analysis, building on top of the freely available open source programming languages Python and R.&lt;/p&gt;
-</description>
     </item>
     
   </channel>

@@ -101,6 +101,14 @@
     </item>
     
     <item>
+      <title>MNE</title>
+      <link>http://dengemann.github.io/tags/mne/</link>
+      <pubDate>Mon, 25 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>http://dengemann.github.io/tags/mne/</guid>
+      <description></description>
+    </item>
+
+    <item>
       <title>Multi-Sensory Learning</title>
       <link>http://dengemann.github.io/tags/multi-sensory-learning/</link>
       <pubDate>Mon, 25 Feb 2019 00:00:00 +0000</pubDate>
@@ -116,6 +124,38 @@
       <description></description>
     </item>
     
+    <item>
+      <title>Open Source Software</title>
+      <link>http://dengemann.github.io/tags/open-source-software/</link>
+      <pubDate>Mon, 25 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>http://dengemann.github.io/tags/open-source-software/</guid>
+      <description></description>
+    </item>
+
+    <item>
+      <title>Python</title>
+      <link>http://dengemann.github.io/tags/python/</link>
+      <pubDate>Mon, 25 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>http://dengemann.github.io/tags/python/</guid>
+      <description></description>
+    </item>
+
+    <item>
+      <title>Source Localization</title>
+      <link>http://dengemann.github.io/tags/source-localization/</link>
+      <pubDate>Mon, 25 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>http://dengemann.github.io/tags/source-localization/</guid>
+      <description></description>
+    </item>
+
+    <item>
+      <title>Visualization</title>
+      <link>http://dengemann.github.io/tags/visualization/</link>
+      <pubDate>Mon, 25 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>http://dengemann.github.io/tags/visualization/</guid>
+      <description></description>
+    </item>
+
     <item>
       <title>Blindness</title>
       <link>http://dengemann.github.io/tags/blindness/</link>
@@ -161,46 +201,6 @@
       <link>http://dengemann.github.io/tags/random-forests/</link>
       <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
       <guid>http://dengemann.github.io/tags/random-forests/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>MNE</title>
-      <link>http://dengemann.github.io/tags/mne/</link>
-      <pubDate>Tue, 24 Jul 2018 00:00:00 +0000</pubDate>
-      <guid>http://dengemann.github.io/tags/mne/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Open Source Software</title>
-      <link>http://dengemann.github.io/tags/open-source-software/</link>
-      <pubDate>Tue, 24 Jul 2018 00:00:00 +0000</pubDate>
-      <guid>http://dengemann.github.io/tags/open-source-software/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Python</title>
-      <link>http://dengemann.github.io/tags/python/</link>
-      <pubDate>Tue, 24 Jul 2018 00:00:00 +0000</pubDate>
-      <guid>http://dengemann.github.io/tags/python/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Source Localization</title>
-      <link>http://dengemann.github.io/tags/source-localization/</link>
-      <pubDate>Tue, 24 Jul 2018 00:00:00 +0000</pubDate>
-      <guid>http://dengemann.github.io/tags/source-localization/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Visualization</title>
-      <link>http://dengemann.github.io/tags/visualization/</link>
-      <pubDate>Tue, 24 Jul 2018 00:00:00 +0000</pubDate>
-      <guid>http://dengemann.github.io/tags/visualization/</guid>
       <description></description>
     </item>
     

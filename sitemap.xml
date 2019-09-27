@@ -198,6 +198,16 @@
   </url>
   
   <url>
+    <loc>http://dengemann.github.io/publication_types/5/</loc>
+    <lastmod>2019-02-25T00:00:00+00:00</lastmod>
+  </url>
+
+  <url>
+    <loc>http://dengemann.github.io/authors/alexandre-gramfort-matti-hamalainen/</loc>
+    <lastmod>2019-02-25T00:00:00+00:00</lastmod>
+  </url>
+
+  <url>
     <loc>http://dengemann.github.io/tags/alpha-band/</loc>
     <lastmod>2019-02-25T00:00:00+00:00</lastmod>
   </url>
@@ -207,6 +217,11 @@
     <lastmod>2019-02-25T00:00:00+00:00</lastmod>
   </url>
   
+  <url>
+    <loc>http://dengemann.github.io/authors/christoph-dinh/</loc>
+    <lastmod>2019-02-25T00:00:00+00:00</lastmod>
+  </url>
+
   <url>
     <loc>http://dengemann.github.io/authors/daria-la-rocca/</loc>
     <lastmod>2019-02-25T00:00:00+00:00</lastmod>
@@ -223,10 +238,35 @@
   </url>
   
   <url>
+    <loc>http://dengemann.github.io/authors/eric-larson/</loc>
+    <lastmod>2019-02-25T00:00:00+00:00</lastmod>
+  </url>
+
+  <url>
     <loc>http://dengemann.github.io/tags/functional-connectivity/</loc>
     <lastmod>2019-02-25T00:00:00+00:00</lastmod>
   </url>
   
+  <url>
+    <loc>http://dengemann.github.io/authors/lorenz-esch/</loc>
+    <lastmod>2019-02-25T00:00:00+00:00</lastmod>
+  </url>
+
+  <url>
+    <loc>http://dengemann.github.io/authors/mainak-jas/</loc>
+    <lastmod>2019-02-25T00:00:00+00:00</lastmod>
+  </url>
+
+  <url>
+    <loc>http://dengemann.github.io/tags/mne/</loc>
+    <lastmod>2019-02-25T00:00:00+00:00</lastmod>
+  </url>
+
+  <url>
+    <loc>http://dengemann.github.io/publication/esch_2019/</loc>
+    <lastmod>2019-02-25T00:00:00+00:00</lastmod>
+  </url>
+
   <url>
     <loc>http://dengemann.github.io/tags/multi-sensory-learning/</loc>
     <lastmod>2019-02-25T00:00:00+00:00</lastmod>
@@ -238,15 +278,40 @@
   </url>
   
   <url>
+    <loc>http://dengemann.github.io/tags/open-source-software/</loc>
+    <lastmod>2019-02-25T00:00:00+00:00</lastmod>
+  </url>
+
+  <url>
     <loc>http://dengemann.github.io/authors/philippe-ciuciu/</loc>
     <lastmod>2019-02-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
+    <loc>http://dengemann.github.io/tags/python/</loc>
+    <lastmod>2019-02-25T00:00:00+00:00</lastmod>
+  </url>
+
+  <url>
+    <loc>http://dengemann.github.io/authors/sheraz-khan/</loc>
+    <lastmod>2019-02-25T00:00:00+00:00</lastmod>
+  </url>
+
+  <url>
+    <loc>http://dengemann.github.io/tags/source-localization/</loc>
+    <lastmod>2019-02-25T00:00:00+00:00</lastmod>
+  </url>
+
+  <url>
     <loc>http://dengemann.github.io/authors/virginie-van-wassenhove/</loc>
     <lastmod>2019-02-25T00:00:00+00:00</lastmod>
   </url>
   
+  <url>
+    <loc>http://dengemann.github.io/tags/visualization/</loc>
+    <lastmod>2019-02-25T00:00:00+00:00</lastmod>
+  </url>
+
   <url>
     <loc>http://dengemann.github.io/tags/blindness/</loc>
     <lastmod>2019-02-03T00:00:00+00:00</lastmod>
@@ -428,42 +493,12 @@
   </url>
   
   <url>
-    <loc>http://dengemann.github.io/authors/eric-larson/</loc>
-    <lastmod>2018-07-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://dengemann.github.io/authors/jona-sassenhagen/</loc>
     <lastmod>2018-07-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://dengemann.github.io/authors/laura-gwilliams/</loc>
-    <lastmod>2018-07-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://dengemann.github.io/tags/mne/</loc>
-    <lastmod>2018-07-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://dengemann.github.io/tags/open-source-software/</loc>
-    <lastmod>2018-07-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://dengemann.github.io/tags/python/</loc>
-    <lastmod>2018-07-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://dengemann.github.io/tags/source-localization/</loc>
-    <lastmod>2018-07-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://dengemann.github.io/tags/visualization/</loc>
     <lastmod>2018-07-24T00:00:00+00:00</lastmod>
   </url>
   
@@ -524,11 +559,6 @@
   
   <url>
     <loc>http://dengemann.github.io/authors/jaakko-leppakangas/</loc>
-    <lastmod>2018-03-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://dengemann.github.io/authors/mainak-jas/</loc>
     <lastmod>2018-03-01T00:00:00+00:00</lastmod>
   </url>
   

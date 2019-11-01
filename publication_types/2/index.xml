@@ -5,12 +5,20 @@
     <link>http://dengemann.github.io/publication_types/2/</link>
       <atom:link href="http://dengemann.github.io/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
     <description>2</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 01 Oct 2018 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 25 Feb 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>http://dengemann.github.io/img/icon-192.png</url>
       <title>2</title>
       <link>http://dengemann.github.io/publication_types/2/</link>
     </image>
+    
+    <item>
+      <title>Emergence of β and γ networks following multisensory training</title>
+      <link>http://dengemann.github.io/publication/larocca_2019/</link>
+      <pubDate>Mon, 25 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>http://dengemann.github.io/publication/larocca_2019/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Robust EEG-based cross-site and cross-protocol classification of states of consciousness</title>

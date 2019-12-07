@@ -5,12 +5,60 @@
     <link>http://dengemann.github.io/authors/gael-varoquaux/</link>
       <atom:link href="http://dengemann.github.io/authors/gael-varoquaux/index.xml" rel="self" type="application/rss+xml" />
     <description>Gaël Varoquaux</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 04 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 27 Nov 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>http://dengemann.github.io/img/icon-192.png</url>
       <title>Gaël Varoquaux</title>
       <link>http://dengemann.github.io/authors/gael-varoquaux/</link>
     </image>
+    
+    <item>
+      <title>Combining electrophysiology with MRI enhances learning of surrogate-biomarkers</title>
+      <link>http://dengemann.github.io/publication/engemann_stacking_2019/</link>
+      <pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>http://dengemann.github.io/publication/engemann_stacking_2019/</guid>
+      <description>&lt;!-- 
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/). --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Predictive regression modeling with MEG/EEG: from source power to signals and cognitive states</title>
+      <link>http://dengemann.github.io/publication/sabbagh_generative_2019/</link>
+      <pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>http://dengemann.github.io/publication/sabbagh_generative_2019/</guid>
+      <description>&lt;!-- 
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/). --&gt;
+</description>
+    </item>
     
     <item>
       <title>Manifold-regression to predict from MEG/EEG brain signals without source modeling</title>

@@ -5,7 +5,7 @@
     <link>http://dengemann.github.io/authors/</link>
       <atom:link href="http://dengemann.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 25 Jun 2019 09:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 03 Dec 2019 09:00:00 +0000</lastBuildDate>
     <image>
       <url>http://dengemann.github.io/img/icon-192.png</url>
       <title>Authors</title>
@@ -15,7 +15,7 @@
     <item>
       <title></title>
       <link>http://dengemann.github.io/authors/admin/</link>
-      <pubDate>Tue, 25 Jun 2019 09:00:00 +0000</pubDate>
+      <pubDate>Tue, 03 Dec 2019 09:00:00 +0000</pubDate>
       <guid>http://dengemann.github.io/authors/admin/</guid>
       <description>&lt;p&gt;I am a researcher at the French National Institute of Computer Science &lt;a href=&#34;https://team.inria.fr/parietal/team-members/&#34; target=&#34;_blank&#34;&gt;(INRIA)&lt;/a&gt; and a certified psychologist, working and living in Paris.&lt;/p&gt;
 
@@ -28,7 +28,7 @@
     <item>
       <title>Alexandre Gramfort</title>
       <link>http://dengemann.github.io/authors/alexandre-gramfort/</link>
-      <pubDate>Tue, 04 Jun 2019 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate>
       <guid>http://dengemann.github.io/authors/alexandre-gramfort/</guid>
       <description></description>
     </item>
@@ -36,8 +36,56 @@
     <item>
       <title>David Sabbagh</title>
       <link>http://dengemann.github.io/authors/david-sabbagh/</link>
-      <pubDate>Tue, 04 Jun 2019 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate>
       <guid>http://dengemann.github.io/authors/david-sabbagh/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Denis A Engemann</title>
+      <link>http://dengemann.github.io/authors/denis-a-engemann/</link>
+      <pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>http://dengemann.github.io/authors/denis-a-engemann/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Franz Liem</title>
+      <link>http://dengemann.github.io/authors/franz-liem/</link>
+      <pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>http://dengemann.github.io/authors/franz-liem/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gaël Varoquaux</title>
+      <link>http://dengemann.github.io/authors/gael-varoquaux/</link>
+      <pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>http://dengemann.github.io/authors/gael-varoquaux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Guillaume Lemaître</title>
+      <link>http://dengemann.github.io/authors/guillaume-lemaitre/</link>
+      <pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>http://dengemann.github.io/authors/guillaume-lemaitre/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Oleh Kozynets</title>
+      <link>http://dengemann.github.io/authors/oleh-kozynets/</link>
+      <pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>http://dengemann.github.io/authors/oleh-kozynets/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pierre Ablin</title>
+      <link>http://dengemann.github.io/authors/pierre-ablin/</link>
+      <pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>http://dengemann.github.io/authors/pierre-ablin/</guid>
       <description></description>
     </item>
     
@@ -46,22 +94,6 @@
       <link>http://dengemann.github.io/authors/denis-a.-engemann/</link>
       <pubDate>Tue, 04 Jun 2019 00:00:00 +0000</pubDate>
       <guid>http://dengemann.github.io/authors/denis-a.-engemann/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Gaël Varoquaux</title>
-      <link>http://dengemann.github.io/authors/gael-varoquaux/</link>
-      <pubDate>Tue, 04 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>http://dengemann.github.io/authors/gael-varoquaux/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Pierre Ablin</title>
-      <link>http://dengemann.github.io/authors/pierre-ablin/</link>
-      <pubDate>Tue, 04 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>http://dengemann.github.io/authors/pierre-ablin/</guid>
       <description></description>
     </item>
     
@@ -270,14 +302,6 @@
       <link>http://dengemann.github.io/authors/sami-abboud/</link>
       <pubDate>Sun, 03 Feb 2019 00:00:00 +0000</pubDate>
       <guid>http://dengemann.github.io/authors/sami-abboud/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Denis A Engemann</title>
-      <link>http://dengemann.github.io/authors/denis-a-engemann/</link>
-      <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
-      <guid>http://dengemann.github.io/authors/denis-a-engemann/</guid>
       <description></description>
     </item>
     

@@ -5,12 +5,28 @@
     <link>http://dengemann.github.io/authors/admin/</link>
       <atom:link href="http://dengemann.github.io/authors/admin/index.xml" rel="self" type="application/rss+xml" />
     <description></description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 25 Jun 2019 09:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 03 Dec 2019 09:00:00 +0000</lastBuildDate>
     <image>
       <url>http://dengemann.github.io/img/icon-192.png</url>
       <title></title>
       <link>http://dengemann.github.io/authors/admin/</link>
     </image>
+    
+    <item>
+      <title>Analysis of MEG/EEG with MNE-Python</title>
+      <link>http://dengemann.github.io/talk/practical_meeg/</link>
+      <pubDate>Tue, 03 Dec 2019 09:00:00 +0000</pubDate>
+      <guid>http://dengemann.github.io/talk/practical_meeg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Large-scale analysis of electrophysiology data in cognitive neurology.</title>
+      <link>http://dengemann.github.io/talk/leipzig_2019/</link>
+      <pubDate>Mon, 04 Nov 2019 15:00:00 +0000</pubDate>
+      <guid>http://dengemann.github.io/talk/leipzig_2019/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Analyzing EEG and MEG in Python and MNE</title>

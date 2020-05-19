@@ -5,7 +5,7 @@
     <link>http://dengemann.github.io/</link>
       <atom:link href="http://dengemann.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description></description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 03 Dec 2019 09:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 19 May 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>http://dengemann.github.io/img/icon-192.png</url>
       <title></title>
@@ -13,18 +13,18 @@
     </image>
     
     <item>
-      <title>Recent &amp; Upcoming Talks</title>
-      <link>http://dengemann.github.io/talk/</link>
-      <pubDate>Tue, 03 Dec 2019 09:00:00 +0000</pubDate>
-      <guid>http://dengemann.github.io/talk/</guid>
+      <title>Publications</title>
+      <link>http://dengemann.github.io/publication/</link>
+      <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>
+      <guid>http://dengemann.github.io/publication/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Publications</title>
-      <link>http://dengemann.github.io/publication/</link>
-      <pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>http://dengemann.github.io/publication/</guid>
+      <title>Recent &amp; Upcoming Talks</title>
+      <link>http://dengemann.github.io/talk/</link>
+      <pubDate>Tue, 03 Dec 2019 09:00:00 +0000</pubDate>
+      <guid>http://dengemann.github.io/talk/</guid>
       <description></description>
     </item>
     

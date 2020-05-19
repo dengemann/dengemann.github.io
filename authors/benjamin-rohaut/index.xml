@@ -5,7 +5,7 @@
     <link>http://dengemann.github.io/authors/benjamin-rohaut/</link>
       <atom:link href="http://dengemann.github.io/authors/benjamin-rohaut/index.xml" rel="self" type="application/rss+xml" />
     <description>Benjamin Rohaut</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 20 May 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 09 Mar 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>http://dengemann.github.io/img/icon-192.png</url>
       <title>Benjamin Rohaut</title>
@@ -14,9 +14,9 @@
     
     <item>
       <title>Combined behavioral and electrophysiological evidence for a direct cortical effect of prefrontal tDCS on disorders of consciousness</title>
-      <link>http://dengemann.github.io/publication/hermann_2019/</link>
-      <pubDate>Mon, 20 May 2019 00:00:00 +0000</pubDate>
-      <guid>http://dengemann.github.io/publication/hermann_2019/</guid>
+      <link>http://dengemann.github.io/publication/hermann_2020/</link>
+      <pubDate>Mon, 09 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>http://dengemann.github.io/publication/hermann_2020/</guid>
       <description></description>
     </item>
     
@@ -25,24 +25,7 @@
       <link>http://dengemann.github.io/publication/engemann_raimondo_2018/</link>
       <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
       <guid>http://dengemann.github.io/publication/engemann_raimondo_2018/</guid>
-      <description>&lt;!-- 
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
-
-
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
-  &lt;/div&gt;
-&lt;/div&gt;
-
-
-Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/). --&gt;
-
-&lt;p&gt;For a discussion of the neurophysiologicla implications, please
+      <description>&lt;p&gt;For a discussion of the neurophysiologicla implications, please
 consider the &lt;a href=&#34;https://academic.oup.com/brain/article-abstract/141/11/3179/5114404?redirectedFrom=fulltext&#34; target=&#34;_blank&#34;&gt;companion article&lt;/a&gt; by Rodika Sokoliuk and Damian Cruse&lt;/p&gt;
 
 &lt;hr /&gt;

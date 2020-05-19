@@ -5,7 +5,7 @@
     <link>http://dengemann.github.io/authors/franz-liem/</link>
       <atom:link href="http://dengemann.github.io/authors/franz-liem/index.xml" rel="self" type="application/rss+xml" />
     <description>Franz Liem</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 19 May 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>http://dengemann.github.io/img/icon-192.png</url>
       <title>Franz Liem</title>
@@ -15,30 +15,13 @@
     <item>
       <title>Combining magnetoencephalography with MRI enhances learning of surrogate-biomarkers</title>
       <link>http://dengemann.github.io/publication/engemann_stacking_2020/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>
       <guid>http://dengemann.github.io/publication/engemann_stacking_2020/</guid>
-      <description>&lt;!-- 
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
-
-
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
-  &lt;/div&gt;
-&lt;/div&gt;
-
-
-Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/). --&gt;
-
-&lt;p&gt;For a plain English summary, consider our the &lt;a href=&#34;https://elifesciences.org/for-the-press/3726fdd0/computer-model-can-process-disparate-sources-of-clinical-data-to-predict-brain-age&#34; target=&#34;_blank&#34;&gt;eLife press release&lt;/a&gt; by Emily Packer&lt;/p&gt;
+      <description>&lt;p&gt;For a plain English summary, consider our the &lt;a href=&#34;https://elifesciences.org/for-the-press/3726fdd0/computer-model-can-process-disparate-sources-of-clinical-data-to-predict-brain-age&#34; target=&#34;_blank&#34;&gt;eLife press release&lt;/a&gt; by Emily Packer&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;p&gt;Should you have no time to read the paper, this Twitter thread gives you the gist:&lt;/p&gt;
+&lt;p&gt;To get an overview on the paper, consider this Twitter thread:&lt;/p&gt;
 
 &lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;I am very excited to share our latest work published in &lt;a href=&#34;https://twitter.com/eLife?ref_src=twsrc%5Etfw&#34;&gt;@eLife&lt;/a&gt;! We combined &lt;a href=&#34;https://twitter.com/hashtag/MEG?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#MEG&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/hashtag/fMRI?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#fMRI&lt;/a&gt; and &lt;a href=&#34;https://twitter.com/hashtag/MRI?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#MRI&lt;/a&gt; for &lt;a href=&#34;https://twitter.com/hashtag/BrainAge?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#BrainAge&lt;/a&gt; prediction &amp;amp; &lt;a href=&#34;https://twitter.com/hashtag/biomarker?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#biomarker&lt;/a&gt; development. Each modality added unique information &amp;amp; enhanced brain-behavior mapping! &lt;a href=&#34;https://t.co/iCLYKsuUWY&#34;&gt;https://t.co/iCLYKsuUWY&lt;/a&gt; Thread👇 &lt;a href=&#34;https://t.co/dNEMlGnqXe&#34;&gt;pic.twitter.com/dNEMlGnqXe&lt;/a&gt;&lt;/p&gt;&amp;mdash; Denis A. Engemann (@dngman) &lt;a href=&#34;https://twitter.com/dngman/status/1262676819775557633?ref_src=twsrc%5Etfw&#34;&gt;May 19, 2020&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;

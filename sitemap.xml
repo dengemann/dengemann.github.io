@@ -4,7 +4,232 @@
   
   <url>
     <loc>http://dengemann.github.io/</loc>
-    <lastmod>2019-12-03T09:00:00+00:00</lastmod>
+    <lastmod>2020-05-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/publication_types/2/</loc>
+    <lastmod>2020-05-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/tags/ageing/</loc>
+    <lastmod>2020-05-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/alexandre-gramfort/</loc>
+    <lastmod>2020-05-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/</loc>
+    <lastmod>2020-05-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/tags/biomarker/</loc>
+    <lastmod>2020-05-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/tags/brain-age/</loc>
+    <lastmod>2020-05-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/publication/engemann_stacking_2020/</loc>
+    <lastmod>2020-05-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/david-sabbagh/</loc>
+    <lastmod>2020-05-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/denis-a-engemann/</loc>
+    <lastmod>2020-05-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/tags/fmri/</loc>
+    <lastmod>2020-05-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/franz-liem/</loc>
+    <lastmod>2020-05-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/gael-varoquaux/</loc>
+    <lastmod>2020-05-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/guillaume-lemaitre/</loc>
+    <lastmod>2020-05-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/tags/machine-learning/</loc>
+    <lastmod>2020-05-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/tags/meg/</loc>
+    <lastmod>2020-05-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/tags/missing-values/</loc>
+    <lastmod>2020-05-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/tags/mri/</loc>
+    <lastmod>2020-05-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/oleh-kozynets/</loc>
+    <lastmod>2020-05-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/publication_types/</loc>
+    <lastmod>2020-05-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/publication/</loc>
+    <lastmod>2020-05-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/tags/random-forests/</loc>
+    <lastmod>2020-05-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/tags/</loc>
+    <lastmod>2020-05-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/tags/eeg/</loc>
+    <lastmod>2020-05-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/tags/generative-models/</loc>
+    <lastmod>2020-05-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/tags/linear-model/</loc>
+    <lastmod>2020-05-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/pierre-ablin/</loc>
+    <lastmod>2020-05-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/publication/sabbagh_generative_2019/</loc>
+    <lastmod>2020-05-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/tags/regression/</loc>
+    <lastmod>2020-05-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/benjamin-rohaut/</loc>
+    <lastmod>2020-03-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/bertrand-hermann/</loc>
+    <lastmod>2020-03-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/publication/hermann_2020/</loc>
+    <lastmod>2020-03-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/denis-engemann/</loc>
+    <lastmod>2020-03-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/tags/disorders-of-consciousness/</loc>
+    <lastmod>2020-03-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/federico-raimondo/</loc>
+    <lastmod>2020-03-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/frederic-faugeras/</loc>
+    <lastmod>2020-03-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/jacobo-d-sitt/</loc>
+    <lastmod>2020-03-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/lionel-naccache/</loc>
+    <lastmod>2020-03-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/lucas-c-parra/</loc>
+    <lastmod>2020-03-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/lukas-hirsch/</loc>
+    <lastmod>2020-03-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/melanie-denis-valente/</loc>
+    <lastmod>2020-03-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/nicolas-weiss/</loc>
+    <lastmod>2020-03-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/pauline-perez/</loc>
+    <lastmod>2020-03-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/sophie-demeret/</loc>
+    <lastmod>2020-03-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/tags/tdcs/</loc>
+    <lastmod>2020-03-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/yu-huang/</loc>
+    <lastmod>2020-03-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -18,98 +243,8 @@
   </url>
   
   <url>
-    <loc>http://dengemann.github.io/authors/</loc>
-    <lastmod>2019-12-03T09:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://dengemann.github.io/talk/</loc>
     <lastmod>2019-12-03T09:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://dengemann.github.io/publication_types/3/</loc>
-    <lastmod>2019-11-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://dengemann.github.io/authors/alexandre-gramfort/</loc>
-    <lastmod>2019-11-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://dengemann.github.io/tags/biomarker/</loc>
-    <lastmod>2019-11-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://dengemann.github.io/authors/david-sabbagh/</loc>
-    <lastmod>2019-11-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://dengemann.github.io/authors/denis-a-engemann/</loc>
-    <lastmod>2019-11-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://dengemann.github.io/tags/eeg/</loc>
-    <lastmod>2019-11-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://dengemann.github.io/authors/gael-varoquaux/</loc>
-    <lastmod>2019-11-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://dengemann.github.io/tags/generative-models/</loc>
-    <lastmod>2019-11-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://dengemann.github.io/tags/linear-model/</loc>
-    <lastmod>2019-11-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://dengemann.github.io/tags/machine-learning/</loc>
-    <lastmod>2019-11-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://dengemann.github.io/tags/meg/</loc>
-    <lastmod>2019-11-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://dengemann.github.io/authors/pierre-ablin/</loc>
-    <lastmod>2019-11-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://dengemann.github.io/publication/sabbagh_generative_2019/</loc>
-    <lastmod>2019-11-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://dengemann.github.io/publication_types/</loc>
-    <lastmod>2019-11-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://dengemann.github.io/publication/</loc>
-    <lastmod>2019-11-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://dengemann.github.io/tags/regression/</loc>
-    <lastmod>2019-11-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://dengemann.github.io/tags/</loc>
-    <lastmod>2019-11-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -133,11 +268,6 @@
   </url>
   
   <url>
-    <loc>http://dengemann.github.io/tags/brain-age/</loc>
-    <lastmod>2019-06-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://dengemann.github.io/authors/denis-a.-engemann/</loc>
     <lastmod>2019-06-04T00:00:00+00:00</lastmod>
   </url>
@@ -153,98 +283,8 @@
   </url>
   
   <url>
-    <loc>http://dengemann.github.io/authors/benjamin-rohaut/</loc>
-    <lastmod>2019-05-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://dengemann.github.io/authors/bertrand-hermann/</loc>
-    <lastmod>2019-05-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://dengemann.github.io/publication/hermann_2019/</loc>
-    <lastmod>2019-05-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://dengemann.github.io/authors/denis-engemann/</loc>
-    <lastmod>2019-05-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://dengemann.github.io/tags/disorders-of-consciousness/</loc>
-    <lastmod>2019-05-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://dengemann.github.io/authors/federico-raimondo/</loc>
-    <lastmod>2019-05-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://dengemann.github.io/authors/frederic-faugeras/</loc>
-    <lastmod>2019-05-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://dengemann.github.io/authors/jacobo-d-sitt/</loc>
-    <lastmod>2019-05-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://dengemann.github.io/authors/lionel-naccache/</loc>
-    <lastmod>2019-05-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://dengemann.github.io/authors/lucas-c-parra/</loc>
-    <lastmod>2019-05-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://dengemann.github.io/authors/lukas-hirsch/</loc>
-    <lastmod>2019-05-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://dengemann.github.io/authors/melanie-denis-valente/</loc>
-    <lastmod>2019-05-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://dengemann.github.io/authors/nicolas-weiss/</loc>
-    <lastmod>2019-05-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://dengemann.github.io/authors/pauline-perez/</loc>
-    <lastmod>2019-05-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://dengemann.github.io/authors/sophie-demeret/</loc>
-    <lastmod>2019-05-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://dengemann.github.io/tags/tdcs/</loc>
-    <lastmod>2019-05-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://dengemann.github.io/authors/yu-huang/</loc>
-    <lastmod>2019-05-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://dengemann.github.io/talk/mne_birmingham2019/</loc>
     <lastmod>2019-04-01T09:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://dengemann.github.io/publication_types/2/</loc>
-    <lastmod>2019-02-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -363,6 +403,11 @@
   </url>
   
   <url>
+    <loc>http://dengemann.github.io/publication_types/3/</loc>
+    <lastmod>2019-02-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://dengemann.github.io/tags/blindness/</loc>
     <lastmod>2019-02-03T00:00:00+00:00</lastmod>
   </url>
@@ -434,11 +479,6 @@
   
   <url>
     <loc>http://dengemann.github.io/authors/olivia-gosseries/</loc>
-    <lastmod>2018-10-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://dengemann.github.io/tags/random-forests/</loc>
     <lastmod>2018-10-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -659,11 +699,6 @@
   
   <url>
     <loc>http://dengemann.github.io/tags/cross-validation/</loc>
-    <lastmod>2017-03-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://dengemann.github.io/tags/fmri/</loc>
     <lastmod>2017-03-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -1113,35 +1148,7 @@
   </url>
   
   <url>
-    <loc>http://dengemann.github.io/tags/ageing/</loc>
-  </url>
-  
-  <url>
     <loc>http://dengemann.github.io/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>http://dengemann.github.io/publication/engemann_stacking_2020/</loc>
-  </url>
-  
-  <url>
-    <loc>http://dengemann.github.io/authors/franz-liem/</loc>
-  </url>
-  
-  <url>
-    <loc>http://dengemann.github.io/authors/guillaume-lemaitre/</loc>
-  </url>
-  
-  <url>
-    <loc>http://dengemann.github.io/tags/missing-values/</loc>
-  </url>
-  
-  <url>
-    <loc>http://dengemann.github.io/tags/mri/</loc>
-  </url>
-  
-  <url>
-    <loc>http://dengemann.github.io/authors/oleh-kozynets/</loc>
   </url>
   
   <url>

@@ -5,7 +5,7 @@
     <link>http://dengemann.github.io/publication_types/</link>
       <atom:link href="http://dengemann.github.io/publication_types/index.xml" rel="self" type="application/rss+xml" />
     <description>Publication_types</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 27 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 19 May 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>http://dengemann.github.io/img/icon-192.png</url>
       <title>Publication_types</title>
@@ -13,10 +13,10 @@
     </image>
     
     <item>
-      <title>3</title>
-      <link>http://dengemann.github.io/publication_types/3/</link>
-      <pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>http://dengemann.github.io/publication_types/3/</guid>
+      <title>2</title>
+      <link>http://dengemann.github.io/publication_types/2/</link>
+      <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>
+      <guid>http://dengemann.github.io/publication_types/2/</guid>
       <description></description>
     </item>
     
@@ -29,18 +29,18 @@
     </item>
     
     <item>
-      <title>2</title>
-      <link>http://dengemann.github.io/publication_types/2/</link>
-      <pubDate>Mon, 25 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>http://dengemann.github.io/publication_types/2/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>5</title>
       <link>http://dengemann.github.io/publication_types/5/</link>
       <pubDate>Mon, 25 Feb 2019 00:00:00 +0000</pubDate>
       <guid>http://dengemann.github.io/publication_types/5/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>3</title>
+      <link>http://dengemann.github.io/publication_types/3/</link>
+      <pubDate>Sun, 03 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>http://dengemann.github.io/publication_types/3/</guid>
       <description></description>
     </item>
     

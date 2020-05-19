@@ -5,12 +5,188 @@
     <link>http://dengemann.github.io/authors/</link>
       <atom:link href="http://dengemann.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 03 Dec 2019 09:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 19 May 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>http://dengemann.github.io/img/icon-192.png</url>
       <title>Authors</title>
       <link>http://dengemann.github.io/authors/</link>
     </image>
+    
+    <item>
+      <title>Alexandre Gramfort</title>
+      <link>http://dengemann.github.io/authors/alexandre-gramfort/</link>
+      <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>
+      <guid>http://dengemann.github.io/authors/alexandre-gramfort/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>David Sabbagh</title>
+      <link>http://dengemann.github.io/authors/david-sabbagh/</link>
+      <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>
+      <guid>http://dengemann.github.io/authors/david-sabbagh/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Denis A Engemann</title>
+      <link>http://dengemann.github.io/authors/denis-a-engemann/</link>
+      <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>
+      <guid>http://dengemann.github.io/authors/denis-a-engemann/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Franz Liem</title>
+      <link>http://dengemann.github.io/authors/franz-liem/</link>
+      <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>
+      <guid>http://dengemann.github.io/authors/franz-liem/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gaël Varoquaux</title>
+      <link>http://dengemann.github.io/authors/gael-varoquaux/</link>
+      <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>
+      <guid>http://dengemann.github.io/authors/gael-varoquaux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Guillaume Lemaître</title>
+      <link>http://dengemann.github.io/authors/guillaume-lemaitre/</link>
+      <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>
+      <guid>http://dengemann.github.io/authors/guillaume-lemaitre/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Oleh Kozynets</title>
+      <link>http://dengemann.github.io/authors/oleh-kozynets/</link>
+      <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>
+      <guid>http://dengemann.github.io/authors/oleh-kozynets/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pierre Ablin</title>
+      <link>http://dengemann.github.io/authors/pierre-ablin/</link>
+      <pubDate>Mon, 18 May 2020 00:00:00 +0000</pubDate>
+      <guid>http://dengemann.github.io/authors/pierre-ablin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Benjamin Rohaut</title>
+      <link>http://dengemann.github.io/authors/benjamin-rohaut/</link>
+      <pubDate>Mon, 09 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>http://dengemann.github.io/authors/benjamin-rohaut/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bertrand Hermann</title>
+      <link>http://dengemann.github.io/authors/bertrand-hermann/</link>
+      <pubDate>Mon, 09 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>http://dengemann.github.io/authors/bertrand-hermann/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Denis Engemann</title>
+      <link>http://dengemann.github.io/authors/denis-engemann/</link>
+      <pubDate>Mon, 09 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>http://dengemann.github.io/authors/denis-engemann/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Federico Raimondo</title>
+      <link>http://dengemann.github.io/authors/federico-raimondo/</link>
+      <pubDate>Mon, 09 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>http://dengemann.github.io/authors/federico-raimondo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Frédéric Faugeras</title>
+      <link>http://dengemann.github.io/authors/frederic-faugeras/</link>
+      <pubDate>Mon, 09 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>http://dengemann.github.io/authors/frederic-faugeras/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jacobo D Sitt</title>
+      <link>http://dengemann.github.io/authors/jacobo-d-sitt/</link>
+      <pubDate>Mon, 09 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>http://dengemann.github.io/authors/jacobo-d-sitt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lionel Naccache</title>
+      <link>http://dengemann.github.io/authors/lionel-naccache/</link>
+      <pubDate>Mon, 09 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>http://dengemann.github.io/authors/lionel-naccache/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lucas C Parra</title>
+      <link>http://dengemann.github.io/authors/lucas-c-parra/</link>
+      <pubDate>Mon, 09 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>http://dengemann.github.io/authors/lucas-c-parra/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lukas Hirsch</title>
+      <link>http://dengemann.github.io/authors/lukas-hirsch/</link>
+      <pubDate>Mon, 09 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>http://dengemann.github.io/authors/lukas-hirsch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mélanie Denis-Valente</title>
+      <link>http://dengemann.github.io/authors/melanie-denis-valente/</link>
+      <pubDate>Mon, 09 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>http://dengemann.github.io/authors/melanie-denis-valente/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nicolas Weiss</title>
+      <link>http://dengemann.github.io/authors/nicolas-weiss/</link>
+      <pubDate>Mon, 09 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>http://dengemann.github.io/authors/nicolas-weiss/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pauline Pérez</title>
+      <link>http://dengemann.github.io/authors/pauline-perez/</link>
+      <pubDate>Mon, 09 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>http://dengemann.github.io/authors/pauline-perez/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sophie Demeret</title>
+      <link>http://dengemann.github.io/authors/sophie-demeret/</link>
+      <pubDate>Mon, 09 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>http://dengemann.github.io/authors/sophie-demeret/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Yu Huang</title>
+      <link>http://dengemann.github.io/authors/yu-huang/</link>
+      <pubDate>Mon, 09 Mar 2020 00:00:00 +0000</pubDate>
+      <guid>http://dengemann.github.io/authors/yu-huang/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title></title>
@@ -26,162 +202,10 @@
     </item>
     
     <item>
-      <title>Alexandre Gramfort</title>
-      <link>http://dengemann.github.io/authors/alexandre-gramfort/</link>
-      <pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>http://dengemann.github.io/authors/alexandre-gramfort/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>David Sabbagh</title>
-      <link>http://dengemann.github.io/authors/david-sabbagh/</link>
-      <pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>http://dengemann.github.io/authors/david-sabbagh/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Denis A Engemann</title>
-      <link>http://dengemann.github.io/authors/denis-a-engemann/</link>
-      <pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>http://dengemann.github.io/authors/denis-a-engemann/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Gaël Varoquaux</title>
-      <link>http://dengemann.github.io/authors/gael-varoquaux/</link>
-      <pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>http://dengemann.github.io/authors/gael-varoquaux/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Pierre Ablin</title>
-      <link>http://dengemann.github.io/authors/pierre-ablin/</link>
-      <pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>http://dengemann.github.io/authors/pierre-ablin/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Denis A. Engemann</title>
       <link>http://dengemann.github.io/authors/denis-a.-engemann/</link>
       <pubDate>Tue, 04 Jun 2019 00:00:00 +0000</pubDate>
       <guid>http://dengemann.github.io/authors/denis-a.-engemann/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Benjamin Rohaut</title>
-      <link>http://dengemann.github.io/authors/benjamin-rohaut/</link>
-      <pubDate>Mon, 20 May 2019 00:00:00 +0000</pubDate>
-      <guid>http://dengemann.github.io/authors/benjamin-rohaut/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Bertrand Hermann</title>
-      <link>http://dengemann.github.io/authors/bertrand-hermann/</link>
-      <pubDate>Mon, 20 May 2019 00:00:00 +0000</pubDate>
-      <guid>http://dengemann.github.io/authors/bertrand-hermann/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Denis Engemann</title>
-      <link>http://dengemann.github.io/authors/denis-engemann/</link>
-      <pubDate>Mon, 20 May 2019 00:00:00 +0000</pubDate>
-      <guid>http://dengemann.github.io/authors/denis-engemann/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Federico Raimondo</title>
-      <link>http://dengemann.github.io/authors/federico-raimondo/</link>
-      <pubDate>Mon, 20 May 2019 00:00:00 +0000</pubDate>
-      <guid>http://dengemann.github.io/authors/federico-raimondo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Frédéric Faugeras</title>
-      <link>http://dengemann.github.io/authors/frederic-faugeras/</link>
-      <pubDate>Mon, 20 May 2019 00:00:00 +0000</pubDate>
-      <guid>http://dengemann.github.io/authors/frederic-faugeras/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Jacobo D Sitt</title>
-      <link>http://dengemann.github.io/authors/jacobo-d-sitt/</link>
-      <pubDate>Mon, 20 May 2019 00:00:00 +0000</pubDate>
-      <guid>http://dengemann.github.io/authors/jacobo-d-sitt/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Lionel Naccache</title>
-      <link>http://dengemann.github.io/authors/lionel-naccache/</link>
-      <pubDate>Mon, 20 May 2019 00:00:00 +0000</pubDate>
-      <guid>http://dengemann.github.io/authors/lionel-naccache/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Lucas C Parra</title>
-      <link>http://dengemann.github.io/authors/lucas-c-parra/</link>
-      <pubDate>Mon, 20 May 2019 00:00:00 +0000</pubDate>
-      <guid>http://dengemann.github.io/authors/lucas-c-parra/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Lukas Hirsch</title>
-      <link>http://dengemann.github.io/authors/lukas-hirsch/</link>
-      <pubDate>Mon, 20 May 2019 00:00:00 +0000</pubDate>
-      <guid>http://dengemann.github.io/authors/lukas-hirsch/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Mélanie Denis-Valente</title>
-      <link>http://dengemann.github.io/authors/melanie-denis-valente/</link>
-      <pubDate>Mon, 20 May 2019 00:00:00 +0000</pubDate>
-      <guid>http://dengemann.github.io/authors/melanie-denis-valente/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Nicolas Weiss</title>
-      <link>http://dengemann.github.io/authors/nicolas-weiss/</link>
-      <pubDate>Mon, 20 May 2019 00:00:00 +0000</pubDate>
-      <guid>http://dengemann.github.io/authors/nicolas-weiss/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Pauline Pérez</title>
-      <link>http://dengemann.github.io/authors/pauline-perez/</link>
-      <pubDate>Mon, 20 May 2019 00:00:00 +0000</pubDate>
-      <guid>http://dengemann.github.io/authors/pauline-perez/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Sophie Demeret</title>
-      <link>http://dengemann.github.io/authors/sophie-demeret/</link>
-      <pubDate>Mon, 20 May 2019 00:00:00 +0000</pubDate>
-      <guid>http://dengemann.github.io/authors/sophie-demeret/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Yu Huang</title>
-      <link>http://dengemann.github.io/authors/yu-huang/</link>
-      <pubDate>Mon, 20 May 2019 00:00:00 +0000</pubDate>
-      <guid>http://dengemann.github.io/authors/yu-huang/</guid>
       <description></description>
     </item>
     
@@ -806,30 +830,6 @@
       <link>http://dengemann.github.io/authors/simon-b-eickhoff/</link>
       <pubDate>Fri, 01 Jun 2012 00:00:00 +0000</pubDate>
       <guid>http://dengemann.github.io/authors/simon-b-eickhoff/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Franz Liem</title>
-      <link>http://dengemann.github.io/authors/franz-liem/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://dengemann.github.io/authors/franz-liem/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Guillaume Lemaître</title>
-      <link>http://dengemann.github.io/authors/guillaume-lemaitre/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://dengemann.github.io/authors/guillaume-lemaitre/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Oleh Kozynets</title>
-      <link>http://dengemann.github.io/authors/oleh-kozynets/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://dengemann.github.io/authors/oleh-kozynets/</guid>
       <description></description>
     </item>
     

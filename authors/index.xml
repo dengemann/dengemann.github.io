@@ -50,34 +50,10 @@
     </item>
     
     <item>
-      <title>Franz Liem</title>
-      <link>http://dengemann.github.io/authors/franz-liem/</link>
-      <pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>http://dengemann.github.io/authors/franz-liem/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Gaël Varoquaux</title>
       <link>http://dengemann.github.io/authors/gael-varoquaux/</link>
       <pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate>
       <guid>http://dengemann.github.io/authors/gael-varoquaux/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Guillaume Lemaître</title>
-      <link>http://dengemann.github.io/authors/guillaume-lemaitre/</link>
-      <pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>http://dengemann.github.io/authors/guillaume-lemaitre/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Oleh Kozynets</title>
-      <link>http://dengemann.github.io/authors/oleh-kozynets/</link>
-      <pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>http://dengemann.github.io/authors/oleh-kozynets/</guid>
       <description></description>
     </item>
     
@@ -830,6 +806,30 @@
       <link>http://dengemann.github.io/authors/simon-b-eickhoff/</link>
       <pubDate>Fri, 01 Jun 2012 00:00:00 +0000</pubDate>
       <guid>http://dengemann.github.io/authors/simon-b-eickhoff/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Franz Liem</title>
+      <link>http://dengemann.github.io/authors/franz-liem/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://dengemann.github.io/authors/franz-liem/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Guillaume Lemaître</title>
+      <link>http://dengemann.github.io/authors/guillaume-lemaitre/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://dengemann.github.io/authors/guillaume-lemaitre/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Oleh Kozynets</title>
+      <link>http://dengemann.github.io/authors/oleh-kozynets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://dengemann.github.io/authors/oleh-kozynets/</guid>
       <description></description>
     </item>
     

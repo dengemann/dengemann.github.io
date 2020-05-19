@@ -13,30 +13,6 @@
     </image>
     
     <item>
-      <title>Combining electrophysiology with MRI enhances learning of surrogate-biomarkers</title>
-      <link>http://dengemann.github.io/publication/engemann_stacking_2019/</link>
-      <pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate>
-      <guid>http://dengemann.github.io/publication/engemann_stacking_2019/</guid>
-      <description>&lt;!-- 
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
-
-
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
-  &lt;/div&gt;
-&lt;/div&gt;
-
-
-Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/). --&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Predictive regression modeling with MEG/EEG: from source power to signals and cognitive states</title>
       <link>http://dengemann.github.io/publication/sabbagh_generative_2019/</link>
       <pubDate>Wed, 27 Nov 2019 00:00:00 +0000</pubDate>
@@ -127,9 +103,9 @@ consider the &lt;a href=&#34;https://academic.oup.com/brain/article-abstract/141
 
 &lt;hr /&gt;
 
-&lt;p&gt;Should you have no time to read the paper, this twitter thread gives you the gist:&lt;/p&gt;
+&lt;p&gt;Should you have no time to read the paper, this Twitter thread gives you the gist:&lt;/p&gt;
 
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;1/ New paper out! &lt;a href=&#34;https://twitter.com/Brain1878?ref_src=twsrc%5Etfw&#34;&gt;@Brain1878&lt;/a&gt; &lt;a href=&#34;https://t.co/l3VIfg4s9F&#34;&gt;https://t.co/l3VIfg4s9F&lt;/a&gt; Robust &lt;a href=&#34;https://twitter.com/hashtag/MachineLearning?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#MachineLearning&lt;/a&gt; of diagnosis from &lt;a href=&#34;https://twitter.com/hashtag/EEG?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#EEG&lt;/a&gt; in disorders of &lt;a href=&#34;https://twitter.com/hashtag/consciousness?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#consciousness&lt;/a&gt; powered by &lt;a href=&#34;https://twitter.com/CEAParisSaclay?ref_src=twsrc%5Etfw&#34;&gt;@CEAParisSaclay&lt;/a&gt; &lt;a href=&#34;https://twitter.com/cdf1530?ref_src=twsrc%5Etfw&#34;&gt;@cdf1530&lt;/a&gt; &lt;a href=&#34;https://twitter.com/Coma_Science?ref_src=twsrc%5Etfw&#34;&gt;@Coma_Science&lt;/a&gt; @dc_uba &lt;a href=&#34;https://twitter.com/ERC_Research?ref_src=twsrc%5Etfw&#34;&gt;@ERC_Research&lt;/a&gt; &lt;a href=&#34;https://twitter.com/Inria_Saclay?ref_src=twsrc%5Etfw&#34;&gt;@Inria_Saclay&lt;/a&gt; &lt;a href=&#34;https://twitter.com/Inserm?ref_src=twsrc%5Etfw&#34;&gt;@Inserm&lt;/a&gt; &lt;a href=&#34;https://twitter.com/mne_news?ref_src=twsrc%5Etfw&#34;&gt;@mne_news&lt;/a&gt; &lt;a href=&#34;https://twitter.com/NeuroSpin_91?ref_src=twsrc%5Etfw&#34;&gt;@NeuroSpin_91&lt;/a&gt; &lt;a href=&#34;https://twitter.com/icm_institute?ref_src=twsrc%5Etfw&#34;&gt;@icm_institute&lt;/a&gt; &lt;a href=&#34;https://twitter.com/scikit_learn?ref_src=twsrc%5Etfw&#34;&gt;@scikit_learn&lt;/a&gt; &lt;a href=&#34;https://t.co/JsDMUYWw6C&#34;&gt;pic.twitter.com/JsDMUYWw6C&lt;/a&gt;&lt;/p&gt;&amp;mdash; Denis A. Engemann (@dngman) &lt;a href=&#34;https://twitter.com/dngman/status/1047774447422394368?ref_src=twsrc%5Etfw&#34;&gt;October 4, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;1/ New paper out! &lt;a href=&#34;https://twitter.com/Brain1878?ref_src=twsrc%5Etfw&#34;&gt;@Brain1878&lt;/a&gt; &lt;a href=&#34;https://t.co/l3VIfg4s9F&#34;&gt;https://t.co/l3VIfg4s9F&lt;/a&gt; Robust &lt;a href=&#34;https://twitter.com/hashtag/MachineLearning?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#MachineLearning&lt;/a&gt; of diagnosis from &lt;a href=&#34;https://twitter.com/hashtag/EEG?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#EEG&lt;/a&gt; in disorders of &lt;a href=&#34;https://twitter.com/hashtag/consciousness?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#consciousness&lt;/a&gt; powered by &lt;a href=&#34;https://twitter.com/CEAParisSaclay?ref_src=twsrc%5Etfw&#34;&gt;@CEAParisSaclay&lt;/a&gt; &lt;a href=&#34;https://twitter.com/cdf1530?ref_src=twsrc%5Etfw&#34;&gt;@cdf1530&lt;/a&gt; &lt;a href=&#34;https://twitter.com/Coma_Science?ref_src=twsrc%5Etfw&#34;&gt;@Coma_Science&lt;/a&gt; @dc_uba &lt;a href=&#34;https://twitter.com/ERC_Research?ref_src=twsrc%5Etfw&#34;&gt;@ERC_Research&lt;/a&gt; &lt;a href=&#34;https://twitter.com/Inria_Saclay?ref_src=twsrc%5Etfw&#34;&gt;@Inria_Saclay&lt;/a&gt; &lt;a href=&#34;https://twitter.com/Inserm?ref_src=twsrc%5Etfw&#34;&gt;@Inserm&lt;/a&gt; &lt;a href=&#34;https://twitter.com/mne_news?ref_src=twsrc%5Etfw&#34;&gt;@mne_news&lt;/a&gt; &lt;a href=&#34;https://twitter.com/NeuroSpin_91?ref_src=twsrc%5Etfw&#34;&gt;@NeuroSpin_91&lt;/a&gt; @icm_institute &lt;a href=&#34;https://twitter.com/scikit_learn?ref_src=twsrc%5Etfw&#34;&gt;@scikit_learn&lt;/a&gt; &lt;a href=&#34;https://t.co/JsDMUYWw6C&#34;&gt;pic.twitter.com/JsDMUYWw6C&lt;/a&gt;&lt;/p&gt;&amp;mdash; Denis A. Engemann (@dngman) &lt;a href=&#34;https://twitter.com/dngman/status/1047774447422394368?ref_src=twsrc%5Etfw&#34;&gt;October 4, 2018&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
 
 </description>
@@ -364,6 +340,40 @@ Supplementary notes can be added here, including [code and math](https://sourcet
 
 
 Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/). --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Combining magnetoencephalography with MRI enhances learning of surrogate-biomarkers</title>
+      <link>http://dengemann.github.io/publication/engemann_stacking_2020/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://dengemann.github.io/publication/engemann_stacking_2020/</guid>
+      <description>&lt;!-- 
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/). --&gt;
+
+&lt;p&gt;For a plain English summary, consider our the &lt;a href=&#34;https://elifesciences.org/for-the-press/3726fdd0/computer-model-can-process-disparate-sources-of-clinical-data-to-predict-brain-age&#34; target=&#34;_blank&#34;&gt;eLife press release&lt;/a&gt; by Emily Packer&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Should you have no time to read the paper, this Twitter thread gives you the gist:&lt;/p&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;I am very excited to share our latest work published in &lt;a href=&#34;https://twitter.com/eLife?ref_src=twsrc%5Etfw&#34;&gt;@eLife&lt;/a&gt;! We combined &lt;a href=&#34;https://twitter.com/hashtag/MEG?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#MEG&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/hashtag/fMRI?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#fMRI&lt;/a&gt; and &lt;a href=&#34;https://twitter.com/hashtag/MRI?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#MRI&lt;/a&gt; for &lt;a href=&#34;https://twitter.com/hashtag/BrainAge?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#BrainAge&lt;/a&gt; prediction &amp;amp; &lt;a href=&#34;https://twitter.com/hashtag/biomarker?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#biomarker&lt;/a&gt; development. Each modality added unique information &amp;amp; enhanced brain-behavior mapping! &lt;a href=&#34;https://t.co/iCLYKsuUWY&#34;&gt;https://t.co/iCLYKsuUWY&lt;/a&gt; Thread👇 &lt;a href=&#34;https://t.co/dNEMlGnqXe&#34;&gt;pic.twitter.com/dNEMlGnqXe&lt;/a&gt;&lt;/p&gt;&amp;mdash; Denis A. Engemann (@dngman) &lt;a href=&#34;https://twitter.com/dngman/status/1262676819775557633?ref_src=twsrc%5Etfw&#34;&gt;May 19, 2020&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
 </description>
     </item>
     

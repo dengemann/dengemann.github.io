@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>MEG | Academic</title>
+    <link>http://dengemann.github.io/tag/meg/</link>
+      <atom:link href="http://dengemann.github.io/tag/meg/index.xml" rel="self" type="application/rss+xml" />
+    <description>MEG</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 19 May 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://dengemann.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>MEG</title>
+      <link>http://dengemann.github.io/tag/meg/</link>
+    </image>
+    
+    <item>
+      <title>Combining magnetoencephalography with MRI enhances learning of surrogate-biomarkers</title>
+      <link>http://dengemann.github.io/publication/engemann_stacking_2020/</link>
+      <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>
+      <guid>http://dengemann.github.io/publication/engemann_stacking_2020/</guid>
+      <description>&lt;p&gt;For a plain English summary, consider the &lt;a href=&#34;https://elifesciences.org/digests/54055/imaging-the-brain-s-age&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;eLife digest&lt;/a&gt; by Helena Perez Valle.&lt;/p&gt;
+&lt;!-- ---
+
+And the [eLife press release](https://elifesciences.org/for-the-press/3726fdd0/computer-model-can-process-disparate-sources-of-clinical-data-to-predict-brain-age ) by Emily Packer.
+ --&gt;
+&lt;p&gt;To get an overview on the paper, consider this Twitter thread:&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;I am very excited to share our latest work published in &lt;a href=&#34;https://twitter.com/eLife?ref_src=twsrc%5Etfw&#34;&gt;@eLife&lt;/a&gt;! We combined &lt;a href=&#34;https://twitter.com/hashtag/MEG?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#MEG&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/hashtag/fMRI?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#fMRI&lt;/a&gt; and &lt;a href=&#34;https://twitter.com/hashtag/MRI?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#MRI&lt;/a&gt; for &lt;a href=&#34;https://twitter.com/hashtag/BrainAge?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#BrainAge&lt;/a&gt; prediction &amp;amp; &lt;a href=&#34;https://twitter.com/hashtag/biomarker?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#biomarker&lt;/a&gt; development. Each modality added unique information &amp;amp; enhanced brain-behavior mapping! &lt;a href=&#34;https://t.co/iCLYKsuUWY&#34;&gt;https://t.co/iCLYKsuUWY&lt;/a&gt; Thread👇 &lt;a href=&#34;https://t.co/dNEMlGnqXe&#34;&gt;pic.twitter.com/dNEMlGnqXe&lt;/a&gt;&lt;/p&gt;&amp;mdash; Denis A. Engemann (@dngman) &lt;a href=&#34;https://twitter.com/dngman/status/1262676819775557633?ref_src=twsrc%5Etfw&#34;&gt;May 19, 2020&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Predictive regression modeling with MEG/EEG: from source power to signals and cognitive states</title>
+      <link>http://dengemann.github.io/publication/sabbagh_generative_2019/</link>
+      <pubDate>Mon, 18 May 2020 00:00:00 +0000</pubDate>
+      <guid>http://dengemann.github.io/publication/sabbagh_generative_2019/</guid>
+      <description>&lt;p&gt;For a high-level presentation of the main findings check-out our &lt;a href=&#34;http://dengemann.github.io/slides/P1609-OHBM2020-Sabbagh-Engemann.pdf&#34; target=&#34;_blank&#34;&gt; OHBM 2020 Poster.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Or visit this Twitter thread:&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Excited to share our paper &lt;a href=&#34;https://twitter.com/NeuroImage_EiC?ref_src=twsrc%5Etfw&#34;&gt;@NeuroImage_EiC&lt;/a&gt; by &lt;a href=&#34;https://twitter.com/DavSabbagh?ref_src=twsrc%5Etfw&#34;&gt;@DavSabbagh&lt;/a&gt; with &lt;a href=&#34;https://twitter.com/PierreAblin?ref_src=twsrc%5Etfw&#34;&gt;@PierreAblin&lt;/a&gt; &lt;a href=&#34;https://twitter.com/GaelVaroquaux?ref_src=twsrc%5Etfw&#34;&gt;@GaelVaroquaux&lt;/a&gt; &lt;a href=&#34;https://twitter.com/agramfort?ref_src=twsrc%5Etfw&#34;&gt;@agramfort&lt;/a&gt; &lt;a href=&#34;https://t.co/ke0wO8aqwk&#34;&gt;https://t.co/ke0wO8aqwk&lt;/a&gt; Nonlinear subject-level regression on M/EEG using linear models without source localization: theory + empirical benchmarks  Thread👇 &lt;a href=&#34;https://t.co/0vevsO3UmG&#34;&gt;pic.twitter.com/0vevsO3UmG&lt;/a&gt;&lt;/p&gt;&amp;mdash; Denis A. Engemann (@dngman) &lt;a href=&#34;https://twitter.com/dngman/status/1262276285591629829?ref_src=twsrc%5Etfw&#34;&gt;May 18, 2020&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Manifold-regression to predict from MEG/EEG brain signals without source modeling</title>
+      <link>http://dengemann.github.io/publication/sabbagh_ablin_neurips_2019/</link>
+      <pubDate>Tue, 04 Jun 2019 00:00:00 +0000</pubDate>
+      <guid>http://dengemann.github.io/publication/sabbagh_ablin_neurips_2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Emergence of β and γ networks following multisensory training</title>
+      <link>http://dengemann.github.io/publication/larocca_2019/</link>
+      <pubDate>Mon, 25 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>http://dengemann.github.io/publication/larocca_2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MNE: Software for Acquiring, Processing,and Visualizing MEG/EEG Data</title>
+      <link>http://dengemann.github.io/publication/esch_2019/</link>
+      <pubDate>Mon, 25 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>http://dengemann.github.io/publication/esch_2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Semantic coding in the occipital cortex of early blind individuals</title>
+      <link>http://dengemann.github.io/publication/abboud_2019/</link>
+      <pubDate>Sun, 03 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>http://dengemann.github.io/publication/abboud_2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Encoding and Decoding Neuronal Dynamics: Methodological Framework to Uncover the Algorithms of Cognition</title>
+      <link>http://dengemann.github.io/publication/king_2018/</link>
+      <pubDate>Tue, 24 Jul 2018 00:00:00 +0000</pubDate>
+      <guid>http://dengemann.github.io/publication/king_2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A reproducible MEG/EEG group study with the MNE software: recommendations, quality assessments, and good practices</title>
+      <link>http://dengemann.github.io/publication/jas_2018/</link>
+      <pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate>
+      <guid>http://dengemann.github.io/publication/jas_2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Autoreject: Automated artifact rejection for MEG and EEG data</title>
+      <link>http://dengemann.github.io/publication/jas_engemann_2015/</link>
+      <pubDate>Sun, 29 Oct 2017 00:00:00 +0000</pubDate>
+      <guid>http://dengemann.github.io/publication/jas_engemann_2015/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Assessing and tuning brain decoders: cross-validation, caveats, and guidelines</title>
+      <link>http://dengemann.github.io/publication/varoq_2016/</link>
+      <pubDate>Wed, 01 Mar 2017 00:00:00 +0000</pubDate>
+      <guid>http://dengemann.github.io/publication/varoq_2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Automated rejection and repair of bad trials in MEG/EEG</title>
+      <link>http://dengemann.github.io/publication/jas_2016/</link>
+      <pubDate>Sun, 22 May 2016 00:00:00 +0000</pubDate>
+      <guid>http://dengemann.github.io/publication/jas_2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Neuromagnetic Decomposition of Social Interaction</title>
+      <link>http://dengemann.github.io/publication/engemann_thesis_2015/</link>
+      <pubDate>Thu, 09 Apr 2015 00:00:00 +0000</pubDate>
+      <guid>http://dengemann.github.io/publication/engemann_thesis_2015/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Automated model selection in covariance estimation and spatial whitening of MEG and EEG signals</title>
+      <link>http://dengemann.github.io/publication/engemann_2015/</link>
+      <pubDate>Sun, 01 Mar 2015 00:00:00 +0000</pubDate>
+      <guid>http://dengemann.github.io/publication/engemann_2015/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mind the noise covariance when localizing brain sources with M/EEG</title>
+      <link>http://dengemann.github.io/publication/engemann_2015b/</link>
+      <pubDate>Sun, 01 Mar 2015 00:00:00 +0000</pubDate>
+      <guid>http://dengemann.github.io/publication/engemann_2015b/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MEG and EEG data analysis with MNE-Python</title>
+      <link>http://dengemann.github.io/publication/gramfort_2013/</link>
+      <pubDate>Sat, 01 Mar 2014 00:00:00 +0000</pubDate>
+      <guid>http://dengemann.github.io/publication/gramfort_2013/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MNE software for processing MEG and EEG data</title>
+      <link>http://dengemann.github.io/publication/gramfort_2014/</link>
+      <pubDate>Sat, 01 Mar 2014 00:00:00 +0000</pubDate>
+      <guid>http://dengemann.github.io/publication/gramfort_2014/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Automated processing of M/EEG</title>
+      <link>http://dengemann.github.io/project/automated/</link>
+      <pubDate>Thu, 23 Aug 2012 00:00:00 +0000</pubDate>
+      <guid>http://dengemann.github.io/project/automated/</guid>
+      <description>&lt;p&gt;Ever since I began to work on electrophysiology and cognitive research questions, it has been my foremost conviction that reproducible research needs scalable automated data processing methods. Only when MEG and EEG data can be processed at scale and automatically, large data sets can be assembled at ease to support fore-front research using data-intense machine learning methods needed for optimizing prediction of clinical end-points in translational clinical neuroscience. Moreover, automated methods reduce researcher degrees of freedom, and, hence, may mitigate the ubiquitous replication crises encountered in several empirical sciences.&lt;/p&gt;
+&lt;p&gt;The goal of this axis of reasearch is to develop tools that &lt;em&gt;&lt;strong&gt;simplify&lt;/strong&gt;&lt;/em&gt; analysis of EEG and MEG data.
+Please consider the related publications listed below.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>MNE software for analyzing and visualizing M/EEG data</title>
+      <link>http://dengemann.github.io/project/mne/</link>
+      <pubDate>Thu, 23 Aug 2012 00:00:00 +0000</pubDate>
+      <guid>http://dengemann.github.io/project/mne/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.nmr.mgh.harvard.edu/mne/stable/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MNE-Python&lt;/a&gt; is &lt;strong&gt;&lt;em&gt;the&lt;/em&gt;&lt;/strong&gt; Python open source toolbox for processing and visualizing MEG and EEG data.&lt;/p&gt;
+&lt;p&gt;My work in neuroscience and medicine heavily draws on my longstanding activity as core-contributor to the MNE community.&lt;/p&gt;
+&lt;h2 id=&#34;code-contributions&#34;&gt;Code contributions&lt;/h2&gt;
+&lt;p&gt;I have been core contributor since 2012. My contributions incldue user-interfaces and functionality for reading and writing M/EEG data, preprocessing, source localization, visualization, statistical analysis and reporting.
+I have been for many years among the &lt;a href=&#34;https://github.com/mne-tools/mne-python/graphs/contributors&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;top contributors&lt;/a&gt; of the MNE-Python code-base.&lt;/p&gt;
+&lt;p&gt;Other major code contributions to the MNE-ecosystem include diverse satellite projects such as &lt;a href=&#34;https://mne.tools/mne-hcp/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;mne-hcp&lt;/a&gt; for fast access to the Human Connectome Project MEG data (founder), &lt;a href=&#34;https://mne.tools/mne-r/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;mne-r&lt;/a&gt; for fast access to MNE objects through the R language (founder) and &lt;a href=&#34;http://autoreject.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;autoreject&lt;/a&gt; (co-founder) for automated cleaning of EEG and MEG data.&lt;/p&gt;
+&lt;h2 id=&#34;mentoring&#34;&gt;Mentoring&lt;/h2&gt;
+&lt;p&gt;Other than ad-hoc reviewing of code contributions to MNE-Python,
+I have been mentor for &lt;a href=&#34;https://summerofcode.withgoogle.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Summer of Code&lt;/a&gt; since 2013.&lt;/p&gt;
+&lt;h2 id=&#34;training-workshops-public-dissemination-and-community-work&#34;&gt;Training workshops, public dissemination and community work&lt;/h2&gt;
+&lt;p&gt;Since 2013, I have been delivering international training workshops on the MNE software and M/EEG analysis with Python.&lt;/p&gt;
+&lt;p&gt;I am also managing the &lt;a href=&#34;https://twitter.com/mne_news&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MNE twitter account&lt;/a&gt; and provide regular user support on the &lt;a href=&#34;https://mail.nmr.mgh.harvard.edu/mailman/listinfo/mne_analysis&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MNE mailing list&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

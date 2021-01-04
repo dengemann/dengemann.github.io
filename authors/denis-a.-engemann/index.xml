@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Denis A. Engemann | Academic</title>
+    <link>http://dengemann.github.io/authors/denis-a.-engemann/</link>
+      <atom:link href="http://dengemann.github.io/authors/denis-a.-engemann/index.xml" rel="self" type="application/rss+xml" />
+    <description>Denis A. Engemann</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 04 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://dengemann.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Denis A. Engemann</title>
+      <link>http://dengemann.github.io/authors/denis-a.-engemann/</link>
+    </image>
+    
+    <item>
+      <title>Manifold-regression to predict from MEG/EEG brain signals without source modeling</title>
+      <link>http://dengemann.github.io/publication/sabbagh_ablin_neurips_2019/</link>
+      <pubDate>Tue, 04 Jun 2019 00:00:00 +0000</pubDate>
+      <guid>http://dengemann.github.io/publication/sabbagh_ablin_neurips_2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Clustered marginalization of minorities during social transitions induced by co-evolution of behaviour and network structure</title>
+      <link>http://dengemann.github.io/publication/schleussner_2016/</link>
+      <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
+      <guid>http://dengemann.github.io/publication/schleussner_2016/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

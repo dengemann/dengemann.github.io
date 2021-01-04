@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>regression | Academic</title>
+    <link>http://dengemann.github.io/tag/regression/</link>
+      <atom:link href="http://dengemann.github.io/tag/regression/index.xml" rel="self" type="application/rss+xml" />
+    <description>regression</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 18 May 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://dengemann.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>regression</title>
+      <link>http://dengemann.github.io/tag/regression/</link>
+    </image>
+    
+    <item>
+      <title>Predictive regression modeling with MEG/EEG: from source power to signals and cognitive states</title>
+      <link>http://dengemann.github.io/publication/sabbagh_generative_2019/</link>
+      <pubDate>Mon, 18 May 2020 00:00:00 +0000</pubDate>
+      <guid>http://dengemann.github.io/publication/sabbagh_generative_2019/</guid>
+      <description>&lt;p&gt;For a high-level presentation of the main findings check-out our &lt;a href=&#34;http://dengemann.github.io/slides/P1609-OHBM2020-Sabbagh-Engemann.pdf&#34; target=&#34;_blank&#34;&gt; OHBM 2020 Poster.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Or visit this Twitter thread:&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Excited to share our paper &lt;a href=&#34;https://twitter.com/NeuroImage_EiC?ref_src=twsrc%5Etfw&#34;&gt;@NeuroImage_EiC&lt;/a&gt; by &lt;a href=&#34;https://twitter.com/DavSabbagh?ref_src=twsrc%5Etfw&#34;&gt;@DavSabbagh&lt;/a&gt; with &lt;a href=&#34;https://twitter.com/PierreAblin?ref_src=twsrc%5Etfw&#34;&gt;@PierreAblin&lt;/a&gt; &lt;a href=&#34;https://twitter.com/GaelVaroquaux?ref_src=twsrc%5Etfw&#34;&gt;@GaelVaroquaux&lt;/a&gt; &lt;a href=&#34;https://twitter.com/agramfort?ref_src=twsrc%5Etfw&#34;&gt;@agramfort&lt;/a&gt; &lt;a href=&#34;https://t.co/ke0wO8aqwk&#34;&gt;https://t.co/ke0wO8aqwk&lt;/a&gt; Nonlinear subject-level regression on M/EEG using linear models without source localization: theory + empirical benchmarks  Thread👇 &lt;a href=&#34;https://t.co/0vevsO3UmG&#34;&gt;pic.twitter.com/0vevsO3UmG&lt;/a&gt;&lt;/p&gt;&amp;mdash; Denis A. Engemann (@dngman) &lt;a href=&#34;https://twitter.com/dngman/status/1262276285591629829?ref_src=twsrc%5Etfw&#34;&gt;May 18, 2020&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+</description>
+    </item>
+    
+  </channel>
+</rss>

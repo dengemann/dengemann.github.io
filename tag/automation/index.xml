@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Automation | Academic</title>
+    <link>http://dengemann.github.io/tag/automation/</link>
+      <atom:link href="http://dengemann.github.io/tag/automation/index.xml" rel="self" type="application/rss+xml" />
+    <description>Automation</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 29 Oct 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://dengemann.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Automation</title>
+      <link>http://dengemann.github.io/tag/automation/</link>
+    </image>
+    
+    <item>
+      <title>Autoreject: Automated artifact rejection for MEG and EEG data</title>
+      <link>http://dengemann.github.io/publication/jas_engemann_2015/</link>
+      <pubDate>Sun, 29 Oct 2017 00:00:00 +0000</pubDate>
+      <guid>http://dengemann.github.io/publication/jas_engemann_2015/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Automated rejection and repair of bad trials in MEG/EEG</title>
+      <link>http://dengemann.github.io/publication/jas_2016/</link>
+      <pubDate>Sun, 22 May 2016 00:00:00 +0000</pubDate>
+      <guid>http://dengemann.github.io/publication/jas_2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Automated model selection in covariance estimation and spatial whitening of MEG and EEG signals</title>
+      <link>http://dengemann.github.io/publication/engemann_2015/</link>
+      <pubDate>Sun, 01 Mar 2015 00:00:00 +0000</pubDate>
+      <guid>http://dengemann.github.io/publication/engemann_2015/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mind the noise covariance when localizing brain sources with M/EEG</title>
+      <link>http://dengemann.github.io/publication/engemann_2015b/</link>
+      <pubDate>Sun, 01 Mar 2015 00:00:00 +0000</pubDate>
+      <guid>http://dengemann.github.io/publication/engemann_2015b/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

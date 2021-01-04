@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>R | Academic</title>
+    <link>http://dengemann.github.io/tag/r/</link>
+      <atom:link href="http://dengemann.github.io/tag/r/index.xml" rel="self" type="application/rss+xml" />
+    <description>R</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 23 Aug 2012 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://dengemann.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>R</title>
+      <link>http://dengemann.github.io/tag/r/</link>
+    </image>
+    
+    <item>
+      <title>MNE software for analyzing and visualizing M/EEG data</title>
+      <link>http://dengemann.github.io/project/mne/</link>
+      <pubDate>Thu, 23 Aug 2012 00:00:00 +0000</pubDate>
+      <guid>http://dengemann.github.io/project/mne/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://www.nmr.mgh.harvard.edu/mne/stable/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MNE-Python&lt;/a&gt; is &lt;strong&gt;&lt;em&gt;the&lt;/em&gt;&lt;/strong&gt; Python open source toolbox for processing and visualizing MEG and EEG data.&lt;/p&gt;
+&lt;p&gt;My work in neuroscience and medicine heavily draws on my longstanding activity as core-contributor to the MNE community.&lt;/p&gt;
+&lt;h2 id=&#34;code-contributions&#34;&gt;Code contributions&lt;/h2&gt;
+&lt;p&gt;I have been core contributor since 2012. My contributions incldue user-interfaces and functionality for reading and writing M/EEG data, preprocessing, source localization, visualization, statistical analysis and reporting.
+I have been for many years among the &lt;a href=&#34;https://github.com/mne-tools/mne-python/graphs/contributors&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;top contributors&lt;/a&gt; of the MNE-Python code-base.&lt;/p&gt;
+&lt;p&gt;Other major code contributions to the MNE-ecosystem include diverse satellite projects such as &lt;a href=&#34;https://mne.tools/mne-hcp/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;mne-hcp&lt;/a&gt; for fast access to the Human Connectome Project MEG data (founder), &lt;a href=&#34;https://mne.tools/mne-r/index.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;mne-r&lt;/a&gt; for fast access to MNE objects through the R language (founder) and &lt;a href=&#34;http://autoreject.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;autoreject&lt;/a&gt; (co-founder) for automated cleaning of EEG and MEG data.&lt;/p&gt;
+&lt;h2 id=&#34;mentoring&#34;&gt;Mentoring&lt;/h2&gt;
+&lt;p&gt;Other than ad-hoc reviewing of code contributions to MNE-Python,
+I have been mentor for &lt;a href=&#34;https://summerofcode.withgoogle.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Summer of Code&lt;/a&gt; since 2013.&lt;/p&gt;
+&lt;h2 id=&#34;training-workshops-public-dissemination-and-community-work&#34;&gt;Training workshops, public dissemination and community work&lt;/h2&gt;
+&lt;p&gt;Since 2013, I have been delivering international training workshops on the MNE software and M/EEG analysis with Python.&lt;/p&gt;
+&lt;p&gt;I am also managing the &lt;a href=&#34;https://twitter.com/mne_news&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MNE twitter account&lt;/a&gt; and provide regular user support on the &lt;a href=&#34;https://mail.nmr.mgh.harvard.edu/mailman/listinfo/mne_analysis&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MNE mailing list&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Games people play—toward an enactive view of cooperation in social neuroscience</title>
+      <link>http://dengemann.github.io/publication/engemann_2013/</link>
+      <pubDate>Fri, 01 Jun 2012 00:00:00 +0000</pubDate>
+      <guid>http://dengemann.github.io/publication/engemann_2013/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

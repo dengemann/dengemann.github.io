@@ -1,0 +1,13 @@
+@article{ENGEMANN2015328,
+title = "Automated model selection in covariance estimation and spatial whitening of MEG and EEG signals",
+journal = "NeuroImage",
+volume = "108",
+pages = "328 - 342",
+year = "2015",
+issn = "1053-8119",
+doi = "https://doi.org/10.1016/j.neuroimage.2014.12.040",
+url = "http://www.sciencedirect.com/science/article/pii/S1053811914010325",
+author = "Denis A. Engemann and Alexandre Gramfort",
+keywords = "Electroencephalography (EEG), Magnetoencephalography (MEG), Neuroimaging, Principal component analysis (PCA), Factor analysis (FA), Covariance estimation, Whitening, Model selection, Statistical learning",
+abstract = "Magnetoencephalography and electroencephalography (M/EEG) measure non-invasively the weak electromagnetic fields induced by post-synaptic neural currents. The estimation of the spatial covariance of the signals recorded on M/EEG sensors is a building block of modern data analysis pipelines. Such covariance estimates are used in brain–computer interfaces (BCI) systems, in nearly all source localization methods for spatial whitening as well as for data covariance estimation in beamformers. The rationale for such models is that the signals can be modeled by a zero mean Gaussian distribution. While maximizing the Gaussian likelihood seems natural, it leads to a covariance estimate known as empirical covariance (EC). It turns out that the EC is a poor estimate of the true covariance when the number of samples is small. To address this issue the estimation needs to be regularized. The most common approach downweights off-diagonal coefficients, while more advanced regularization methods are based on shrinkage techniques or generative models with low rank assumptions: probabilistic PCA (PPCA) and factor analysis (FA). Using cross-validation all of these models can be tuned and compared based on Gaussian likelihood computed on unseen data. We investigated these models on simulations, one electroencephalography (EEG) dataset as well as magnetoencephalography (MEG) datasets from the most common MEG systems. First, our results demonstrate that different models can be the best, depending on the number of samples, heterogeneity of sensor types and noise properties. Second, we show that the models tuned by cross-validation are superior to models with hand-selected regularization. Hence, we propose an automated solution to the often overlooked problem of covariance estimation of M/EEG signals. The relevance of the procedure is demonstrated here for spatial whitening and source localization of MEG signals."
+}

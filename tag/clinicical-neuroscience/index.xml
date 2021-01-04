@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Clinicical neuroscience | Academic</title>
+    <link>http://dengemann.github.io/tag/clinicical-neuroscience/</link>
+      <atom:link href="http://dengemann.github.io/tag/clinicical-neuroscience/index.xml" rel="self" type="application/rss+xml" />
+    <description>Clinicical neuroscience</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 23 Aug 2012 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://dengemann.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Clinicical neuroscience</title>
+      <link>http://dengemann.github.io/tag/clinicical-neuroscience/</link>
+    </image>
+    
+    <item>
+      <title>Prediction of perioperative cerebral fragility from EEG using statistical learning</title>
+      <link>http://dengemann.github.io/project/inserm_inria_2018/</link>
+      <pubDate>Thu, 23 Aug 2012 00:00:00 +0000</pubDate>
+      <guid>http://dengemann.github.io/project/inserm_inria_2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tackling disorders of consciousness with Cognitive Neuroscience, EEG and Machine Learning</title>
+      <link>http://dengemann.github.io/project/doc/</link>
+      <pubDate>Thu, 23 Aug 2012 00:00:00 +0000</pubDate>
+      <guid>http://dengemann.github.io/project/doc/</guid>
+      <description>&lt;p&gt;One of my key interests is enhancing research and clinical practice in clinical neuroscience. Between 2014 and 2018, I have focused on EEG-based diagnosis in disorders of consciousness (DoC). My interdisciplinary research activities have led to software solutions for automated large-scale processing and reporting of clinical EEG, introduced at the neuroscience workshop of the International Conference on Machine Learning &lt;a href=&#34;https://hal.inria.fr/hal-01225254/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;(ICML)&lt;/a&gt; 2015 and leading to the &lt;a href=&#34;https://autoreject.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;AutoReject&lt;/a&gt; algorithm. Ever since, these tools have been used at the Pitié-Salpêtrière hospital, Paris, France and have led to several original research contributions and critical commentaries that I have co-authored.&lt;/p&gt;
+&lt;p&gt;My work on DoC progressively developed into the, so far (2018), most extensive validation of EEG-biomarkers of consciousness based on more than 320 clinical EEG-recordings from two top-notch European clinical research groups (Paris, Pitié-Salêtrière, Paris, France, and, Coma Science Groups, Liège, Belgium). Our &lt;a href=&#34;http://dengemann.github.io/publication/engemann_raimondo_2018/&#34;&gt;key paper&lt;/a&gt; demonstrates the possibility of cross-protocol and cross-site generalization of predictions of diagnosis obtained from machine learning algorithms.
+If you have no time to read the paper, this twitter thread gives you the gist:&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;1/ New paper out! &lt;a href=&#34;https://twitter.com/Brain1878?ref_src=twsrc%5Etfw&#34;&gt;@Brain1878&lt;/a&gt; &lt;a href=&#34;https://t.co/l3VIfg4s9F&#34;&gt;https://t.co/l3VIfg4s9F&lt;/a&gt; Robust &lt;a href=&#34;https://twitter.com/hashtag/MachineLearning?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#MachineLearning&lt;/a&gt; of diagnosis from &lt;a href=&#34;https://twitter.com/hashtag/EEG?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#EEG&lt;/a&gt; in disorders of &lt;a href=&#34;https://twitter.com/hashtag/consciousness?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#consciousness&lt;/a&gt; powered by &lt;a href=&#34;https://twitter.com/CEAParisSaclay?ref_src=twsrc%5Etfw&#34;&gt;@CEAParisSaclay&lt;/a&gt; &lt;a href=&#34;https://twitter.com/cdf1530?ref_src=twsrc%5Etfw&#34;&gt;@cdf1530&lt;/a&gt; &lt;a href=&#34;https://twitter.com/Coma_Science?ref_src=twsrc%5Etfw&#34;&gt;@Coma_Science&lt;/a&gt; @dc_uba &lt;a href=&#34;https://twitter.com/ERC_Research?ref_src=twsrc%5Etfw&#34;&gt;@ERC_Research&lt;/a&gt; &lt;a href=&#34;https://twitter.com/Inria_Saclay?ref_src=twsrc%5Etfw&#34;&gt;@Inria_Saclay&lt;/a&gt; &lt;a href=&#34;https://twitter.com/Inserm?ref_src=twsrc%5Etfw&#34;&gt;@Inserm&lt;/a&gt; &lt;a href=&#34;https://twitter.com/mne_news?ref_src=twsrc%5Etfw&#34;&gt;@mne_news&lt;/a&gt; &lt;a href=&#34;https://twitter.com/NeuroSpin_91?ref_src=twsrc%5Etfw&#34;&gt;@NeuroSpin_91&lt;/a&gt; @icm_institute &lt;a href=&#34;https://twitter.com/scikit_learn?ref_src=twsrc%5Etfw&#34;&gt;@scikit_learn&lt;/a&gt; &lt;a href=&#34;https://t.co/JsDMUYWw6C&#34;&gt;pic.twitter.com/JsDMUYWw6C&lt;/a&gt;&lt;/p&gt;&amp;mdash; Denis A. Engemann (@dngman) &lt;a href=&#34;https://twitter.com/dngman/status/1047774447422394368?ref_src=twsrc%5Etfw&#34;&gt;October 4, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+</description>
+    </item>
+    
+  </channel>
+</rss>

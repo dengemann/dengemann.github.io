@@ -8,11 +8,6 @@
   </url>
   
   <url>
-    <loc>http://dengemann.github.io/</loc>
-    <lastmod>2020-11-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://dengemann.github.io/authors/aline-lefebvre/</loc>
     <lastmod>2020-11-26T00:00:00+00:00</lastmod>
   </url>
@@ -39,6 +34,11 @@
   
   <url>
     <loc>http://dengemann.github.io/authors/denis-a-engemann/</loc>
+    <lastmod>2020-11-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/</loc>
     <lastmod>2020-11-26T00:00:00+00:00</lastmod>
   </url>
   
@@ -298,6 +298,21 @@
   </url>
   
   <url>
+    <loc>http://dengemann.github.io/authors/admin/</loc>
+    <lastmod>2020-09-02T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/talk/paris_2020/</loc>
+    <lastmod>2020-09-02T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/talk/</loc>
+    <lastmod>2020-09-02T09:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://dengemann.github.io/publication-type/3/</loc>
     <lastmod>2020-08-26T00:00:00+00:00</lastmod>
   </url>
@@ -355,6 +370,11 @@
   <url>
     <loc>http://dengemann.github.io/tag/proxy-measures/</loc>
     <lastmod>2020-08-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/talk/montreal_2020/</loc>
+    <lastmod>2020-07-15T16:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -508,17 +528,7 @@
   </url>
   
   <url>
-    <loc>http://dengemann.github.io/authors/admin/</loc>
-    <lastmod>2019-12-03T09:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://dengemann.github.io/talk/practical_meeg/</loc>
-    <lastmod>2019-12-03T09:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://dengemann.github.io/talk/</loc>
     <lastmod>2019-12-03T09:00:00+00:00</lastmod>
   </url>
   

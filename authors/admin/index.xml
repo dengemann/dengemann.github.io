@@ -1,16 +1,44 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Academic</title>
+    <title>Denis A. Engemann</title>
     <link>http://dengemann.github.io/authors/admin/</link>
       <atom:link href="http://dengemann.github.io/authors/admin/index.xml" rel="self" type="application/rss+xml" />
-    <description>Academic</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 03 Dec 2019 09:00:00 +0000</lastBuildDate>
+    <description>Denis A. Engemann</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 02 Sep 2020 09:00:00 +0000</lastBuildDate>
     <image>
       <url>http://dengemann.github.io/authors/admin/avatar_huf36490834218c5748c405d587327b0c6_31827_270x270_fill_q75_lanczos_center.jpeg</url>
-      <title>Academic</title>
+      <title>Denis A. Engemann</title>
       <link>http://dengemann.github.io/authors/admin/</link>
     </image>
+    
+    <item>
+      <title>Combining magnetic resonance imaging and magnetoencephalography enhances modeling of brain age</title>
+      <link>http://dengemann.github.io/talk/paris_2020/</link>
+      <pubDate>Wed, 02 Sep 2020 09:00:00 +0000</pubDate>
+      <guid>http://dengemann.github.io/talk/paris_2020/</guid>
+      <description>&lt;p&gt;Lecture at the CompAge 2020 Conference, ICM-Institute Paris&lt;/p&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/BbDju2QHpwU&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Challenges of building clinical biomarkers from M/EEG: multimodal modeling with missing data and robust regression on power spectra</title>
+      <link>http://dengemann.github.io/talk/montreal_2020/</link>
+      <pubDate>Wed, 15 Jul 2020 16:00:00 +0000</pubDate>
+      <guid>http://dengemann.github.io/talk/montreal_2020/</guid>
+      <description>&lt;p&gt;Lectrue at the Feindel Virtual Brain and Mind Seminar at The Neuro, Montreal&lt;/p&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/FYRYvRO0cd4&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
     
     <item>
       <title>Analysis of MEG/EEG with MNE-Python</title>

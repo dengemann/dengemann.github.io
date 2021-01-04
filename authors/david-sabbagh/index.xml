@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>David Sabbagh | Academic</title>
+    <title>David Sabbagh | Denis A. Engemann</title>
     <link>http://dengemann.github.io/authors/david-sabbagh/</link>
       <atom:link href="http://dengemann.github.io/authors/david-sabbagh/index.xml" rel="self" type="application/rss+xml" />
     <description>David Sabbagh</description>
@@ -30,10 +30,6 @@
       <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>
       <guid>http://dengemann.github.io/publication/engemann_stacking_2020/</guid>
       <description>&lt;p&gt;For a plain English summary, consider the &lt;a href=&#34;https://elifesciences.org/digests/54055/imaging-the-brain-s-age&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;eLife digest&lt;/a&gt; by Helena Perez Valle.&lt;/p&gt;
-&lt;!-- ---
-
-And the [eLife press release](https://elifesciences.org/for-the-press/3726fdd0/computer-model-can-process-disparate-sources-of-clinical-data-to-predict-brain-age ) by Emily Packer.
- --&gt;
 &lt;p&gt;To get an overview on the paper, consider this Twitter thread:&lt;/p&gt;
 &lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;I am very excited to share our latest work published in &lt;a href=&#34;https://twitter.com/eLife?ref_src=twsrc%5Etfw&#34;&gt;@eLife&lt;/a&gt;! We combined &lt;a href=&#34;https://twitter.com/hashtag/MEG?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#MEG&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/hashtag/fMRI?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#fMRI&lt;/a&gt; and &lt;a href=&#34;https://twitter.com/hashtag/MRI?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#MRI&lt;/a&gt; for &lt;a href=&#34;https://twitter.com/hashtag/BrainAge?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#BrainAge&lt;/a&gt; prediction &amp;amp; &lt;a href=&#34;https://twitter.com/hashtag/biomarker?src=hash&amp;amp;ref_src=twsrc%5Etfw&#34;&gt;#biomarker&lt;/a&gt; development. Each modality added unique information &amp;amp; enhanced brain-behavior mapping! &lt;a href=&#34;https://t.co/iCLYKsuUWY&#34;&gt;https://t.co/iCLYKsuUWY&lt;/a&gt; Thread👇 &lt;a href=&#34;https://t.co/dNEMlGnqXe&#34;&gt;pic.twitter.com/dNEMlGnqXe&lt;/a&gt;&lt;/p&gt;&amp;mdash; Denis A. Engemann (@dngman) &lt;a href=&#34;https://twitter.com/dngman/status/1262676819775557633?ref_src=twsrc%5Etfw&#34;&gt;May 19, 2020&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;

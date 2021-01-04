@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title></title>
+    <title>Academic</title>
     <link>http://dengemann.github.io/authors/admin/</link>
       <atom:link href="http://dengemann.github.io/authors/admin/index.xml" rel="self" type="application/rss+xml" />
-    <description></description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 03 Dec 2019 09:00:00 +0000</lastBuildDate>
+    <description>Academic</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 03 Dec 2019 09:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://dengemann.github.io/img/icon-192.png</url>
-      <title></title>
+      <url>http://dengemann.github.io/authors/admin/avatar_huf36490834218c5748c405d587327b0c6_31827_270x270_fill_q75_lanczos_center.jpeg</url>
+      <title>Academic</title>
       <link>http://dengemann.github.io/authors/admin/</link>
     </image>
     

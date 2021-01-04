@@ -1,19 +1,94 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://dengemann.github.io/publication-type/2/</loc>
+    <lastmod>2020-10-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://dengemann.github.io/</loc>
-    <lastmod>2020-05-19T00:00:00+00:00</lastmod>
+    <lastmod>2020-10-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://dengemann.github.io/publication_types/2/</loc>
-    <lastmod>2020-05-19T00:00:00+00:00</lastmod>
+    <loc>http://dengemann.github.io/authors/</loc>
+    <lastmod>2020-10-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://dengemann.github.io/tags/ageing/</loc>
+    <loc>http://dengemann.github.io/authors/bertrand-thirion/</loc>
+    <lastmod>2020-10-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/danilo-bzdok/</loc>
+    <lastmod>2020-10-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/authors/denis-engemann/</loc>
+    <lastmod>2020-10-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/tag/inference/</loc>
+    <lastmod>2020-10-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/publication/bzdok_2020/</loc>
+    <lastmod>2020-10-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/tag/lasso/</loc>
+    <lastmod>2020-10-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/tag/linear-models/</loc>
+    <lastmod>2020-10-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/tag/machine-learning/</loc>
+    <lastmod>2020-10-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/tag/p-values/</loc>
+    <lastmod>2020-10-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/tag/prediction/</loc>
+    <lastmod>2020-10-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/publication_types/</loc>
+    <lastmod>2020-10-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/publication/</loc>
+    <lastmod>2020-10-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/tags/</loc>
+    <lastmod>2020-10-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/tag/variable-importance/</loc>
+    <lastmod>2020-10-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dengemann.github.io/tag/ageing/</loc>
     <lastmod>2020-05-19T00:00:00+00:00</lastmod>
   </url>
   
@@ -23,17 +98,12 @@
   </url>
   
   <url>
-    <loc>http://dengemann.github.io/authors/</loc>
+    <loc>http://dengemann.github.io/tag/biomarker/</loc>
     <lastmod>2020-05-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://dengemann.github.io/tags/biomarker/</loc>
-    <lastmod>2020-05-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://dengemann.github.io/tags/brain-age/</loc>
+    <loc>http://dengemann.github.io/tag/brain-age/</loc>
     <lastmod>2020-05-19T00:00:00+00:00</lastmod>
   </url>
   
@@ -53,7 +123,7 @@
   </url>
   
   <url>
-    <loc>http://dengemann.github.io/tags/fmri/</loc>
+    <loc>http://dengemann.github.io/tag/fmri/</loc>
     <lastmod>2020-05-19T00:00:00+00:00</lastmod>
   </url>
   
@@ -73,22 +143,17 @@
   </url>
   
   <url>
-    <loc>http://dengemann.github.io/tags/machine-learning/</loc>
+    <loc>http://dengemann.github.io/tag/meg/</loc>
     <lastmod>2020-05-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://dengemann.github.io/tags/meg/</loc>
+    <loc>http://dengemann.github.io/tag/missing-values/</loc>
     <lastmod>2020-05-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://dengemann.github.io/tags/missing-values/</loc>
-    <lastmod>2020-05-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://dengemann.github.io/tags/mri/</loc>
+    <loc>http://dengemann.github.io/tag/mri/</loc>
     <lastmod>2020-05-19T00:00:00+00:00</lastmod>
   </url>
   
@@ -98,37 +163,22 @@
   </url>
   
   <url>
-    <loc>http://dengemann.github.io/publication_types/</loc>
+    <loc>http://dengemann.github.io/tag/random-forests/</loc>
     <lastmod>2020-05-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://dengemann.github.io/publication/</loc>
-    <lastmod>2020-05-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://dengemann.github.io/tags/random-forests/</loc>
-    <lastmod>2020-05-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://dengemann.github.io/tags/</loc>
-    <lastmod>2020-05-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://dengemann.github.io/tags/eeg/</loc>
+    <loc>http://dengemann.github.io/tag/eeg/</loc>
     <lastmod>2020-05-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://dengemann.github.io/tags/generative-models/</loc>
+    <loc>http://dengemann.github.io/tag/generative-models/</loc>
     <lastmod>2020-05-18T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://dengemann.github.io/tags/linear-model/</loc>
+    <loc>http://dengemann.github.io/tag/linear-model/</loc>
     <lastmod>2020-05-18T00:00:00+00:00</lastmod>
   </url>
   
@@ -143,7 +193,7 @@
   </url>
   
   <url>
-    <loc>http://dengemann.github.io/tags/regression/</loc>
+    <loc>http://dengemann.github.io/tag/regression/</loc>
     <lastmod>2020-05-18T00:00:00+00:00</lastmod>
   </url>
   
@@ -163,12 +213,7 @@
   </url>
   
   <url>
-    <loc>http://dengemann.github.io/authors/denis-engemann/</loc>
-    <lastmod>2020-03-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://dengemann.github.io/tags/disorders-of-consciousness/</loc>
+    <loc>http://dengemann.github.io/tag/disorders-of-consciousness/</loc>
     <lastmod>2020-03-09T00:00:00+00:00</lastmod>
   </url>
   
@@ -223,7 +268,7 @@
   </url>
   
   <url>
-    <loc>http://dengemann.github.io/tags/tdcs/</loc>
+    <loc>http://dengemann.github.io/tag/tdcs/</loc>
     <lastmod>2020-03-09T00:00:00+00:00</lastmod>
   </url>
   
@@ -258,12 +303,12 @@
   </url>
   
   <url>
-    <loc>http://dengemann.github.io/publication_types/1/</loc>
+    <loc>http://dengemann.github.io/publication-type/1/</loc>
     <lastmod>2019-06-04T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://dengemann.github.io/tags/arxiv/</loc>
+    <loc>http://dengemann.github.io/tag/arxiv/</loc>
     <lastmod>2019-06-04T00:00:00+00:00</lastmod>
   </url>
   
@@ -278,7 +323,7 @@
   </url>
   
   <url>
-    <loc>http://dengemann.github.io/tags/neurips2019/</loc>
+    <loc>http://dengemann.github.io/tag/neurips2019/</loc>
     <lastmod>2019-06-04T00:00:00+00:00</lastmod>
   </url>
   
@@ -288,7 +333,7 @@
   </url>
   
   <url>
-    <loc>http://dengemann.github.io/publication_types/5/</loc>
+    <loc>http://dengemann.github.io/publication-type/5/</loc>
     <lastmod>2019-02-25T00:00:00+00:00</lastmod>
   </url>
   
@@ -298,12 +343,12 @@
   </url>
   
   <url>
-    <loc>http://dengemann.github.io/tags/alpha-band/</loc>
+    <loc>http://dengemann.github.io/tag/alpha-band/</loc>
     <lastmod>2019-02-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://dengemann.github.io/tags/beta-band/</loc>
+    <loc>http://dengemann.github.io/tag/beta-band/</loc>
     <lastmod>2019-02-25T00:00:00+00:00</lastmod>
   </url>
   
@@ -333,7 +378,7 @@
   </url>
   
   <url>
-    <loc>http://dengemann.github.io/tags/functional-connectivity/</loc>
+    <loc>http://dengemann.github.io/tag/functional-connectivity/</loc>
     <lastmod>2019-02-25T00:00:00+00:00</lastmod>
   </url>
   
@@ -348,7 +393,7 @@
   </url>
   
   <url>
-    <loc>http://dengemann.github.io/tags/mne/</loc>
+    <loc>http://dengemann.github.io/tag/mne/</loc>
     <lastmod>2019-02-25T00:00:00+00:00</lastmod>
   </url>
   
@@ -358,17 +403,17 @@
   </url>
   
   <url>
-    <loc>http://dengemann.github.io/tags/multi-sensory-learning/</loc>
+    <loc>http://dengemann.github.io/tag/multi-sensory-learning/</loc>
     <lastmod>2019-02-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://dengemann.github.io/tags/neuronal-oscillations/</loc>
+    <loc>http://dengemann.github.io/tag/neuronal-oscillations/</loc>
     <lastmod>2019-02-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://dengemann.github.io/tags/open-source-software/</loc>
+    <loc>http://dengemann.github.io/tag/open-source-software/</loc>
     <lastmod>2019-02-25T00:00:00+00:00</lastmod>
   </url>
   
@@ -378,7 +423,7 @@
   </url>
   
   <url>
-    <loc>http://dengemann.github.io/tags/python/</loc>
+    <loc>http://dengemann.github.io/tag/python/</loc>
     <lastmod>2019-02-25T00:00:00+00:00</lastmod>
   </url>
   
@@ -388,7 +433,7 @@
   </url>
   
   <url>
-    <loc>http://dengemann.github.io/tags/source-localization/</loc>
+    <loc>http://dengemann.github.io/tag/source-localization/</loc>
     <lastmod>2019-02-25T00:00:00+00:00</lastmod>
   </url>
   
@@ -398,22 +443,22 @@
   </url>
   
   <url>
-    <loc>http://dengemann.github.io/tags/visualization/</loc>
+    <loc>http://dengemann.github.io/tag/visualization/</loc>
     <lastmod>2019-02-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://dengemann.github.io/publication_types/3/</loc>
+    <loc>http://dengemann.github.io/publication-type/3/</loc>
     <lastmod>2019-02-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://dengemann.github.io/tags/blindness/</loc>
+    <loc>http://dengemann.github.io/tag/blindness/</loc>
     <lastmod>2019-02-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://dengemann.github.io/tags/evoked-responses/</loc>
+    <loc>http://dengemann.github.io/tag/evoked-responses/</loc>
     <lastmod>2019-02-03T00:00:00+00:00</lastmod>
   </url>
   
@@ -433,7 +478,7 @@
   </url>
   
   <url>
-    <loc>http://dengemann.github.io/tags/semantic-processing/</loc>
+    <loc>http://dengemann.github.io/tag/semantic-processing/</loc>
     <lastmod>2019-02-03T00:00:00+00:00</lastmod>
   </url>
   
@@ -448,7 +493,7 @@
   </url>
   
   <url>
-    <loc>http://dengemann.github.io/tags/alpha-band-oscillations/</loc>
+    <loc>http://dengemann.github.io/tag/alpha-band-oscillations/</loc>
     <lastmod>2018-10-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -578,56 +623,6 @@
   </url>
   
   <url>
-    <loc>http://dengemann.github.io/authors/bertrand-thirion/</loc>
-    <lastmod>2018-05-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://dengemann.github.io/authors/danilo-bzdok/</loc>
-    <lastmod>2018-05-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://dengemann.github.io/tags/inference/</loc>
-    <lastmod>2018-05-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://dengemann.github.io/tags/lasso/</loc>
-    <lastmod>2018-05-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://dengemann.github.io/tags/linear-models/</loc>
-    <lastmod>2018-05-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://dengemann.github.io/authors/olivier-grisel/</loc>
-    <lastmod>2018-05-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://dengemann.github.io/tags/p-values/</loc>
-    <lastmod>2018-05-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://dengemann.github.io/tags/prediction/</loc>
-    <lastmod>2018-05-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://dengemann.github.io/publication/bzdok_2018/</loc>
-    <lastmod>2018-05-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://dengemann.github.io/tags/variable-importance/</loc>
-    <lastmod>2018-05-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://dengemann.github.io/publication/jas_2018/</loc>
     <lastmod>2018-03-01T00:00:00+00:00</lastmod>
   </url>
@@ -648,12 +643,12 @@
   </url>
   
   <url>
-    <loc>http://dengemann.github.io/tags/artifact-rejection/</loc>
+    <loc>http://dengemann.github.io/tag/artifact-rejection/</loc>
     <lastmod>2017-10-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://dengemann.github.io/tags/automation/</loc>
+    <loc>http://dengemann.github.io/tag/automation/</loc>
     <lastmod>2017-10-29T00:00:00+00:00</lastmod>
   </url>
   
@@ -663,7 +658,7 @@
   </url>
   
   <url>
-    <loc>http://dengemann.github.io/tags/bayesian-optimization/</loc>
+    <loc>http://dengemann.github.io/tag/bayesian-optimization/</loc>
     <lastmod>2017-10-29T00:00:00+00:00</lastmod>
   </url>
   
@@ -698,12 +693,12 @@
   </url>
   
   <url>
-    <loc>http://dengemann.github.io/tags/cross-validation/</loc>
+    <loc>http://dengemann.github.io/tag/cross-validation/</loc>
     <lastmod>2017-03-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://dengemann.github.io/tags/neuroimaging/</loc>
+    <loc>http://dengemann.github.io/tag/neuroimaging/</loc>
     <lastmod>2017-03-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -723,7 +718,7 @@
   </url>
   
   <url>
-    <loc>http://dengemann.github.io/tags/future-episodic-thinking/</loc>
+    <loc>http://dengemann.github.io/tag/future-episodic-thinking/</loc>
     <lastmod>2017-02-20T00:00:00+00:00</lastmod>
   </url>
   
@@ -743,12 +738,12 @@
   </url>
   
   <url>
-    <loc>http://dengemann.github.io/tags/memory/</loc>
+    <loc>http://dengemann.github.io/tag/memory/</loc>
     <lastmod>2017-02-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://dengemann.github.io/tags/prospective-memory/</loc>
+    <loc>http://dengemann.github.io/tag/prospective-memory/</loc>
     <lastmod>2017-02-20T00:00:00+00:00</lastmod>
   </url>
   
@@ -758,7 +753,7 @@
   </url>
   
   <url>
-    <loc>http://dengemann.github.io/tags/social-cognition/</loc>
+    <loc>http://dengemann.github.io/tag/social-cognition/</loc>
     <lastmod>2017-02-20T00:00:00+00:00</lastmod>
   </url>
   
@@ -788,22 +783,22 @@
   </url>
   
   <url>
-    <loc>http://dengemann.github.io/tags/co-evolution/</loc>
+    <loc>http://dengemann.github.io/tag/co-evolution/</loc>
     <lastmod>2016-06-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://dengemann.github.io/tags/computaitonal-modeling/</loc>
+    <loc>http://dengemann.github.io/tag/computaitonal-modeling/</loc>
     <lastmod>2016-06-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://dengemann.github.io/tags/dynmic-networks/</loc>
+    <loc>http://dengemann.github.io/tag/dynmic-networks/</loc>
     <lastmod>2016-06-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://dengemann.github.io/tags/graph-theory/</loc>
+    <loc>http://dengemann.github.io/tag/graph-theory/</loc>
     <lastmod>2016-06-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -813,17 +808,17 @@
   </url>
   
   <url>
-    <loc>http://dengemann.github.io/tags/public-health/</loc>
+    <loc>http://dengemann.github.io/tag/public-health/</loc>
     <lastmod>2016-06-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://dengemann.github.io/tags/smoking/</loc>
+    <loc>http://dengemann.github.io/tag/smoking/</loc>
     <lastmod>2016-06-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://dengemann.github.io/tags/artefact-rejection/</loc>
+    <loc>http://dengemann.github.io/tag/artefact-rejection/</loc>
     <lastmod>2016-05-22T00:00:00+00:00</lastmod>
   </url>
   
@@ -868,17 +863,17 @@
   </url>
   
   <url>
-    <loc>http://dengemann.github.io/publication_types/7/</loc>
+    <loc>http://dengemann.github.io/publication-type/7/</loc>
     <lastmod>2015-04-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://dengemann.github.io/tags/covariance/</loc>
+    <loc>http://dengemann.github.io/tag/covariance/</loc>
     <lastmod>2015-04-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://dengemann.github.io/tags/eye-gaze/</loc>
+    <loc>http://dengemann.github.io/tag/eye-gaze/</loc>
     <lastmod>2015-04-09T00:00:00+00:00</lastmod>
   </url>
   
@@ -888,12 +883,12 @@
   </url>
   
   <url>
-    <loc>http://dengemann.github.io/tags/reaction-time/</loc>
+    <loc>http://dengemann.github.io/tag/reaction-time/</loc>
     <lastmod>2015-04-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://dengemann.github.io/tags/stimulus-response-compatibility/</loc>
+    <loc>http://dengemann.github.io/tag/stimulus-response-compatibility/</loc>
     <lastmod>2015-04-09T00:00:00+00:00</lastmod>
   </url>
   
@@ -913,7 +908,7 @@
   </url>
   
   <url>
-    <loc>http://dengemann.github.io/tags/shrinkage/</loc>
+    <loc>http://dengemann.github.io/tag/shrinkage/</loc>
     <lastmod>2015-03-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -968,12 +963,12 @@
   </url>
   
   <url>
-    <loc>http://dengemann.github.io/tags/development/</loc>
+    <loc>http://dengemann.github.io/tag/development/</loc>
     <lastmod>2013-10-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://dengemann.github.io/tags/developmental-psychology/</loc>
+    <loc>http://dengemann.github.io/tag/developmental-psychology/</loc>
     <lastmod>2013-10-02T00:00:00+00:00</lastmod>
   </url>
   
@@ -983,7 +978,7 @@
   </url>
   
   <url>
-    <loc>http://dengemann.github.io/tags/experimental-psychology/</loc>
+    <loc>http://dengemann.github.io/tag/experimental-psychology/</loc>
     <lastmod>2013-10-02T00:00:00+00:00</lastmod>
   </url>
   
@@ -1003,17 +998,17 @@
   </url>
   
   <url>
-    <loc>http://dengemann.github.io/tags/normativity/</loc>
+    <loc>http://dengemann.github.io/tag/normativity/</loc>
     <lastmod>2013-10-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://dengemann.github.io/tags/peer-interactions/</loc>
+    <loc>http://dengemann.github.io/tag/peer-interactions/</loc>
     <lastmod>2013-10-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://dengemann.github.io/tags/social-interaction/</loc>
+    <loc>http://dengemann.github.io/tag/social-interaction/</loc>
     <lastmod>2013-10-02T00:00:00+00:00</lastmod>
   </url>
   
@@ -1023,7 +1018,7 @@
   </url>
   
   <url>
-    <loc>http://dengemann.github.io/tags/funtional-connectivity/</loc>
+    <loc>http://dengemann.github.io/tag/funtional-connectivity/</loc>
     <lastmod>2013-03-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -1033,7 +1028,7 @@
   </url>
   
   <url>
-    <loc>http://dengemann.github.io/tags/medial-prefrontal-cortex/</loc>
+    <loc>http://dengemann.github.io/tag/medial-prefrontal-cortex/</loc>
     <lastmod>2013-03-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -1058,7 +1053,7 @@
   </url>
   
   <url>
-    <loc>http://dengemann.github.io/tags/aneshtesia/</loc>
+    <loc>http://dengemann.github.io/tag/aneshtesia/</loc>
     <lastmod>2012-08-23T00:00:00+00:00</lastmod>
   </url>
   
@@ -1068,17 +1063,17 @@
   </url>
   
   <url>
-    <loc>http://dengemann.github.io/tags/clinicical-neuroscience/</loc>
+    <loc>http://dengemann.github.io/tag/clinicical-neuroscience/</loc>
     <lastmod>2012-08-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://dengemann.github.io/tags/inria/</loc>
+    <loc>http://dengemann.github.io/tag/inria/</loc>
     <lastmod>2012-08-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://dengemann.github.io/tags/inserm/</loc>
+    <loc>http://dengemann.github.io/tag/inserm/</loc>
     <lastmod>2012-08-23T00:00:00+00:00</lastmod>
   </url>
   
@@ -1088,7 +1083,7 @@
   </url>
   
   <url>
-    <loc>http://dengemann.github.io/tags/mne-python/</loc>
+    <loc>http://dengemann.github.io/tag/mne-python/</loc>
     <lastmod>2012-08-23T00:00:00+00:00</lastmod>
   </url>
   
@@ -1103,17 +1098,17 @@
   </url>
   
   <url>
-    <loc>http://dengemann.github.io/tags/r/</loc>
+    <loc>http://dengemann.github.io/tag/r/</loc>
     <lastmod>2012-08-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://dengemann.github.io/tags/scikit-learn/</loc>
+    <loc>http://dengemann.github.io/tag/scikit-learn/</loc>
     <lastmod>2012-08-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://dengemann.github.io/tags/software/</loc>
+    <loc>http://dengemann.github.io/tag/software/</loc>
     <lastmod>2012-08-23T00:00:00+00:00</lastmod>
   </url>
   
@@ -1123,7 +1118,7 @@
   </url>
   
   <url>
-    <loc>http://dengemann.github.io/tags/cooperation/</loc>
+    <loc>http://dengemann.github.io/tag/cooperation/</loc>
     <lastmod>2012-06-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -1133,7 +1128,7 @@
   </url>
   
   <url>
-    <loc>http://dengemann.github.io/tags/joint-attention/</loc>
+    <loc>http://dengemann.github.io/tag/joint-attention/</loc>
     <lastmod>2012-06-01T00:00:00+00:00</lastmod>
   </url>
   

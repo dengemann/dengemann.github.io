@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Simon B Eickhoff | </title>
+    <title>Simon B Eickhoff | Academic</title>
     <link>http://dengemann.github.io/authors/simon-b-eickhoff/</link>
       <atom:link href="http://dengemann.github.io/authors/simon-b-eickhoff/index.xml" rel="self" type="application/rss+xml" />
     <description>Simon B Eickhoff</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jun 2012 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Jun 2012 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://dengemann.github.io/img/icon-192.png</url>
+      <url>http://dengemann.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Simon B Eickhoff</title>
       <link>http://dengemann.github.io/authors/simon-b-eickhoff/</link>
     </image>
@@ -17,23 +17,7 @@
       <link>http://dengemann.github.io/publication/engemann_2013/</link>
       <pubDate>Fri, 01 Jun 2012 00:00:00 +0000</pubDate>
       <guid>http://dengemann.github.io/publication/engemann_2013/</guid>
-      <description>&lt;!-- 
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
-
-
-&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
-  &lt;/div&gt;
-&lt;/div&gt;
-
-
-Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/). --&gt;
-</description>
+      <description></description>
     </item>
     
   </channel>

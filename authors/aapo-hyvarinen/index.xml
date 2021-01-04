@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Aapo Hyvarinen | Academic</title>
+    <link>http://dengemann.github.io/authors/aapo-hyvarinen/</link>
+      <atom:link href="http://dengemann.github.io/authors/aapo-hyvarinen/index.xml" rel="self" type="application/rss+xml" />
+    <description>Aapo Hyvarinen</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://dengemann.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Aapo Hyvarinen</title>
+      <link>http://dengemann.github.io/authors/aapo-hyvarinen/</link>
+    </image>
+    
+    <item>
+      <title>Uncovering the structure of clinical EEG signals with self-supervised learning</title>
+      <link>http://dengemann.github.io/publication/banville_2020/</link>
+      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>http://dengemann.github.io/publication/banville_2020/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

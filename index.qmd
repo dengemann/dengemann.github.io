@@ -29,8 +29,8 @@ listing:
     filter-ui: false
     sort-ui: false
     contents: "publications/*.qmd"
-    image-align: right
-    image-height: 2em
+    image-align: left
+    image-height: 6em
     type: table
     grid-columns: 2
     sort: "date desc"

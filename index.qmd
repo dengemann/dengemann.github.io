@@ -30,7 +30,7 @@ listing:
     sort-ui: false
     contents: "publications/*.qmd"
     image-align: right
-    image-height: 4em
+    image-height: 2em
     type: table
     grid-columns: 2
     sort: "date desc"

@@ -1,0 +1,43 @@
+---
+title: "Repurposing electroencephalogram monitoring of general anaesthesia for building biomarkers of brain ageing: an exploratory study"
+description: "[{{< ai doi size=xl >}}](https://doi.org/10.1016/j.bjao.2023.100145) [{{< bi file-pdf size=1.5em >}}](https://www.bjaopen.org/action/showPdf?pii=S2772-6096%2823%2900024-2) [{{< bi github size=1.5em >}}](https://github.com/meeg-ml-benchmarks/brain-age-benchmark-paper)"
+author: "Sabbagh, David, Jérôme Cartailler, Cyril Touchard, Jona Joachim, Alexandre Mebazaa, Fabrice Vallée, Étienne Gayat, Alexandre Gramfort, and Denis A. Engemann."
+date: 06/16/2023
+draft: false
+max-description-length: 2000
+categories: [paper, published, neuroscience, M/EEG, machine learning, brain age, anaesthesia, propofol, sevoflurane, burts suppression]
+---
+
+## Can we repurpose monitoring EEG to build biomarkers of brain health?
+
+![](https://www.bjaopen.org/cms/attachment/c9c5fab1-f508-4788-af87-89c4e77cdfb3/gr2.jpg)
+
+## Summary
+
+(reprinted from the published abstract.)
+
+### Background
+Electroencephalography (EEG) is increasingly used for monitoring the depth of general anaesthesia, but EEG data from general anaesthesia monitoring are rarely reused for research. Here, we explored repurposing EEG monitoring from general anaesthesia for brain-age modelling using machine learning. We hypothesised that brain age estimated from EEG during general anaesthesia is associated with perioperative risk.
+
+### Methods
+We reanalysed four-electrode EEGs of 323 patients under stable propofol or sevoflurane anaesthesia to study four EEG signatures (95% of EEG power <8–13 Hz) for age prediction: total power, alpha-band power (8–13 Hz), power spectrum, and spatial patterns in frequency bands. We constructed age-prediction models from EEGs of a healthy reference group (ASA 1 or 2) during propofol anaesthesia. Although all signatures were informative, state-of-the-art age-prediction performance was unlocked by parsing spatial patterns across electrodes along the entire power spectrum (mean absolute error=8.2 yr; R2=0.65).
+
+### Results
+Clinical exploration in ASA 1 or 2 patients revealed that brain age was positively correlated with intraoperative burst suppression, a risk factor for general anaesthesia complications. Surprisingly, brain age was negatively correlated with burst suppression in patients with higher ASA scores, suggesting hidden confounders. Secondary analyses revealed that age-related EEG signatures were specific to propofol anaesthesia, reflected by limited model generalisation to anaesthesia maintained with sevoflurane.
+
+### Conclusions
+Although EEG from general anaesthesia may enable state-of-the-art age prediction, differences between anaesthetic drugs can impact the effectiveness and validity of brain-age models. To unleash the dormant potential of EEG monitoring for clinical research, larger datasets from heterogeneous populations with precisely documented drug dosage will be essential.
+
+## Citation
+
+```bibtex
+@article{sabbagh2022repurposing,
+  title={Repurposing electroencephalogram monitoring of general anaesthesia for building biomarkers of brain ageing: An exploratory study},
+  author={Sabbagh, David and Cartailler, J{\'e}r{\^o}me and Touchard, Cyril and Joachim, Jona and Mebazaa, Alexandre and Vall{\'e}e, Fabrice and Gayat, {\'E}tienne and Gramfort, Alexandre and Engemann, Denis A},
+  journal={BJA Open},
+  volume={7},
+  pages={100145},
+  year={2023},
+  publisher={Elsevier}
+}
+```

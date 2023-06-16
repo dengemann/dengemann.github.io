@@ -1,0 +1,44 @@
+---
+title: "Brain age as a surrogate marker for cognitive performance in multiple sclerosis"
+description: "[{{< ai doi size=xl >}}](https://doi.org/10.1016/j.neuroimage.2022.119521) [{{< bi file-pdf size=1.5em >}}](https://onlinelibrary.wiley.com/doi/pdf/10.1111/ene.15473)"
+author: "Denissen, Stijn, Denis Alexander Engemann, Alexander De Cock, Lars Costers, Johan Baijot, Jorne Laton, Iris‐Katharina Penner et al."
+date: 06/23/2022
+draft: false
+max-description-length: 2000
+categories: [paper, published, neuroscience, MRI, brain age, multiple sclerosis, neurology]
+---
+
+## Brain age explains cognitive performance in multiple sclerosis indepentently of biological age
+
+![](../denissen_2022_ms.jpeg)
+
+## Summary
+
+(reprinted from the published abstract.)
+
+### Background and purpose
+Data from neuro-imaging techniques allow us to estimate a brain's age. Brain age is easily interpretable as ‘how old the brain looks’ and could therefore be an attractive communication tool for brain health in clinical practice. This study aimed to investigate its clinical utility by investigating the relationship between brain age and cognitive performance in multiple sclerosis (MS).
+
+### Methods
+A linear regression model was trained to predict age from brain magnetic resonance imaging volumetric features and sex in a healthy control dataset (HC_train, n = 1673). This model was used to predict brain age in two test sets: HC_test (n = 50) and MS_test (n = 201). Brain-predicted age difference (BPAD) was calculated as BPAD = brain age minus chronological age. Cognitive performance was assessed by the Symbol Digit Modalities Test (SDMT).
+
+### Results
+Brain age was significantly related to SDMT scores in the MS_test dataset (r = −0.46, p < 0.001) and contributed uniquely to variance in SDMT beyond chronological age, reflected by a significant correlation between BPAD and SDMT (r = −0.24, p < 0.001) and a significant weight (−0.25, p = 0.002) in a multivariate regression equation with age.
+
+### Conclusions
+Brain age is a candidate biomarker for cognitive dysfunction in MS and an easy to grasp metric for brain health.
+
+## Citation
+
+```bibtex
+@article{denissen2022brain,
+  title={Brain age as a surrogate marker for cognitive performance in multiple sclerosis},
+  author={Denissen, Stijn and Engemann, Denis Alexander and De Cock, Alexander and Costers, Lars and Baijot, Johan and Laton, Jorne and Penner, Iris-Katharina and Grothe, Matthias and Kirsch, Michael and D'hooghe, Marie Beatrice and others},
+  journal={European Journal of Neurology},
+  volume={29},
+  number={10},
+  pages={3039--3049},
+  year={2022},
+  publisher={Wiley Online Library}
+}
+```

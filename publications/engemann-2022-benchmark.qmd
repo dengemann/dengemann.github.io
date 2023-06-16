@@ -1,0 +1,33 @@
+---
+title: "A reusable benchmark of brain-age prediction from M/EEG resting-state signals"
+description: "[{{< ai doi size=xl >}}](https://doi.org/10.1016/j.neuroimage.2022.119521) [{{< bi file-pdf size=1.5em >}}](https://www.sciencedirect.com/science/article/pii/S105381192200636X/pdf?crasolve=1&r=7d5fc2d1bef39c04&ts=1686548447010&rtype=https&vrr=UKN&redir=UKN&redir_fr=UKN&redir_arc=UKN&vhash=UKN&host=d3d3LnNjaWVuY2VkaXJlY3QuY29t&tsoh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&rh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&re=X2JsYW5rXw%3D%3D&ns_h=d3d3LnNjaWVuY2VkaXJlY3QuY29t&ns_e=X2JsYW5rXw%3D%3D&iv=60c25db9e41d42df4b388d6fc2b3fcf0&token=61383834383637393265623331393638373930333066333232353735303935653333613134356438323463386435623366343032643531663161643033333437396533383a613234316362656639353838303236363131336631633836&text=531081a393ad4c7a1e15d46a94692b540487fe38cc921a0d6142328a49846379ddf9288636813df7844182bcb4e473532716e3c44d9e24761e859ab6bfcc54a5020bf7453bed00f1852a9e7a7b9673528bc41d09f3b70e44539bd768d2df06761a745c27f5c6116ca7031ef6dd5174102dbdac49717d69881f1ce69e060684f1fe751bd9a82253610c55eebca29775aa5be38e33ed209357dcd666fb00f1fee6090238d5fbbb12086e9b344e3150cbbf921d1d16aa6e038c3c668b180ce98d18cdd961256074948eaaf2640c6712940e926f6af6ea76beebb2b0b5a4152210a76dcf89d325678b03f9d90772f93ee2b7d87da128b25e0ef0cc7c70d4b484110d70d5fcbde9b57a49289df2c72282d5cf718684f1b434b3c38e4cec46509664c4042c1c8293f81bc7d883b4987b33f8a2&original=3f) [{{< bi github size=1.5em >}}](https://github.com/meeg-ml-benchmarks/brain-age-benchmark-paper)"
+author: "Engemann, Denis A., Apolline Mellot, Richard Höchenberger, Hubert Banville, David Sabbagh, Lukas Gemein, Tonio Ball, and Alexandre Gramfort"
+date: 07/22/2022
+draft: false
+max-description-length: 2000
+categories: [paper, published, neuroscience, M/EEG, machine learning, brain age]
+---
+
+## Age prediction from M/EEG across 4 large datasets using 5 distinct models
+
+![](https://ars.els-cdn.com/content/image/1-s2.0-S105381192200636X-gr5_lrg.jpg)
+
+## Summary
+
+This Twitter thread summarizes the work and walks you through the main findings.
+
+{{< tweet dngman 1552533591598448640 >}}
+
+## Citation
+
+```bibtex
+@article{engemann2022reusable,
+  title={A reusable benchmark of brain-age prediction from M/EEG resting-state signals},
+  author={Engemann, Denis A and Mellot, Apolline and H{\"o}chenberger, Richard and Banville, Hubert and Sabbagh, David and Gemein, Lukas and Ball, Tonio and Gramfort, Alexandre},
+  journal={Neuroimage},
+  volume={262},
+  pages={119521},
+  year={2022},
+  publisher={Elsevier}
+}
+```

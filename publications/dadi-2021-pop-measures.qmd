@@ -1,0 +1,41 @@
+---
+title: "Population modeling with machine learning can enhance measures of mental health"
+description: "[{{< ai doi size=xl >}}](https://doi.org/10.1093/gigascience/giab071) [{{< bi file-pdf size=1.5em >}}](https://academic.oup.com/gigascience/article-pdf/10/10/giab071/40632879/giab071.pdf) [{{< bi github size=1.5em >}}](https://github.com/KamalakerDadi/empirical_proxy_measures)"
+author: "Dadi, Kamalaker, Gaël Varoquaux, Josselin Houenou, Danilo Bzdok, Bertrand Thirion, and Denis Engemann."
+date: 10/15/2021
+draft: false
+max-description-length: 2000
+categories: [paper, published, neuroscience, MRI, multimodal, pretext tasks, biomarker, brain age]
+---
+
+## From brain age to multimodal modeling of mental health with pretext tasks
+
+![](https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/gigascience/10/10/10.1093_gigascience_giab071/1/giab071fig1.jpeg?Expires=1689715685&Signature=Kib0Nvi4DonbOJhRbIgw6Idjkeccxqr1596Pw6OHd5KoV4EaB-vlEwnV5l8JYQ6dmdYcm4xihHZtsXCdG1i6yz-oSa3AMklnKG4MDJZ-8QGSGj~QKrFrKZhKa7o~tiNF08eRYjbdAiEzz-kyMtP-sWYQWHtFhQAWuF0QFxuyZ7WT1TZmLpmy0JYnfe~3IfhSNlNVWHNK1NN6zXvANGOj2dZ8lGcwGnWaSWH--BDnUdt-YhD-XFFpDExNgvrpUPPjL1TN~DR6jFDoj-5ca714p34dgRw0CZj0oEwLd8LFhTWaJ5DOgmKhRCm1J4-VsEK3i1SNeMHPosZ4gKezp2B1fA__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA)
+
+## Summary
+
+(reprinted from the published abstract.)
+
+## Background
+Biological aging is revealed by physical measures, e.g., DNA probes or brain scans. In contrast, individual differences in mental function are explained by psychological constructs, e.g., intelligence or neuroticism. These constructs are typically assessed by tailored neuropsychological tests that build on expert judgement and require careful interpretation. Could machine learning on large samples from the general population be used to build proxy measures of these constructs that do not require human intervention?
+
+## Results
+Here, we built proxy measures by applying machine learning on multimodal MR images and rich sociodemographic information from the largest biomedical cohort to date: the UK Biobank. Objective model comparisons revealed that all proxies captured the target constructs and were as useful, and sometimes more useful, than the original measures for characterizing real-world health behavior (sleep, exercise, tobacco, alcohol consumption). We observed this complementarity of proxy measures and original measures at capturing multiple health-related constructs when modeling from, both, brain signals and sociodemographic data.
+
+## Conclusion
+Population modeling with machine learning can derive measures of mental health from heterogeneous inputs including brain signals and questionnaire data. This may complement or even substitute for psychometric assessments in clinical populations.
+
+## Citation
+
+```bibtex
+@article{dadi2021population,
+  title={Population modeling with machine learning can enhance measures of mental health},
+  author={Dadi, Kamalaker and Varoquaux, Ga{\"e}l and Houenou, Josselin and Bzdok, Danilo and Thirion, Bertrand and Engemann, Denis},
+  journal={Gigascience},
+  volume={10},
+  number={10},
+  pages={giab071},
+  year={2021},
+  publisher={Oxford University Press}
+}
+```

@@ -1,0 +1,33 @@
+---
+title: "Do try this at home: Age prediction from sleep and meditation with large-scale low-cost mobile EEG"
+description: "[{{< ai doi size=xl >}}]( https://doi.org/10.1101/2023.04.29.538328) [{{< bi file-pdf size=1.5em >}}](https://www.biorxiv.org/content/10.1101/2023.04.29.538328v1.full.pdf)"
+author: "Banville, Hubert, Maurice Abou Jaoude, Sean UN Wood, Chris Aimone, Sebastian C. Holst, Alexandre Gramfort, and Denis-Alexander Engemann."
+date: 04/29/2023
+draft: false
+max-description-length: 2000
+# image: 
+categories: [paper, preprint, neuroscience, EEG, machine learning, brain age, sleep, mobile EEG]
+---
+
+## Age prediction from EEG at home during meditation and sleep
+
+![](../banville_sleep_2023)
+
+## Summary
+
+(from bioRxiv abstract)
+
+EEG is an established method for quantifying large-scale neuronal dynamics which enables diverse real-world biomedical applications including brain-computer interfaces, epilepsy monitoring and sleep staging. Advances in sensor technology have freed EEG from traditional laboratory settings, making low-cost ambulatory or at-home assessments of brain function possible. While ecologically valid brain assessments are becoming more practical, the impact of their reduced spatial resolution and susceptibility to noise remain to be investigated. This study set out to explore the potential of at-home EEG assessments for biomarker discovery using the brain age framework and four-channel consumer EEG data. We analyzed recordings from more than 5200 human subjects (18-81 years) during meditation and sleep, focusing on the age prediction task. With cross-validated R2 scores between 0.3 - 0.5, prediction performance was within the range of results obtained by recent benchmarks focused on laboratory-grade EEG. While age prediction was successful from both meditation and sleep recordings, the latter led to higher performance. Analysis by sleep stage uncovered that N2-N3 stages contained most of the signal. When combined, EEG features extracted from all sleep stages gave the best performance, suggesting that the entire night of sleep contains valuable age-related information. Furthermore, model comparisons suggested that information was spread out across electrodes and frequencies, supporting the use of multivariate modeling approaches. Thanks to our unique dataset of longitudinal repeat sessions spanning 153 to 529 days from eight subjects, we finally evaluated the variability of EEG-based age predictions, showing that they reflect both trait- and state-like information. Overall, our results demonstrate that state-of-the-art machine learning approaches based on age prediction can be readily applied to real-world EEG recordings obtained during at-home sleep and meditation practice.
+
+## Citation
+
+```bibtex
+@article{banville2023try,
+  title={Do try this at home: Age prediction from sleep and meditation with large-scale low-cost mobile EEG},
+  author={Banville, Hubert and Abou Jaoude, Maurice and Wood, Sean UN and Aimone, Chris and Holst, Sebastian C and Gramfort, Alexandre and Engemann, Denis-Alexander},
+  journal={bioRxiv},
+  pages={2023--04},
+  year={2023},
+  publisher={Cold Spring Harbor Laboratory}
+}
+```

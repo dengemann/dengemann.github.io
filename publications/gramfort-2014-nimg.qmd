@@ -1,0 +1,31 @@
+---
+title: "Automated model selection in covariance estimation and spatial whitening of MEG and EEG signals"
+description: "[{{< ai doi size=xl >}}](https://doi.org/10.1016/j.neuroimage.2013.10.027) [{{< bi file-pdf size=1.5em >}}](../gramfort_2014_mne.pdf) [{{< bi github size=1.5em >}}](https://mne.tools/stable/index.html)"
+author: "Gramfort, A., Martin Luessi, Eric Larson, Denis A Engemann, Daniel Strohmeier, Christian Brodbeck, Lauri Parkkonen, Matti S Hämäläinen"
+date: 02/01/2014
+draft: false
+max-description-length: 2000
+categories: [paper, published, neuroscience, M/EEG, open-source software]
+---
+
+## MNE software for processing & visualizing M/EEG data
+
+![](../gramfort_2014_mne.jpeg)
+
+## Summary
+
+Checkout the [MNE-Python webpage](https://mne.tools/stable/index.html)
+
+## Citation
+
+```bibtex
+@article{gramfort2014mne,
+  title={MNE software for processing MEG and EEG data},
+  author={Gramfort, Alexandre and Luessi, Martin and Larson, Eric and Engemann, Denis A and Strohmeier, Daniel and Brodbeck, Christian and Parkkonen, Lauri and H{\"a}m{\"a}l{\"a}inen, Matti S},
+  journal={Neuroimage},
+  volume={86},
+  pages={446--460},
+  year={2014},
+  publisher={Elsevier}
+}
+```

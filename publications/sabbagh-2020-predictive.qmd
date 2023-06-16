@@ -1,0 +1,33 @@
+---
+title: "Predictive regression modeling with MEG/EEG: from source power to signals and cognitive states"
+description: "[{{< ai doi size=xl >}}](https://doi.org/10.1016/j.neuroimage.2020.116893) [{{< bi file-pdf size=1.5em >}}](https://www.sciencedirect.com/science/article/pii/S1053811920303797/pdfft?md5=4d05123a5b0e3bec342803c0c1e2ed6e&pid=1-s2.0-S1053811920303797-main.pdf) [{{< bi github size=1.5em >}}](https://github.com/DavidSabbagh/meeg_power_regression)"
+author: "Sabbagh, David, Pierre Ablin, Gaël Varoquaux, Alexandre Gramfort, and Denis A. Engemann."
+date: 05/18/2020
+draft: false
+max-description-length: 2000
+categories: [paper, published, neuroscience, M/EEG, machine learning, brain age, Riemannian geometry, spatial filtering]
+---
+
+## Generative models for learning biomarkers from brain activity recorded with M/EEG
+
+![](https://ars.els-cdn.com/content/image/1-s2.0-S1053811920303797-gr1_lrg.jpg)
+
+## Summary
+
+This Twitter thread summarizes the work and walks you through the main findings.
+
+{{< tweet dngman 1262276285591629829 >}}
+
+## Citation
+
+```bibtex
+@article{sabbagh2020predictive,
+  title={Predictive regression modeling with MEG/EEG: from source power to signals and cognitive states},
+  author={Sabbagh, David and Ablin, Pierre and Varoquaux, Ga{\"e}l and Gramfort, Alexandre and Engemann, Denis A},
+  journal={NeuroImage},
+  volume={222},
+  pages={116893},
+  year={2020},
+  publisher={Elsevier}
+}
+```

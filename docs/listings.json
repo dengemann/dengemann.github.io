@@ -1,0 +1,46 @@
+[
+  {
+    "listing": "/index.html",
+    "items": [
+      "/publications/sabbagh-2023-bja.html",
+      "/publications/banville-2023-sleep.html",
+      "/publications/mellot-2023-harmonizing.html",
+      "/publications/jirsaraie-2023-review.html",
+      "/publications/engemann-2022-benchmark.html",
+      "/publications/hebling-2022-decline.html",
+      "/publications/denissen-2022-MS-brain-age.html",
+      "/publications/banville-2022-dynamic.html",
+      "/publications/dadi-2021-pop-measures.html",
+      "/publications/banville-2021-ssl.html",
+      "/publications/engemann-2020-multimodal-benchmark.html",
+      "/publications/sabbagh-2020-predictive.html",
+      "/publications/sabbagh-2019-neurips.html",
+      "/publications/engemann-2018-disorders-of-consciousness.html",
+      "/publications/jas-2017-autoreject.html",
+      "/publications/engemann-2015-covs.html",
+      "/publications/gramfort-2014-nimg.html"
+    ]
+  },
+  {
+    "listing": "/publications.html",
+    "items": [
+      "/publications/sabbagh-2023-bja.html",
+      "/publications/jirsaraie-2023-review.html",
+      "/publications/engemann-2022-benchmark.html",
+      "/publications/hebling-2022-decline.html",
+      "/publications/denissen-2022-MS-brain-age.html",
+      "/publications/banville-2022-dynamic.html",
+      "/publications/dadi-2021-pop-measures.html",
+      "/publications/banville-2021-ssl.html",
+      "/publications/engemann-2020-multimodal-benchmark.html",
+      "/publications/sabbagh-2020-predictive.html",
+      "/publications/sabbagh-2019-neurips.html",
+      "/publications/engemann-2018-disorders-of-consciousness.html",
+      "/publications/jas-2017-autoreject.html",
+      "/publications/engemann-2015-covs.html",
+      "/publications/gramfort-2014-nimg.html",
+      "/publications/banville-2023-sleep.html",
+      "/publications/mellot-2023-harmonizing.html"
+    ]
+  }
+]

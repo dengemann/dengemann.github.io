@@ -1,0 +1,38 @@
+---
+title: "Uncovering the structure of clinical EEG signals with self-supervised learning"
+description: "[{{< ai doi size=xl >}}](https://doi.org/10.1016/j.neuroimage.2022.119521) [{{< bi file-pdf size=1.5em >}}](https://arxiv.org/pdf/2007.16104)"
+author: "Banville, Hubert, Omar Chehab, Aapo Hyvärinen, Denis-Alexander Engemann, and Alexandre Gramfort."
+date: 03/31/2021
+draft: false
+max-description-length: 2000
+categories: [paper, published, neuroscience, EEG, deep learning, self supervised]
+---
+
+## Self-supervised learning with EEG can parse sleep stages and other clinical details
+
+![](https://cfn-live-content-bucket-iop-org.s3.amazonaws.com/journals/1741-2552/18/4/046020/revision3/jneabca18f4_hr.jpg?AWSAccessKeyId=AKIAYDKQL6LTV7YY2HIK&Expires=1687293515&Signature=qr54ai7k0riVTVpZBZoKbYZAbn0%3D)
+
+## Summary
+
+This Twitter thread summarizes the work and walks you through the main findings.
+
+{{< tweet hubertjbanville 1290366419323019264 >}}
+
+## Demonstration
+
+You can find example PyTorch code at the [Braindecode](https://braindecode.org/stable/auto_examples/plot_relative_positioning.html) website.
+
+## Citation
+
+```bibtex
+@article{banville2021uncovering,
+  title={Uncovering the structure of clinical EEG signals with self-supervised learning},
+  author={Banville, Hubert and Chehab, Omar and Hyv{\"a}rinen, Aapo and Engemann, Denis-Alexander and Gramfort, Alexandre},
+  journal={Journal of Neural Engineering},
+  volume={18},
+  number={4},
+  pages={046020},
+  year={2021},
+  publisher={IOP Publishing}
+}
+```

@@ -1,0 +1,37 @@
+---
+title: "A systematic review of multimodal brain age studies: Uncovering a divergence between model accuracy and utility"
+description: "[{{< ai doi size=xl >}}](https://doi.org/10.1016/j.patter.2023.100712) [{{< bi file-pdf size=1.5em >}}](https://www.cell.com/patterns/pdf/S2666-3899(23)00049-1.pdf)"
+author: "Jirsaraie, Robert J., Aaron J. Gorelik, Martins M. Gatavins, Denis A. Engemann, Ryan Bogdan, Deanna M. Barch, and Aristeidis Sotiras. "
+date: 04/14/2023
+draft: false
+max-description-length: 2000
+image: https://ars.els-cdn.com/content/image/1-s2.0-S2666389923000491-gr2.jpg
+categories: [paper, published, neuroscience, machine learning, multimodal, brain age, review]
+---
+
+## Summary
+
+(reprinted from the article: "bigger picture")
+
+Establishing standardized biomarkers of brain aging would have immense utility for
+quantifying the risks of adverse life outcomes, which may lead to more precise and personalized interventions. An increasingly common approach for deriving such biomarkers is to train machine-learning models
+on a diverse set of neuroimaging features with the goal of accurately estimating a person’s biological age.
+Further, the difference between biological and chronological ages has been shown to be a useful metric
+that is sensitive to many phenotypes. However, no definitive guidelines exist to help researchers decide
+which set of neural properties would improve model accuracy and utility. Accordingly, we conducted a systematic review of multimodal brain age studies to identify which neuroimaging features provided the largest
+added value. We found that the multimodal models had an increased capacity to predict age, which did not
+translate to widespread improvement in clinical utility.
+
+## Citation
+
+```bibtex
+@article{jirsaraie2023systematic,
+  title={A systematic review of multimodal brain age studies: Uncovering a divergence between model accuracy and utility},
+  author={Jirsaraie, Robert J and Gorelik, Aaron J and Gatavins, Martins M and Engemann, Denis A and Bogdan, Ryan and Barch, Deanna M and Sotiras, Aristeidis},
+  journal={Patterns},
+  volume={4},
+  number={4},
+  year={2023},
+  publisher={Elsevier}
+}
+```

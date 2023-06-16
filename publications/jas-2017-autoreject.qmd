@@ -1,0 +1,31 @@
+---
+title: "Autoreject: Automated artifact rejection for MEG and EEG data"
+description: "[{{< ai doi size=xl >}}](https://doi.org/10.1016/j.neuroimage.2017.06.030) [{{< bi file-pdf size=1.5em >}}](https://arxiv.org/pdf/1612.08194.pdf) [{{< bi github size=1.5em >}}](https://autoreject.github.io/)"
+author: "Jas, M, Denis A Engemann, Yousra Bekhti, Federico Raimondo, Alexandre Gramfort"
+date: 06/14/2017
+draft: false
+max-description-length: 2000
+categories: [paper, published, neuroscience, M/EEG, denoising, channel interpolation, preprocessing]
+---
+
+## Automated identification, repair and removal of bad channels and bad segments
+
+![](https://ars.els-cdn.com/content/image/1-s2.0-S1053811917305013-fx1_lrg.jpg)
+
+## Summary
+
+Check out the [autoreject webpage](https://autoreject.github.io/stable/index.html)
+
+## Citation
+
+```bibtex
+@article{engemann2015automated,
+  title={Automated model selection in covariance estimation and spatial whitening of MEG and EEG signals},
+  author={Engemann, Denis A and Gramfort, Alexandre},
+  journal={NeuroImage},
+  volume={108},
+  pages={328--342},
+  year={2015},
+  publisher={Elsevier}
+}
+```

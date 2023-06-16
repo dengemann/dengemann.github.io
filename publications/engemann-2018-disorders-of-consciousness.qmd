@@ -1,0 +1,35 @@
+---
+title: "Combining magnetoencephalography with magnetic resonance imaging enhances learning of surrogate-biomarkers"
+description: "[{{< ai doi size=xl >}}](https://doi.org/10.1093/brain/awy251) [{{< bi file-pdf size=1.5em >}}](https://academic.oup.com/brain/advance-article-pdf/doi/10.1093/brain/awy251/26172804/awy251.pdf) [{{< bi github size=1.5em >}}](https://github.com/nice-tools/nice)"
+author: "Engemann, Denis A., Federico Raimondo, Jean-Rémi King, Benjamin Rohaut, Gilles Louppe, Frédéric Faugeras, Jitka Annen, ... & Jacobo Sitt"
+date: 10/04/2018
+draft: false
+max-description-length: 2000
+categories: [paper, published, neuroscience, EEG,  machine learning, disorders of consciousness, neurology]
+---
+
+## EEG as a clinically robust tool for complementing diagnosis of disorders of consciousnes
+
+![](../engemann_2018_doc.jpeg)
+
+## Summary
+
+For a discussion of the neurophysiological implications, please consider the [companion article](https://academic.oup.com/brain/article-abstract/141/11/3179/5114404?redirectedFrom=fulltext) by Rodika Sokoliuk and Damian Cruse.
+
+Should you have no time to read the paper, this Twitter thread gives you the gist:
+{{< tweet dngman 1047774447422394368 >}}
+
+## Citation
+
+```bibtex
+@article{engemann2018robust,
+  title={Robust EEG-based cross-site and cross-protocol classification of states of consciousness},
+  author={Engemann, Denis A and Raimondo, Federico and King, Jean-R{\'e}mi and Rohaut, Benjamin and Louppe, Gilles and Faugeras, Fr{\'e}d{\'e}ric and Annen, Jitka and Cassol, Helena and Gosseries, Olivia and Fernandez-Slezak, Diego and others},
+  journal={Brain},
+  volume={141},
+  number={11},
+  pages={3179--3192},
+  year={2018},
+  publisher={Oxford University Press}
+}
+```

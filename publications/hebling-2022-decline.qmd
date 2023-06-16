@@ -1,0 +1,33 @@
+---
+title: "Predicting future cognitive decline from non-brain and multimodal brain imaging data in healthy and pathological aging"
+description: "[{{< ai doi size=xl >}}](https://doi.org/10.1016/j.neuroimage.2022.119521) [{{< bi file-pdf size=1.5em >}}](https://www.sciencedirect.com/science/article/pii/S0197458022001403/pdfft?md5=2fbc2b89ef2b9c25910c1d1a178f342e&pid=1-s2.0-S0197458022001403-main.pdf)"
+author: "Vieira, Bruno Hebling, Franziskus Liem, Kamalaker Dadi, Denis A. Engemann, Alexandre Gramfort, Pierre Bellec, Richard Cameron Craddock et al."
+date: 06/28/2022
+draft: false
+max-description-length: 2000
+categories: [paper, published, neuroscience, MRI, multimodal, cognitive decline]
+---
+
+## Multimodal machine learning of cognitive decline 
+
+![](https://ars.els-cdn.com/content/image/1-s2.0-S0197458022001403-gr2_lrg.jpg)
+
+## Summary
+
+(reprinted from the published abstract.)
+
+Previous literature has focused on predicting a diagnostic label from structural brain imaging. Since subtle changes in the brain precede a cognitive decline in healthy and pathological aging, our study predicts future decline as a continuous trajectory instead. Here, we tested whether baseline multimodal neuroimaging data improve the prediction of future cognitive decline in healthy and pathological aging. Nonbrain data (demographics, clinical, and neuropsychological scores), structural MRI, and functional connectivity data from OASIS-3 (N = 662; age = 46–96 years) were entered into cross-validated multitarget random forest models to predict future cognitive decline (measured by CDR and MMSE), on average 5.8 years into the future. The analysis was preregistered, and all analysis code is publicly available. Combining non-brain with structural data improved the continuous prediction of future cognitive decline (best test-set performance: R2 = 0.42). Cognitive performance, daily functioning, and subcortical volume drove the performance of our model. Including functional connectivity did not improve predictive accuracy. In the future, the prognosis of age-related cognitive decline may enable earlier and more effective individualized cognitive, pharmacological, and behavioral interventions.
+
+## Citation
+
+```bibtex
+@article{vieira2022predicting,
+  title={Predicting future cognitive decline from non-brain and multimodal brain imaging data in healthy and pathological aging},
+  author={Vieira, Bruno Hebling and Liem, Franziskus and Dadi, Kamalaker and Engemann, Denis A and Gramfort, Alexandre and Bellec, Pierre and Craddock, Richard Cameron and Damoiseaux, Jessica S and Steele, Christopher J and Yarkoni, Tal and others},
+  journal={Neurobiology of Aging},
+  volume={118},
+  pages={55--65},
+  year={2022},
+  publisher={Elsevier}
+}
+```

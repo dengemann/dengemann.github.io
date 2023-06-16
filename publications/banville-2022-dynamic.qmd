@@ -1,0 +1,33 @@
+---
+title: "Robust learning from corrupted EEG with dynamic spatial filtering"
+description: "[{{< ai doi size=xl >}}](https://doi.org/10.1016/j.neuroimage.2022.118994) [{{< bi file-pdf size=1.5em >}}](https://www.sciencedirect.com/science/article/pii/S1053811922001239/pdfft?md5=3e16b996bbce8f92bd882253f5899fbc&pid=1-s2.0-S1053811922001239-main.pdf) [{{< bi github size=1.5em >}}](https://github.com/hubertjb/dynamic-spatial-filtering)"
+author: "Banville, Hubert, Sean UN Wood, Chris Aimone, Denis-Alexander Engemann, and Alexandre Gramfort."
+date: 02/16/2022
+draft: false
+max-description-length: 2000
+categories: [paper, published, neuroscience, EEG, machine learning, mobile EEG, deep learning, dynamic programming, spatial filtering]
+---
+
+## Deep learning for predicting from noisy real-world EEG
+
+![](https://ars.els-cdn.com/content/image/1-s2.0-S1053811922001239-gr6_lrg.jpg)
+
+## Summary
+
+This Twitter thread summarizes the work and walks you through the main findings.
+
+{{< tweet hubertjbanville 1399540220987686915 >}}
+
+## Citation
+
+```bibtex
+@article{banville2022robust,
+  title={Robust learning from corrupted EEG with dynamic spatial filtering},
+  author={Banville, Hubert and Wood, Sean UN and Aimone, Chris and Engemann, Denis-Alexander and Gramfort, Alexandre},
+  journal={NeuroImage},
+  volume={251},
+  pages={118994},
+  year={2022},
+  publisher={Elsevier}
+}
+```

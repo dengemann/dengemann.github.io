@@ -1,0 +1,331 @@
+[
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "publications/banville-2023-sleep.html#summary",
+    "href": "publications/banville-2023-sleep.html#summary",
+    "title": "Do try this at home: Age prediction from sleep and meditation with large-scale low-cost mobile EEG",
+    "section": "Summary",
+    "text": "Summary\n(from bioRxiv abstract)\nEEG is an established method for quantifying large-scale neuronal dynamics which enables diverse real-world biomedical applications including brain-computer interfaces, epilepsy monitoring and sleep staging. Advances in sensor technology have freed EEG from traditional laboratory settings, making low-cost ambulatory or at-home assessments of brain function possible. While ecologically valid brain assessments are becoming more practical, the impact of their reduced spatial resolution and susceptibility to noise remain to be investigated. This study set out to explore the potential of at-home EEG assessments for biomarker discovery using the brain age framework and four-channel consumer EEG data. We analyzed recordings from more than 5200 human subjects (18-81 years) during meditation and sleep, focusing on the age prediction task. With cross-validated R2 scores between 0.3 - 0.5, prediction performance was within the range of results obtained by recent benchmarks focused on laboratory-grade EEG. While age prediction was successful from both meditation and sleep recordings, the latter led to higher performance. Analysis by sleep stage uncovered that N2-N3 stages contained most of the signal. When combined, EEG features extracted from all sleep stages gave the best performance, suggesting that the entire night of sleep contains valuable age-related information. Furthermore, model comparisons suggested that information was spread out across electrodes and frequencies, supporting the use of multivariate modeling approaches. Thanks to our unique dataset of longitudinal repeat sessions spanning 153 to 529 days from eight subjects, we finally evaluated the variability of EEG-based age predictions, showing that they reflect both trait- and state-like information. Overall, our results demonstrate that state-of-the-art machine learning approaches based on age prediction can be readily applied to real-world EEG recordings obtained during at-home sleep and meditation practice."
+  },
+  {
+    "objectID": "publications/banville-2023-sleep.html#citation",
+    "href": "publications/banville-2023-sleep.html#citation",
+    "title": "Do try this at home: Age prediction from sleep and meditation with large-scale low-cost mobile EEG",
+    "section": "Citation",
+    "text": "Citation\n@article{banville2023try,\n  title={Do try this at home: Age prediction from sleep and meditation with large-scale low-cost mobile EEG},\n  author={Banville, Hubert and Abou Jaoude, Maurice and Wood, Sean UN and Aimone, Chris and Holst, Sebastian C and Gramfort, Alexandre and Engemann, Denis-Alexander},\n  journal={bioRxiv},\n  pages={2023--04},\n  year={2023},\n  publisher={Cold Spring Harbor Laboratory}\n}"
+  },
+  {
+    "objectID": "publications/denissen-2022-MS-brain-age.html#summary",
+    "href": "publications/denissen-2022-MS-brain-age.html#summary",
+    "title": "Brain age as a surrogate marker for cognitive performance in multiple sclerosis",
+    "section": "Summary",
+    "text": "Summary\n(reprinted from the published abstract.)\n\nBackground and purpose\nData from neuro-imaging techniques allow us to estimate a brain’s age. Brain age is easily interpretable as ‘how old the brain looks’ and could therefore be an attractive communication tool for brain health in clinical practice. This study aimed to investigate its clinical utility by investigating the relationship between brain age and cognitive performance in multiple sclerosis (MS).\n\n\nMethods\nA linear regression model was trained to predict age from brain magnetic resonance imaging volumetric features and sex in a healthy control dataset (HC_train, n = 1673). This model was used to predict brain age in two test sets: HC_test (n = 50) and MS_test (n = 201). Brain-predicted age difference (BPAD) was calculated as BPAD = brain age minus chronological age. Cognitive performance was assessed by the Symbol Digit Modalities Test (SDMT).\n\n\nResults\nBrain age was significantly related to SDMT scores in the MS_test dataset (r = −0.46, p &lt; 0.001) and contributed uniquely to variance in SDMT beyond chronological age, reflected by a significant correlation between BPAD and SDMT (r = −0.24, p &lt; 0.001) and a significant weight (−0.25, p = 0.002) in a multivariate regression equation with age.\n\n\nConclusions\nBrain age is a candidate biomarker for cognitive dysfunction in MS and an easy to grasp metric for brain health."
+  },
+  {
+    "objectID": "publications/denissen-2022-MS-brain-age.html#citation",
+    "href": "publications/denissen-2022-MS-brain-age.html#citation",
+    "title": "Brain age as a surrogate marker for cognitive performance in multiple sclerosis",
+    "section": "Citation",
+    "text": "Citation\n@article{denissen2022brain,\n  title={Brain age as a surrogate marker for cognitive performance in multiple sclerosis},\n  author={Denissen, Stijn and Engemann, Denis Alexander and De Cock, Alexander and Costers, Lars and Baijot, Johan and Laton, Jorne and Penner, Iris-Katharina and Grothe, Matthias and Kirsch, Michael and D'hooghe, Marie Beatrice and others},\n  journal={European Journal of Neurology},\n  volume={29},\n  number={10},\n  pages={3039--3049},\n  year={2022},\n  publisher={Wiley Online Library}\n}"
+  },
+  {
+    "objectID": "publications/hebling-2022-decline.html#summary",
+    "href": "publications/hebling-2022-decline.html#summary",
+    "title": "Predicting future cognitive decline from non-brain and multimodal brain imaging data in healthy and pathological aging",
+    "section": "Summary",
+    "text": "Summary\n(reprinted from the published abstract.)\nPrevious literature has focused on predicting a diagnostic label from structural brain imaging. Since subtle changes in the brain precede a cognitive decline in healthy and pathological aging, our study predicts future decline as a continuous trajectory instead. Here, we tested whether baseline multimodal neuroimaging data improve the prediction of future cognitive decline in healthy and pathological aging. Nonbrain data (demographics, clinical, and neuropsychological scores), structural MRI, and functional connectivity data from OASIS-3 (N = 662; age = 46–96 years) were entered into cross-validated multitarget random forest models to predict future cognitive decline (measured by CDR and MMSE), on average 5.8 years into the future. The analysis was preregistered, and all analysis code is publicly available. Combining non-brain with structural data improved the continuous prediction of future cognitive decline (best test-set performance: R2 = 0.42). Cognitive performance, daily functioning, and subcortical volume drove the performance of our model. Including functional connectivity did not improve predictive accuracy. In the future, the prognosis of age-related cognitive decline may enable earlier and more effective individualized cognitive, pharmacological, and behavioral interventions."
+  },
+  {
+    "objectID": "publications/hebling-2022-decline.html#citation",
+    "href": "publications/hebling-2022-decline.html#citation",
+    "title": "Predicting future cognitive decline from non-brain and multimodal brain imaging data in healthy and pathological aging",
+    "section": "Citation",
+    "text": "Citation\n@article{vieira2022predicting,\n  title={Predicting future cognitive decline from non-brain and multimodal brain imaging data in healthy and pathological aging},\n  author={Vieira, Bruno Hebling and Liem, Franziskus and Dadi, Kamalaker and Engemann, Denis A and Gramfort, Alexandre and Bellec, Pierre and Craddock, Richard Cameron and Damoiseaux, Jessica S and Steele, Christopher J and Yarkoni, Tal and others},\n  journal={Neurobiology of Aging},\n  volume={118},\n  pages={55--65},\n  year={2022},\n  publisher={Elsevier}\n}"
+  },
+  {
+    "objectID": "publications/sabbagh-2019-neurips.html#summary",
+    "href": "publications/sabbagh-2019-neurips.html#summary",
+    "title": "Manifold-regression to predict from MEG/EEG brain signals without source modeling",
+    "section": "Summary",
+    "text": "Summary\n(reprinted from the article: “bigger picture”)\nMagnetoencephalography and electroencephalography (M/EEG) can reveal neuronal dynamics non-invasively in real-time and are therefore appreciated methods in medicine and neuroscience. Recent advances in modeling brain-behavior relationships have highlighted the effectiveness of Riemannian geometry for summarizing the spatially correlated time-series from M/EEG in terms of their covariance. However, after artefact-suppression, M/EEG data is often rank deficient which limits the application of Riemannian concepts. In this article, we focus on the task of regression with rank-reduced covariance matrices. We study two Riemannian approaches that vectorize the M/EEG covariance between sensors through projection into a tangent space. The Wasserstein distance readily applies to rank-reduced data but lacks affine-invariance. This can be overcome by finding a common subspace in which the covariance matrices are full rank, enabling the affine-invariant geometric distance. We investigated the implications of these two approaches in synthetic generative models, which allowed us to control estimation bias of a linear model for prediction. We show that Wasserstein and geometric distances allow perfect out-of-sample prediction on the generative models. We then evaluated the methods on real data with regard to their effectiveness in predicting age from M/EEG covariance matrices. The findings suggest that the data-driven Riemannian methods outperform different sensor-space estimators and that they get close to the performance of biophysics-driven source-localization model that requires MRI acquisitions and tedious data processing. Our study suggests that the proposed Riemannian methods can serve as fundamental building-blocks for automated large-scale analysis of M/EEG."
+  },
+  {
+    "objectID": "publications/sabbagh-2019-neurips.html#citation",
+    "href": "publications/sabbagh-2019-neurips.html#citation",
+    "title": "Manifold-regression to predict from MEG/EEG brain signals without source modeling",
+    "section": "Citation",
+    "text": "Citation\n@article{sabbagh2019manifold,\n  title={Manifold-regression to predict from MEG/EEG brain signals without source modeling},\n  author={Sabbagh, David and Ablin, Pierre and Varoquaux, Ga{\\\"e}l and Gramfort, Alexandre and Engemann, Denis A},\n  journal={Advances in Neural Information Processing Systems},\n  volume={32},\n  year={2019}\n}"
+  },
+  {
+    "objectID": "publications/sabbagh-2020-predictive.html#summary",
+    "href": "publications/sabbagh-2020-predictive.html#summary",
+    "title": "Predictive regression modeling with MEG/EEG: from source power to signals and cognitive states",
+    "section": "Summary",
+    "text": "Summary\nThis Twitter thread summarizes the work and walks you through the main findings.\n\n\n;document.getElementById(\"tweet-38751\").innerHTML = tweet[\"html\"];"
+  },
+  {
+    "objectID": "publications/sabbagh-2020-predictive.html#citation",
+    "href": "publications/sabbagh-2020-predictive.html#citation",
+    "title": "Predictive regression modeling with MEG/EEG: from source power to signals and cognitive states",
+    "section": "Citation",
+    "text": "Citation\n@article{sabbagh2020predictive,\n  title={Predictive regression modeling with MEG/EEG: from source power to signals and cognitive states},\n  author={Sabbagh, David and Ablin, Pierre and Varoquaux, Ga{\\\"e}l and Gramfort, Alexandre and Engemann, Denis A},\n  journal={NeuroImage},\n  volume={222},\n  pages={116893},\n  year={2020},\n  publisher={Elsevier}\n}"
+  },
+  {
+    "objectID": "publications/dadi-2021-pop-measures.html#summary",
+    "href": "publications/dadi-2021-pop-measures.html#summary",
+    "title": "Population modeling with machine learning can enhance measures of mental health",
+    "section": "Summary",
+    "text": "Summary\n(reprinted from the published abstract.)"
+  },
+  {
+    "objectID": "publications/dadi-2021-pop-measures.html#background",
+    "href": "publications/dadi-2021-pop-measures.html#background",
+    "title": "Population modeling with machine learning can enhance measures of mental health",
+    "section": "Background",
+    "text": "Background\nBiological aging is revealed by physical measures, e.g., DNA probes or brain scans. In contrast, individual differences in mental function are explained by psychological constructs, e.g., intelligence or neuroticism. These constructs are typically assessed by tailored neuropsychological tests that build on expert judgement and require careful interpretation. Could machine learning on large samples from the general population be used to build proxy measures of these constructs that do not require human intervention?"
+  },
+  {
+    "objectID": "publications/dadi-2021-pop-measures.html#results",
+    "href": "publications/dadi-2021-pop-measures.html#results",
+    "title": "Population modeling with machine learning can enhance measures of mental health",
+    "section": "Results",
+    "text": "Results\nHere, we built proxy measures by applying machine learning on multimodal MR images and rich sociodemographic information from the largest biomedical cohort to date: the UK Biobank. Objective model comparisons revealed that all proxies captured the target constructs and were as useful, and sometimes more useful, than the original measures for characterizing real-world health behavior (sleep, exercise, tobacco, alcohol consumption). We observed this complementarity of proxy measures and original measures at capturing multiple health-related constructs when modeling from, both, brain signals and sociodemographic data."
+  },
+  {
+    "objectID": "publications/dadi-2021-pop-measures.html#conclusion",
+    "href": "publications/dadi-2021-pop-measures.html#conclusion",
+    "title": "Population modeling with machine learning can enhance measures of mental health",
+    "section": "Conclusion",
+    "text": "Conclusion\nPopulation modeling with machine learning can derive measures of mental health from heterogeneous inputs including brain signals and questionnaire data. This may complement or even substitute for psychometric assessments in clinical populations."
+  },
+  {
+    "objectID": "publications/dadi-2021-pop-measures.html#citation",
+    "href": "publications/dadi-2021-pop-measures.html#citation",
+    "title": "Population modeling with machine learning can enhance measures of mental health",
+    "section": "Citation",
+    "text": "Citation\n@article{dadi2021population,\n  title={Population modeling with machine learning can enhance measures of mental health},\n  author={Dadi, Kamalaker and Varoquaux, Ga{\\\"e}l and Houenou, Josselin and Bzdok, Danilo and Thirion, Bertrand and Engemann, Denis},\n  journal={Gigascience},\n  volume={10},\n  number={10},\n  pages={giab071},\n  year={2021},\n  publisher={Oxford University Press}\n}"
+  },
+  {
+    "objectID": "publications/mellot-2023-harmonizing.html#summary",
+    "href": "publications/mellot-2023-harmonizing.html#summary",
+    "title": "Harmonizing and aligning M/EEG datasets with covariance-based techniques to enhance predictive regression modeling",
+    "section": "Summary",
+    "text": "Summary\n(from bioRxiv abstract)\nNeuroscience studies face challenges in gathering large datasets, which limits the use of machine learning (ML) approaches. One possible solution is to incorporate additional data from large public datasets; however, data collected in different contexts often exhibit systematic differences called dataset shifts. Various factors, e.g., site, device type, experimental protocol, or social characteristics, can lead to substantial divergence of brain signals that can hinder the success of ML across datasets. In this work, we focus on dataset shifts in recordings of brain activity using MEG and EEG. State-of-the-art predictive approaches on M/EEG signals classically represent the data by covariance matrices. Model-based dataset alignment methods can leverage the geometry of covariance matrices, leading to three steps: recentering, re-scaling, and rotation correction. This work explains theoretically how differences in brain activity, anatomy, or device configuration lead to certain shifts in data covariances. Using controlled simulations, the different alignment methods are evaluated. Their practical relevance is evaluated for brain age prediction on one MEG dataset (Cam-CAN, n=646) and two EEG datasets (TUAB, n=1385; LEMON, n=213). When the target sample included recordings from the same subjects with a different task among the same dataset, paired rotation correction was essential (Embedded Image (rest-passive) or +0.17 (rest-smt)). When the target dataset included new subjects and a new task, re-centering led to improved performance (Embedded Image for rest-passive, Embedded Image for rest-smt). For generalization to an independent dataset sampled from a different population and recorded with a different device, re-centering was necessary to achieve brain age prediction performance close to within domain prediction performance. This study demonstrates that the generalization of M/EEG-based regression models across datasets can be substantially enhanced by applying domain adaptation procedures that can statistically harmonize diverse datasets."
+  },
+  {
+    "objectID": "publications/mellot-2023-harmonizing.html#citation",
+    "href": "publications/mellot-2023-harmonizing.html#citation",
+    "title": "Harmonizing and aligning M/EEG datasets with covariance-based techniques to enhance predictive regression modeling",
+    "section": "Citation",
+    "text": "Citation\n@article{mellot2023harmonizing,\n  title={Harmonizing and aligning M/EEG datasets with covariance-based techniques to enhance predictive regression modeling},\n  author={Mellot, Apolline and Collas, Antoine and Rodrigues, Pedro LC and Engemann, Denis A and Gramfort, Alexandre},\n  journal={bioRxiv},\n  pages={2023--04},\n  year={2023},\n  publisher={Cold Spring Harbor Laboratory}\n}"
+  },
+  {
+    "objectID": "publications/engemann-2022-benchmark.html#summary",
+    "href": "publications/engemann-2022-benchmark.html#summary",
+    "title": "A reusable benchmark of brain-age prediction from M/EEG resting-state signals",
+    "section": "Summary",
+    "text": "Summary\nThis Twitter thread summarizes the work and walks you through the main findings.\n\n\n;document.getElementById(\"tweet-74273\").innerHTML = tweet[\"html\"];"
+  },
+  {
+    "objectID": "publications/engemann-2022-benchmark.html#citation",
+    "href": "publications/engemann-2022-benchmark.html#citation",
+    "title": "A reusable benchmark of brain-age prediction from M/EEG resting-state signals",
+    "section": "Citation",
+    "text": "Citation\n@article{engemann2022reusable,\n  title={A reusable benchmark of brain-age prediction from M/EEG resting-state signals},\n  author={Engemann, Denis A and Mellot, Apolline and H{\\\"o}chenberger, Richard and Banville, Hubert and Sabbagh, David and Gemein, Lukas and Ball, Tonio and Gramfort, Alexandre},\n  journal={Neuroimage},\n  volume={262},\n  pages={119521},\n  year={2022},\n  publisher={Elsevier}\n}"
+  },
+  {
+    "objectID": "publications/sabbagh-2023-bja.html#summary",
+    "href": "publications/sabbagh-2023-bja.html#summary",
+    "title": "Repurposing electroencephalogram monitoring of general anaesthesia for building biomarkers of brain ageing: an exploratory study",
+    "section": "Summary",
+    "text": "Summary\n(reprinted from the published abstract.)\n\nBackground\nElectroencephalography (EEG) is increasingly used for monitoring the depth of general anaesthesia, but EEG data from general anaesthesia monitoring are rarely reused for research. Here, we explored repurposing EEG monitoring from general anaesthesia for brain-age modelling using machine learning. We hypothesised that brain age estimated from EEG during general anaesthesia is associated with perioperative risk.\n\n\nMethods\nWe reanalysed four-electrode EEGs of 323 patients under stable propofol or sevoflurane anaesthesia to study four EEG signatures (95% of EEG power &lt;8–13 Hz) for age prediction: total power, alpha-band power (8–13 Hz), power spectrum, and spatial patterns in frequency bands. We constructed age-prediction models from EEGs of a healthy reference group (ASA 1 or 2) during propofol anaesthesia. Although all signatures were informative, state-of-the-art age-prediction performance was unlocked by parsing spatial patterns across electrodes along the entire power spectrum (mean absolute error=8.2 yr; R2=0.65).\n\n\nResults\nClinical exploration in ASA 1 or 2 patients revealed that brain age was positively correlated with intraoperative burst suppression, a risk factor for general anaesthesia complications. Surprisingly, brain age was negatively correlated with burst suppression in patients with higher ASA scores, suggesting hidden confounders. Secondary analyses revealed that age-related EEG signatures were specific to propofol anaesthesia, reflected by limited model generalisation to anaesthesia maintained with sevoflurane.\n\n\nConclusions\nAlthough EEG from general anaesthesia may enable state-of-the-art age prediction, differences between anaesthetic drugs can impact the effectiveness and validity of brain-age models. To unleash the dormant potential of EEG monitoring for clinical research, larger datasets from heterogeneous populations with precisely documented drug dosage will be essential."
+  },
+  {
+    "objectID": "publications/sabbagh-2023-bja.html#citation",
+    "href": "publications/sabbagh-2023-bja.html#citation",
+    "title": "Repurposing electroencephalogram monitoring of general anaesthesia for building biomarkers of brain ageing: an exploratory study",
+    "section": "Citation",
+    "text": "Citation\n@article{sabbagh2022repurposing,\n  title={Repurposing electroencephalogram monitoring of general anaesthesia for building biomarkers of brain ageing: An exploratory study},\n  author={Sabbagh, David and Cartailler, J{\\'e}r{\\^o}me and Touchard, Cyril and Joachim, Jona and Mebazaa, Alexandre and Vall{\\'e}e, Fabrice and Gayat, {\\'E}tienne and Gramfort, Alexandre and Engemann, Denis A},\n  journal={BJA Open},\n  volume={7},\n  pages={100145},\n  year={2023},\n  publisher={Elsevier}\n}"
+  },
+  {
+    "objectID": "publications/banville-2022-dynamic.html#summary",
+    "href": "publications/banville-2022-dynamic.html#summary",
+    "title": "Robust learning from corrupted EEG with dynamic spatial filtering",
+    "section": "Summary",
+    "text": "Summary\nThis Twitter thread summarizes the work and walks you through the main findings.\n\n\n;document.getElementById(\"tweet-25458\").innerHTML = tweet[\"html\"];"
+  },
+  {
+    "objectID": "publications/banville-2022-dynamic.html#citation",
+    "href": "publications/banville-2022-dynamic.html#citation",
+    "title": "Robust learning from corrupted EEG with dynamic spatial filtering",
+    "section": "Citation",
+    "text": "Citation\n@article{banville2022robust,\n  title={Robust learning from corrupted EEG with dynamic spatial filtering},\n  author={Banville, Hubert and Wood, Sean UN and Aimone, Chris and Engemann, Denis-Alexander and Gramfort, Alexandre},\n  journal={NeuroImage},\n  volume={251},\n  pages={118994},\n  year={2022},\n  publisher={Elsevier}\n}"
+  },
+  {
+    "objectID": "publications/jas-2017-autoreject.html#summary",
+    "href": "publications/jas-2017-autoreject.html#summary",
+    "title": "Autoreject: Automated artifact rejection for MEG and EEG data",
+    "section": "Summary",
+    "text": "Summary\nCheck out the autoreject webpage"
+  },
+  {
+    "objectID": "publications/jas-2017-autoreject.html#citation",
+    "href": "publications/jas-2017-autoreject.html#citation",
+    "title": "Autoreject: Automated artifact rejection for MEG and EEG data",
+    "section": "Citation",
+    "text": "Citation\n@article{engemann2015automated,\n  title={Automated model selection in covariance estimation and spatial whitening of MEG and EEG signals},\n  author={Engemann, Denis A and Gramfort, Alexandre},\n  journal={NeuroImage},\n  volume={108},\n  pages={328--342},\n  year={2015},\n  publisher={Elsevier}\n}"
+  },
+  {
+    "objectID": "publications/engemann-2018-disorders-of-consciousness.html#summary",
+    "href": "publications/engemann-2018-disorders-of-consciousness.html#summary",
+    "title": "Combining magnetoencephalography with magnetic resonance imaging enhances learning of surrogate-biomarkers",
+    "section": "Summary",
+    "text": "Summary\nFor a discussion of the neurophysiological implications, please consider the companion article by Rodika Sokoliuk and Damian Cruse.\nShould you have no time to read the paper, this Twitter thread gives you the gist:\n\n\n;document.getElementById(\"tweet-47177\").innerHTML = tweet[\"html\"];"
+  },
+  {
+    "objectID": "publications/engemann-2018-disorders-of-consciousness.html#citation",
+    "href": "publications/engemann-2018-disorders-of-consciousness.html#citation",
+    "title": "Combining magnetoencephalography with magnetic resonance imaging enhances learning of surrogate-biomarkers",
+    "section": "Citation",
+    "text": "Citation\n@article{engemann2018robust,\n  title={Robust EEG-based cross-site and cross-protocol classification of states of consciousness},\n  author={Engemann, Denis A and Raimondo, Federico and King, Jean-R{\\'e}mi and Rohaut, Benjamin and Louppe, Gilles and Faugeras, Fr{\\'e}d{\\'e}ric and Annen, Jitka and Cassol, Helena and Gosseries, Olivia and Fernandez-Slezak, Diego and others},\n  journal={Brain},\n  volume={141},\n  number={11},\n  pages={3179--3192},\n  year={2018},\n  publisher={Oxford University Press}\n}"
+  },
+  {
+    "objectID": "publications/banville-2021-ssl.html#summary",
+    "href": "publications/banville-2021-ssl.html#summary",
+    "title": "Uncovering the structure of clinical EEG signals with self-supervised learning",
+    "section": "Summary",
+    "text": "Summary\nThis Twitter thread summarizes the work and walks you through the main findings.\n\n\n;document.getElementById(\"tweet-78824\").innerHTML = tweet[\"html\"];"
+  },
+  {
+    "objectID": "publications/banville-2021-ssl.html#demonstration",
+    "href": "publications/banville-2021-ssl.html#demonstration",
+    "title": "Uncovering the structure of clinical EEG signals with self-supervised learning",
+    "section": "Demonstration",
+    "text": "Demonstration\nYou can find example PyTorch code at the Braindecode website."
+  },
+  {
+    "objectID": "publications/banville-2021-ssl.html#citation",
+    "href": "publications/banville-2021-ssl.html#citation",
+    "title": "Uncovering the structure of clinical EEG signals with self-supervised learning",
+    "section": "Citation",
+    "text": "Citation\n@article{banville2021uncovering,\n  title={Uncovering the structure of clinical EEG signals with self-supervised learning},\n  author={Banville, Hubert and Chehab, Omar and Hyv{\\\"a}rinen, Aapo and Engemann, Denis-Alexander and Gramfort, Alexandre},\n  journal={Journal of Neural Engineering},\n  volume={18},\n  number={4},\n  pages={046020},\n  year={2021},\n  publisher={IOP Publishing}\n}"
+  },
+  {
+    "objectID": "publications/engemann-2015-covs.html#summary",
+    "href": "publications/engemann-2015-covs.html#summary",
+    "title": "Automated model selection in covariance estimation and spatial whitening of MEG and EEG signals",
+    "section": "Summary",
+    "text": "Summary\nCheck out these slides"
+  },
+  {
+    "objectID": "publications/engemann-2015-covs.html#citation",
+    "href": "publications/engemann-2015-covs.html#citation",
+    "title": "Automated model selection in covariance estimation and spatial whitening of MEG and EEG signals",
+    "section": "Citation",
+    "text": "Citation\n@article{engemann2015automated,\n  title={Automated model selection in covariance estimation and spatial whitening of MEG and EEG signals},\n  author={Engemann, Denis A and Gramfort, Alexandre},\n  journal={NeuroImage},\n  volume={108},\n  pages={328--342},\n  year={2015},\n  publisher={Elsevier}\n}"
+  },
+  {
+    "objectID": "publications/gramfort-2014-nimg.html#summary",
+    "href": "publications/gramfort-2014-nimg.html#summary",
+    "title": "Automated model selection in covariance estimation and spatial whitening of MEG and EEG signals",
+    "section": "Summary",
+    "text": "Summary\nCheckout the MNE-Python webpage"
+  },
+  {
+    "objectID": "publications/gramfort-2014-nimg.html#citation",
+    "href": "publications/gramfort-2014-nimg.html#citation",
+    "title": "Automated model selection in covariance estimation and spatial whitening of MEG and EEG signals",
+    "section": "Citation",
+    "text": "Citation\n@article{gramfort2014mne,\n  title={MNE software for processing MEG and EEG data},\n  author={Gramfort, Alexandre and Luessi, Martin and Larson, Eric and Engemann, Denis A and Strohmeier, Daniel and Brodbeck, Christian and Parkkonen, Lauri and H{\\\"a}m{\\\"a}l{\\\"a}inen, Matti S},\n  journal={Neuroimage},\n  volume={86},\n  pages={446--460},\n  year={2014},\n  publisher={Elsevier}\n}"
+  },
+  {
+    "objectID": "publications/engemann-2020-multimodal-benchmark.html#summary",
+    "href": "publications/engemann-2020-multimodal-benchmark.html#summary",
+    "title": "Combining magnetoencephalography with magnetic resonance imaging enhances learning of surrogate-biomarkers",
+    "section": "Summary",
+    "text": "Summary\nFor a plain English summary, consider the eLife digest by Helena Perez Valle.\nTo get an overview on the paper, consider this Twitter thread:\nThis Twitter thread summarizes the work and walks you through the main findings.\n\n\n;document.getElementById(\"tweet-32088\").innerHTML = tweet[\"html\"];"
+  },
+  {
+    "objectID": "publications/engemann-2020-multimodal-benchmark.html#citation",
+    "href": "publications/engemann-2020-multimodal-benchmark.html#citation",
+    "title": "Combining magnetoencephalography with magnetic resonance imaging enhances learning of surrogate-biomarkers",
+    "section": "Citation",
+    "text": "Citation\n@article{engemann2020combining,\n  title={Combining magnetoencephalography with magnetic resonance imaging enhances learning of surrogate-biomarkers},\n  author={Engemann, Denis A and Kozynets, Oleh and Sabbagh, David and Lema{\\^\\i}tre, Guillaume and Varoquaux, Gael and Liem, Franziskus and Gramfort, Alexandre},\n  journal={Elife},\n  volume={9},\n  pages={e54055},\n  year={2020},\n  publisher={eLife Sciences Publications, Ltd}\n}"
+  },
+  {
+    "objectID": "publications/jirsaraie-2023-review.html",
+    "href": "publications/jirsaraie-2023-review.html",
+    "title": "A systematic review of multimodal brain age studies: Uncovering a divergence between model accuracy and utility",
+    "section": "",
+    "text": "(reprinted from the article: “bigger picture”)\nEstablishing standardized biomarkers of brain aging would have immense utility for quantifying the risks of adverse life outcomes, which may lead to more precise and personalized interventions. An increasingly common approach for deriving such biomarkers is to train machine-learning models on a diverse set of neuroimaging features with the goal of accurately estimating a person’s biological age. Further, the difference between biological and chronological ages has been shown to be a useful metric that is sensitive to many phenotypes. However, no definitive guidelines exist to help researchers decide which set of neural properties would improve model accuracy and utility. Accordingly, we conducted a systematic review of multimodal brain age studies to identify which neuroimaging features provided the largest added value. We found that the multimodal models had an increased capacity to predict age, which did not translate to widespread improvement in clinical utility."
+  },
+  {
+    "objectID": "publications/jirsaraie-2023-review.html#summary",
+    "href": "publications/jirsaraie-2023-review.html#summary",
+    "title": "A systematic review of multimodal brain age studies: Uncovering a divergence between model accuracy and utility",
+    "section": "",
+    "text": "(reprinted from the article: “bigger picture”)\nEstablishing standardized biomarkers of brain aging would have immense utility for quantifying the risks of adverse life outcomes, which may lead to more precise and personalized interventions. An increasingly common approach for deriving such biomarkers is to train machine-learning models on a diverse set of neuroimaging features with the goal of accurately estimating a person’s biological age. Further, the difference between biological and chronological ages has been shown to be a useful metric that is sensitive to many phenotypes. However, no definitive guidelines exist to help researchers decide which set of neural properties would improve model accuracy and utility. Accordingly, we conducted a systematic review of multimodal brain age studies to identify which neuroimaging features provided the largest added value. We found that the multimodal models had an increased capacity to predict age, which did not translate to widespread improvement in clinical utility."
+  },
+  {
+    "objectID": "publications/jirsaraie-2023-review.html#citation",
+    "href": "publications/jirsaraie-2023-review.html#citation",
+    "title": "A systematic review of multimodal brain age studies: Uncovering a divergence between model accuracy and utility",
+    "section": "Citation",
+    "text": "Citation\n@article{jirsaraie2023systematic,\n  title={A systematic review of multimodal brain age studies: Uncovering a divergence between model accuracy and utility},\n  author={Jirsaraie, Robert J and Gorelik, Aaron J and Gatavins, Martins M and Engemann, Denis A and Bogdan, Ryan and Barch, Deanna M and Sotiras, Aristeidis},\n  journal={Patterns},\n  volume={4},\n  number={4},\n  year={2023},\n  publisher={Elsevier}\n}"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Dr. Denis A. Engemann",
+    "section": "",
+    "text": "Brain, Cognition & Biomarkers\n\nI study the human brain using electrophysiology, imaging and machine learning to develop biomarkers in next generation therapeutics and diagnostics.\nIn my current role at the Roche Pharma Research & Early Development in Basel, I work on assessing the impact of novel compounds on brain dynamics and clinical outcomes by applying knowledge, tools and resources resulting from my research.\nPreviously, at Inria (Saclay-Île-de-France / Paris), I have developed machine learning aproaches for bridging laboratory and real-world neuroscience.\nMy initial training is in experimental psychology & neuroscience.\n\n\n\nLatest Publications\n\n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nLinks\n\n\n\n\n\n\n\n\n\n6/16/23\n\n\nRepurposing electroencephalogram monitoring of general anaesthesia for building biomarkers of brain ageing: an exploratory study\n\n\n  \n\n\n\n\n\n\n\n4/29/23\n\n\nDo try this at home: Age prediction from sleep and meditation with large-scale low-cost mobile EEG\n\n\n \n\n\n\n\n\n\n\n4/27/23\n\n\nHarmonizing and aligning M/EEG datasets with covariance-based techniques to enhance predictive regression modeling\n\n\n \n\n\n\n\n\n\n\n4/14/23\n\n\nA systematic review of multimodal brain age studies: Uncovering a divergence between model accuracy and utility\n\n\n \n\n\n\n\n\n\n\n7/22/22\n\n\nA reusable benchmark of brain-age prediction from M/EEG resting-state signals\n\n\n  \n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Jun 16, 2023\n\n\nSabbagh, David, Jérôme Cartailler, Cyril Touchard, Jona Joachim, Alexandre Mebazaa, Fabrice Vallée, Étienne Gayat, Alexandre Gramfort, and Denis A. Engemann.\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\nApr 14, 2023\n\n\nJirsaraie, Robert J., Aaron J. Gorelik, Martins M. Gatavins, Denis A. Engemann, Ryan Bogdan, Deanna M. Barch, and Aristeidis Sotiras.\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n  \n\n\n\n\n\n\nJul 22, 2022\n\n\nEngemann, Denis A., Apolline Mellot, Richard Höchenberger, Hubert Banville, David Sabbagh, Lukas Gemein, Tonio Ball, and Alexandre Gramfort\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\nJun 28, 2022\n\n\nVieira, Bruno Hebling, Franziskus Liem, Kamalaker Dadi, Denis A. Engemann, Alexandre Gramfort, Pierre Bellec, Richard Cameron Craddock et al.\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\nJun 23, 2022\n\n\nDenissen, Stijn, Denis Alexander Engemann, Alexander De Cock, Lars Costers, Johan Baijot, Jorne Laton, Iris‐Katharina Penner et al.\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n  \n\n\n\n\n\n\nFeb 16, 2022\n\n\nBanville, Hubert, Sean UN Wood, Chris Aimone, Denis-Alexander Engemann, and Alexandre Gramfort.\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n  \n\n\n\n\n\n\nOct 15, 2021\n\n\nDadi, Kamalaker, Gaël Varoquaux, Josselin Houenou, Danilo Bzdok, Bertrand Thirion, and Denis Engemann.\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\nMar 31, 2021\n\n\nBanville, Hubert, Omar Chehab, Aapo Hyvärinen, Denis-Alexander Engemann, and Alexandre Gramfort.\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n  \n\n\n\n\n\n\nMay 19, 2020\n\n\nEngemann, Denis Alexander, Oleh Kozynets, David Sabbagh, Guillaume Lemaitre, Gaël Varoquaux, Franziskus Liem, and Alexandre Gramfort\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n  \n\n\n\n\n\n\nMay 18, 2020\n\n\nSabbagh, David, Pierre Ablin, Gaël Varoquaux, Alexandre Gramfort, and Denis A. Engemann.\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n  \n\n\n\n\n\n\nDec 10, 2019\n\n\nSabbagh, David, Pierre Ablin, Gaël Varoquaux, Alexandre Gramfort, and Denis A. Engemann.\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n  \n\n\n\n\n\n\nOct 4, 2018\n\n\nEngemann, Denis A., Federico Raimondo, Jean-Rémi King, Benjamin Rohaut, Gilles Louppe, Frédéric Faugeras, Jitka Annen, … & Jacobo Sitt\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n  \n\n\n\n\n\n\nJun 14, 2017\n\n\nJas, M, Denis A Engemann, Yousra Bekhti, Federico Raimondo, Alexandre Gramfort\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n  \n\n\n\n\n\n\nDec 4, 2014\n\n\nEngemann, Denis A., Alexandre Gramfort\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n  \n\n\n\n\n\n\nFeb 1, 2014\n\n\nGramfort, A., Martin Luessi, Eric Larson, Denis A Engemann, Daniel Strohmeier, Christian Brodbeck, Lauri Parkkonen, Matti S Hämäläinen\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\nApr 29, 2023\n\n\nBanville, Hubert, Maurice Abou Jaoude, Sean UN Wood, Chris Aimone, Sebastian C. Holst, Alexandre Gramfort, and Denis-Alexander Engemann.\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\nApr 27, 2023\n\n\nMellot, Apolline, Antoine Collas, Pedro LC Rodrigues, Denis A. Engemann, and Alexandre Gramfort\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "publications.html#selected-publications",
+    "href": "publications.html#selected-publications",
+    "title": "Publications",
+    "section": "",
+    "text": "Jun 16, 2023\n\n\nSabbagh, David, Jérôme Cartailler, Cyril Touchard, Jona Joachim, Alexandre Mebazaa, Fabrice Vallée, Étienne Gayat, Alexandre Gramfort, and Denis A. Engemann.\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\nApr 14, 2023\n\n\nJirsaraie, Robert J., Aaron J. Gorelik, Martins M. Gatavins, Denis A. Engemann, Ryan Bogdan, Deanna M. Barch, and Aristeidis Sotiras.\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n  \n\n\n\n\n\n\nJul 22, 2022\n\n\nEngemann, Denis A., Apolline Mellot, Richard Höchenberger, Hubert Banville, David Sabbagh, Lukas Gemein, Tonio Ball, and Alexandre Gramfort\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\nJun 28, 2022\n\n\nVieira, Bruno Hebling, Franziskus Liem, Kamalaker Dadi, Denis A. Engemann, Alexandre Gramfort, Pierre Bellec, Richard Cameron Craddock et al.\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\nJun 23, 2022\n\n\nDenissen, Stijn, Denis Alexander Engemann, Alexander De Cock, Lars Costers, Johan Baijot, Jorne Laton, Iris‐Katharina Penner et al.\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n  \n\n\n\n\n\n\nFeb 16, 2022\n\n\nBanville, Hubert, Sean UN Wood, Chris Aimone, Denis-Alexander Engemann, and Alexandre Gramfort.\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n  \n\n\n\n\n\n\nOct 15, 2021\n\n\nDadi, Kamalaker, Gaël Varoquaux, Josselin Houenou, Danilo Bzdok, Bertrand Thirion, and Denis Engemann.\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\nMar 31, 2021\n\n\nBanville, Hubert, Omar Chehab, Aapo Hyvärinen, Denis-Alexander Engemann, and Alexandre Gramfort.\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n  \n\n\n\n\n\n\nMay 19, 2020\n\n\nEngemann, Denis Alexander, Oleh Kozynets, David Sabbagh, Guillaume Lemaitre, Gaël Varoquaux, Franziskus Liem, and Alexandre Gramfort\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n  \n\n\n\n\n\n\nMay 18, 2020\n\n\nSabbagh, David, Pierre Ablin, Gaël Varoquaux, Alexandre Gramfort, and Denis A. Engemann.\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n  \n\n\n\n\n\n\nDec 10, 2019\n\n\nSabbagh, David, Pierre Ablin, Gaël Varoquaux, Alexandre Gramfort, and Denis A. Engemann.\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n  \n\n\n\n\n\n\nOct 4, 2018\n\n\nEngemann, Denis A., Federico Raimondo, Jean-Rémi King, Benjamin Rohaut, Gilles Louppe, Frédéric Faugeras, Jitka Annen, … & Jacobo Sitt\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n  \n\n\n\n\n\n\nJun 14, 2017\n\n\nJas, M, Denis A Engemann, Yousra Bekhti, Federico Raimondo, Alexandre Gramfort\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n  \n\n\n\n\n\n\nDec 4, 2014\n\n\nEngemann, Denis A., Alexandre Gramfort\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n  \n\n\n\n\n\n\nFeb 1, 2014\n\n\nGramfort, A., Martin Luessi, Eric Larson, Denis A Engemann, Daniel Strohmeier, Christian Brodbeck, Lauri Parkkonen, Matti S Hämäläinen\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\nApr 29, 2023\n\n\nBanville, Hubert, Maurice Abou Jaoude, Sean UN Wood, Chris Aimone, Sebastian C. Holst, Alexandre Gramfort, and Denis-Alexander Engemann.\n\n\n\n\n\n\n  \n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\nApr 27, 2023\n\n\nMellot, Apolline, Antoine Collas, Pedro LC Rodrigues, Denis A. Engemann, and Alexandre Gramfort\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "publications.html#full-bibliography",
+    "href": "publications.html#full-bibliography",
+    "title": "Publications",
+    "section": "Full Bibliography",
+    "text": "Full Bibliography\nFor a full a comprehensive list of my publications, please see my  google scholar and  ORCID pages"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About me",
+    "section": "",
+    "text": "My initial training is in experimental psychology. I have specialized in research at the intersection of neuroscience and machine learning. My work focuses on statistical modeling of cognitive & clinical outcomes from brain data i.e. electroencephalography (EEG), magnetoencephalography (MEG), magnetic resonance imaging (MRI) and heterogeneous biomedical data.\nIn my previous position at the French National Institute for Research in Digital Science and Technology (Inria Saclay-Île-de-France / Paris), I have developed machine learning aproaches for translating insights from laborary research and population modeling to clinical applications.\nIn my current role at the Roche Innovation Center Basel, I work on assessing the impact of novel compounds on brain dynamics and clinical outcomes by applying knowledge, tools and resources resulting from my research."
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "About me",
+    "section": "Education",
+    "text": "Education\nUniversité Paris-Cité, Paris, France | Habilitation à Diriger des Recherches (HDR), Médecine | 2021 - 2022\nUniversity of Cologne, Germany | PhD, Psychology | 2011 - 2015\nUniversity of Giessen, Germany | Diploma, Psychology | 2003 - 2010"
+  },
+  {
+    "objectID": "about.html#experience",
+    "href": "about.html#experience",
+    "title": "About me",
+    "section": "Experience",
+    "text": "Experience\nRoche Pharma Research & Early Development, Basel, Switzerland | Biomarker & Experimental Medicine Leader | 2021 - present\nInria Saclay, Paris, France | Research Scientist | 2017 - 2021\nCEA NeuroSpin, Paris Brain Institute (ICM), France | Postdoc | 2014 - 2016\nJülich Research Center, University Hospital Cologne, Germany | PhD student | 2011 - 2014\nMax-Planck Institute for Evolutionary Anthropology, Leipzig, Germany | Intern | 2007 - 2009"
+  }
+]

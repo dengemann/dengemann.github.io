@@ -1,0 +1,31 @@
+---
+title: "Automated model selection in covariance estimation and spatial whitening of MEG and EEG signals"
+description: "[{{< ai doi size=xl >}}](https://doi.org/10.1016/j.neuroimage.2014.12.040) [{{< bi file-pdf size=1.5em >}}](http://www.unicog.org/publications/1-s2.0-S1053811914010325-mainB.pdf) [{{< bi github size=1.5em >}}](https://github.com/mne-tools/mne-python/blob/master/mne/cov.py)"
+author: "Engemann, Denis A., Alexandre Gramfort"
+date: 12/04/2014
+draft: false
+max-description-length: 2000
+categories: [paper, published, neuroscience, M/EEG, covariance estimation, regularization, spatial whitening]
+---
+
+## Mind careful estimation of your noise covariance when performing M/EEG source localization
+
+![](../engemann_2015_covs.png)
+
+## Summary
+
+Check out [these slides](https://speakerdeck.com/dengemann/eeg-sensor-covariance-using-cross-validation)
+
+## Citation
+
+```bibtex
+@article{engemann2015automated,
+  title={Automated model selection in covariance estimation and spatial whitening of MEG and EEG signals},
+  author={Engemann, Denis A and Gramfort, Alexandre},
+  journal={NeuroImage},
+  volume={108},
+  pages={328--342},
+  year={2015},
+  publisher={Elsevier}
+}
+```

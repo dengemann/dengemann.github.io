@@ -1,0 +1,37 @@
+---
+title: "Combining magnetoencephalography with magnetic resonance imaging enhances learning of surrogate-biomarkers"
+description: "[{{< ai doi size=xl >}}](https://doi.org/10.7554/eLife.54055) [{{< bi file-pdf size=1.5em >}}](https://elifesciences.org/download/aHR0cHM6Ly9jZG4uZWxpZmVzY2llbmNlcy5vcmcvYXJ0aWNsZXMvNTQwNTUvZWxpZmUtNTQwNTUtdjIucGRmP2Nhbm9uaWNhbFVyaT1odHRwczovL2VsaWZlc2NpZW5jZXMub3JnL2FydGljbGVzLzU0MDU1/elife-54055-v2.pdf?_hash=g%2FxNeMlXTlw0rGtIFLHu4dyk5IfymyeYu1sxJbVN7ro%3D) [{{< bi github size=1.5em >}}](https://github.com/dengemann/meg-mri-surrogate-biomarkers-aging-2020)"
+author: "Engemann, Denis Alexander, Oleh Kozynets, David Sabbagh, Guillaume Lemaitre, Gaël Varoquaux, Franziskus Liem, and Alexandre Gramfort"
+date: 05/19/2020
+draft: false
+max-description-length: 2000
+categories: [paper, published, neuroscience, MRI, M/EEG, multimodal, machine learning, brain age]
+---
+
+## Improving brain-age modeling through joint modeling from MRI, fMRI and MEG
+
+![](https://iiif.elifesciences.org/lax/54055%2Felife-54055-fig1-v2.tif/full/1500,/0/default.jpg)
+
+## Summary
+
+For a plain English summary, consider the [eLife digest](https://elifesciences.org/digests/54055/imaging-the-brain-s-age) by Helena Perez Valle.
+
+To get an overview on the paper, consider this Twitter thread:
+
+This Twitter thread summarizes the work and walks you through the main findings.
+
+{{< tweet dngman 1262676819775557633 >}}
+
+## Citation
+
+```bibtex
+@article{engemann2020combining,
+  title={Combining magnetoencephalography with magnetic resonance imaging enhances learning of surrogate-biomarkers},
+  author={Engemann, Denis A and Kozynets, Oleh and Sabbagh, David and Lema{\^\i}tre, Guillaume and Varoquaux, Gael and Liem, Franziskus and Gramfort, Alexandre},
+  journal={Elife},
+  volume={9},
+  pages={e54055},
+  year={2020},
+  publisher={eLife Sciences Publications, Ltd}
+}
+```

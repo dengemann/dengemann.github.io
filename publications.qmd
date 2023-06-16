@@ -1,0 +1,40 @@
+---
+title: "Publications"
+listing: 
+  - id: publications
+    contents: "publications/*.qmd"
+    image-align: right
+    type: default
+    sort: "date desc"
+    categories: true
+    fields: [image, date, title, author,  description]
+    exclude:
+        categories: [preprint]
+  - id: preprints
+    contents: "publications/*.qmd"
+    image-align: right
+    type: default
+    sort: "date desc"
+    categories: true
+    fields: [image, date, title, author,  description]
+    exclude:
+        categories: [published]
+---
+
+## Selected Publications
+
+### Peer-reviewed Articles
+
+:::{#publications}
+:::
+
+### Preprints
+
+:::{#preprints}
+:::
+
+
+## Full Bibliography
+
+For a full a comprehensive list of my publications, please see my [{{< ai google-scholar >}} google scholar](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=denis+engemann&oq=de) and [{{< ai orcid >}} ORCID](https://orcid.org/0000-0002-7223-1014) pages
+

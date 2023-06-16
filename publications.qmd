@@ -22,7 +22,7 @@ listing:
 
 # Full Bibliography
 
-For a comprehensive list of my publications, please see my [{{< ai google-scholar >}} google scholar](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=denis+engemann&oq=de) and [{{< ai orcid >}} ORCID](https://orcid.org/0000-0002-7223-1014) pages.
+For a comprehensive list of my publications, please see my [{{< ai google-scholar >}} google scholar](https://scholar.google.com/citations?user=ombAzhMAAAAJ&hl=en&oi=ao) and [{{< ai orcid >}} ORCID](https://orcid.org/0000-0002-7223-1014) pages.
 
 # Selected Publications
 

@@ -67,7 +67,7 @@
     "href": "publications/sabbagh-2020-predictive.html#summary",
     "title": "Predictive regression modeling with MEG/EEG: from source power to signals and cognitive states",
     "section": "Summary",
-    "text": "Summary\nThis Twitter thread summarizes the work and walks you through the main findings.\n\n\n;document.getElementById(\"tweet-89226\").innerHTML = tweet[\"html\"];"
+    "text": "Summary\nThis Twitter thread summarizes the work and walks you through the main findings.\n\n\n;document.getElementById(\"tweet-66595\").innerHTML = tweet[\"html\"];"
   },
   {
     "objectID": "publications/sabbagh-2020-predictive.html#citation",
@@ -130,7 +130,7 @@
     "href": "publications/engemann-2022-benchmark.html#summary",
     "title": "A reusable benchmark of brain-age prediction from M/EEG resting-state signals",
     "section": "Summary",
-    "text": "Summary\nThis Twitter thread summarizes the work and walks you through the main findings.\n\n\n;document.getElementById(\"tweet-11985\").innerHTML = tweet[\"html\"];"
+    "text": "Summary\nThis Twitter thread summarizes the work and walks you through the main findings.\n\n\n;document.getElementById(\"tweet-86973\").innerHTML = tweet[\"html\"];"
   },
   {
     "objectID": "publications/engemann-2022-benchmark.html#citation",
@@ -158,7 +158,7 @@
     "href": "publications/banville-2022-dynamic.html#summary",
     "title": "Robust learning from corrupted EEG with dynamic spatial filtering",
     "section": "Summary",
-    "text": "Summary\nThis Twitter thread summarizes the work and walks you through the main findings.\n\n\n;document.getElementById(\"tweet-96795\").innerHTML = tweet[\"html\"];"
+    "text": "Summary\nThis Twitter thread summarizes the work and walks you through the main findings.\n\n\n;document.getElementById(\"tweet-28230\").innerHTML = tweet[\"html\"];"
   },
   {
     "objectID": "publications/banville-2022-dynamic.html#citation",
@@ -186,7 +186,7 @@
     "href": "publications/engemann-2018-disorders-of-consciousness.html#summary",
     "title": "Combining magnetoencephalography with magnetic resonance imaging enhances learning of surrogate-biomarkers",
     "section": "Summary",
-    "text": "Summary\nFor a discussion of the neurophysiological implications, please consider the companion article by Rodika Sokoliuk and Damian Cruse.\nShould you have no time to read the paper, this Twitter thread gives you the gist:\n\n\n;document.getElementById(\"tweet-52050\").innerHTML = tweet[\"html\"];"
+    "text": "Summary\nFor a discussion of the neurophysiological implications, please consider the companion article by Rodika Sokoliuk and Damian Cruse.\nShould you have no time to read the paper, this Twitter thread gives you the gist:\n\n\n;document.getElementById(\"tweet-40241\").innerHTML = tweet[\"html\"];"
   },
   {
     "objectID": "publications/engemann-2018-disorders-of-consciousness.html#citation",
@@ -200,7 +200,7 @@
     "href": "publications/banville-2021-ssl.html#summary",
     "title": "Uncovering the structure of clinical EEG signals with self-supervised learning",
     "section": "Summary",
-    "text": "Summary\nThis Twitter thread summarizes the work and walks you through the main findings.\n\n\n;document.getElementById(\"tweet-77685\").innerHTML = tweet[\"html\"];"
+    "text": "Summary\nThis Twitter thread summarizes the work and walks you through the main findings.\n\n\n;document.getElementById(\"tweet-18710\").innerHTML = tweet[\"html\"];"
   },
   {
     "objectID": "publications/banville-2021-ssl.html#demonstration",
@@ -249,7 +249,7 @@
     "href": "publications/engemann-2020-multimodal-benchmark.html#summary",
     "title": "Combining magnetoencephalography with magnetic resonance imaging enhances learning of surrogate-biomarkers",
     "section": "Summary",
-    "text": "Summary\nFor a plain English summary, consider the eLife digest by Helena Perez Valle.\nTo get an overview on the paper, consider this Twitter thread:\nThis Twitter thread summarizes the work and walks you through the main findings.\n\n\n;document.getElementById(\"tweet-18684\").innerHTML = tweet[\"html\"];"
+    "text": "Summary\nFor a plain English summary, consider the eLife digest by Helena Perez Valle.\nTo get an overview on the paper, consider this Twitter thread:\nThis Twitter thread summarizes the work and walks you through the main findings.\n\n\n;document.getElementById(\"tweet-92704\").innerHTML = tweet[\"html\"];"
   },
   {
     "objectID": "publications/engemann-2020-multimodal-benchmark.html#citation",

@@ -36,7 +36,7 @@ listing:
     sort: "date desc"
     date-format: short
     categories: false
-    fields: [image, title, description]
+    fields: [title, description]
     max-items: 5
 ---
 

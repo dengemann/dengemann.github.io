@@ -32,10 +32,11 @@ listing:
     image-align: right
     image-height: 4em
     type: table
+    grid-columns: 2
     sort: "date desc"
     date-format: short
     categories: false
-    fields: [image, date, title, description]
+    fields: [image, title, description]
     max-items: 5
 ---
 

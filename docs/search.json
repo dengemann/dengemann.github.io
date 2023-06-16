@@ -67,7 +67,7 @@
     "href": "publications/sabbagh-2020-predictive.html#summary",
     "title": "Predictive regression modeling with MEG/EEG: from source power to signals and cognitive states",
     "section": "Summary",
-    "text": "Summary\nThis Twitter thread summarizes the work and walks you through the main findings.\n\n\n;document.getElementById(\"tweet-38751\").innerHTML = tweet[\"html\"];"
+    "text": "Summary\nThis Twitter thread summarizes the work and walks you through the main findings.\n\n\n;document.getElementById(\"tweet-30399\").innerHTML = tweet[\"html\"];"
   },
   {
     "objectID": "publications/sabbagh-2020-predictive.html#citation",
@@ -130,7 +130,7 @@
     "href": "publications/engemann-2022-benchmark.html#summary",
     "title": "A reusable benchmark of brain-age prediction from M/EEG resting-state signals",
     "section": "Summary",
-    "text": "Summary\nThis Twitter thread summarizes the work and walks you through the main findings.\n\n\n;document.getElementById(\"tweet-74273\").innerHTML = tweet[\"html\"];"
+    "text": "Summary\nThis Twitter thread summarizes the work and walks you through the main findings.\n\n\n;document.getElementById(\"tweet-56450\").innerHTML = tweet[\"html\"];"
   },
   {
     "objectID": "publications/engemann-2022-benchmark.html#citation",
@@ -158,7 +158,7 @@
     "href": "publications/banville-2022-dynamic.html#summary",
     "title": "Robust learning from corrupted EEG with dynamic spatial filtering",
     "section": "Summary",
-    "text": "Summary\nThis Twitter thread summarizes the work and walks you through the main findings.\n\n\n;document.getElementById(\"tweet-25458\").innerHTML = tweet[\"html\"];"
+    "text": "Summary\nThis Twitter thread summarizes the work and walks you through the main findings.\n\n\n;document.getElementById(\"tweet-19409\").innerHTML = tweet[\"html\"];"
   },
   {
     "objectID": "publications/banville-2022-dynamic.html#citation",
@@ -186,7 +186,7 @@
     "href": "publications/engemann-2018-disorders-of-consciousness.html#summary",
     "title": "Combining magnetoencephalography with magnetic resonance imaging enhances learning of surrogate-biomarkers",
     "section": "Summary",
-    "text": "Summary\nFor a discussion of the neurophysiological implications, please consider the companion article by Rodika Sokoliuk and Damian Cruse.\nShould you have no time to read the paper, this Twitter thread gives you the gist:\n\n\n;document.getElementById(\"tweet-47177\").innerHTML = tweet[\"html\"];"
+    "text": "Summary\nFor a discussion of the neurophysiological implications, please consider the companion article by Rodika Sokoliuk and Damian Cruse.\nShould you have no time to read the paper, this Twitter thread gives you the gist:\n\n\n;document.getElementById(\"tweet-91422\").innerHTML = tweet[\"html\"];"
   },
   {
     "objectID": "publications/engemann-2018-disorders-of-consciousness.html#citation",
@@ -200,7 +200,7 @@
     "href": "publications/banville-2021-ssl.html#summary",
     "title": "Uncovering the structure of clinical EEG signals with self-supervised learning",
     "section": "Summary",
-    "text": "Summary\nThis Twitter thread summarizes the work and walks you through the main findings.\n\n\n;document.getElementById(\"tweet-78824\").innerHTML = tweet[\"html\"];"
+    "text": "Summary\nThis Twitter thread summarizes the work and walks you through the main findings.\n\n\n;document.getElementById(\"tweet-61358\").innerHTML = tweet[\"html\"];"
   },
   {
     "objectID": "publications/banville-2021-ssl.html#demonstration",
@@ -249,7 +249,7 @@
     "href": "publications/engemann-2020-multimodal-benchmark.html#summary",
     "title": "Combining magnetoencephalography with magnetic resonance imaging enhances learning of surrogate-biomarkers",
     "section": "Summary",
-    "text": "Summary\nFor a plain English summary, consider the eLife digest by Helena Perez Valle.\nTo get an overview on the paper, consider this Twitter thread:\nThis Twitter thread summarizes the work and walks you through the main findings.\n\n\n;document.getElementById(\"tweet-32088\").innerHTML = tweet[\"html\"];"
+    "text": "Summary\nFor a plain English summary, consider the eLife digest by Helena Perez Valle.\nTo get an overview on the paper, consider this Twitter thread:\nThis Twitter thread summarizes the work and walks you through the main findings.\n\n\n;document.getElementById(\"tweet-65785\").innerHTML = tweet[\"html\"];"
   },
   {
     "objectID": "publications/engemann-2020-multimodal-benchmark.html#citation",
@@ -284,7 +284,7 @@
     "href": "index.html",
     "title": "Dr. Denis A. Engemann",
     "section": "",
-    "text": "Brain, Cognition & Biomarkers\n\nI study the human brain using electrophysiology, imaging and machine learning to develop biomarkers in next generation therapeutics and diagnostics.\nIn my current role at the Roche Pharma Research & Early Development in Basel, I work on assessing the impact of novel compounds on brain dynamics and clinical outcomes by applying knowledge, tools and resources resulting from my research.\nPreviously, at Inria (Saclay-Île-de-France / Paris), I have developed machine learning aproaches for bridging laboratory and real-world neuroscience.\nMy initial training is in experimental psychology & neuroscience.\n\n\n\nLatest Publications\n\n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nLinks\n\n\n\n\n\n\n\n\n\n6/16/23\n\n\nRepurposing electroencephalogram monitoring of general anaesthesia for building biomarkers of brain ageing: an exploratory study\n\n\n  \n\n\n\n\n\n\n\n4/29/23\n\n\nDo try this at home: Age prediction from sleep and meditation with large-scale low-cost mobile EEG\n\n\n \n\n\n\n\n\n\n\n4/27/23\n\n\nHarmonizing and aligning M/EEG datasets with covariance-based techniques to enhance predictive regression modeling\n\n\n \n\n\n\n\n\n\n\n4/14/23\n\n\nA systematic review of multimodal brain age studies: Uncovering a divergence between model accuracy and utility\n\n\n \n\n\n\n\n\n\n\n7/22/22\n\n\nA reusable benchmark of brain-age prediction from M/EEG resting-state signals\n\n\n  \n\n\n\n\n\nNo matching items"
+    "text": "Brain, Cognition & Biomarkers\n\nI study the human brain using electrophysiology, imaging and machine learning to develop biomarkers in next generation therapeutics and diagnostics.\nIn my current role at the Roche Pharma Research & Early Development in Basel, I work on assessing the impact of novel compounds on brain dynamics and clinical outcomes by applying knowledge, tools and resources resulting from my research.\nPreviously, at Inria (Saclay-Île-de-France / Paris), I have developed machine learning aproaches for bridging laboratory and real-world neuroscience.\nMy initial training is in experimental psychology & neuroscience.\n\n\n\nLatest Publications\n\n\n\n\n\n\n\nTitle\n\n\nLinks\n\n\n\n\n\n\n\n\n\nRepurposing electroencephalogram monitoring of general anaesthesia for building biomarkers of brain ageing: an exploratory study\n\n\n  \n\n\n\n\n\n\n\nDo try this at home: Age prediction from sleep and meditation with large-scale low-cost mobile EEG\n\n\n \n\n\n\n\n\n\n\nHarmonizing and aligning M/EEG datasets with covariance-based techniques to enhance predictive regression modeling\n\n\n \n\n\n\n\n\n\n\nA systematic review of multimodal brain age studies: Uncovering a divergence between model accuracy and utility\n\n\n \n\n\n\n\n\n\n\nA reusable benchmark of brain-age prediction from M/EEG resting-state signals\n\n\n  \n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "publications.html",

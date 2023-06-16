@@ -37,14 +37,14 @@ listing:
     date-format: short
     categories: false
     fields: [title, description]
-    max-items: 5
+    max-items: 7
 ---
 
-# Brain, Cognition & Biomarkers
+# Brains, Biomarker & Cognition
 
 :::{#hero-heading}
 
-I study the human brain using electrophysiology, imaging and machine learning to develop biomarkers in next generation therapeutics and diagnostics.
+I study the human brain using electrophysiology, imaging and machine learning to develop biomarker in next generation therapeutics and diagnostics.
 
 In my current role at the Roche Pharma Research & Early Development in Basel, I work on assessing the impact of novel compounds on brain dynamics and clinical outcomes by applying knowledge, tools and resources resulting from my research.
 

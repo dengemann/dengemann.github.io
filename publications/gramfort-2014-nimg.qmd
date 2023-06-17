@@ -1,6 +1,6 @@
 ---
 title: "Automated model selection in covariance estimation and spatial whitening of MEG and EEG signals"
-description: "[{{< ai doi size=xl >}}](https://doi.org/10.1016/j.neuroimage.2013.10.027) [{{< bi file-pdf size=1.5em >}}](../gramfort_2014_mne.pdf) [{{< bi github size=1.5em >}}](https://mne.tools/stable/index.html)"
+description: "[{{< ai doi size=xl >}}](https://doi.org/10.1016/j.neuroimage.2013.10.027) [{{< bi github size=1.5em >}}](https://mne.tools/stable/index.html)"
 author: "Gramfort, A., Martin Luessi, Eric Larson, Denis A Engemann, Daniel Strohmeier, Christian Brodbeck, Lauri Parkkonen, Matti S Hämäläinen"
 date: 02/01/2014
 draft: false

@@ -6,6 +6,10 @@ title: "About me"
 
 🖥️ ⚙ Previously, at Inria in Saclay-Île-de-France/Paris, I pioneered machine learning approaches, developing innovative approaches to bridge the gap between the laboratory and the real-world applications.
 
+💡 My diverse training and background in experimental psychology, neuroscience and machine learning is helping me to speak multiple scientific languages and helps me connecting (with) people working in distinct scientific areas.
+
+🧭 As an energetic scientist with a positive, creative, and solution-seeking mindset, I see leadership as a blend of listening, sharing, and caring. Beyond driving cutting-edge research, my passion lies in fostering personal and professional development, guiding individuals toward their goals. I truly believe in teams and their transformative energy and creativity.
+
 ## Education
 
 __Université Paris-Cité__, Paris, France | 

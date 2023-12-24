@@ -170,7 +170,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <h1 class="title">Harmonizing and aligning M/EEG datasets with covariance-based techniques to enhance predictive regression modeling</h1>
   <div class="quarto-categories">
     <div class="quarto-category">paper</div>
-    <div class="quarto-category">preprint</div>
     <div class="quarto-category">neuroscience</div>
     <div class="quarto-category">EEG</div>
     <div class="quarto-category">machine learning</div>
@@ -181,7 +180,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <div>
   <div class="description">
-    <a href="https://doi.org/10.1101/2023.04.27.538550"><i class="ai  ai-doi ai-xl"></i></a> <a href="https://www.biorxiv.org/content/10.1101/2023.04.27.538550.full.pdf"><i class="bi-file-pdf " style="font-size: 1.5em;" role="img" aria-hidden="true"></i></a>
+    <a href="https://doi.org/10.1162/imag_a_00040"><i class="ai  ai-doi ai-xl"></i></a> <a href="https://direct.mit.edu/imag/article-pdf/doi/10.1162/imag_a_00040/2197837/imag_a_00040.pdf"><i class="bi-file-pdf " style="font-size: 1.5em;" role="img" aria-hidden="true"></i></a>
   </div>
 </div>
 
@@ -214,19 +213,24 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="summary" class="level2">
 <h2 class="anchored" data-anchor-id="summary">Summary</h2>
-<p>(from bioRxiv abstract)</p>
+<p>(from the initial bioRxiv abstract)</p>
 <p>Neuroscience studies face challenges in gathering large datasets, which limits the use of machine learning (ML) approaches. One possible solution is to incorporate additional data from large public datasets; however, data collected in different contexts often exhibit systematic differences called dataset shifts. Various factors, e.g., site, device type, experimental protocol, or social characteristics, can lead to substantial divergence of brain signals that can hinder the success of ML across datasets. In this work, we focus on dataset shifts in recordings of brain activity using MEG and EEG. State-of-the-art predictive approaches on M/EEG signals classically represent the data by covariance matrices. Model-based dataset alignment methods can leverage the geometry of covariance matrices, leading to three steps: recentering, re-scaling, and rotation correction. This work explains theoretically how differences in brain activity, anatomy, or device configuration lead to certain shifts in data covariances. Using controlled simulations, the different alignment methods are evaluated. Their practical relevance is evaluated for brain age prediction on one MEG dataset (Cam-CAN, n=646) and two EEG datasets (TUAB, n=1385; LEMON, n=213). When the target sample included recordings from the same subjects with a different task among the same dataset, paired rotation correction was essential (Embedded Image (rest-passive) or +0.17 (rest-smt)). When the target dataset included new subjects and a new task, re-centering led to improved performance (Embedded Image for rest-passive, Embedded Image for rest-smt). For generalization to an independent dataset sampled from a different population and recorded with a different device, re-centering was necessary to achieve brain age prediction performance close to within domain prediction performance. This study demonstrates that the generalization of M/EEG-based regression models across datasets can be substantially enhanced by applying domain adaptation procedures that can statistically harmonize diverse datasets.</p>
 </section>
 <section id="citation" class="level2">
 <h2 class="anchored" data-anchor-id="citation">Citation</h2>
-<div class="sourceCode" id="cb1"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="va">@article</span>{<span class="ot">mellot2023harmonizing</span>,</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">title</span>={Harmonizing and aligning M/EEG datasets with covariance-based techniques to enhance predictive regression modeling},</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">author</span>={Mellot, Apolline and Collas, Antoine and Rodrigues, Pedro LC and Engemann, Denis A and Gramfort, Alexandre},</span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">journal</span>={bioRxiv},</span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">pages</span>={2023--04},</span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>  <span class="dt">year</span>={2023},</span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>  <span class="dt">publisher</span>={Cold Spring Harbor Laboratory}</span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="va">@article</span>{<span class="ot">10</span>.<span class="ot">1162</span>/<span class="ot">imag_a_00040</span>,</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>    <span class="dt">author</span> = {Mellot, Apolline and Collas, Antoine and Rodrigues, Pedro L. C. and Engemann, Denis and Gramfort, Alexandre},</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    <span class="dt">title</span> = "<span class="st">{Harmonizing and aligning M/EEG datasets with covariance-based techniques to enhance predictive regression modeling}</span>",</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>    <span class="dt">journal</span> = {Imaging Neuroscience},</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>    <span class="dt">volume</span> = {1},</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>    <span class="dt">pages</span> = {1-23},</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>    <span class="dt">year</span> = {2023},</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>    <span class="dt">month</span> = {12},</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>    <span class="dt">issn</span> = {2837-6056},</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>    <span class="dt">doi</span> = {10.1162/imag_a_00040},</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>    <span class="dt">url</span> = {https://doi.org/10.1162/imag<span class="ch">\_</span>a<span class="ch">\_</span>00040},</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>    <span class="dt">eprint</span> = {https://direct.mit.edu/imag/article-pdf/doi/10.1162/imag<span class="ch">\_</span>a<span class="ch">\_</span>00040/2197837/imag<span class="ch">\_</span>a<span class="ch">\_</span>00040.pdf},</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
 
 </section>

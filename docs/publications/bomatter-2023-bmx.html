@@ -6,11 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Banville, Hubert, Sean UN Wood, Chris Aimone, Denis-Alexander Engemann, and Alexandre Gramfort.">
-<meta name="dcterms.date" content="2022-02-16">
-<meta name="description" content="  ">
+<meta name="author" content="Philipp Bomatter, Joseph Paillard, Pilar Garces, Joerg F Hipp and Denis A Engemann”">
+<meta name="dcterms.date" content="2023-12-23">
+<meta name="description" content=" ">
 
-<title>Denis A. Engemann - Robust learning from corrupted EEG with dynamic spatial filtering</title>
+<title>Denis A. Engemann - Machine learning of brain-specific biomarkers from EEG</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -104,10 +104,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 <link rel="stylesheet" href="../styles.css">
-<meta name="twitter:title" content="Denis A. Engemann - Robust learning from corrupted EEG with dynamic spatial filtering">
-<meta name="twitter:description" content="  ">
-<meta name="twitter:image" content="https://ars.els-cdn.com/content/image/1-s2.0-S1053811922001239-gr6_lrg.jpg">
-<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Denis A. Engemann - Machine learning of brain-specific biomarkers from EEG">
+<meta name="twitter:description" content=" ">
+<meta name="twitter:card" content="summary">
 </head>
 
 <body class="nav-fixed">
@@ -156,8 +155,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#deep-learning-for-predicting-from-noisy-real-world-eeg" id="toc-deep-learning-for-predicting-from-noisy-real-world-eeg" class="nav-link active" data-scroll-target="#deep-learning-for-predicting-from-noisy-real-world-eeg">Deep learning for predicting from noisy real-world EEG</a></li>
-  <li><a href="#summary" id="toc-summary" class="nav-link" data-scroll-target="#summary">Summary</a></li>
+  <li><a href="#learning-brain-specific-eeg-biomarkers" id="toc-learning-brain-specific-eeg-biomarkers" class="nav-link active" data-scroll-target="#learning-brain-specific-eeg-biomarkers">Learning brain-specific EEG biomarkers</a></li>
   <li><a href="#citation" id="toc-citation" class="nav-link" data-scroll-target="#citation">Citation</a></li>
   </ul>
 </nav>
@@ -167,23 +165,22 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Robust learning from corrupted EEG with dynamic spatial filtering</h1>
+<h1 class="title">Machine learning of brain-specific biomarkers from EEG</h1>
   <div class="quarto-categories">
     <div class="quarto-category">paper</div>
-    <div class="quarto-category">published</div>
+    <div class="quarto-category">preprint</div>
     <div class="quarto-category">neuroscience</div>
     <div class="quarto-category">EEG</div>
     <div class="quarto-category">machine learning</div>
-    <div class="quarto-category">mobile EEG</div>
-    <div class="quarto-category">deep learning</div>
-    <div class="quarto-category">dynamic programming</div>
-    <div class="quarto-category">spatial filtering</div>
+    <div class="quarto-category">age</div>
+    <div class="quarto-category">sex</div>
+    <div class="quarto-category">biomarker</div>
   </div>
   </div>
 
 <div>
   <div class="description">
-    <a href="https://doi.org/10.1016/j.neuroimage.2022.118994"><i class="ai  ai-doi ai-xl"></i></a> <a href="https://www.sciencedirect.com/science/article/pii/S1053811922001239/pdfft?md5=3e16b996bbce8f92bd882253f5899fbc&amp;pid=1-s2.0-S1053811922001239-main.pdf"><i class="bi-file-pdf " style="font-size: 1.5em;" role="img" aria-hidden="true"></i></a> <a href="https://github.com/hubertjb/dynamic-spatial-filtering"><i class="bi-github " style="font-size: 1.5em;" role="img" aria-hidden="true"></i></a>
+    <a href="https://doi.org/10.1101/2023.12.15.571864"><i class="ai  ai-doi ai-xl"></i></a> <a href="https://www.biorxiv.org/content/10.1101/2023.12.15.571864v4.full.pdf"><i class="bi-file-pdf " style="font-size: 1.5em;" role="img" aria-hidden="true"></i></a>
   </div>
 </div>
 
@@ -193,14 +190,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <div>
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-             <p>Banville, Hubert, Sean UN Wood, Chris Aimone, Denis-Alexander Engemann, and Alexandre Gramfort. </p>
+             <p>Philipp Bomatter, Joseph Paillard, Pilar Garces, Joerg F Hipp and Denis A Engemann” </p>
           </div>
   </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">February 16, 2022</p>
+      <p class="date">December 23, 2023</p>
     </div>
   </div>
   
@@ -210,26 +207,23 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 </header>
 
-<section id="deep-learning-for-predicting-from-noisy-real-world-eeg" class="level2">
-<h2 class="anchored" data-anchor-id="deep-learning-for-predicting-from-noisy-real-world-eeg">Deep learning for predicting from noisy real-world EEG</h2>
-<p><img src="https://ars.els-cdn.com/content/image/1-s2.0-S1053811922001239-gr6_lrg.jpg" class="img-fluid"></p>
-</section>
-<section id="summary" class="level2">
-<h2 class="anchored" data-anchor-id="summary">Summary</h2>
-<p>This Twitter thread summarizes the work and walks you through the main findings.</p>
-<p></p><div id="tweet-58677"></div><script>tweet={"url":"https:\/\/twitter.com\/hubertjbanville\/status\/1399540220987686915","author_name":"Hubert Banville","author_url":"https:\/\/twitter.com\/hubertjbanville","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EHow should we train predictive models on corrupted \u003Ca href=\"https:\/\/twitter.com\/hashtag\/EEG?src=hash&amp;ref_src=twsrc%5Etfw\"\u003E#EEG\u003C\/a\u003E? Check out our new preprint on Dynamic Spatial Filtering \u003Ca href=\"https:\/\/t.co\/2lysnVFYOQ\"\u003Ehttps:\/\/t.co\/2lysnVFYOQ\u003C\/a\u003E - joint work with \u003Ca href=\"https:\/\/twitter.com\/seanunwood?ref_src=twsrc%5Etfw\"\u003E@seanunwood\u003C\/a\u003E \u003Ca href=\"https:\/\/twitter.com\/aimone?ref_src=twsrc%5Etfw\"\u003E@aimone\u003C\/a\u003E \u003Ca href=\"https:\/\/twitter.com\/dngman?ref_src=twsrc%5Etfw\"\u003E@dngman\u003C\/a\u003E \u003Ca href=\"https:\/\/twitter.com\/agramfort?ref_src=twsrc%5Etfw\"\u003E@agramfort\u003C\/a\u003E. We use attention &amp; data augmentation to train robust models on sparse EEG. Thread: \u003Ca href=\"https:\/\/t.co\/eLr8WckQXG\"\u003Epic.twitter.com\/eLr8WckQXG\u003C\/a\u003E\u003C\/p\u003E&mdash; Hubert Banville (@hubertjbanville) \u003Ca href=\"https:\/\/twitter.com\/hubertjbanville\/status\/1399540220987686915?ref_src=twsrc%5Etfw\"\u003EJune 1, 2021\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-58677").innerHTML = tweet["html"];</script><p></p>
+<section id="learning-brain-specific-eeg-biomarkers" class="level2">
+<h2 class="anchored" data-anchor-id="learning-brain-specific-eeg-biomarkers">Learning brain-specific EEG biomarkers</h2>
+<p></p><div id="tweet-15605"></div><script>tweet={"url":"https:\/\/twitter.com\/dngman\/status\/1738127815839461652","author_name":"Denis A. Engemann","author_url":"https:\/\/twitter.com\/dngman","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003ETo preprocess or not to preprocess your \u003Ca href=\"https:\/\/twitter.com\/hashtag\/EEG?src=hash&amp;ref_src=twsrc%5Etfw\"\u003E#EEG\u003C\/a\u003E (when building \u003Ca href=\"https:\/\/twitter.com\/hashtag\/ML?src=hash&amp;ref_src=twsrc%5Etfw\"\u003E#ML\u003C\/a\u003E models) \uD83D\uDD2E? \uD83D\uDCABWe are thrilled to share our latest \u003Ca href=\"https:\/\/twitter.com\/hashtag\/preprint?src=hash&amp;ref_src=twsrc%5Etfw\"\u003E#preprint\u003C\/a\u003E, studying the challenge of learning brain-specific biomarkers from EEG \uD83E\uDDE0\uD83D\uDCF6 using \u003Ca href=\"https:\/\/twitter.com\/hashtag\/ML?src=hash&amp;ref_src=twsrc%5Etfw\"\u003E#ML\u003C\/a\u003E ⚙️\uD83D\uDDA5️: \u003Ca href=\"https:\/\/t.co\/QQuSUV3WZP\"\u003Ehttps:\/\/t.co\/QQuSUV3WZP\u003C\/a\u003E\u003Cbr\u003E\u003Cbr\u003EWe compile arguments and evidence from… \u003Ca href=\"https:\/\/t.co\/YjVRrGNpu6\"\u003Epic.twitter.com\/YjVRrGNpu6\u003C\/a\u003E\u003C\/p\u003E&mdash; Denis A. Engemann (@dngman) \u003Ca href=\"https:\/\/twitter.com\/dngman\/status\/1738127815839461652?ref_src=twsrc%5Etfw\"\u003EDecember 22, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-15605").innerHTML = tweet["html"];</script><p></p>
 </section>
 <section id="citation" class="level2">
 <h2 class="anchored" data-anchor-id="citation">Citation</h2>
-<div class="sourceCode" id="cb1"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="va">@article</span>{<span class="ot">banville2022robust</span>,</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">title</span>={Robust learning from corrupted EEG with dynamic spatial filtering},</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">author</span>={Banville, Hubert and Wood, Sean UN and Aimone, Chris and Engemann, Denis-Alexander and Gramfort, Alexandre},</span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">journal</span>={NeuroImage},</span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">volume</span>={251},</span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>  <span class="dt">pages</span>={118994},</span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>  <span class="dt">year</span>={2022},</span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>  <span class="dt">publisher</span>={Elsevier}</span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="va">@article</span> {<span class="ot">Bomatter2023</span>.<span class="ot">12</span>.<span class="ot">15</span>.<span class="ot">571864</span>,</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>    <span class="dt">author</span> = {Philipp Bomatter and Joseph Paillard and Pilar Garces and Joerg F Hipp and Denis A Engemann},</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    <span class="dt">title</span> = {Machine learning of brain-specific biomarkers from EEG},</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>    <span class="dt">elocation-id</span> = {2023.12.15.571864},</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>    <span class="dt">year</span> = {2023},</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>    <span class="dt">doi</span> = {10.1101/2023.12.15.571864},</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>    <span class="dt">publisher</span> = {Cold Spring Harbor Laboratory},</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>    <span class="dt">URL</span> = {https://www.biorxiv.org/content/early/2023/12/21/2023.12.15.571864},</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>    <span class="dt">eprint</span> = {https://www.biorxiv.org/content/early/2023/12/21/2023.12.15.571864.full.pdf},</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>    <span class="dt">journal</span> = {bioRxiv}</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
 
 </section>

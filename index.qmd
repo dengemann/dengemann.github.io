@@ -19,6 +19,9 @@ about:
     # - icon: ORCID
     #   text: ORCID
     #   href: https://orcid.org/0000-0002-7223-1014
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/denis-a-engemann-4a107b2a6/
     - icon: github
       text: GitHub
       href: https://github.com/dengemann 
@@ -44,13 +47,11 @@ listing:
 
 :::{#hero-heading}
 
-I study the human brain using electrophysiology, imaging and machine learning to develop biomarker in next generation therapeutics and diagnostics.
+🧠 Exploring the intricacies of the human brain through electrophysiology, imaging, and machine learning is my passion. I channel this enthusiasm towards the development of biomarkers and next generation therapeutics. In my current role at Roche Pharma Research & Early Development in Basel, I apply my expertise to assess the impact of novel compounds on brain dynamics and clinical outcomes, utilizing the knowledge, tools, and resources resulting of my research.
 
-In my current role at the Roche Pharma Research & Early Development in Basel, I work on assessing the impact of novel compounds on brain dynamics and clinical outcomes by applying knowledge, tools and resources resulting from my research.
+🖥️ ⚙ Previously, at Inria in Saclay-Île-de-France/Paris, I pioneered machine learning approaches, developing innovative approaches to bridge the gap between the laboratory and the real-world applications.
 
-Previously, at Inria (Saclay-Île-de-France / Paris), I have developed machine learning aproaches for bridging laboratory and real-world neuroscience.
-
-My initial training is in experimental psychology & neuroscience.
+💡 My diverse training and background in experimental psychology, neuroscience and machine learning is helping me to speak multiple scientific languages and helps me connecting (with) people working in distinct scientific areas.
 
 :::
 

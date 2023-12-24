@@ -1,12 +1,12 @@
 ---
 title: "Harmonizing and aligning M/EEG datasets with covariance-based techniques to enhance predictive regression modeling"
-description: "[{{< ai doi size=xl >}}](https://doi.org/10.1101/2023.04.27.538550) [{{< bi file-pdf size=1.5em >}}](https://www.biorxiv.org/content/10.1101/2023.04.27.538550.full.pdf)"
+description: "[{{< ai doi size=xl >}}](https://doi.org/10.1162/imag_a_00040) [{{< bi file-pdf size=1.5em >}}](https://direct.mit.edu/imag/article-pdf/doi/10.1162/imag_a_00040/2197837/imag_a_00040.pdf)"
 author: "Mellot, Apolline, Antoine Collas, Pedro LC Rodrigues, Denis A. Engemann, and Alexandre Gramfort"
 date: 04/27/2023
 draft: false
 max-description-length: 2000
 # image: 
-categories: [paper, preprint, neuroscience, EEG, machine learning, brain age, domain adaptation]
+categories: [paper, neuroscience, EEG, machine learning, brain age, domain adaptation]
 ---
 
 ## Age prediction from EEG at home during meditation and sleep
@@ -15,19 +15,24 @@ categories: [paper, preprint, neuroscience, EEG, machine learning, brain age, do
 
 ## Summary
 
-(from bioRxiv abstract)
+(from the initial bioRxiv abstract)
 
 Neuroscience studies face challenges in gathering large datasets, which limits the use of machine learning (ML) approaches. One possible solution is to incorporate additional data from large public datasets; however, data collected in different contexts often exhibit systematic differences called dataset shifts. Various factors, e.g., site, device type, experimental protocol, or social characteristics, can lead to substantial divergence of brain signals that can hinder the success of ML across datasets. In this work, we focus on dataset shifts in recordings of brain activity using MEG and EEG. State-of-the-art predictive approaches on M/EEG signals classically represent the data by covariance matrices. Model-based dataset alignment methods can leverage the geometry of covariance matrices, leading to three steps: recentering, re-scaling, and rotation correction. This work explains theoretically how differences in brain activity, anatomy, or device configuration lead to certain shifts in data covariances. Using controlled simulations, the different alignment methods are evaluated. Their practical relevance is evaluated for brain age prediction on one MEG dataset (Cam-CAN, n=646) and two EEG datasets (TUAB, n=1385; LEMON, n=213). When the target sample included recordings from the same subjects with a different task among the same dataset, paired rotation correction was essential (Embedded Image (rest-passive) or +0.17 (rest-smt)). When the target dataset included new subjects and a new task, re-centering led to improved performance (Embedded Image for rest-passive, Embedded Image for rest-smt). For generalization to an independent dataset sampled from a different population and recorded with a different device, re-centering was necessary to achieve brain age prediction performance close to within domain prediction performance. This study demonstrates that the generalization of M/EEG-based regression models across datasets can be substantially enhanced by applying domain adaptation procedures that can statistically harmonize diverse datasets.
 
 ## Citation
 
 ```bibtex
-@article{mellot2023harmonizing,
-  title={Harmonizing and aligning M/EEG datasets with covariance-based techniques to enhance predictive regression modeling},
-  author={Mellot, Apolline and Collas, Antoine and Rodrigues, Pedro LC and Engemann, Denis A and Gramfort, Alexandre},
-  journal={bioRxiv},
-  pages={2023--04},
-  year={2023},
-  publisher={Cold Spring Harbor Laboratory}
+@article{10.1162/imag_a_00040,
+    author = {Mellot, Apolline and Collas, Antoine and Rodrigues, Pedro L. C. and Engemann, Denis and Gramfort, Alexandre},
+    title = "{Harmonizing and aligning M/EEG datasets with covariance-based techniques to enhance predictive regression modeling}",
+    journal = {Imaging Neuroscience},
+    volume = {1},
+    pages = {1-23},
+    year = {2023},
+    month = {12},
+    issn = {2837-6056},
+    doi = {10.1162/imag_a_00040},
+    url = {https://doi.org/10.1162/imag\_a\_00040},
+    eprint = {https://direct.mit.edu/imag/article-pdf/doi/10.1162/imag\_a\_00040/2197837/imag\_a\_00040.pdf},
 }
 ```

@@ -2,6 +2,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/publications/bomatter-2023-bmx.html",
       "/publications/sabbagh-2023-bja.html",
       "/publications/banville-2023-sleep.html",
       "/publications/mellot-2023-harmonizing.html",
@@ -25,6 +26,7 @@
     "listing": "/publications.html",
     "items": [
       "/publications/sabbagh-2023-bja.html",
+      "/publications/mellot-2023-harmonizing.html",
       "/publications/jirsaraie-2023-review.html",
       "/publications/engemann-2022-benchmark.html",
       "/publications/hebling-2022-decline.html",
@@ -39,8 +41,8 @@
       "/publications/jas-2017-autoreject.html",
       "/publications/engemann-2015-covs.html",
       "/publications/gramfort-2014-nimg.html",
-      "/publications/banville-2023-sleep.html",
-      "/publications/mellot-2023-harmonizing.html"
+      "/publications/bomatter-2023-bmx.html",
+      "/publications/banville-2023-sleep.html"
     ]
   }
 ]

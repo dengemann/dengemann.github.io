@@ -6,7 +6,7 @@ date: 04/27/2023
 draft: false
 max-description-length: 2000
 # image: 
-categories: [paper, neuroscience, EEG, machine learning, brain age, domain adaptation]
+categories: [paper, published, neuroscience, EEG, machine learning, brain age, domain adaptation]
 ---
 
 ## Age prediction from EEG at home during meditation and sleep

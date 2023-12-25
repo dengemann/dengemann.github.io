@@ -11,6 +11,12 @@ categories: [paper, preprint, neuroscience, EEG, machine learning, age, sex, bio
 
 ## Learning brain-specific EEG biomarkers
 
+![](../bomatter_2023_bmx.jpeg)
+
+
+## Summary
+
+
 {{< tweet dngman 1738127815839461652 >}}
 
 ## Citation

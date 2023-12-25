@@ -10,7 +10,7 @@ categories: [paper, published, neuroscience, MRI, multimodal, pretext tasks, bio
 
 ## From brain age to multimodal modeling of mental health with pretext tasks
 
-![](https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/gigascience/10/10/10.1093_gigascience_giab071/1/giab071fig1.jpeg?Expires=1689715685&Signature=Kib0Nvi4DonbOJhRbIgw6Idjkeccxqr1596Pw6OHd5KoV4EaB-vlEwnV5l8JYQ6dmdYcm4xihHZtsXCdG1i6yz-oSa3AMklnKG4MDJZ-8QGSGj~QKrFrKZhKa7o~tiNF08eRYjbdAiEzz-kyMtP-sWYQWHtFhQAWuF0QFxuyZ7WT1TZmLpmy0JYnfe~3IfhSNlNVWHNK1NN6zXvANGOj2dZ8lGcwGnWaSWH--BDnUdt-YhD-XFFpDExNgvrpUPPjL1TN~DR6jFDoj-5ca714p34dgRw0CZj0oEwLd8LFhTWaJ5DOgmKhRCm1J4-VsEK3i1SNeMHPosZ4gKezp2B1fA__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA)
+![](../dadi_2021_giga.png)
 
 ## Summary
 

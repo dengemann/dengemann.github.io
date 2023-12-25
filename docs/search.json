@@ -273,6 +273,13 @@
     "text": "Citation\n@article{engemann2020combining,\n  title={Combining magnetoencephalography with magnetic resonance imaging enhances learning of surrogate-biomarkers},\n  author={Engemann, Denis A and Kozynets, Oleh and Sabbagh, David and Lema{\\^\\i}tre, Guillaume and Varoquaux, Gael and Liem, Franziskus and Gramfort, Alexandre},\n  journal={Elife},\n  volume={9},\n  pages={e54055},\n  year={2020},\n  publisher={eLife Sciences Publications, Ltd}\n}"
   },
   {
+    "objectID": "publications/bomatter-2023-bmx.html#summary",
+    "href": "publications/bomatter-2023-bmx.html#summary",
+    "title": "Machine learning of brain-specific biomarkers from EEG",
+    "section": "Summary",
+    "text": "Summary"
+  },
+  {
     "objectID": "publications/bomatter-2023-bmx.html#citation",
     "href": "publications/bomatter-2023-bmx.html#citation",
     "title": "Machine learning of brain-specific biomarkers from EEG",
@@ -326,7 +333,7 @@
     "href": "publications.html#preprints",
     "title": "Full Bibliography",
     "section": "Preprints",
-    "text": "Preprints\n\n\n\n\n  \n\n\n\n\nMachine learning of brain-specific biomarkers from EEG\n\n\n\n\n\n \n\n\n\n\n\n\nDec 23, 2023\n\n\nPhilipp Bomatter, Joseph Paillard, Pilar Garces, Joerg F Hipp and Denis A Engemann”\n\n\n\n\n\n\n  \n\n\n\n\nDo try this at home: Age prediction from sleep and meditation with large-scale low-cost mobile EEG\n\n\n\n\n\n \n\n\n\n\n\n\nApr 29, 2023\n\n\nBanville, Hubert, Maurice Abou Jaoude, Sean UN Wood, Chris Aimone, Sebastian C. Holst, Alexandre Gramfort, and Denis-Alexander Engemann.\n\n\n\n\n\n\n  \n\n\n\n\nHarmonizing and aligning M/EEG datasets with covariance-based techniques to enhance predictive regression modeling\n\n\n\n\n\n \n\n\n\n\n\n\nApr 27, 2023\n\n\nMellot, Apolline, Antoine Collas, Pedro LC Rodrigues, Denis A. Engemann, and Alexandre Gramfort\n\n\n\n\n\n\nNo matching items"
+    "text": "Preprints\n\n\n\n\n  \n\n\n\n\nMachine learning of brain-specific biomarkers from EEG\n\n\n\n\n\n \n\n\n\n\n\n\nDec 23, 2023\n\n\nPhilipp Bomatter, Joseph Paillard, Pilar Garces, Joerg F Hipp and Denis A Engemann”\n\n\n\n\n\n\n  \n\n\n\n\nDo try this at home: Age prediction from sleep and meditation with large-scale low-cost mobile EEG\n\n\n\n\n\n \n\n\n\n\n\n\nApr 29, 2023\n\n\nBanville, Hubert, Maurice Abou Jaoude, Sean UN Wood, Chris Aimone, Sebastian C. Holst, Alexandre Gramfort, and Denis-Alexander Engemann.\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",

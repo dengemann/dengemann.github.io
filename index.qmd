@@ -49,7 +49,7 @@ listing:
 
 🧠 Exploring the intricacies of the human brain through electrophysiology, imaging, and machine learning is my passion. I channel this enthusiasm towards the development of biomarkers and next generation therapeutics. In my current role at Roche Pharma Research & Early Development in Basel, I apply my expertise to assess the impact of novel compounds on brain dynamics and clinical outcomes, utilizing the knowledge, tools, and resources resulting of my research.
 
-🖥️ ⚙ Previously, at Inria in Saclay-Île-de-France/Paris, I pioneered machine learning approaches, developing innovative approaches to bridge the gap between the laboratory and the real-world applications.
+🖥️ ⚙ Previously, at Inria in Saclay-Île-de-France/Paris, I pioneered machine learning approaches bridging the gap between the laboratory and the real-world applications.
 
 :::
 

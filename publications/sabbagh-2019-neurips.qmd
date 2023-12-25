@@ -5,7 +5,7 @@ author: "Sabbagh, David, Pierre Ablin, Gaël Varoquaux, Alexandre Gramfort, and 
 date: 12/10/2019
 draft: false
 max-description-length: 2000
-categories: [paper, published, neuroscience, M/EEG, machine learning, brain age, Riemannian geometry, spatial filtering]
+categories: [paper, published, NeurIPS, neuroscience, M/EEG, machine learning, brain age, Riemannian geometry, spatial filtering]
 ---
 
 ## Statistically consistent regression modeling from brain activity recoreded with M/EEG

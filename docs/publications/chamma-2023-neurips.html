@@ -6,11 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Sabbagh, David, Pierre Ablin, Gaël Varoquaux, Alexandre Gramfort, and Denis A. Engemann.">
-<meta name="dcterms.date" content="2020-05-18">
+<meta name="author" content="Ahmad Chamma, Denis A. Engemann and Bertrand Thirion">
+<meta name="dcterms.date" content="2023-12-10">
 <meta name="description" content="  ">
 
-<title>Denis A. Engemann - Predictive regression modeling with MEG/EEG: from source power to signals and cognitive states</title>
+<title>Denis A. Engemann - Statistically Valid Variable Importance Assessment through Conditional Permutations</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -104,9 +104,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 <link rel="stylesheet" href="../styles.css">
-<meta name="twitter:title" content="Denis A. Engemann - Predictive regression modeling with MEG/EEG: from source power to signals and cognitive states">
+<meta name="twitter:title" content="Denis A. Engemann - Statistically Valid Variable Importance Assessment through Conditional Permutations">
 <meta name="twitter:description" content="  ">
-<meta name="twitter:image" content="https://ars.els-cdn.com/content/image/1-s2.0-S1053811920303797-gr1_lrg.jpg">
+<meta name="twitter:image" content="../chamma_2023_neurips.jpeg">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -156,7 +156,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#generative-models-for-learning-biomarkers-from-brain-activity-recorded-with-meeg" id="toc-generative-models-for-learning-biomarkers-from-brain-activity-recorded-with-meeg" class="nav-link active" data-scroll-target="#generative-models-for-learning-biomarkers-from-brain-activity-recorded-with-meeg">Generative models for learning biomarkers from brain activity recorded with M/EEG</a></li>
+  <li><a href="#statistically-consistent-regression-modeling-from-brain-activity-recoreded-with-meeg" id="toc-statistically-consistent-regression-modeling-from-brain-activity-recoreded-with-meeg" class="nav-link active" data-scroll-target="#statistically-consistent-regression-modeling-from-brain-activity-recoreded-with-meeg">Statistically consistent regression modeling from brain activity recoreded with M/EEG</a></li>
   <li><a href="#summary" id="toc-summary" class="nav-link" data-scroll-target="#summary">Summary</a></li>
   <li><a href="#citation" id="toc-citation" class="nav-link" data-scroll-target="#citation">Citation</a></li>
   </ul>
@@ -167,22 +167,21 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Predictive regression modeling with MEG/EEG: from source power to signals and cognitive states</h1>
+<h1 class="title">Statistically Valid Variable Importance Assessment through Conditional Permutations</h1>
   <div class="quarto-categories">
     <div class="quarto-category">paper</div>
     <div class="quarto-category">published</div>
+    <div class="quarto-category">NeurIPS</div>
     <div class="quarto-category">neuroscience</div>
-    <div class="quarto-category">M/EEG</div>
     <div class="quarto-category">machine learning</div>
-    <div class="quarto-category">brain age</div>
-    <div class="quarto-category">Riemannian geometry</div>
-    <div class="quarto-category">spatial filtering</div>
+    <div class="quarto-category">explainable AI</div>
+    <div class="quarto-category">interpretable ML</div>
   </div>
   </div>
 
 <div>
   <div class="description">
-    <a href="https://doi.org/10.1016/j.neuroimage.2020.116893"><i class="ai  ai-doi ai-xl"></i></a> <a href="https://www.sciencedirect.com/science/article/pii/S1053811920303797/pdfft?md5=4d05123a5b0e3bec342803c0c1e2ed6e&amp;pid=1-s2.0-S1053811920303797-main.pdf"><i class="bi-file-pdf " style="font-size: 1.5em;" role="img" aria-hidden="true"></i></a> <a href="https://github.com/DavidSabbagh/meeg_power_regression"><i class="bi-github " style="font-size: 1.5em;" role="img" aria-hidden="true"></i></a>
+    <a href="https://arxiv.org/abs/2309.07593"><i class="ai  ai-doi ai-xl"></i></a> <a href="https://arxiv.org/pdf/2309.07593.pdf"><i class="bi-file-pdf " style="font-size: 1.5em;" role="img" aria-hidden="true"></i></a> <a href="https://github.com/achamma723/Variable_Importance"><i class="bi-github " style="font-size: 1.5em;" role="img" aria-hidden="true"></i></a>
   </div>
 </div>
 
@@ -192,14 +191,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <div>
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-             <p>Sabbagh, David, Pierre Ablin, Gaël Varoquaux, Alexandre Gramfort, and Denis A. Engemann. </p>
+             <p>Ahmad Chamma, Denis A. Engemann and Bertrand Thirion </p>
           </div>
   </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">May 18, 2020</p>
+      <p class="date">December 10, 2023</p>
     </div>
   </div>
   
@@ -209,26 +208,25 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 </header>
 
-<section id="generative-models-for-learning-biomarkers-from-brain-activity-recorded-with-meeg" class="level2">
-<h2 class="anchored" data-anchor-id="generative-models-for-learning-biomarkers-from-brain-activity-recorded-with-meeg">Generative models for learning biomarkers from brain activity recorded with M/EEG</h2>
-<p><img src="https://ars.els-cdn.com/content/image/1-s2.0-S1053811920303797-gr1_lrg.jpg" class="img-fluid"></p>
+<section id="statistically-consistent-regression-modeling-from-brain-activity-recoreded-with-meeg" class="level2">
+<h2 class="anchored" data-anchor-id="statistically-consistent-regression-modeling-from-brain-activity-recoreded-with-meeg">Statistically consistent regression modeling from brain activity recoreded with M/EEG</h2>
+<p><img src="../chamma_2023_neurips.jpeg" class="img-fluid"></p>
 </section>
 <section id="summary" class="level2">
 <h2 class="anchored" data-anchor-id="summary">Summary</h2>
-<p>This Twitter thread summarizes the work and walks you through the main findings.</p>
-<p></p><div id="tweet-15552"></div><script>tweet={"url":"https:\/\/twitter.com\/dngman\/status\/1262276285591629829","author_name":"Denis A. Engemann","author_url":"https:\/\/twitter.com\/dngman","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EExcited to share our paper \u003Ca href=\"https:\/\/twitter.com\/NeuroImage_EiC?ref_src=twsrc%5Etfw\"\u003E@NeuroImage_EiC\u003C\/a\u003E by \u003Ca href=\"https:\/\/twitter.com\/DavSabbagh?ref_src=twsrc%5Etfw\"\u003E@DavSabbagh\u003C\/a\u003E with \u003Ca href=\"https:\/\/twitter.com\/PierreAblin?ref_src=twsrc%5Etfw\"\u003E@PierreAblin\u003C\/a\u003E \u003Ca href=\"https:\/\/twitter.com\/GaelVaroquaux?ref_src=twsrc%5Etfw\"\u003E@GaelVaroquaux\u003C\/a\u003E \u003Ca href=\"https:\/\/twitter.com\/agramfort?ref_src=twsrc%5Etfw\"\u003E@agramfort\u003C\/a\u003E \u003Ca href=\"https:\/\/t.co\/ke0wO8aqwk\"\u003Ehttps:\/\/t.co\/ke0wO8aqwk\u003C\/a\u003E Nonlinear subject-level regression on M\/EEG using linear models without source localization: theory + empirical benchmarks  Thread\uD83D\uDC47 \u003Ca href=\"https:\/\/t.co\/0vevsO3UmG\"\u003Epic.twitter.com\/0vevsO3UmG\u003C\/a\u003E\u003C\/p\u003E&mdash; Denis A. Engemann (@dngman) \u003Ca href=\"https:\/\/twitter.com\/dngman\/status\/1262276285591629829?ref_src=twsrc%5Etfw\"\u003EMay 18, 2020\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-15552").innerHTML = tweet["html"];</script><p></p>
+<p>(reprinted from abstract)</p>
+<p>Variable importance assessment has become a crucial step in machine-learning applications when using complex learners, such as deep neural networks, on large-scale data. Removal-based importance assessment is currently the reference approach, particularly when statistical guarantees are sought to justify variable inclusion. It is often implemented with variable permutation schemes. On the flip side, these approaches risk misidentifying unimportant variables as important in the presence of correlations among covariates. Here we develop a systematic approach for studying Conditional Permutation Importance (CPI) that is model agnostic and computationally lean, as well as reusable benchmarks of state-of-the-art variable importance estimators. We show theoretically and empirically that CPI overcomes the limitations of standard permutation importance by providing accurate type-I error control. When used with a deep neural network, CPI consistently showed top accuracy across benchmarks. An experiment on real-world data analysis in a large-scale medical dataset showed that CPI provides a more parsimonious selection of statistically significant variables. Our results suggest that CPI can be readily used as drop-in replacement for permutation-based methods.</p>
+<p>(Twitter/X)</p>
+<p></p><div id="tweet-63505"></div><script>tweet={"url":"https:\/\/twitter.com\/dngman\/status\/1734121074739106055","author_name":"Denis A. Engemann","author_url":"https:\/\/twitter.com\/dngman","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003EAre you interested in assessing variable importance in your custom non-linear or non-parametric prediction model for high-dimensional biomedical data? Do you prefer methods based on statistical principles rather than ad-hoc rankings of variables? \uD83D\uDEA8 \u003Ca href=\"https:\/\/twitter.com\/hashtag\/NeurIPS23?src=hash&amp;ref_src=twsrc%5Etfw\"\u003E#NeurIPS23\u003C\/a\u003E \uD83D\uDCE2\u003Cbr\u003E\u003Cbr\u003EOur latest work… \u003Ca href=\"https:\/\/t.co\/5e15z2uTu3\"\u003Epic.twitter.com\/5e15z2uTu3\u003C\/a\u003E\u003C\/p\u003E&mdash; Denis A. Engemann (@dngman) \u003Ca href=\"https:\/\/twitter.com\/dngman\/status\/1734121074739106055?ref_src=twsrc%5Etfw\"\u003EDecember 11, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-63505").innerHTML = tweet["html"];</script><p></p>
 </section>
 <section id="citation" class="level2">
 <h2 class="anchored" data-anchor-id="citation">Citation</h2>
-<div class="sourceCode" id="cb1"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="va">@article</span>{<span class="ot">sabbagh2020predictive</span>,</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">title</span>={Predictive regression modeling with MEG/EEG: from source power to signals and cognitive states},</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">author</span>={Sabbagh, David and Ablin, Pierre and Varoquaux, Ga{<span class="ch">\"</span>e}l and Gramfort, Alexandre and Engemann, Denis A},</span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">journal</span>={NeuroImage},</span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">volume</span>={222},</span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>  <span class="dt">pages</span>={116893},</span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>  <span class="dt">year</span>={2020},</span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>  <span class="dt">publisher</span>={Elsevier}</span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="va">@article</span>{<span class="ot">chamma2023statistically</span>,</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">title</span>={Statistically Valid Variable Importance Assessment through Conditional Permutations},</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">author</span>={Chamma, Ahmad and Engemann, Denis A and Thirion, Bertrand},</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">journal</span>={arXiv preprint arXiv:2309.07593},</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">year</span>={2023}</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
 
 </section>

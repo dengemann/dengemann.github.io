@@ -3,6 +3,7 @@
     "listing": "/index.html",
     "items": [
       "/publications/bomatter-2023-bmx.html",
+      "/publications/chamma-2024-AAAI.html",
       "/publications/chamma-2023-neurips.html",
       "/publications/sabbagh-2023-bja.html",
       "/publications/banville-2023-sleep.html",
@@ -26,6 +27,7 @@
   {
     "listing": "/publications.html",
     "items": [
+      "/publications/chamma-2024-AAAI.html",
       "/publications/chamma-2023-neurips.html",
       "/publications/sabbagh-2023-bja.html",
       "/publications/mellot-2023-harmonizing.html",

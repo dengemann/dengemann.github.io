@@ -6,8 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Ahmad Chamma, Bertrand Thirion and Denis A. Engemann">
+<meta name="dcterms.date" content="2023-12-15">
+<meta name="description" content="  ">
 
-<title>Denis A. Engemann - Dr.&nbsp;Denis A. Engemann</title>
+<title>Denis A. Engemann - Variable Importance in High-Dimensional Settings Requires Grouping</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,31 +23,64 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/quarto-contrib/academicons-1.9.2/all.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/academicons-1.9.2/size.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/bootstrap-icons-1.9.1/all.css" rel="stylesheet">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/quarto-contrib/academicons-1.9.2/all.css" rel="stylesheet">
+<link href="../site_libs/quarto-contrib/academicons-1.9.2/size.css" rel="stylesheet">
+<link href="../site_libs/quarto-contrib/bootstrap-icons-1.9.1/all.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -65,42 +101,12 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-latest-publications .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-latest-publications'] = new List('listing-latest-publications', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<link rel="stylesheet" href="styles.css">
-<meta name="twitter:title" content="Denis A. Engemann - Dr.&nbsp;Denis A. Engemann">
-<meta name="twitter:image" content="denis1.jpg">
+<link rel="stylesheet" href="../styles.css">
+<meta name="twitter:title" content="Denis A. Engemann - Variable Importance in High-Dimensional Settings Requires Grouping">
+<meta name="twitter:description" content="  ">
+<meta name="twitter:image" content="../chamma_2024_AAAI.jpg">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -111,7 +117,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Denis A. Engemann</span>
     </a>
   </div>
@@ -122,15 +128,15 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" rel="" target="" aria-current="page">
+    <a class="nav-link" href="../index.html" rel="" target="">
  <span class="menu-text">Denis A. Engemann</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html" rel="" target="">
+    <a class="nav-link" href="../about.html" rel="" target="">
  <span class="menu-text">About Me</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./publications.html" rel="" target="">
+    <a class="nav-link" href="../publications.html" rel="" target="">
  <span class="menu-text">Publications</span></a>
   </li>  
 </ul>
@@ -148,135 +154,84 @@ ul.task-list li input[type="checkbox"] {
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">On this page</h2>
+   
   <ul>
-  <li><a href="#brains-biomarker-cognition" id="toc-brains-biomarker-cognition" class="nav-link active" data-scroll-target="#brains-biomarker-cognition">Brains, Biomarker &amp; Cognition</a></li>
-  <li><a href="#latest-publications" id="toc-latest-publications" class="nav-link" data-scroll-target="#latest-publications">Latest Publications</a></li>
+  <li><a href="#conditional-permutation-inference-for-groups-of-variables" id="toc-conditional-permutation-inference-for-groups-of-variables" class="nav-link active" data-scroll-target="#conditional-permutation-inference-for-groups-of-variables">Conditional permutation inference for groups of variables</a></li>
+  <li><a href="#summary" id="toc-summary" class="nav-link" data-scroll-target="#summary">Summary</a></li>
+  <li><a href="#citation" id="toc-citation" class="nav-link" data-scroll-target="#citation">Citation</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<div class="quarto-about-trestles column-page-left">
-  <div class="about-entity">
-    <img src="denis1.jpg" class="about-image
-  rounded " style="width: 15em;">
+<main class="content column-page-left" id="quarto-document-content">
+
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Dr.&nbsp;Denis A. Engemann</h1>
+<h1 class="title">Variable Importance in High-Dimensional Settings Requires Grouping</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">paper</div>
+    <div class="quarto-category">published</div>
+    <div class="quarto-category">AAAI</div>
+    <div class="quarto-category">neuroscience</div>
+    <div class="quarto-category">machine learning</div>
+    <div class="quarto-category">explainable AI</div>
+    <div class="quarto-category">interpretable ML</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    <a href="https://arxiv.org/abs/2312.10858v1"><i class="ai  ai-doi ai-xl"></i></a> <a href="https://arxiv.org/pdf/2312.10858v1.pdf"><i class="bi-file-pdf " style="font-size: 1.5em;" role="img" aria-hidden="true"></i></a> <a href="https://github.com/achamma723/Group_Variable_Importance"><i class="bi-github " style="font-size: 1.5em;" role="img" aria-hidden="true"></i></a>
+  </div>
 </div>
+
+
 <div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Ahmad Chamma, Bertrand Thirion and Denis A. Engemann </p>
+          </div>
   </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">December 15, 2023</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
 </header>
-    <div class="about-links">
-  <a href="https://twitter.com/dngman" class="about-link" rel="" target="">
-    <i class="bi bi-twitter"></i>
-     <span class="about-link-text">Twitter</span>
-  </a>
-  <a href="https://scholar.google.com/citations?user=ombAzhMAAAAJ&amp;hl=en&amp;oi=ao" class="about-link" rel="" target="">
-    <i class="bi bi-google scholar"></i>
-     <span class="about-link-text">Google Scholar</span>
-  </a>
-  <a href="https://www.linkedin.com/in/denis-a-engemann-4a107b2a6/" class="about-link" rel="" target="">
-    <i class="bi bi-linkedin"></i>
-     <span class="about-link-text">LinkedIn</span>
-  </a>
-  <a href="https://github.com/dengemann" class="about-link" rel="" target="">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text">GitHub</span>
-  </a>
-</div>
-  </div>
-  <div class="about-contents"><main class="content column-page-left" id="quarto-document-content">
 
-<section id="brains-biomarker-cognition" class="level1">
-<h1>Brains, Biomarker &amp; Cognition</h1>
-<div id="hero-heading">
-<p>🧠 Exploring the intricacies of the human brain through electrophysiology, imaging, and machine learning is my passion. I channel this enthusiasm towards the development of biomarkers and next generation therapeutics. In my current role at Roche Pharma Research &amp; Early Development in Basel, I apply my expertise to assess the impact of novel compounds on brain dynamics and clinical outcomes, utilizing the knowledge, tools, and resources resulting of my research.</p>
-<p>🖥️ ⚙ Previously, at Inria in Saclay-Île-de-France/Paris, I pioneered machine learning approaches bridging the gap between the laboratory and the real-world applications.</p>
-</div>
+<section id="conditional-permutation-inference-for-groups-of-variables" class="level2">
+<h2 class="anchored" data-anchor-id="conditional-permutation-inference-for-groups-of-variables">Conditional permutation inference for groups of variables</h2>
+<p><img src="../chamma_2024_AAAI.jpg" class="img-fluid"></p>
 </section>
-<section id="latest-publications" class="level1">
-<h1>Latest Publications</h1>
-<div id="listing-latest-publications" class="quarto-listing quarto-listing-container-table">
-<table class="quarto-listing-table table">
-<thead>
-<tr>
-<th>
-Title
-</th>
-<th>
-Links
-</th>
-</tr>
-</thead>
-<tbody class="list">
-<tr data-index="0" data-categories="paper,preprint,neuroscience,EEG,machine learning,age,sex,biomarker" data-listing-date-sort="1703286000000" data-listing-file-modified-sort="1703507432364" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Machine learning of brain-specific biomarkers from EEG" data-listing-filename-sort="bomatter-2023-bmx.qmd">
-<td>
-<a href="./publications/bomatter-2023-bmx.html" class="title listing-title">Machine learning of brain-specific biomarkers from EEG</a>
-</td>
-<td>
-<span class="listing-description"><a href="https://doi.org/10.1101/2023.12.15.571864"><i class="ai  ai-doi ai-xl"></i></a> <a href="https://www.biorxiv.org/content/10.1101/2023.12.15.571864v4.full.pdf"><i class="bi-file-pdf " style="font-size: 1.5em;" role="img" aria-hidden="true"></i></a></span>
-</td>
-</tr>
-<tr data-index="1" data-categories="paper,published,AAAI,neuroscience,machine learning,explainable AI,interpretable ML" data-listing-date-sort="1702594800000" data-listing-file-modified-sort="1703842125891" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-title-sort="Variable Importance in High-Dimensional Settings Requires Grouping" data-listing-filename-sort="chamma-2024-AAAI.qmd">
-<td>
-<a href="./publications/chamma-2024-AAAI.html" class="title listing-title">Variable Importance in High-Dimensional Settings Requires Grouping</a>
-</td>
-<td>
-<span class="listing-description"><a href="https://arxiv.org/abs/2312.10858v1"><i class="ai  ai-doi ai-xl"></i></a> <a href="https://arxiv.org/pdf/2312.10858v1.pdf"><i class="bi-file-pdf " style="font-size: 1.5em;" role="img" aria-hidden="true"></i></a> <a href="https://github.com/achamma723/Group_Variable_Importance"><i class="bi-github " style="font-size: 1.5em;" role="img" aria-hidden="true"></i></a></span>
-</td>
-</tr>
-<tr data-index="2" data-categories="paper,published,NeurIPS,neuroscience,machine learning,explainable AI,interpretable ML" data-listing-date-sort="1702162800000" data-listing-file-modified-sort="1703841547247" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-title-sort="Statistically Valid Variable Importance Assessment through Conditional Permutations" data-listing-filename-sort="chamma-2023-neurips.qmd">
-<td>
-<a href="./publications/chamma-2023-neurips.html" class="title listing-title">Statistically Valid Variable Importance Assessment through Conditional Permutations</a>
-</td>
-<td>
-<span class="listing-description"><a href="https://arxiv.org/abs/2309.07593"><i class="ai  ai-doi ai-xl"></i></a> <a href="https://arxiv.org/pdf/2309.07593.pdf"><i class="bi-file-pdf " style="font-size: 1.5em;" role="img" aria-hidden="true"></i></a> <a href="https://github.com/achamma723/Variable_Importance"><i class="bi-github " style="font-size: 1.5em;" role="img" aria-hidden="true"></i></a></span>
-</td>
-</tr>
-<tr data-index="3" data-categories="paper,published,neuroscience,M/EEG,machine learning,brain age,anaesthesia,propofol,sevoflurane,burts suppression" data-listing-date-sort="1686866400000" data-listing-file-modified-sort="1686948576313" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-title-sort="Repurposing electroencephalogram monitoring of general anaesthesia for building biomarkers of brain ageing: an exploratory study" data-listing-filename-sort="sabbagh-2023-bja.qmd">
-<td>
-<a href="./publications/sabbagh-2023-bja.html" class="title listing-title">Repurposing electroencephalogram monitoring of general anaesthesia for building biomarkers of brain ageing: an exploratory study</a>
-</td>
-<td>
-<span class="listing-description"><a href="https://doi.org/10.1016/j.bjao.2023.100145"><i class="ai  ai-doi ai-xl"></i></a> <a href="https://www.bjaopen.org/action/showPdf?pii=S2772-6096%2823%2900024-2"><i class="bi-file-pdf " style="font-size: 1.5em;" role="img" aria-hidden="true"></i></a> <a href="https://github.com/meeg-ml-benchmarks/brain-age-benchmark-paper"><i class="bi-github " style="font-size: 1.5em;" role="img" aria-hidden="true"></i></a></span>
-</td>
-</tr>
-<tr data-index="4" data-categories="paper,preprint,neuroscience,EEG,machine learning,brain age,sleep,mobile EEG" data-listing-date-sort="1682719200000" data-listing-file-modified-sort="1686948792928" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-title-sort="Do try this at home: Age prediction from sleep and meditation with large-scale low-cost mobile EEG" data-listing-filename-sort="banville-2023-sleep.qmd">
-<td>
-<a href="./publications/banville-2023-sleep.html" class="title listing-title">Do try this at home: Age prediction from sleep and meditation with large-scale low-cost mobile EEG</a>
-</td>
-<td>
-<span class="listing-description"><a href="https://doi.org/10.1101/2023.04.29.538328"><i class="ai  ai-doi ai-xl"></i></a> <a href="https://www.biorxiv.org/content/10.1101/2023.04.29.538328v1.full.pdf"><i class="bi-file-pdf " style="font-size: 1.5em;" role="img" aria-hidden="true"></i></a></span>
-</td>
-</tr>
-<tr data-index="5" data-categories="paper,published,neuroscience,EEG,machine learning,brain age,domain adaptation" data-listing-date-sort="1682546400000" data-listing-file-modified-sort="1703507484322" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-title-sort="Harmonizing and aligning M/EEG datasets with covariance-based techniques to enhance predictive regression modeling" data-listing-filename-sort="mellot-2023-harmonizing.qmd">
-<td>
-<a href="./publications/mellot-2023-harmonizing.html" class="title listing-title">Harmonizing and aligning M/EEG datasets with covariance-based techniques to enhance predictive regression modeling</a>
-</td>
-<td>
-<span class="listing-description"><a href="https://doi.org/10.1162/imag_a_00040"><i class="ai  ai-doi ai-xl"></i></a> <a href="https://direct.mit.edu/imag/article-pdf/doi/10.1162/imag_a_00040/2197837/imag_a_00040.pdf"><i class="bi-file-pdf " style="font-size: 1.5em;" role="img" aria-hidden="true"></i></a></span>
-</td>
-</tr>
-<tr data-index="6" data-categories="paper,published,neuroscience,machine learning,multimodal,brain age,review" data-listing-date-sort="1681423200000" data-listing-file-modified-sort="1686948709809" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="A systematic review of multimodal brain age studies: Uncovering a divergence between model accuracy and utility" data-listing-filename-sort="jirsaraie-2023-review.qmd">
-<td>
-<a href="./publications/jirsaraie-2023-review.html" class="title listing-title">A systematic review of multimodal brain age studies: Uncovering a divergence between model accuracy and utility</a>
-</td>
-<td>
-<span class="listing-description"><a href="https://doi.org/10.1016/j.patter.2023.100712"><i class="ai  ai-doi ai-xl"></i></a> <a href="https://www.cell.com/patterns/pdf/S2666-3899(23)00049-1.pdf"><i class="bi-file-pdf " style="font-size: 1.5em;" role="img" aria-hidden="true"></i></a></span>
-</td>
-</tr>
-</tbody>
-</table>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
+<section id="summary" class="level2">
+<h2 class="anchored" data-anchor-id="summary">Summary</h2>
+<p>(reprinted from abstract)</p>
+<p>Explaining the decision process of machine learning algorithms is nowadays crucial for both model’s performance enhancement and human comprehension. This can be achieved by assessing the variable importance of single variables, even for high-capacity non-linear methods, e.g.&nbsp;Deep Neural Networks (DNNs). While only removal-based approaches, such as Permutation Importance (PI), can bring statistical validity, they return misleading results when variables are correlated. Conditional Permutation Importance (CPI) bypasses PI’s limitations in such cases. However, in high-dimensional settings, where high correlations between the variables cancel their conditional importance, the use of CPI as well as other methods leads to unreliable results, besides prohibitive computation costs. Grouping variables statistically via clustering or some prior knowledge gains some power back and leads to better interpretations. In this work, we introduce BCPI (Block-Based Conditional Permutation Importance), a new generic framework for variable importance computation with statistical guarantees handling both single and group cases. Furthermore, as handling groups with high cardinality (such as a set of observations of a given modality) are both time-consuming and resource-intensive, we also introduce a new stacking approach extending the DNN architecture with sub-linear layers adapted to the group structure. We show that the ensuing approach extended with stacking controls the type-I error even with highly-correlated groups and shows top accuracy across benchmarks. Furthermore, we perform a real-world data analysis in a large-scale medical dataset where we aim to show the consistency between our results and the literature for a biomarker prediction.</p>
+<p>(Twitter/X)</p>
+<p></p><div id="tweet-30194"></div><script>tweet={"url":"https:\/\/twitter.com\/dngman\/status\/1740648629495287876","author_name":"Denis A. Engemann","author_url":"https:\/\/twitter.com\/dngman","html":"\u003Cblockquote class=\"twitter-tweet\" align=\"center\"\u003E\u003Cp lang=\"en\" dir=\"ltr\"\u003E\uD83E\uDD41You want to compute variable importance but your variables are way too correlated? \uD83D\uDCAB We got you covered! \uD83D\uDCE2 Our last paper on \u003Ca href=\"https:\/\/twitter.com\/hashtag\/interpretability?src=hash&amp;ref_src=twsrc%5Etfw\"\u003E#interpretability\u003C\/a\u003E \u003Ca href=\"https:\/\/twitter.com\/hashtag\/XAI?src=hash&amp;ref_src=twsrc%5Etfw\"\u003E#XAI\u003C\/a\u003E accepted at \u003Ca href=\"https:\/\/twitter.com\/hashtag\/AAAI?src=hash&amp;ref_src=twsrc%5Etfw\"\u003E#AAAI\u003C\/a\u003E  (arXiv: \u003Ca href=\"https:\/\/t.co\/pvScKdbl8P\"\u003Ehttps:\/\/t.co\/pvScKdbl8P\u003C\/a\u003E) presents robust algorithms for block importance! Thread \uD83E\uDDF5\uD83D\uDC47\uD83C\uDFFF\uD83D\uDC47\uD83D\uDC47\uD83C\uDFFD \u003Ca href=\"https:\/\/t.co\/kEzS2MVJzx\"\u003Epic.twitter.com\/kEzS2MVJzx\u003C\/a\u003E\u003C\/p\u003E&mdash; Denis A. Engemann (@dngman) \u003Ca href=\"https:\/\/twitter.com\/dngman\/status\/1740648629495287876?ref_src=twsrc%5Etfw\"\u003EDecember 29, 2023\u003C\/a\u003E\u003C\/blockquote\u003E\n\u003Cscript async src=\"https:\/\/platform.twitter.com\/widgets.js\" charset=\"utf-8\"\u003E\u003C\/script\u003E\n\n","width":550,"height":null,"type":"rich","cache_age":"3153600000","provider_name":"Twitter","provider_url":"https:\/\/twitter.com","version":"1.0"};document.getElementById("tweet-30194").innerHTML = tweet["html"];</script><p></p>
+</section>
+<section id="citation" class="level2">
+<h2 class="anchored" data-anchor-id="citation">Citation</h2>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="va">@article</span>{<span class="ot">chamma2023variable</span>,</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">title</span>={Variable importance in high-dimensional settings requires grouping},</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">author</span>={Chamma, Ahmad and Thirion, Bertrand and Engemann, Denis A},</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">journal</span>={arXiv preprint arXiv:2312.10858},</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">year</span>={2023}</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
 
 </section>
-</main></div>
-</div>
- <!-- /main -->
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -412,6 +367,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   } else {
     toggleColorMode(false);
   }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     
@@ -622,4 +584,5 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
+<script src="https://platform.twitter.com/widgets.js"></script>
 </body></html>

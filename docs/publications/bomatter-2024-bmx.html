@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.361">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Philipp Bomatter, Joseph Paillard, Pilar Garces, Joerg F Hipp and Denis A Engemann">
+<meta name="dcterms.date" content="2024-08-05">
+<meta name="description" content="  ">
+
+<title>Denis A. Engemann - Machine learning of brain-specific biomarkers from EEG</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/quarto-contrib/academicons-1.9.2/all.css" rel="stylesheet">
+<link href="../site_libs/quarto-contrib/academicons-1.9.2/size.css" rel="stylesheet">
+<link href="../site_libs/quarto-contrib/bootstrap-icons-1.9.1/all.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<link rel="stylesheet" href="../styles.css">
+<meta name="twitter:title" content="Denis A. Engemann - Machine learning of brain-specific biomarkers from EEG">
+<meta name="twitter:description" content="  ">
+<meta name="twitter:image" content="../bomatter_2024/fig_1.png">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Denis A. Engemann</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html" rel="" target="">
+ <span class="menu-text">Denis A. Engemann</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../about.html" rel="" target="">
+ <span class="menu-text">About Me</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../publications.html" rel="" target="">
+ <span class="menu-text">Publications</span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools ms-auto">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#our-work-on-machine-learning-for-eeg-biomarkers-in-ebiomedicine" id="toc-our-work-on-machine-learning-for-eeg-biomarkers-in-ebiomedicine" class="nav-link active" data-scroll-target="#our-work-on-machine-learning-for-eeg-biomarkers-in-ebiomedicine">Our work on machine-learning for EEG biomarkers in eBioMedicine!</a>
+  <ul class="collapse">
+  <li><a href="#to-preprocess-or-not-to-preprocess-your-eeg-when-using-ml-models-for-building-brain-biomarkers" id="toc-to-preprocess-or-not-to-preprocess-your-eeg-when-using-ml-models-for-building-brain-biomarkers" class="nav-link" data-scroll-target="#to-preprocess-or-not-to-preprocess-your-eeg-when-using-ml-models-for-building-brain-biomarkers">To preprocess or not to preprocess your #EEG (when using #ML models for building 🧠🧑‍🔬 #brain #biomarkers)🔮?</a></li>
+  <li><a href="#problem-and-approach" id="toc-problem-and-approach" class="nav-link" data-scroll-target="#problem-and-approach">Problem and approach</a></li>
+  <li><a href="#basic-denoising-improves-model-performance-artifact-removal-reduces-model-performance" id="toc-basic-denoising-improves-model-performance-artifact-removal-reduces-model-performance" class="nav-link" data-scroll-target="#basic-denoising-improves-model-performance-artifact-removal-reduces-model-performance">Basic denoising improves model performance, artifact-removal reduces model performance</a></li>
+  <li><a href="#estimating-to-the-degree-to-which-ml-models-listen-to-brain-signals-vs-body-signals" id="toc-estimating-to-the-degree-to-which-ml-models-listen-to-brain-signals-vs-body-signals" class="nav-link" data-scroll-target="#estimating-to-the-degree-to-which-ml-models-listen-to-brain-signals-vs-body-signals">Estimating to the degree to which ML models listen to brain signals VS body signals</a></li>
+  <li><a href="#model-inspection-and-exploration-via-spectral-profiling" id="toc-model-inspection-and-exploration-via-spectral-profiling" class="nav-link" data-scroll-target="#model-inspection-and-exploration-via-spectral-profiling">Model inspection and exploration via spectral profiling</a></li>
+  <li><a href="#morlet-wavelets-enhance-model-performance" id="toc-morlet-wavelets-enhance-model-performance" class="nav-link" data-scroll-target="#morlet-wavelets-enhance-model-performance">Morlet wavelets enhance model performance</a></li>
+  <li><a href="#open-source-software-library-and-research-code" id="toc-open-source-software-library-and-research-code" class="nav-link" data-scroll-target="#open-source-software-library-and-research-code">Open-source software library and research code</a></li>
+  </ul></li>
+  <li><a href="#thank-you-and-looking-forward" id="toc-thank-you-and-looking-forward" class="nav-link" data-scroll-target="#thank-you-and-looking-forward">Thank you and looking forward</a></li>
+  <li><a href="#citation" id="toc-citation" class="nav-link" data-scroll-target="#citation">Citation</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content column-page-left" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Machine learning of brain-specific biomarkers from EEG</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">paper</div>
+    <div class="quarto-category">published</div>
+    <div class="quarto-category">neuroscience</div>
+    <div class="quarto-category">EEG</div>
+    <div class="quarto-category">machine learning</div>
+    <div class="quarto-category">age</div>
+    <div class="quarto-category">sex</div>
+    <div class="quarto-category">biomarker</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    <a href="https://www.thelancet.com/journals/ebiom/article/PIIS2352-3964(24)00295-0/fulltext"><i class="ai  ai-doi ai-xl"></i></a> <a href="https://www.thelancet.com/action/showPdf?pii=S2352-3964%2824%2900295-0"><i class="bi-file-pdf " style="font-size: 1.5em;" role="img" aria-hidden="true"></i></a> <a href="https://roche.github.io/neuro-meeglet/"><i class="bi-github " style="font-size: 1.5;" role="img" aria-hidden="true"></i></a>
+  </div>
+</div>
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Philipp Bomatter, Joseph Paillard, Pilar Garces, Joerg F Hipp and Denis A Engemann </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">August 5, 2024</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="our-work-on-machine-learning-for-eeg-biomarkers-in-ebiomedicine" class="level2">
+<h2 class="anchored" data-anchor-id="our-work-on-machine-learning-for-eeg-biomarkers-in-ebiomedicine">Our work on machine-learning for EEG biomarkers in <a href="https://www.thelancet.com/action/showPdf?pii=S2352-3964%2824%2900295-0">eBioMedicine</a>!</h2>
+<section id="to-preprocess-or-not-to-preprocess-your-eeg-when-using-ml-models-for-building-brain-biomarkers" class="level3">
+<h3 class="anchored" data-anchor-id="to-preprocess-or-not-to-preprocess-your-eeg-when-using-ml-models-for-building-brain-biomarkers">To preprocess or not to preprocess your #EEG (when using #ML models for building 🧠🧑‍🔬 #brain #biomarkers)🔮?</h3>
+<p>The impact of artifact handling on #ML models for #EEG is often neglected — see e.g.&nbsp;the brilliant review by <span class="citation" data-cites="Roy2019-ge">(<a href="#ref-Roy2019-ge" role="doc-biblioref">Roy et al. 2019</a>)</span>. Importantly, in biomarker applications of EEG, genetics, medical conditions or medication not only affect the brain but also different body systems, leading to consequential signal mixing (<a href="#fig-1">Figure&nbsp;1</a> <strong>a</strong>). Previous work on predictive regression modeling <span class="citation" data-cites="Sabbagh2019-xy Sabbagh2020-sr">(<a href="#ref-Sabbagh2019-xy" role="doc-biblioref">D. Sabbagh et al. 2019</a>; <a href="#ref-Sabbagh2020-sr" role="doc-biblioref">David Sabbagh et al. 2020</a>)</span> has a term for noise but does not handle predictive non-brain signals. Here we extended the generative model and thereby convinced ourselves that without precautions, #ML models will pick up whatever predictive signal is found – whether from the brain or the body.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Note that figure numbering deviates in this document from the paper, hence, where needed, the original figure number in parentheses in figure captions.</p>
+</div>
+</div>
+</section>
+<section id="problem-and-approach" class="level3">
+<h3 class="anchored" data-anchor-id="problem-and-approach">Problem and approach</h3>
+<p>Can we find evidence for contamination of ML models for EEG by predictive artifacts generated by body signals or even quantify it? In this work, we upgraded the previous covariance-based pipelines to use Morlet Wavelets as in <span class="citation" data-cites="Hipp2012-wz">(<a href="#ref-Hipp2012-wz" role="doc-biblioref">Hipp et al. 2012</a>)</span>. This enabled head-to-head comparisons between well-established EEG biomarker methods focusing on the log-power spectrum <span class="citation" data-cites="frohlich2019electrophysiological Hawellek2022-mw frohlichElectrophysiologicalPhenotypeAngelman2019 hipp2021basmisanil Frohlich2019-hs Forsyth2018-lu Hipp2021-mt">(<a href="#ref-frohlich2019electrophysiological" role="doc-biblioref">Frohlich et al. 2019b</a>, <a href="#ref-frohlichElectrophysiologicalPhenotypeAngelman2019" role="doc-biblioref">2019a</a>, <a href="#ref-Frohlich2019-hs" role="doc-biblioref">2019c</a>; <a href="#ref-Hawellek2022-mw" role="doc-biblioref">Hawellek et al. 2022</a>; <a href="#ref-hipp2021basmisanil" role="doc-biblioref">Hipp, Knoflach, et al. 2021</a>; <a href="#ref-Forsyth2018-lu" role="doc-biblioref">Forsyth et al. 2018</a>; <a href="#ref-Hipp2021-mt" role="doc-biblioref">Hipp, Frohlich, et al. 2021</a>)</span> and #ML models based on covariance matrices <span class="citation" data-cites="Sabbagh2020-sr">(<a href="#ref-Sabbagh2020-sr" role="doc-biblioref">David Sabbagh et al. 2020</a>)</span> as representations (<a href="#fig-1">Figure&nbsp;1</a> <strong>b</strong>). We then got inspired to systematically explore the impact of #EEG artifact removal on different covariance-based models as well as a simple artificial neural network – the ShallowNet by <span class="citation" data-cites="Schirrmeister2017-wu">(<a href="#ref-Schirrmeister2017-wu" role="doc-biblioref">Schirrmeister et al. 2017</a>)</span> on two large datasets, <a href="https://brainclinics.com/resources/">TDBRAIN</a> and <a href="https://isip.piconepress.com/projects/nedc/html/tuh_eeg/#c_tuab">TUAB</a> for 2 model tasks, i.e., age- and sex-prediction (<a href="#fig-1">Figure&nbsp;1</a> <strong>b</strong>). Moreover, we developed several practical sensitivity analyses to gauge the extent of signal mixing in predictive models to help identify the brain-specific information captured by the model (more on that below).</p>
+<div id="fig-1" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="../bomatter_2024/fig_1.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Figure&nbsp;1: <strong>Conceptual framework</strong></figcaption>
+</figure>
+</div>
+</section>
+<section id="basic-denoising-improves-model-performance-artifact-removal-reduces-model-performance" class="level3">
+<h3 class="anchored" data-anchor-id="basic-denoising-improves-model-performance-artifact-removal-reduces-model-performance">Basic denoising improves model performance, artifact-removal reduces model performance</h3>
+<p>Comparing the impact of basic denoising via Autoreject VS ICA-based cleaning of bodily artifacts on the prediction performance of the classical covariance-based models from <span class="citation" data-cites="Sabbagh2020-sr">(<a href="#ref-Sabbagh2020-sr" role="doc-biblioref">David Sabbagh et al. 2020</a>)</span> and the ShallowNet <span class="citation" data-cites="Schirrmeister2017-wu">(<a href="#ref-Schirrmeister2017-wu" role="doc-biblioref">Schirrmeister et al. 2017</a>)</span> revealed a striking pattern (<a href="#fig-2">Figure&nbsp;2</a>). Some denoising improves model performance (especially for weak models) whereas ICA-based cleaning can hurt performance! What is behind that? Are those artifact components removed by ICA predictive?</p>
+<div id="fig-2" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="../bomatter_2024/fig_2.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Figure&nbsp;2: <strong>(Fig 2) Impact of preprocessing</strong></figcaption>
+</figure>
+</div>
+<p>Deep dive via <a href="#fig-s4">Figure&nbsp;3</a>. Just to be sure, Autoreject does not remove eye blinks whereas ICA does. This is seen most clearly on covariances and power topographies around 2Hz. So what is going on here? (Btw. an example of how our Morlet Wavelet approach allowed us to read out and compare different popular EEG descriptors for the same wavelets at the same frequencies).</p>
+<div id="fig-s4" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="../bomatter_2024/fig_S4.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Figure&nbsp;3: <strong>(Fig. S4) Impact of preprocessing on EEG features</strong></figcaption>
+</figure>
+</div>
+</section>
+<section id="estimating-to-the-degree-to-which-ml-models-listen-to-brain-signals-vs-body-signals" class="level3">
+<h3 class="anchored" data-anchor-id="estimating-to-the-degree-to-which-ml-models-listen-to-brain-signals-vs-body-signals">Estimating to the degree to which ML models listen to brain signals VS body signals</h3>
+<p>One way to figure out if artifacts are predictive is using ICA to isolate non-brain sources and reconstruct the same EEG features from that subspace. We see that artifact components show some co-variation with age and sex (<a href="#fig-3">Figure&nbsp;4</a>). As hypothesized, sex- and age-prediction is possible from those components. Calmingly, the performance for clean EEG is higher than for those artifact-derived EEG signals. Btw. if you are into stats, checkout our theoretical expansion of the Sabbagh et al.&nbsp;generative model that we used to motivate this analysis, eqs. 1-3 &amp; 14-15 in the paper.</p>
+<div id="fig-3" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="../bomatter_2024/fig_3.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Figure&nbsp;4: <strong>(Fig. 4) Subspace estimation via ICA</strong></figcaption>
+</figure>
+</div>
+<p>If you have auxiliary channels (EMG, EOG, ECG, etc.), as was the case with the highly controlled EEG recordings from the TDBRAIN dataset, another route for probing this point is doing a same-analysis sort of approach – as in <span class="citation" data-cites="Gorgen2018-rj">(<a href="#ref-Gorgen2018-rj" role="doc-biblioref">Görgen et al. 2018</a>)</span>– by computing the same EEG features from those AUX channels (<a href="#fig-4">Figure&nbsp;5</a>). A similar story unfolds, pointing at predictive information in AUX channels, in particular EOG. Ok now you might think that what we see here is some imperfect subspace estimation, leading to residual brain signals on AUX channels or in ICA components. This cannot be entirely excluded but on the other hand, we have prior knowledge about body-signal changes in different medical conditions leading to changes in artifact load. A careful view would, hence, be to see these estimates here as some form of upper bound.</p>
+<div id="fig-4" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="../bomatter_2024/fig_4.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Figure&nbsp;5: <strong>(Fig. 5) Subspace estimation via AUX channels</strong></figcaption>
+</figure>
+</div>
+<p>We can regardless dig deeper and work harder to isolate specific artifacts (thank you unknown reviewers for motivating us!). Here we used the EOG channels in TDBRAIN to extract eye-blink times. We then use evoked-response methodology to suppress the non-timelocked background brain activity (<a href="#fig-5">Figure&nbsp;6</a>). We can then plug the EEG topographies at the maximum (which is the even time) into a linear decoder. To look behind trivial effects of blink-frequency, we repeat our analysis across subsamples of numbers of eye blinks and what we see remains the same: The spatial electrical propagation patterns induced by eye blinks are predictive of age and sex. (And the performance values fall within the upper bound provided by the previous analyses.)</p>
+<div id="fig-5" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="../bomatter_2024/fig_5.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Figure&nbsp;6: <strong>(Fig. 5) Isolation of EOG artifacts via time-locked analysis</strong></figcaption>
+</figure>
+</div>
+</section>
+<section id="model-inspection-and-exploration-via-spectral-profiling" class="level3">
+<h3 class="anchored" data-anchor-id="model-inspection-and-exploration-via-spectral-profiling">Model inspection and exploration via spectral profiling</h3>
+<p>Time for looking at what else the tools powering our study can offer to support exploration. Here we benefit from the high-resolution grid of wavelets to explore the spectral specificity of our covariance-based prediction models (<a href="#fig-6">Figure&nbsp;7</a>). We can do that frequency-wise (individual, blue, left subplots) or pooling over 5 neighboring frequencies e.g.&nbsp;for picking up predictive edge effects (average, orange, left subplots). Across tasks and datasets, using multiple neighboring frequencies adds information. However, we can rule trivial broadband effects (right hand, orange, average) as performance degrades substantially when averaging over frequencies. Moreover, combining all frequencies led to the best performance (right hand, blue, individual). While some information is concentrated between 4-16Hz, these results suggest that information is widely distributed for these tasks and may contain not only oscillatory information coming from brain-rhythms but also anatomical information revealed by the spatial patterns resulting from electrical propagation. On this point, check out the excellent study by <span class="citation" data-cites="Jochmann2023-wk">(<a href="#ref-Jochmann2023-wk" role="doc-biblioref">Jochmann et al. 2023</a>)</span>.</p>
+<div id="fig-6" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="../bomatter_2024/fig_6.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Figure&nbsp;7: <strong>(Fig. 6) Spectral profiling using Morlet Wavelets</strong></figcaption>
+</figure>
+</div>
+</section>
+<section id="morlet-wavelets-enhance-model-performance" class="level3">
+<h3 class="anchored" data-anchor-id="morlet-wavelets-enhance-model-performance">Morlet wavelets enhance model performance</h3>
+<p>You may wonder by now, how our covariance-based models with Morlet wavelets compare to previous versions using bandpass filtering in conventional frequency bands. We did not have a strong desired outcome here but loosely conjectured that continuous frequencies with log-linear smoothing via Morlet wavelet-families might provide a good prior for capturing the frequency-specific smoothness of brain rhythms. We see in practice (<a href="#fig-s1">Figure&nbsp;8</a> <strong>a</strong>) that decoding with Morlet wavelets most of the time was leading to improved performance! And the sensitivity analysis in figure (<a href="#fig-s1">Figure&nbsp;8</a> <strong>b</strong>) shows that this is not trivially driven by the increased number of frequencies coming with the wavelet approach.</p>
+<div id="fig-s1" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="../bomatter_2024/fig_S1.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Figure&nbsp;8: <strong>(Fig. S1) Wavelet performance VS bandpass filter</strong></figcaption>
+</figure>
+</div>
+<p>Thanks to one unknown reviewer, we even went the extra mile to see if this comes from the wavelet design itself (complex Gabor wavelet) or if it comes from logarithmic frequency placing and smoothing that defines Morlet wavelet families. To investigate this point, we computed another wavelet family with a linear frequency grid (hence no log-linear smoothing). Indeed, corroborating our initial intuition, the log-linear smoothing that comes with Morlet wavelets significantly improves performance (most of the time)!</p>
+<div id="fig-s2" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="../bomatter_2024/fig_S2.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Figure&nbsp;9: <strong>(Fig. S2) Morlet wavelet performance VS linear spaced wavelets</strong></figcaption>
+</figure>
+</div>
+</section>
+<section id="open-source-software-library-and-research-code" class="level3">
+<h3 class="anchored" data-anchor-id="open-source-software-library-and-research-code">Open-source software library and research code</h3>
+<p>One more thing. If you want to check out our wavelet pipeline and wish to deep dive into Morlet Wavelets, we’ve got you covered. Checkout meeglet – our Python and MATLAB package for doing M/EEG analysis using Morlet wavelets: <a href="https://roche.github.io/neuro-meeglet/">https://roche.github.io/neuro-meeglet/</a></p>
+<div class="cell" data-execution_count="1">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> meeglet <span class="im">import</span> define_frequencies, define_wavelets, plot_wavelet_family</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>foi, sigma_time, sigma_freq, bw_oct, qt <span class="op">=</span> define_frequencies(</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>    foi_start<span class="op">=</span><span class="dv">1</span>, foi_end<span class="op">=</span><span class="dv">32</span>, bw_oct<span class="op">=</span><span class="dv">1</span>, delta_oct<span class="op">=</span><span class="dv">1</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>wavelets <span class="op">=</span> define_wavelets(</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>    foi<span class="op">=</span>foi, sigma_time<span class="op">=</span>sigma_time, sfreq<span class="op">=</span><span class="fl">1000.</span>, density<span class="op">=</span><span class="st">'oct'</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>plot_wavelet_family(wavelets, foi, fmax<span class="op">=</span><span class="dv">64</span>)</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>plt.gcf().set_size_inches(<span class="dv">9</span>, <span class="dv">3</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="bomatter-2024-bmx_files/figure-html/cell-2-output-1.png" width="707" height="282" class="figure-img"></p>
+<figcaption class="figure-caption">A line plot on a polar axis</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>You also find our research code in case you wish to use the preprocessing pipelines and models from the paper for your own work: <a href="https://github.com/Roche/neuro-meeglet-paper">https://github.com/Roche/neuro-meeglet-paper</a></p>
+</section>
+</section>
+<section id="thank-you-and-looking-forward" class="level2">
+<h2 class="anchored" data-anchor-id="thank-you-and-looking-forward">Thank you and looking forward</h2>
+<p>That was it! We hope this can inspire you to develop novel brain-specific EEG biomarkers or novel #ML methods that internally handle artifact isolation and suppression. Big shout out to the team: Philipp Bomatter, Joseph Paillard, Pilar Garces &amp; Jörg Hipp!</p>
+</section>
+<section id="citation" class="level2">
+<h2 class="anchored" data-anchor-id="citation">Citation</h2>
+<div class="sourceCode" id="cb2"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="va">@article</span>{<span class="ot">bomatter2024</span>,</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>    <span class="dt">author</span> = {Bomatter, Philipp and Paillard, Joseph and Garces, Pilar and Hipp, J{<span class="ch">\"</span>o}rg and Engemann, Denis-Alexander},</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>    <span class="dt">title</span> = {Machine learning of brain-specific biomarkers from EEG},</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>    <span class="dt">year</span> = {2024},</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>    <span class="dt">journal</span> = {eBioMedicine},</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>    <span class="dt">url</span> = {https://doi.org/10.1016/j.ebiom.2024.105259},</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>    <span class="dt">date</span> = {2024/08/05},</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>    <span class="dt">publisher</span> = {Elsevier},</span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>    <span class="dt">isbn</span> = {2352-3964},</span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>    <span class="dt">month</span> = {2024/08/06},</span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>    <span class="dt">volume</span> = {106},</span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="references" class="level2">
+
+
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-Forsyth2018-lu" class="csl-entry" role="listitem">
+Forsyth, Anna, Rebecca McMillan, Doug Campbell, Gemma Malpas, Elizabeth Maxwell, Jamie Sleigh, Juergen Dukart, Joerg F Hipp, and Suresh D Muthukumaraswamy. 2018. <span>“Comparison of Local Spectral Modulation, and Temporal Correlation, of Simultaneously Recorded <span class="nocase">EEG/fMRI</span> Signals During Ketamine and Midazolam Sedation.”</span> <em>Psychopharmacology</em> 235 (12): 3479–93.
+</div>
+<div id="ref-frohlichElectrophysiologicalPhenotypeAngelman2019" class="csl-entry" role="listitem">
+Frohlich, Joel, Meghan T. Miller, Lynne M. Bird, Pilar Garces, Hannah Purtell, Marius C. Hoener, Benjamin D. Philpot, et al. 2019a. <span>“Electrophysiological <span>Phenotype</span> in <span>Angelman Syndrome Differs Between Genotypes</span>.”</span> <em>Biological Psychiatry</em>. <a href="https://doi.org/10.1016/j.biopsych.2019.01.008">https://doi.org/10.1016/j.biopsych.2019.01.008</a>.
+</div>
+<div id="ref-frohlich2019electrophysiological" class="csl-entry" role="listitem">
+Frohlich, Joel, Meghan T Miller, Lynne M Bird, Pilar Garces, Hannah Purtell, Marius C Hoener, Benjamin D Philpot, et al. 2019b. <span>“Electrophysiological Phenotype in Angelman Syndrome Differs Between Genotypes.”</span> <em>Biological Psychiatry</em> 85 (9): 752–59. <a href="https://doi.org/10.1016/j.biopsych.2019.01.008">https://doi.org/10.1016/j.biopsych.2019.01.008</a>.
+</div>
+<div id="ref-Frohlich2019-hs" class="csl-entry" role="listitem">
+———, et al. 2019c. <span>“Electrophysiological Phenotype in Angelman Syndrome Differs Between Genotypes.”</span> <em>Biol. Psychiatry</em> 85 (9): 752–59.
+</div>
+<div id="ref-Gorgen2018-rj" class="csl-entry" role="listitem">
+Görgen, Kai, Martin N Hebart, Carsten Allefeld, and John-Dylan Haynes. 2018. <span>“The Same Analysis Approach: Practical Protection Against the Pitfalls of Novel Neuroimaging Analysis Methods.”</span> <em>Neuroimage</em> 180 (Pt A): 19–30.
+</div>
+<div id="ref-Hawellek2022-mw" class="csl-entry" role="listitem">
+Hawellek, D J, P Garces, A H Meghdadi, S Waninger, A Smith, M Manchester, S A Schobel, and J F Hipp. 2022. <span>“Changes in Brain Activity with Tominersen in Early-Manifest Huntington’s Disease.”</span> <em>Brain Commun</em> 4 (3): fcac149.
+</div>
+<div id="ref-Hipp2021-mt" class="csl-entry" role="listitem">
+Hipp, Joerg F, Joel Frohlich, Marius Keute, Wen-Hann Tan, and Lynne M Bird. 2021. <span>“Electrophysiological Abnormalities in Angelman Syndrome Correlate with Symptom Severity.”</span> <em>Biol Psychiatry Glob Open Sci</em> 1 (3): 201–9.
+</div>
+<div id="ref-Hipp2012-wz" class="csl-entry" role="listitem">
+Hipp, Joerg F, David J Hawellek, Maurizio Corbetta, Markus Siegel, and Andreas K Engel. 2012. <span>“Large-Scale Cortical Correlation Structure of Spontaneous Oscillatory Activity.”</span> <em>Nat. Neurosci.</em> 15 (6): 884–90.
+</div>
+<div id="ref-hipp2021basmisanil" class="csl-entry" role="listitem">
+Hipp, Joerg F, Frederic Knoflach, Robert Comley, Theresa M Ballard, Michael Honer, Gerhard Trube, Rodolfo Gasser, et al. 2021. <span>“Basmisanil, a Highly Selective GABAA-<span class="math inline">\(\alpha\)</span>5 Negative Allosteric Modulator: Preclinical Pharmacology and Demonstration of Functional Target Engagement in Man.”</span> <em>Scientific Reports</em> 11 (1): 7700.
+</div>
+<div id="ref-Jochmann2023-wk" class="csl-entry" role="listitem">
+Jochmann, Thomas, Marc S Seibel, Elisabeth Jochmann, Sheraz Khan, Matti S Hämäläinen, and Jens Haueisen. 2023. <span>“Sex-Related Patterns in the Electroencephalogram and Their Relevance in Machine Learning Classifiers.”</span> <em>Hum. Brain Mapp.</em>, July.
+</div>
+<div id="ref-Roy2019-ge" class="csl-entry" role="listitem">
+Roy, Yannick, Hubert Banville, Isabela Albuquerque, Alexandre Gramfort, Tiago H Falk, and Jocelyn Faubert. 2019. <span>“Deep Learning-Based Electroencephalography Analysis: A Systematic Review.”</span> <em>J. Neural Eng.</em> 16 (5): 051001.
+</div>
+<div id="ref-Sabbagh2019-xy" class="csl-entry" role="listitem">
+Sabbagh, D, P Ablin, G Varoquaux, A Gramfort, et al. 2019. <span>“Manifold-Regression to Predict from <span>MEG/EEG</span> Brain Signals Without Source Modeling.”</span> <em>arXiv Preprint arXiv</em>.
+</div>
+<div id="ref-Sabbagh2020-sr" class="csl-entry" role="listitem">
+Sabbagh, David, Pierre Ablin, Gaël Varoquaux, Alexandre Gramfort, and Denis A Engemann. 2020. <span>“Predictive Regression Modeling with <span>MEG/EEG</span>: From Source Power to Signals and Cognitive States.”</span> <em>Neuroimage</em> 222 (November): 116893.
+</div>
+<div id="ref-Schirrmeister2017-wu" class="csl-entry" role="listitem">
+Schirrmeister, Robin Tibor, Jost Tobias Springenberg, Lukas Dominique Josef Fiederer, Martin Glasstetter, Katharina Eggensperger, Michael Tangermann, Frank Hutter, Wolfram Burgard, and Tonio Ball. 2017. <span>“Deep Learning with Convolutional Neural Networks for <span>EEG</span> Decoding and Visualization.”</span> <em>Hum. Brain Mapp.</em> 38 (11): 5391–5420.
+</div>
+</div></section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  let localAlternateSentinel = 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

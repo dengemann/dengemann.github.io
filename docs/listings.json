@@ -2,7 +2,7 @@
   {
     "listing": "/index.html",
     "items": [
-      "/publications/bomatter-2023-bmx.html",
+      "/publications/bomatter-2024-bmx.html",
       "/publications/chamma-2024-AAAI.html",
       "/publications/chamma-2023-neurips.html",
       "/publications/sabbagh-2023-bja.html",
@@ -27,6 +27,7 @@
   {
     "listing": "/publications.html",
     "items": [
+      "/publications/bomatter-2024-bmx.html",
       "/publications/chamma-2024-AAAI.html",
       "/publications/chamma-2023-neurips.html",
       "/publications/sabbagh-2023-bja.html",
@@ -45,7 +46,6 @@
       "/publications/jas-2017-autoreject.html",
       "/publications/engemann-2015-covs.html",
       "/publications/gramfort-2014-nimg.html",
-      "/publications/bomatter-2023-bmx.html",
       "/publications/banville-2023-sleep.html"
     ]
   }

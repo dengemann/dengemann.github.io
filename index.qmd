@@ -1,6 +1,6 @@
 ---
 title: "Dr. Denis A. Engemann"
-image: denis1.jpg
+image: denis4.jpg
 
 about: 
   template: trestles

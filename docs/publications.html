@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.361">
+<meta name="generator" content="quarto-1.6.36">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Denis A. Engemann – publications</title>
+<title>publications – Denis A. Engemann</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -37,12 +37,12 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-01c78b5cd655e4cd89133cf59d535862.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-474c6d7e63be50eb6972897072b39b27.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-1322888c997fad56b0b4d776d35cf542.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-8bc28b4e2506eb40b33d1e0566df95d7.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <link href="site_libs/quarto-contrib/academicons-1.9.2/all.css" rel="stylesheet">
 <link href="site_libs/quarto-contrib/academicons-1.9.2/size.css" rel="stylesheet">
 <link href="site_libs/quarto-contrib/bootstrap-icons-1.9.1/all.css" rel="stylesheet">
@@ -52,7 +52,13 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -61,6 +67,7 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -124,46 +131,76 @@ ul.task-list li input[type="checkbox"] {
   })
   </script>
 
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
 <link rel="stylesheet" href="styles.css">
+<meta name="twitter:title" content="Denis A. Engemann">
+<meta name="twitter:description" content="">
+<meta name="twitter:card" content="summary">
 </head>
 
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Denis A. Engemann</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html" rel="" target="">
- <span class="menu-text">Denis A. Engemann</span></a>
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">Denis A. Engemann</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html" rel="" target="">
- <span class="menu-text">About Me</span></a>
+    <a class="nav-link" href="./about.html"> 
+<span class="menu-text">About Me</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./publications.html" rel="" target="" aria-current="page">
- <span class="menu-text">Publications</span></a>
+    <a class="nav-link active" href="./publications.html" aria-current="page"> 
+<span class="menu-text">Publications</span></a>
   </li>  
 </ul>
-            <div class="quarto-navbar-tools ms-auto">
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
-          </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -184,9 +221,10 @@ ul.task-list li input[type="checkbox"] {
   </ul></li>
   </ul>
 </nav>
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(20)</span></div><div class="category" data-category="AAAI">AAAI <span class="quarto-category-count">(1)</span></div><div class="category" data-category="EEG">EEG <span class="quarto-category-count">(6)</span></div><div class="category" data-category="M/EEG">M/EEG <span class="quarto-category-count">(8)</span></div><div class="category" data-category="MRI">MRI <span class="quarto-category-count">(4)</span></div><div class="category" data-category="NeurIPS">NeurIPS <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Riemannian geometry">Riemannian geometry <span class="quarto-category-count">(2)</span></div><div class="category" data-category="age">age <span class="quarto-category-count">(1)</span></div><div class="category" data-category="anaesthesia">anaesthesia <span class="quarto-category-count">(1)</span></div><div class="category" data-category="biomarker">biomarker <span class="quarto-category-count">(2)</span></div><div class="category" data-category="brain age">brain age <span class="quarto-category-count">(10)</span></div><div class="category" data-category="burts suppression">burts suppression <span class="quarto-category-count">(1)</span></div><div class="category" data-category="channel interpolation">channel interpolation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cognitive decline">cognitive decline <span class="quarto-category-count">(1)</span></div><div class="category" data-category="covariance estimation">covariance estimation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="deep learning">deep learning <span class="quarto-category-count">(2)</span></div><div class="category" data-category="denoising">denoising <span class="quarto-category-count">(1)</span></div><div class="category" data-category="disorders of consciousness">disorders of consciousness <span class="quarto-category-count">(1)</span></div><div class="category" data-category="domain adaptation">domain adaptation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="dynamic programming">dynamic programming <span class="quarto-category-count">(1)</span></div><div class="category" data-category="explainable AI">explainable AI <span class="quarto-category-count">(2)</span></div><div class="category" data-category="interpretable ML">interpretable ML <span class="quarto-category-count">(2)</span></div><div class="category" data-category="machine learning">machine learning <span class="quarto-category-count">(13)</span></div><div class="category" data-category="mobile EEG">mobile EEG <span class="quarto-category-count">(2)</span></div><div class="category" data-category="multimodal">multimodal <span class="quarto-category-count">(4)</span></div><div class="category" data-category="multiple sclerosis">multiple sclerosis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="neurology">neurology <span class="quarto-category-count">(2)</span></div><div class="category" data-category="neuroscience">neuroscience <span class="quarto-category-count">(20)</span></div><div class="category" data-category="open-source software">open-source software <span class="quarto-category-count">(1)</span></div><div class="category" data-category="paper">paper <span class="quarto-category-count">(20)</span></div><div class="category" data-category="preprint">preprint <span class="quarto-category-count">(1)</span></div><div class="category" data-category="preprocessing">preprocessing <span class="quarto-category-count">(1)</span></div><div class="category" data-category="pretext tasks">pretext tasks <span class="quarto-category-count">(1)</span></div><div class="category" data-category="propofol">propofol <span class="quarto-category-count">(1)</span></div><div class="category" data-category="published">published <span class="quarto-category-count">(19)</span></div><div class="category" data-category="regularization">regularization <span class="quarto-category-count">(1)</span></div><div class="category" data-category="review">review <span class="quarto-category-count">(1)</span></div><div class="category" data-category="self supervised">self supervised <span class="quarto-category-count">(1)</span></div><div class="category" data-category="sevoflurane">sevoflurane <span class="quarto-category-count">(1)</span></div><div class="category" data-category="sex">sex <span class="quarto-category-count">(1)</span></div><div class="category" data-category="sleep">sleep <span class="quarto-category-count">(1)</span></div><div class="category" data-category="spatial filtering">spatial filtering <span class="quarto-category-count">(3)</span></div><div class="category" data-category="spatial whitening">spatial whitening <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(20)</span></div><div class="category" data-category="QUFBSQ==">AAAI <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RUVH">EEG <span class="quarto-category-count">(6)</span></div><div class="category" data-category="TSUyRkVFRw==">M/EEG <span class="quarto-category-count">(8)</span></div><div class="category" data-category="TVJJ">MRI <span class="quarto-category-count">(4)</span></div><div class="category" data-category="TmV1cklQUw==">NeurIPS <span class="quarto-category-count">(2)</span></div><div class="category" data-category="UmllbWFubmlhbiUyMGdlb21ldHJ5">Riemannian geometry <span class="quarto-category-count">(2)</span></div><div class="category" data-category="YWdl">age <span class="quarto-category-count">(1)</span></div><div class="category" data-category="YW5hZXN0aGVzaWE=">anaesthesia <span class="quarto-category-count">(1)</span></div><div class="category" data-category="YmlvbWFya2Vy">biomarker <span class="quarto-category-count">(2)</span></div><div class="category" data-category="YnJhaW4lMjBhZ2U=">brain age <span class="quarto-category-count">(10)</span></div><div class="category" data-category="YnVydHMlMjBzdXBwcmVzc2lvbg==">burts suppression <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Y2hhbm5lbCUyMGludGVycG9sYXRpb24=">channel interpolation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Y29nbml0aXZlJTIwZGVjbGluZQ==">cognitive decline <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Y292YXJpYW5jZSUyMGVzdGltYXRpb24=">covariance estimation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ZGVlcCUyMGxlYXJuaW5n">deep learning <span class="quarto-category-count">(2)</span></div><div class="category" data-category="ZGVub2lzaW5n">denoising <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ZGlzb3JkZXJzJTIwb2YlMjBjb25zY2lvdXNuZXNz">disorders of consciousness <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ZG9tYWluJTIwYWRhcHRhdGlvbg==">domain adaptation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ZHluYW1pYyUyMHByb2dyYW1taW5n">dynamic programming <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ZXhwbGFpbmFibGUlMjBBSQ==">explainable AI <span class="quarto-category-count">(2)</span></div><div class="category" data-category="aW50ZXJwcmV0YWJsZSUyME1M">interpretable ML <span class="quarto-category-count">(2)</span></div><div class="category" data-category="bWFjaGluZSUyMGxlYXJuaW5n">machine learning <span class="quarto-category-count">(13)</span></div><div class="category" data-category="bW9iaWxlJTIwRUVH">mobile EEG <span class="quarto-category-count">(2)</span></div><div class="category" data-category="bXVsdGltb2RhbA==">multimodal <span class="quarto-category-count">(4)</span></div><div class="category" data-category="bXVsdGlwbGUlMjBzY2xlcm9zaXM=">multiple sclerosis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bmV1cm9sb2d5">neurology <span class="quarto-category-count">(2)</span></div><div class="category" data-category="bmV1cm9zY2llbmNl">neuroscience <span class="quarto-category-count">(20)</span></div><div class="category" data-category="b3Blbi1zb3VyY2UlMjBzb2Z0d2FyZQ==">open-source software <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cGFwZXI=">paper <span class="quarto-category-count">(20)</span></div><div class="category" data-category="cHJlcHJpbnQ=">preprint <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cHJlcHJvY2Vzc2luZw==">preprocessing <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cHJldGV4dCUyMHRhc2tz">pretext tasks <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cHJvcG9mb2w=">propofol <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cHVibGlzaGVk">published <span class="quarto-category-count">(19)</span></div><div class="category" data-category="cmVndWxhcml6YXRpb24=">regularization <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cmV2aWV3">review <span class="quarto-category-count">(1)</span></div><div class="category" data-category="c2VsZiUyMHN1cGVydmlzZWQ=">self supervised <span class="quarto-category-count">(1)</span></div><div class="category" data-category="c2V2b2ZsdXJhbmU=">sevoflurane <span class="quarto-category-count">(1)</span></div><div class="category" data-category="c2V4">sex <span class="quarto-category-count">(1)</span></div><div class="category" data-category="c2xlZXA=">sleep <span class="quarto-category-count">(1)</span></div><div class="category" data-category="c3BhdGlhbCUyMGZpbHRlcmluZw==">spatial filtering <span class="quarto-category-count">(3)</span></div><div class="category" data-category="c3BhdGlhbCUyMHdoaXRlbmluZw==">spatial whitening <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
-<main class="content column-page-left" id="quarto-document-content">
+<main class="content column-page-left" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+
 
 
 
@@ -200,25 +238,25 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="peer-reviewed-articles">Peer-reviewed Articles</h2>
 <div id="listing-publications" class="quarto-listing quarto-listing-container-default">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="paper,published,neuroscience,EEG,machine learning,age,sex,biomarker" data-listing-date-sort="1722808800000" data-listing-file-modified-sort="1723206579791" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8">
+<div class="quarto-post image-right" data-index="0" data-categories="cGFwZXIlMkNwdWJsaXNoZWQlMkNuZXVyb3NjaWVuY2UlMkNFRUclMkNtYWNoaW5lJTIwbGVhcm5pbmclMkNhZ2UlMkNzZXglMkNiaW9tYXJrZXI=" data-listing-date-sort="1722808800000" data-listing-file-modified-sort="1723206579791" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1413">
 <div class="thumbnail">
-<p><a href="./publications/bomatter-2024-bmx.html"> <p class="card-img-top"><img src="bomatter_2024/fig_1.png"  class="thumbnail-image card-img"/></p> </a></p>
+<p><a href="./publications/bomatter-2024-bmx.html" class="no-external"></a></p><a href="./publications/bomatter-2024-bmx.html" class="no-external">
+<p class="card-img-top"><img src="bomatter_2024/fig_1.png"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./publications/bomatter-2024-bmx.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./publications/bomatter-2024-bmx.html">
 <h3 class="no-anchor listing-title">
-Machine learning of brain-specific biomarkers from EEG
+<a href="./publications/bomatter-2024-bmx.html" class="no-external">Machine learning of brain-specific biomarkers from EEG</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./publications/bomatter-2024-bmx.html" class="no-external"></a>
 </div>
 <div class="listing-description">
-<p><span><i class="ai  ai-doi ai-xl"></i></span> <span><i class="bi-file-pdf " style="font-size: 1.5em;" role="img" aria-hidden="true"></i></span> <span><i class="bi-github " style="font-size: 1.5;" role="img" aria-hidden="true"></i></span></p>
+<a href="./publications/bomatter-2024-bmx.html" class="no-external"><span><i class="ai  ai-doi ai-xl"></i></span> <span><i class="bi-file-pdf " style="font-size: 1.5em;" role="img" aria-hidden="true"></i></span> <span><i class="bi-github " style="font-size: 1.5;" role="img" aria-hidden="true"></i></span></a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./publications/bomatter-2024-bmx.html">
+<a href="./publications/bomatter-2024-bmx.html" class="no-external">
 <div class="listing-date">
 Aug 5, 2024
 </div>
@@ -228,25 +266,25 @@ Philipp Bomatter, Joseph Paillard, Pilar Garces, Joerg F Hipp and Denis A Engema
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="paper,published,AAAI,neuroscience,machine learning,explainable AI,interpretable ML" data-listing-date-sort="1702594800000" data-listing-file-modified-sort="1723123204584" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="quarto-post image-right" data-index="1" data-categories="cGFwZXIlMkNwdWJsaXNoZWQlMkNBQUFJJTJDbmV1cm9zY2llbmNlJTJDbWFjaGluZSUyMGxlYXJuaW5nJTJDZXhwbGFpbmFibGUlMjBBSSUyQ2ludGVycHJldGFibGUlMjBNTA==" data-listing-date-sort="1702594800000" data-listing-file-modified-sort="1723123204584" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="273">
 <div class="thumbnail">
-<p><a href="./publications/chamma-2024-AAAI.html"> <p class="card-img-top"><img src="chamma_2024_AAAI.jpg"  class="thumbnail-image card-img"/></p> </a></p>
+<p><a href="./publications/chamma-2024-AAAI.html" class="no-external"></a></p><a href="./publications/chamma-2024-AAAI.html" class="no-external">
+<p class="card-img-top"><img src="chamma_2024_AAAI.jpg"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./publications/chamma-2024-AAAI.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./publications/chamma-2024-AAAI.html">
 <h3 class="no-anchor listing-title">
-Variable Importance in High-Dimensional Settings Requires Grouping
+<a href="./publications/chamma-2024-AAAI.html" class="no-external">Variable Importance in High-Dimensional Settings Requires Grouping</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./publications/chamma-2024-AAAI.html" class="no-external"></a>
 </div>
 <div class="listing-description">
-<p><span><i class="ai  ai-doi ai-xl"></i></span> <span><i class="bi-file-pdf " style="font-size: 1.5em;" role="img" aria-hidden="true"></i></span> <span><i class="bi-github " style="font-size: 1.5em;" role="img" aria-hidden="true"></i></span></p>
+<a href="./publications/chamma-2024-AAAI.html" class="no-external"><span><i class="ai  ai-doi ai-xl"></i></span> <span><i class="bi-file-pdf " style="font-size: 1.5em;" role="img" aria-hidden="true"></i></span> <span><i class="bi-github " style="font-size: 1.5em;" role="img" aria-hidden="true"></i></span></a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./publications/chamma-2024-AAAI.html">
+<a href="./publications/chamma-2024-AAAI.html" class="no-external">
 <div class="listing-date">
 Dec 15, 2023
 </div>
@@ -256,25 +294,25 @@ Ahmad Chamma, Bertrand Thirion and Denis A. Engemann
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="paper,published,NeurIPS,neuroscience,machine learning,explainable AI,interpretable ML" data-listing-date-sort="1702162800000" data-listing-file-modified-sort="1703841547247" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="quarto-post image-right" data-index="2" data-categories="cGFwZXIlMkNwdWJsaXNoZWQlMkNOZXVySVBTJTJDbmV1cm9zY2llbmNlJTJDbWFjaGluZSUyMGxlYXJuaW5nJTJDZXhwbGFpbmFibGUlMjBBSSUyQ2ludGVycHJldGFibGUlMjBNTA==" data-listing-date-sort="1702162800000" data-listing-file-modified-sort="1703841547247" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="202">
 <div class="thumbnail">
-<p><a href="./publications/chamma-2023-neurips.html"> <p class="card-img-top"><img src="chamma_2023_neurips.jpeg"  class="thumbnail-image card-img"/></p> </a></p>
+<p><a href="./publications/chamma-2023-neurips.html" class="no-external"></a></p><a href="./publications/chamma-2023-neurips.html" class="no-external">
+<p class="card-img-top"><img src="chamma_2023_neurips.jpeg"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./publications/chamma-2023-neurips.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./publications/chamma-2023-neurips.html">
 <h3 class="no-anchor listing-title">
-Statistically Valid Variable Importance Assessment through Conditional Permutations
+<a href="./publications/chamma-2023-neurips.html" class="no-external">Statistically Valid Variable Importance Assessment through Conditional Permutations</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./publications/chamma-2023-neurips.html" class="no-external"></a>
 </div>
 <div class="listing-description">
-<p><span><i class="ai  ai-doi ai-xl"></i></span> <span><i class="bi-file-pdf " style="font-size: 1.5em;" role="img" aria-hidden="true"></i></span> <span><i class="bi-github " style="font-size: 1.5em;" role="img" aria-hidden="true"></i></span></p>
+<a href="./publications/chamma-2023-neurips.html" class="no-external"><span><i class="ai  ai-doi ai-xl"></i></span> <span><i class="bi-file-pdf " style="font-size: 1.5em;" role="img" aria-hidden="true"></i></span> <span><i class="bi-github " style="font-size: 1.5em;" role="img" aria-hidden="true"></i></span></a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./publications/chamma-2023-neurips.html">
+<a href="./publications/chamma-2023-neurips.html" class="no-external">
 <div class="listing-date">
 Dec 10, 2023
 </div>
@@ -284,25 +322,25 @@ Ahmad Chamma, Denis A. Engemann and Bertrand Thirion
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="3" data-categories="paper,published,neuroscience,M/EEG,machine learning,brain age,anaesthesia,propofol,sevoflurane,burts suppression" data-listing-date-sort="1686866400000" data-listing-file-modified-sort="1686948576313" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="quarto-post image-right" data-index="3" data-categories="cGFwZXIlMkNwdWJsaXNoZWQlMkNuZXVyb3NjaWVuY2UlMkNNJTJGRUVHJTJDbWFjaGluZSUyMGxlYXJuaW5nJTJDYnJhaW4lMjBhZ2UlMkNhbmFlc3RoZXNpYSUyQ3Byb3BvZm9sJTJDc2V2b2ZsdXJhbmUlMkNidXJ0cyUyMHN1cHByZXNzaW9u" data-listing-date-sort="1686866400000" data-listing-file-modified-sort="1686948576313" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="315">
 <div class="thumbnail">
-<p><a href="./publications/sabbagh-2023-bja.html"> <p class="card-img-top"><img src="https://www.bjaopen.org/cms/attachment/c9c5fab1-f508-4788-af87-89c4e77cdfb3/gr2.jpg"  class="thumbnail-image card-img"/></p> </a></p>
+<p><a href="./publications/sabbagh-2023-bja.html" class="no-external"></a></p><a href="./publications/sabbagh-2023-bja.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./publications/sabbagh-2023-bja.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./publications/sabbagh-2023-bja.html">
 <h3 class="no-anchor listing-title">
-Repurposing electroencephalogram monitoring of general anaesthesia for building biomarkers of brain ageing: an exploratory study
+<a href="./publications/sabbagh-2023-bja.html" class="no-external">Repurposing electroencephalogram monitoring of general anaesthesia for building biomarkers of brain ageing: an exploratory study</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./publications/sabbagh-2023-bja.html" class="no-external"></a>
 </div>
 <div class="listing-description">
-<p><span><i class="ai  ai-doi ai-xl"></i></span> <span><i class="bi-file-pdf " style="font-size: 1.5em;" role="img" aria-hidden="true"></i></span> <span><i class="bi-github " style="font-size: 1.5em;" role="img" aria-hidden="true"></i></span></p>
+<a href="./publications/sabbagh-2023-bja.html" class="no-external"><span><i class="ai  ai-doi ai-xl"></i></span> <span><i class="bi-file-pdf " style="font-size: 1.5em;" role="img" aria-hidden="true"></i></span> <span><i class="bi-github " style="font-size: 1.5em;" role="img" aria-hidden="true"></i></span></a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./publications/sabbagh-2023-bja.html">
+<a href="./publications/sabbagh-2023-bja.html" class="no-external">
 <div class="listing-date">
 Jun 16, 2023
 </div>
@@ -312,25 +350,25 @@ Sabbagh, David, Jérôme Cartailler, Cyril Touchard, Jona Joachim, Alexandre Meb
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="4" data-categories="paper,published,neuroscience,EEG,machine learning,brain age,domain adaptation" data-listing-date-sort="1682546400000" data-listing-file-modified-sort="1703507484322" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="quarto-post image-right" data-index="4" data-categories="cGFwZXIlMkNwdWJsaXNoZWQlMkNuZXVyb3NjaWVuY2UlMkNFRUclMkNtYWNoaW5lJTIwbGVhcm5pbmclMkNicmFpbiUyMGFnZSUyQ2RvbWFpbiUyMGFkYXB0YXRpb24=" data-listing-date-sort="1682546400000" data-listing-file-modified-sort="1703507484322" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="384">
 <div class="thumbnail">
-<p><a href="./publications/mellot-2023-harmonizing.html"> <p class="card-img-top"><img src="mellot_harmonizing_2023.png"  class="thumbnail-image card-img"/></p> </a></p>
+<p><a href="./publications/mellot-2023-harmonizing.html" class="no-external"></a></p><a href="./publications/mellot-2023-harmonizing.html" class="no-external">
+<p class="card-img-top"><img src="mellot_harmonizing_2023.png"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./publications/mellot-2023-harmonizing.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./publications/mellot-2023-harmonizing.html">
 <h3 class="no-anchor listing-title">
-Harmonizing and aligning M/EEG datasets with covariance-based techniques to enhance predictive regression modeling
+<a href="./publications/mellot-2023-harmonizing.html" class="no-external">Harmonizing and aligning M/EEG datasets with covariance-based techniques to enhance predictive regression modeling</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./publications/mellot-2023-harmonizing.html" class="no-external"></a>
 </div>
 <div class="listing-description">
-<p><span><i class="ai  ai-doi ai-xl"></i></span> <span><i class="bi-file-pdf " style="font-size: 1.5em;" role="img" aria-hidden="true"></i></span></p>
+<a href="./publications/mellot-2023-harmonizing.html" class="no-external"><span><i class="ai  ai-doi ai-xl"></i></span> <span><i class="bi-file-pdf " style="font-size: 1.5em;" role="img" aria-hidden="true"></i></span></a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./publications/mellot-2023-harmonizing.html">
+<a href="./publications/mellot-2023-harmonizing.html" class="no-external">
 <div class="listing-date">
 Apr 27, 2023
 </div>
@@ -340,25 +378,25 @@ Mellot, Apolline, Antoine Collas, Pedro LC Rodrigues, Denis A. Engemann, and Ale
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="5" data-categories="paper,published,neuroscience,machine learning,multimodal,brain age,review" data-listing-date-sort="1681423200000" data-listing-file-modified-sort="1686948709809" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="5" data-categories="cGFwZXIlMkNwdWJsaXNoZWQlMkNuZXVyb3NjaWVuY2UlMkNtYWNoaW5lJTIwbGVhcm5pbmclMkNtdWx0aW1vZGFsJTJDYnJhaW4lMjBhZ2UlMkNyZXZpZXc=" data-listing-date-sort="1681423200000" data-listing-file-modified-sort="1686948709809" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="195">
 <div class="thumbnail">
-<p><a href="./publications/jirsaraie-2023-review.html"> <img src="https://ars.els-cdn.com/content/image/1-s2.0-S2666389923000491-gr2.jpg" class="thumbnail-image"> </a></p>
+<p><a href="./publications/jirsaraie-2023-review.html" class="no-external"></a></p><a href="./publications/jirsaraie-2023-review.html" class="no-external">
+<p><img loading="lazy" src="https://ars.els-cdn.com/content/image/1-s2.0-S2666389923000491-gr2.jpg" class="thumbnail-image"></p>
+</a><p><a href="./publications/jirsaraie-2023-review.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./publications/jirsaraie-2023-review.html">
 <h3 class="no-anchor listing-title">
-A systematic review of multimodal brain age studies: Uncovering a divergence between model accuracy and utility
+<a href="./publications/jirsaraie-2023-review.html" class="no-external">A systematic review of multimodal brain age studies: Uncovering a divergence between model accuracy and utility</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./publications/jirsaraie-2023-review.html" class="no-external"></a>
 </div>
 <div class="listing-description">
-<p><span><i class="ai  ai-doi ai-xl"></i></span> <span><i class="bi-file-pdf " style="font-size: 1.5em;" role="img" aria-hidden="true"></i></span></p>
+<a href="./publications/jirsaraie-2023-review.html" class="no-external"><span><i class="ai  ai-doi ai-xl"></i></span> <span><i class="bi-file-pdf " style="font-size: 1.5em;" role="img" aria-hidden="true"></i></span></a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./publications/jirsaraie-2023-review.html">
+<a href="./publications/jirsaraie-2023-review.html" class="no-external">
 <div class="listing-date">
 Apr 14, 2023
 </div>
@@ -368,25 +406,25 @@ Jirsaraie, Robert J., Aaron J. Gorelik, Martins M. Gatavins, Denis A. Engemann, 
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="6" data-categories="paper,published,neuroscience,M/EEG,machine learning,brain age" data-listing-date-sort="1658440800000" data-listing-file-modified-sort="1686692058268" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="6" data-categories="cGFwZXIlMkNwdWJsaXNoZWQlMkNuZXVyb3NjaWVuY2UlMkNNJTJGRUVHJTJDbWFjaGluZSUyMGxlYXJuaW5nJTJDYnJhaW4lMjBhZ2U=" data-listing-date-sort="1658440800000" data-listing-file-modified-sort="1686692058268" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="65">
 <div class="thumbnail">
-<p><a href="./publications/engemann-2022-benchmark.html"> <p class="card-img-top"><img src="https://ars.els-cdn.com/content/image/1-s2.0-S105381192200636X-gr5_lrg.jpg"  class="thumbnail-image card-img"/></p> </a></p>
+<p><a href="./publications/engemann-2022-benchmark.html" class="no-external"></a></p><a href="./publications/engemann-2022-benchmark.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./publications/engemann-2022-benchmark.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./publications/engemann-2022-benchmark.html">
 <h3 class="no-anchor listing-title">
-A reusable benchmark of brain-age prediction from M/EEG resting-state signals
+<a href="./publications/engemann-2022-benchmark.html" class="no-external">A reusable benchmark of brain-age prediction from M/EEG resting-state signals</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./publications/engemann-2022-benchmark.html" class="no-external"></a>
 </div>
 <div class="listing-description">
-<p><span><i class="ai  ai-doi ai-xl"></i></span> <span><i class="bi-file-pdf " style="font-size: 1.5em;" role="img" aria-hidden="true"></i></span> <span><i class="bi-github " style="font-size: 1.5em;" role="img" aria-hidden="true"></i></span></p>
+<a href="./publications/engemann-2022-benchmark.html" class="no-external"><span><i class="ai  ai-doi ai-xl"></i></span> <span><i class="bi-file-pdf " style="font-size: 1.5em;" role="img" aria-hidden="true"></i></span> <span><i class="bi-github " style="font-size: 1.5em;" role="img" aria-hidden="true"></i></span></a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./publications/engemann-2022-benchmark.html">
+<a href="./publications/engemann-2022-benchmark.html" class="no-external">
 <div class="listing-date">
 Jul 22, 2022
 </div>
@@ -396,25 +434,25 @@ Engemann, Denis A., Apolline Mellot, Richard Höchenberger, Hubert Banville, Dav
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="7" data-categories="paper,published,neuroscience,MRI,multimodal,cognitive decline" data-listing-date-sort="1656367200000" data-listing-file-modified-sort="1686948171903" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="quarto-post image-right" data-index="7" data-categories="cGFwZXIlMkNwdWJsaXNoZWQlMkNuZXVyb3NjaWVuY2UlMkNNUkklMkNtdWx0aW1vZGFsJTJDY29nbml0aXZlJTIwZGVjbGluZQ==" data-listing-date-sort="1656367200000" data-listing-file-modified-sort="1686948171903" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="249">
 <div class="thumbnail">
-<p><a href="./publications/hebling-2022-decline.html"> <p class="card-img-top"><img src="https://ars.els-cdn.com/content/image/1-s2.0-S0197458022001403-gr2_lrg.jpg"  class="thumbnail-image card-img"/></p> </a></p>
+<p><a href="./publications/hebling-2022-decline.html" class="no-external"></a></p><a href="./publications/hebling-2022-decline.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./publications/hebling-2022-decline.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./publications/hebling-2022-decline.html">
 <h3 class="no-anchor listing-title">
-Predicting future cognitive decline from non-brain and multimodal brain imaging data in healthy and pathological aging
+<a href="./publications/hebling-2022-decline.html" class="no-external">Predicting future cognitive decline from non-brain and multimodal brain imaging data in healthy and pathological aging</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./publications/hebling-2022-decline.html" class="no-external"></a>
 </div>
 <div class="listing-description">
-<p><span><i class="ai  ai-doi ai-xl"></i></span> <span><i class="bi-file-pdf " style="font-size: 1.5em;" role="img" aria-hidden="true"></i></span></p>
+<a href="./publications/hebling-2022-decline.html" class="no-external"><span><i class="ai  ai-doi ai-xl"></i></span> <span><i class="bi-file-pdf " style="font-size: 1.5em;" role="img" aria-hidden="true"></i></span></a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./publications/hebling-2022-decline.html">
+<a href="./publications/hebling-2022-decline.html" class="no-external">
 <div class="listing-date">
 Jun 28, 2022
 </div>
@@ -424,25 +462,25 @@ Vieira, Bruno Hebling, Franziskus Liem, Kamalaker Dadi, Denis A. Engemann, Alexa
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="8" data-categories="paper,published,neuroscience,MRI,brain age,multiple sclerosis,neurology" data-listing-date-sort="1655935200000" data-listing-file-modified-sort="1686779880305" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="quarto-post image-right" data-index="8" data-categories="cGFwZXIlMkNwdWJsaXNoZWQlMkNuZXVyb3NjaWVuY2UlMkNNUkklMkNicmFpbiUyMGFnZSUyQ211bHRpcGxlJTIwc2NsZXJvc2lzJTJDbmV1cm9sb2d5" data-listing-date-sort="1655935200000" data-listing-file-modified-sort="1686779880305" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="275">
 <div class="thumbnail">
-<p><a href="./publications/denissen-2022-MS-brain-age.html"> <p class="card-img-top"><img src="denissen_2022_ms.jpeg"  class="thumbnail-image card-img"/></p> </a></p>
+<p><a href="./publications/denissen-2022-MS-brain-age.html" class="no-external"></a></p><a href="./publications/denissen-2022-MS-brain-age.html" class="no-external">
+<p class="card-img-top"><img src="denissen_2022_ms.jpeg"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./publications/denissen-2022-MS-brain-age.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./publications/denissen-2022-MS-brain-age.html">
 <h3 class="no-anchor listing-title">
-Brain age as a surrogate marker for cognitive performance in multiple sclerosis
+<a href="./publications/denissen-2022-MS-brain-age.html" class="no-external">Brain age as a surrogate marker for cognitive performance in multiple sclerosis</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./publications/denissen-2022-MS-brain-age.html" class="no-external"></a>
 </div>
 <div class="listing-description">
-<p><span><i class="ai  ai-doi ai-xl"></i></span> <span><i class="bi-file-pdf " style="font-size: 1.5em;" role="img" aria-hidden="true"></i></span></p>
+<a href="./publications/denissen-2022-MS-brain-age.html" class="no-external"><span><i class="ai  ai-doi ai-xl"></i></span> <span><i class="bi-file-pdf " style="font-size: 1.5em;" role="img" aria-hidden="true"></i></span></a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./publications/denissen-2022-MS-brain-age.html">
+<a href="./publications/denissen-2022-MS-brain-age.html" class="no-external">
 <div class="listing-date">
 Jun 23, 2022
 </div>
@@ -452,25 +490,25 @@ Denissen, Stijn, Denis Alexander Engemann, Alexander De Cock, Lars Costers, Joha
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="9" data-categories="paper,published,neuroscience,EEG,machine learning,mobile EEG,deep learning,dynamic programming,spatial filtering" data-listing-date-sort="1644966000000" data-listing-file-modified-sort="1686688903347" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="9" data-categories="cGFwZXIlMkNwdWJsaXNoZWQlMkNuZXVyb3NjaWVuY2UlMkNFRUclMkNtYWNoaW5lJTIwbGVhcm5pbmclMkNtb2JpbGUlMjBFRUclMkNkZWVwJTIwbGVhcm5pbmclMkNkeW5hbWljJTIwcHJvZ3JhbW1pbmclMkNzcGF0aWFsJTIwZmlsdGVyaW5n" data-listing-date-sort="1644966000000" data-listing-file-modified-sort="1686688903347" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="55">
 <div class="thumbnail">
-<p><a href="./publications/banville-2022-dynamic.html"> <p class="card-img-top"><img src="https://ars.els-cdn.com/content/image/1-s2.0-S1053811922001239-gr6_lrg.jpg"  class="thumbnail-image card-img"/></p> </a></p>
+<p><a href="./publications/banville-2022-dynamic.html" class="no-external"></a></p><a href="./publications/banville-2022-dynamic.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./publications/banville-2022-dynamic.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./publications/banville-2022-dynamic.html">
 <h3 class="no-anchor listing-title">
-Robust learning from corrupted EEG with dynamic spatial filtering
+<a href="./publications/banville-2022-dynamic.html" class="no-external">Robust learning from corrupted EEG with dynamic spatial filtering</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./publications/banville-2022-dynamic.html" class="no-external"></a>
 </div>
 <div class="listing-description">
-<p><span><i class="ai  ai-doi ai-xl"></i></span> <span><i class="bi-file-pdf " style="font-size: 1.5em;" role="img" aria-hidden="true"></i></span> <span><i class="bi-github " style="font-size: 1.5em;" role="img" aria-hidden="true"></i></span></p>
+<a href="./publications/banville-2022-dynamic.html" class="no-external"><span><i class="ai  ai-doi ai-xl"></i></span> <span><i class="bi-file-pdf " style="font-size: 1.5em;" role="img" aria-hidden="true"></i></span> <span><i class="bi-github " style="font-size: 1.5em;" role="img" aria-hidden="true"></i></span></a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./publications/banville-2022-dynamic.html">
+<a href="./publications/banville-2022-dynamic.html" class="no-external">
 <div class="listing-date">
 Feb 16, 2022
 </div>
@@ -480,25 +518,25 @@ Banville, Hubert, Sean UN Wood, Chris Aimone, Denis-Alexander Engemann, and Alex
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="10" data-categories="paper,published,neuroscience,MRI,multimodal,pretext tasks,biomarker,brain age" data-listing-date-sort="1634248800000" data-listing-file-modified-sort="1703507013323" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="quarto-post image-right" data-index="10" data-categories="cGFwZXIlMkNwdWJsaXNoZWQlMkNuZXVyb3NjaWVuY2UlMkNNUkklMkNtdWx0aW1vZGFsJTJDcHJldGV4dCUyMHRhc2tzJTJDYmlvbWFya2VyJTJDYnJhaW4lMjBhZ2U=" data-listing-date-sort="1634248800000" data-listing-file-modified-sort="1703507013323" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="239">
 <div class="thumbnail">
-<p><a href="./publications/dadi-2021-pop-measures.html"> <p class="card-img-top"><img src="dadi_2021_giga.png"  class="thumbnail-image card-img"/></p> </a></p>
+<p><a href="./publications/dadi-2021-pop-measures.html" class="no-external"></a></p><a href="./publications/dadi-2021-pop-measures.html" class="no-external">
+<p class="card-img-top"><img src="dadi_2021_giga.png"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./publications/dadi-2021-pop-measures.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./publications/dadi-2021-pop-measures.html">
 <h3 class="no-anchor listing-title">
-Population modeling with machine learning can enhance measures of mental health
+<a href="./publications/dadi-2021-pop-measures.html" class="no-external">Population modeling with machine learning can enhance measures of mental health</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./publications/dadi-2021-pop-measures.html" class="no-external"></a>
 </div>
 <div class="listing-description">
-<p><span><i class="ai  ai-doi ai-xl"></i></span> <span><i class="bi-file-pdf " style="font-size: 1.5em;" role="img" aria-hidden="true"></i></span> <span><i class="bi-github " style="font-size: 1.5em;" role="img" aria-hidden="true"></i></span></p>
+<a href="./publications/dadi-2021-pop-measures.html" class="no-external"><span><i class="ai  ai-doi ai-xl"></i></span> <span><i class="bi-file-pdf " style="font-size: 1.5em;" role="img" aria-hidden="true"></i></span> <span><i class="bi-github " style="font-size: 1.5em;" role="img" aria-hidden="true"></i></span></a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./publications/dadi-2021-pop-measures.html">
+<a href="./publications/dadi-2021-pop-measures.html" class="no-external">
 <div class="listing-date">
 Oct 15, 2021
 </div>
@@ -508,25 +546,25 @@ Dadi, Kamalaker, Gaël Varoquaux, Josselin Houenou, Danilo Bzdok, Bertrand Thiri
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="11" data-categories="paper,published,neuroscience,EEG,deep learning,self supervised" data-listing-date-sort="1617141600000" data-listing-file-modified-sort="1703507325355" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="11" data-categories="cGFwZXIlMkNwdWJsaXNoZWQlMkNuZXVyb3NjaWVuY2UlMkNFRUclMkNkZWVwJTIwbGVhcm5pbmclMkNzZWxmJTIwc3VwZXJ2aXNlZA==" data-listing-date-sort="1617141600000" data-listing-file-modified-sort="1703507325355" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="71">
 <div class="thumbnail">
-<p><a href="./publications/banville-2021-ssl.html"> <p class="card-img-top"><img src="banville_2021_ssl.png"  class="thumbnail-image card-img"/></p> </a></p>
+<p><a href="./publications/banville-2021-ssl.html" class="no-external"></a></p><a href="./publications/banville-2021-ssl.html" class="no-external">
+<p class="card-img-top"><img src="banville_2021_ssl.png"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./publications/banville-2021-ssl.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./publications/banville-2021-ssl.html">
 <h3 class="no-anchor listing-title">
-Uncovering the structure of clinical EEG signals with self-supervised learning
+<a href="./publications/banville-2021-ssl.html" class="no-external">Uncovering the structure of clinical EEG signals with self-supervised learning</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./publications/banville-2021-ssl.html" class="no-external"></a>
 </div>
 <div class="listing-description">
-<p><span><i class="ai  ai-doi ai-xl"></i></span> <span><i class="bi-file-pdf " style="font-size: 1.5em;" role="img" aria-hidden="true"></i></span></p>
+<a href="./publications/banville-2021-ssl.html" class="no-external"><span><i class="ai  ai-doi ai-xl"></i></span> <span><i class="bi-file-pdf " style="font-size: 1.5em;" role="img" aria-hidden="true"></i></span></a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./publications/banville-2021-ssl.html">
+<a href="./publications/banville-2021-ssl.html" class="no-external">
 <div class="listing-date">
 Mar 31, 2021
 </div>
@@ -536,25 +574,25 @@ Banville, Hubert, Omar Chehab, Aapo Hyvärinen, Denis-Alexander Engemann, and Al
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="12" data-categories="paper,published,neuroscience,MRI,M/EEG,multimodal,machine learning,brain age" data-listing-date-sort="1589839200000" data-listing-file-modified-sort="1686779778427" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="12" data-categories="cGFwZXIlMkNwdWJsaXNoZWQlMkNuZXVyb3NjaWVuY2UlMkNNUkklMkNNJTJGRUVHJTJDbXVsdGltb2RhbCUyQ21hY2hpbmUlMjBsZWFybmluZyUyQ2JyYWluJTIwYWdl" data-listing-date-sort="1589839200000" data-listing-file-modified-sort="1686779778427" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="87">
 <div class="thumbnail">
-<p><a href="./publications/engemann-2020-multimodal-benchmark.html"> <p class="card-img-top"><img src="https://iiif.elifesciences.org/lax/54055%2Felife-54055-fig1-v2.tif/full/1500,/0/default.jpg"  class="thumbnail-image card-img"/></p> </a></p>
+<p><a href="./publications/engemann-2020-multimodal-benchmark.html" class="no-external"></a></p><a href="./publications/engemann-2020-multimodal-benchmark.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./publications/engemann-2020-multimodal-benchmark.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./publications/engemann-2020-multimodal-benchmark.html">
 <h3 class="no-anchor listing-title">
-Combining magnetoencephalography with magnetic resonance imaging enhances learning of surrogate-biomarkers
+<a href="./publications/engemann-2020-multimodal-benchmark.html" class="no-external">Combining magnetoencephalography with magnetic resonance imaging enhances learning of surrogate-biomarkers</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./publications/engemann-2020-multimodal-benchmark.html" class="no-external"></a>
 </div>
 <div class="listing-description">
-<p><span><i class="ai  ai-doi ai-xl"></i></span> <span><i class="bi-file-pdf " style="font-size: 1.5em;" role="img" aria-hidden="true"></i></span> <span><i class="bi-github " style="font-size: 1.5em;" role="img" aria-hidden="true"></i></span></p>
+<a href="./publications/engemann-2020-multimodal-benchmark.html" class="no-external"><span><i class="ai  ai-doi ai-xl"></i></span> <span><i class="bi-file-pdf " style="font-size: 1.5em;" role="img" aria-hidden="true"></i></span> <span><i class="bi-github " style="font-size: 1.5em;" role="img" aria-hidden="true"></i></span></a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./publications/engemann-2020-multimodal-benchmark.html">
+<a href="./publications/engemann-2020-multimodal-benchmark.html" class="no-external">
 <div class="listing-date">
 May 19, 2020
 </div>
@@ -564,25 +602,25 @@ Engemann, Denis Alexander, Oleh Kozynets, David Sabbagh, Guillaume Lemaitre, Ga�
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="13" data-categories="paper,published,neuroscience,M/EEG,machine learning,brain age,Riemannian geometry,spatial filtering" data-listing-date-sort="1589752800000" data-listing-file-modified-sort="1686693696294" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="13" data-categories="cGFwZXIlMkNwdWJsaXNoZWQlMkNuZXVyb3NjaWVuY2UlMkNNJTJGRUVHJTJDbWFjaGluZSUyMGxlYXJuaW5nJTJDYnJhaW4lMjBhZ2UlMkNSaWVtYW5uaWFuJTIwZ2VvbWV0cnklMkNzcGF0aWFsJTIwZmlsdGVyaW5n" data-listing-date-sort="1589752800000" data-listing-file-modified-sort="1686693696294" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="59">
 <div class="thumbnail">
-<p><a href="./publications/sabbagh-2020-predictive.html"> <p class="card-img-top"><img src="https://ars.els-cdn.com/content/image/1-s2.0-S1053811920303797-gr1_lrg.jpg"  class="thumbnail-image card-img"/></p> </a></p>
+<p><a href="./publications/sabbagh-2020-predictive.html" class="no-external"></a></p><a href="./publications/sabbagh-2020-predictive.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./publications/sabbagh-2020-predictive.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./publications/sabbagh-2020-predictive.html">
 <h3 class="no-anchor listing-title">
-Predictive regression modeling with MEG/EEG: from source power to signals and cognitive states
+<a href="./publications/sabbagh-2020-predictive.html" class="no-external">Predictive regression modeling with MEG/EEG: from source power to signals and cognitive states</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./publications/sabbagh-2020-predictive.html" class="no-external"></a>
 </div>
 <div class="listing-description">
-<p><span><i class="ai  ai-doi ai-xl"></i></span> <span><i class="bi-file-pdf " style="font-size: 1.5em;" role="img" aria-hidden="true"></i></span> <span><i class="bi-github " style="font-size: 1.5em;" role="img" aria-hidden="true"></i></span></p>
+<a href="./publications/sabbagh-2020-predictive.html" class="no-external"><span><i class="ai  ai-doi ai-xl"></i></span> <span><i class="bi-file-pdf " style="font-size: 1.5em;" role="img" aria-hidden="true"></i></span> <span><i class="bi-github " style="font-size: 1.5em;" role="img" aria-hidden="true"></i></span></a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./publications/sabbagh-2020-predictive.html">
+<a href="./publications/sabbagh-2020-predictive.html" class="no-external">
 <div class="listing-date">
 May 18, 2020
 </div>
@@ -592,25 +630,25 @@ Sabbagh, David, Pierre Ablin, Gaël Varoquaux, Alexandre Gramfort, and Denis A. 
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="14" data-categories="paper,published,NeurIPS,neuroscience,M/EEG,machine learning,brain age,Riemannian geometry,spatial filtering" data-listing-date-sort="1575932400000" data-listing-file-modified-sort="1703494939144" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="quarto-post image-right" data-index="14" data-categories="cGFwZXIlMkNwdWJsaXNoZWQlMkNOZXVySVBTJTJDbmV1cm9zY2llbmNlJTJDTSUyRkVFRyUyQ21hY2hpbmUlMjBsZWFybmluZyUyQ2JyYWluJTIwYWdlJTJDUmllbWFubmlhbiUyMGdlb21ldHJ5JTJDc3BhdGlhbCUyMGZpbHRlcmluZw==" data-listing-date-sort="1575932400000" data-listing-file-modified-sort="1703494939144" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="283">
 <div class="thumbnail">
-<p><a href="./publications/sabbagh-2019-neurips.html"> <p class="card-img-top"><img src="sabbagh_2019_neurips.png"  class="thumbnail-image card-img"/></p> </a></p>
+<p><a href="./publications/sabbagh-2019-neurips.html" class="no-external"></a></p><a href="./publications/sabbagh-2019-neurips.html" class="no-external">
+<p class="card-img-top"><img src="sabbagh_2019_neurips.png"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./publications/sabbagh-2019-neurips.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./publications/sabbagh-2019-neurips.html">
 <h3 class="no-anchor listing-title">
-Manifold-regression to predict from MEG/EEG brain signals without source modeling
+<a href="./publications/sabbagh-2019-neurips.html" class="no-external">Manifold-regression to predict from MEG/EEG brain signals without source modeling</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./publications/sabbagh-2019-neurips.html" class="no-external"></a>
 </div>
 <div class="listing-description">
-<p><span><i class="ai  ai-doi ai-xl"></i></span> <span><i class="bi-file-pdf " style="font-size: 1.5em;" role="img" aria-hidden="true"></i></span> <span><i class="bi-github " style="font-size: 1.5em;" role="img" aria-hidden="true"></i></span></p>
+<a href="./publications/sabbagh-2019-neurips.html" class="no-external"><span><i class="ai  ai-doi ai-xl"></i></span> <span><i class="bi-file-pdf " style="font-size: 1.5em;" role="img" aria-hidden="true"></i></span> <span><i class="bi-github " style="font-size: 1.5em;" role="img" aria-hidden="true"></i></span></a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./publications/sabbagh-2019-neurips.html">
+<a href="./publications/sabbagh-2019-neurips.html" class="no-external">
 <div class="listing-date">
 Dec 10, 2019
 </div>
@@ -620,25 +658,25 @@ Sabbagh, David, Pierre Ablin, Gaël Varoquaux, Alexandre Gramfort, and Denis A. 
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="15" data-categories="paper,published,neuroscience,EEG,machine learning,disorders of consciousness,neurology" data-listing-date-sort="1538604000000" data-listing-file-modified-sort="1686862579632" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="15" data-categories="cGFwZXIlMkNwdWJsaXNoZWQlMkNuZXVyb3NjaWVuY2UlMkNFRUclMkNtYWNoaW5lJTIwbGVhcm5pbmclMkNkaXNvcmRlcnMlMjBvZiUyMGNvbnNjaW91c25lc3MlMkNuZXVyb2xvZ3k=" data-listing-date-sort="1538604000000" data-listing-file-modified-sort="1686862579632" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="97">
 <div class="thumbnail">
-<p><a href="./publications/engemann-2018-disorders-of-consciousness.html"> <p class="card-img-top"><img src="engemann_2018_doc.jpeg"  class="thumbnail-image card-img"/></p> </a></p>
+<p><a href="./publications/engemann-2018-disorders-of-consciousness.html" class="no-external"></a></p><a href="./publications/engemann-2018-disorders-of-consciousness.html" class="no-external">
+<p class="card-img-top"><img src="engemann_2018_doc.jpeg"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./publications/engemann-2018-disorders-of-consciousness.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./publications/engemann-2018-disorders-of-consciousness.html">
 <h3 class="no-anchor listing-title">
-Combining magnetoencephalography with magnetic resonance imaging enhances learning of surrogate-biomarkers
+<a href="./publications/engemann-2018-disorders-of-consciousness.html" class="no-external">Combining magnetoencephalography with magnetic resonance imaging enhances learning of surrogate-biomarkers</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./publications/engemann-2018-disorders-of-consciousness.html" class="no-external"></a>
 </div>
 <div class="listing-description">
-<p><span><i class="ai  ai-doi ai-xl"></i></span> <span><i class="bi-file-pdf " style="font-size: 1.5em;" role="img" aria-hidden="true"></i></span> <span><i class="bi-github " style="font-size: 1.5em;" role="img" aria-hidden="true"></i></span></p>
+<a href="./publications/engemann-2018-disorders-of-consciousness.html" class="no-external"><span><i class="ai  ai-doi ai-xl"></i></span> <span><i class="bi-file-pdf " style="font-size: 1.5em;" role="img" aria-hidden="true"></i></span> <span><i class="bi-github " style="font-size: 1.5em;" role="img" aria-hidden="true"></i></span></a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./publications/engemann-2018-disorders-of-consciousness.html">
+<a href="./publications/engemann-2018-disorders-of-consciousness.html" class="no-external">
 <div class="listing-date">
 Oct 4, 2018
 </div>
@@ -648,25 +686,25 @@ Engemann, Denis A., Federico Raimondo, Jean-Rémi King, Benjamin Rohaut, Gilles 
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="16" data-categories="paper,published,neuroscience,M/EEG,denoising,channel interpolation,preprocessing" data-listing-date-sort="1497391200000" data-listing-file-modified-sort="1686949858622" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="16" data-categories="cGFwZXIlMkNwdWJsaXNoZWQlMkNuZXVyb3NjaWVuY2UlMkNNJTJGRUVHJTJDZGVub2lzaW5nJTJDY2hhbm5lbCUyMGludGVycG9sYXRpb24lMkNwcmVwcm9jZXNzaW5n" data-listing-date-sort="1497391200000" data-listing-file-modified-sort="1686949858622" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="39">
 <div class="thumbnail">
-<p><a href="./publications/jas-2017-autoreject.html"> <p class="card-img-top"><img src="https://ars.els-cdn.com/content/image/1-s2.0-S1053811917305013-fx1_lrg.jpg"  class="thumbnail-image card-img"/></p> </a></p>
+<p><a href="./publications/jas-2017-autoreject.html" class="no-external"></a></p><a href="./publications/jas-2017-autoreject.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./publications/jas-2017-autoreject.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./publications/jas-2017-autoreject.html">
 <h3 class="no-anchor listing-title">
-Autoreject: Automated artifact rejection for MEG and EEG data
+<a href="./publications/jas-2017-autoreject.html" class="no-external">Autoreject: Automated artifact rejection for MEG and EEG data</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./publications/jas-2017-autoreject.html" class="no-external"></a>
 </div>
 <div class="listing-description">
-<p><span><i class="ai  ai-doi ai-xl"></i></span> <span><i class="bi-file-pdf " style="font-size: 1.5em;" role="img" aria-hidden="true"></i></span> <span><i class="bi-github " style="font-size: 1.5em;" role="img" aria-hidden="true"></i></span></p>
+<a href="./publications/jas-2017-autoreject.html" class="no-external"><span><i class="ai  ai-doi ai-xl"></i></span> <span><i class="bi-file-pdf " style="font-size: 1.5em;" role="img" aria-hidden="true"></i></span> <span><i class="bi-github " style="font-size: 1.5em;" role="img" aria-hidden="true"></i></span></a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./publications/jas-2017-autoreject.html">
+<a href="./publications/jas-2017-autoreject.html" class="no-external">
 <div class="listing-date">
 Jun 14, 2017
 </div>
@@ -676,25 +714,25 @@ Jas, M, Denis A Engemann, Yousra Bekhti, Federico Raimondo, Alexandre Gramfort
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="17" data-categories="paper,published,neuroscience,M/EEG,covariance estimation,regularization,spatial whitening" data-listing-date-sort="1417647600000" data-listing-file-modified-sort="1686866583771" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="17" data-categories="cGFwZXIlMkNwdWJsaXNoZWQlMkNuZXVyb3NjaWVuY2UlMkNNJTJGRUVHJTJDY292YXJpYW5jZSUyMGVzdGltYXRpb24lMkNyZWd1bGFyaXphdGlvbiUyQ3NwYXRpYWwlMjB3aGl0ZW5pbmc=" data-listing-date-sort="1417647600000" data-listing-file-modified-sort="1686866583771" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="38">
 <div class="thumbnail">
-<p><a href="./publications/engemann-2015-covs.html"> <p class="card-img-top"><img src="engemann_2015_covs.png"  class="thumbnail-image card-img"/></p> </a></p>
+<p><a href="./publications/engemann-2015-covs.html" class="no-external"></a></p><a href="./publications/engemann-2015-covs.html" class="no-external">
+<p class="card-img-top"><img src="engemann_2015_covs.png"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./publications/engemann-2015-covs.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./publications/engemann-2015-covs.html">
 <h3 class="no-anchor listing-title">
-Automated model selection in covariance estimation and spatial whitening of MEG and EEG signals
+<a href="./publications/engemann-2015-covs.html" class="no-external">Automated model selection in covariance estimation and spatial whitening of MEG and EEG signals</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./publications/engemann-2015-covs.html" class="no-external"></a>
 </div>
 <div class="listing-description">
-<p><span><i class="ai  ai-doi ai-xl"></i></span> <span><i class="bi-file-pdf " style="font-size: 1.5em;" role="img" aria-hidden="true"></i></span> <span><i class="bi-github " style="font-size: 1.5em;" role="img" aria-hidden="true"></i></span></p>
+<a href="./publications/engemann-2015-covs.html" class="no-external"><span><i class="ai  ai-doi ai-xl"></i></span> <span><i class="bi-file-pdf " style="font-size: 1.5em;" role="img" aria-hidden="true"></i></span> <span><i class="bi-github " style="font-size: 1.5em;" role="img" aria-hidden="true"></i></span></a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./publications/engemann-2015-covs.html">
+<a href="./publications/engemann-2015-covs.html" class="no-external">
 <div class="listing-date">
 Dec 4, 2014
 </div>
@@ -704,25 +742,25 @@ Engemann, Denis A., Alexandre Gramfort
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="18" data-categories="paper,published,neuroscience,M/EEG,open-source software" data-listing-date-sort="1391209200000" data-listing-file-modified-sort="1686982741967" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="18" data-categories="cGFwZXIlMkNwdWJsaXNoZWQlMkNuZXVyb3NjaWVuY2UlMkNNJTJGRUVHJTJDb3Blbi1zb3VyY2UlMjBzb2Z0d2FyZQ==" data-listing-date-sort="1391209200000" data-listing-file-modified-sort="1686982741967" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="51">
 <div class="thumbnail">
-<p><a href="./publications/gramfort-2014-nimg.html"> <p class="card-img-top"><img src="gramfort_2014_mne.jpeg"  class="thumbnail-image card-img"/></p> </a></p>
+<p><a href="./publications/gramfort-2014-nimg.html" class="no-external"></a></p><a href="./publications/gramfort-2014-nimg.html" class="no-external">
+<p class="card-img-top"><img src="gramfort_2014_mne.jpeg"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./publications/gramfort-2014-nimg.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./publications/gramfort-2014-nimg.html">
 <h3 class="no-anchor listing-title">
-Automated model selection in covariance estimation and spatial whitening of MEG and EEG signals
+<a href="./publications/gramfort-2014-nimg.html" class="no-external">Automated model selection in covariance estimation and spatial whitening of MEG and EEG signals</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./publications/gramfort-2014-nimg.html" class="no-external"></a>
 </div>
 <div class="listing-description">
-<p><span><i class="ai  ai-doi ai-xl"></i></span> <span><i class="bi-github " style="font-size: 1.5em;" role="img" aria-hidden="true"></i></span></p>
+<a href="./publications/gramfort-2014-nimg.html" class="no-external"><span><i class="ai  ai-doi ai-xl"></i></span> <span><i class="bi-github " style="font-size: 1.5em;" role="img" aria-hidden="true"></i></span></a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./publications/gramfort-2014-nimg.html">
+<a href="./publications/gramfort-2014-nimg.html" class="no-external">
 <div class="listing-date">
 Feb 1, 2014
 </div>
@@ -742,25 +780,25 @@ No matching items
 <h2 class="anchored" data-anchor-id="preprints">Preprints</h2>
 <div id="listing-preprints" class="quarto-listing quarto-listing-container-default">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="paper,preprint,neuroscience,EEG,machine learning,brain age,sleep,mobile EEG" data-listing-date-sort="1682719200000" data-listing-file-modified-sort="1686948792928" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="quarto-post image-right" data-index="0" data-categories="cGFwZXIlMkNwcmVwcmludCUyQ25ldXJvc2NpZW5jZSUyQ0VFRyUyQ21hY2hpbmUlMjBsZWFybmluZyUyQ2JyYWluJTIwYWdlJTJDc2xlZXAlMkNtb2JpbGUlMjBFRUc=" data-listing-date-sort="1682719200000" data-listing-file-modified-sort="1686948792928" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="332">
 <div class="thumbnail">
-<p><a href="./publications/banville-2023-sleep.html"> <p class="card-img-top"><img src="banville_sleep_2023.png"  class="thumbnail-image card-img"/></p> </a></p>
+<p><a href="./publications/banville-2023-sleep.html" class="no-external"></a></p><a href="./publications/banville-2023-sleep.html" class="no-external">
+<p class="card-img-top"><img src="banville_sleep_2023.png"  class="thumbnail-image card-img"/></p>
+</a><p><a href="./publications/banville-2023-sleep.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./publications/banville-2023-sleep.html">
 <h3 class="no-anchor listing-title">
-Do try this at home: Age prediction from sleep and meditation with large-scale low-cost mobile EEG
+<a href="./publications/banville-2023-sleep.html" class="no-external">Do try this at home: Age prediction from sleep and meditation with large-scale low-cost mobile EEG</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./publications/banville-2023-sleep.html" class="no-external"></a>
 </div>
 <div class="listing-description">
-<p><span><i class="ai  ai-doi ai-xl"></i></span> <span><i class="bi-file-pdf " style="font-size: 1.5em;" role="img" aria-hidden="true"></i></span></p>
+<a href="./publications/banville-2023-sleep.html" class="no-external"><span><i class="ai  ai-doi ai-xl"></i></span> <span><i class="bi-file-pdf " style="font-size: 1.5em;" role="img" aria-hidden="true"></i></span></a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./publications/banville-2023-sleep.html">
+<a href="./publications/banville-2023-sleep.html" class="no-external">
 <div class="listing-date">
 Apr 29, 2023
 </div>
@@ -823,6 +861,33 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       } else {
         el.classList.add('notransition');
       }
+    }
+  }
+  const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+    const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+    const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+    let newTheme = '';
+    if(darkModeDefault) {
+      newTheme = isAlternate ? baseTheme : alternateTheme;
+    } else {
+      newTheme = isAlternate ? alternateTheme : baseTheme;
+    }
+    const changeGiscusTheme = () => {
+      // From: https://github.com/giscus/giscus/issues/336
+      const sendMessage = (message) => {
+        const iframe = document.querySelector('iframe.giscus-frame');
+        if (!iframe) return;
+        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+      }
+      sendMessage({
+        setConfig: {
+          theme: newTheme
+        }
+      });
+    }
+    const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+    if (isGiscussLoaded) {
+      changeGiscusTheme();
     }
   }
   const toggleColorMode = (alternate) => {
@@ -891,13 +956,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return localAlternateSentinel;
     }
   }
-  let localAlternateSentinel = 'default';
+  const darkModeDefault = false;
+  let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
   // Dark / light mode switch
   window.quartoToggleColorScheme = () => {
     // Read the current dark / light value 
     let toAlternate = !hasAlternateSentinel();
     toggleColorMode(toAlternate);
     setStyleSentinel(toAlternate);
+    toggleGiscusIfUsed(toAlternate, darkModeDefault);
   };
   // Ensure there is a toggle, if there isn't float one in the top right
   if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
@@ -932,18 +999,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-  });
-  clipboard.on('success', function(e) {
+  const onCopySuccess = function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -975,11 +1031,48 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
   });
-  function tippyHover(el, contentFn) {
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -989,8 +1082,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -1002,7 +1104,129 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -1046,6 +1270,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -1071,6 +1296,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -1131,6 +1382,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+
 
 
 

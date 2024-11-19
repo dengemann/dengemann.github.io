@@ -7,9 +7,8 @@ about:
   # image-shape: round
   image-width: 15em
   links:
-    - icon: twitter
-      text: Twitter
-      href: https://twitter.com/dngman
+    - icon: twitter-x
+      href: https://x.com/dngman
     # - icon: mastodon
     #   text: Mastodon
     #   href: https://fediscience.org/@dngman

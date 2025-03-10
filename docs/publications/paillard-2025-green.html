@@ -6,11 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Banville, Hubert, Omar Chehab, Aapo Hyvärinen, Denis-Alexander Engemann, and Alexandre Gramfort.">
-<meta name="dcterms.date" content="2021-03-31">
-<meta name="description" content=" ">
+<meta name="author" content="Joseph Paillard, Joerg F Hipp and Denis A Engemann">
+<meta name="dcterms.date" content="2026-01-02">
+<meta name="description" content="  ">
 
-<title>Uncovering the structure of clinical EEG signals with self-supervised learning – Denis A. Engemann</title>
+<title>GREEN: A lightweight architecture for biomarker exploration with EEG signals – Denis A. Engemann</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -111,9 +111,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 <link rel="stylesheet" href="../styles.css">
-<meta name="twitter:title" content="Uncovering the structure of clinical EEG signals with self-supervised learning – Denis A. Engemann">
-<meta name="twitter:description" content=" ">
-<meta name="twitter:image" content="../banville_2021_ssl.png">
+<meta name="twitter:title" content="GREEN: A lightweight architecture for biomarker exploration with EEG signals – Denis A. Engemann">
+<meta name="twitter:description" content="  ">
+<meta name="twitter:image" content="../social_media_cover.png">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -163,9 +163,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#self-supervised-learning-with-eeg-can-parse-sleep-stages-and-other-clinical-details" id="toc-self-supervised-learning-with-eeg-can-parse-sleep-stages-and-other-clinical-details" class="nav-link active" data-scroll-target="#self-supervised-learning-with-eeg-can-parse-sleep-stages-and-other-clinical-details">Self-supervised learning with EEG can parse sleep stages and other clinical details</a></li>
-  <li><a href="#summary" id="toc-summary" class="nav-link" data-scroll-target="#summary">Summary</a></li>
-  <li><a href="#demonstration" id="toc-demonstration" class="nav-link" data-scroll-target="#demonstration">Demonstration</a></li>
+  <li><a href="#our-deep-learning-for-exploring-eeg-biomarkers-is-out-now-in-patterns" id="toc-our-deep-learning-for-exploring-eeg-biomarkers-is-out-now-in-patterns" class="nav-link active" data-scroll-target="#our-deep-learning-for-exploring-eeg-biomarkers-is-out-now-in-patterns">Our deep learning for exploring EEG biomarkers is out now in Patterns!</a></li>
+  <li><a href="#summary-in-brief" id="toc-summary-in-brief" class="nav-link" data-scroll-target="#summary-in-brief">Summary (in brief)</a></li>
   <li><a href="#citation" id="toc-citation" class="nav-link" data-scroll-target="#citation">Citation</a></li>
   </ul>
 </nav>
@@ -175,20 +174,21 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Uncovering the structure of clinical EEG signals with self-supervised learning</h1>
+<h1 class="title">GREEN: A lightweight architecture for biomarker exploration with EEG signals</h1>
   <div class="quarto-categories">
     <div class="quarto-category">paper</div>
     <div class="quarto-category">published</div>
     <div class="quarto-category">neuroscience</div>
     <div class="quarto-category">EEG</div>
     <div class="quarto-category">deep learning</div>
-    <div class="quarto-category">self supervised</div>
+    <div class="quarto-category">Riemannian geometry</div>
+    <div class="quarto-category">biomarker</div>
   </div>
   </div>
 
 <div>
   <div class="description">
-    <a href="https://iopscience.iop.org/article/10.1088/1741-2552/abca18"><i class="ai doi ai-size=xl"></i></a> <a href="https://arxiv.org/pdf/2007.16104"><i class="bi-file-pdf " style="" role="img" aria-hidden="true"></i></a>
+    <a href="https://www.cell.com/patterns/fulltext/S2666-3899(25)00030-3"><i class="ai doi ai-size=xl"></i></a> <a href="https://www.cell.com/action/showPdf?pii=S2666-3899%2825%2900030-3"><i class="bi-file-pdf " style="" role="img" aria-hidden="true"></i></a> <a href="https://github.com/Roche/neuro-green"><i class="bi-github " style="" role="img" aria-hidden="true"></i></a>
   </div>
 </div>
 
@@ -198,14 +198,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <div>
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-             <p>Banville, Hubert, Omar Chehab, Aapo Hyvärinen, Denis-Alexander Engemann, and Alexandre Gramfort. </p>
+             <p>Joseph Paillard, Joerg F Hipp and Denis A Engemann </p>
           </div>
   </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">March 31, 2021</p>
+      <p class="date">January 2, 2026</p>
     </div>
   </div>
   
@@ -217,14 +217,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<section id="self-supervised-learning-with-eeg-can-parse-sleep-stages-and-other-clinical-details" class="level2">
-<h2 class="anchored" data-anchor-id="self-supervised-learning-with-eeg-can-parse-sleep-stages-and-other-clinical-details">Self-supervised learning with EEG can parse sleep stages and other clinical details</h2>
-<p><img src="../banville_2021_ssl.png" class="img-fluid"></p>
-</section>
-<section id="summary" class="level2">
-<h2 class="anchored" data-anchor-id="summary">Summary</h2>
-<p>This Twitter thread summarizes the work and walks you through the main findings.</p>
-<p></p><div id="tweet-54366"></div><script>tweet=<!DOCTYPE html>
+<p><img src="../social_media_cover.png" class="img-fluid"></p>
+<section id="our-deep-learning-for-exploring-eeg-biomarkers-is-out-now-in-patterns" class="level2">
+<h2 class="anchored" data-anchor-id="our-deep-learning-for-exploring-eeg-biomarkers-is-out-now-in-patterns">Our deep learning for exploring EEG biomarkers is out now in <a href="https://www.cell.com/patterns/fulltext/S2666-3899(25)00030-3">Patterns</a>!</h2>
+<p></p><div id="tweet-75569"></div><script>tweet=<!DOCTYPE html>
 <html lang="en" class="dog">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -270,24 +266,22 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </body>
   <script src="https://abs.twimg.com/errors/404-8651f633fd193e0b546010676a4fac06.js"></script>
 
-;document.getElementById("tweet-54366").innerHTML = tweet["html"];<p></p>
+;document.getElementById("tweet-75569").innerHTML = tweet["html"];<p></p>
 </section>
-<section id="demonstration" class="level2">
-<h2 class="anchored" data-anchor-id="demonstration">Demonstration</h2>
-<p>You can find example PyTorch code at the <a href="https://braindecode.org/stable/auto_examples/plot_relative_positioning.html">Braindecode</a> website.</p>
+<section id="summary-in-brief" class="level2">
+<h2 class="anchored" data-anchor-id="summary-in-brief">Summary (in brief)</h2>
+<p>Our brains generate electrical signals whose unique patterns reveal information about aging, health, and even thoughts. This information is useful for studying brain disorders and developing novel therapies. However, traditional analysis methods can miss subtle but important brain-activity patterns. GREEN, introduced here, is an AI model that readily decodes brainwave patterns. By combining innovative mathematical tools with deep learning, GREEN detects subtle changes in brain activity with a low computational footprint while providing interpretable outputs that reveal insights into brain function.</p>
 </section>
 <section id="citation" class="level2">
 <h2 class="anchored" data-anchor-id="citation">Citation</h2>
-<div class="sourceCode" id="cb1"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="va">@article</span>{<span class="ot">banville2021uncovering</span>,</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">title</span>={Uncovering the structure of clinical EEG signals with self-supervised learning},</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">author</span>={Banville, Hubert and Chehab, Omar and Hyv{<span class="ch">\"</span>a}rinen, Aapo and Engemann, Denis-Alexander and Gramfort, Alexandre},</span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">journal</span>={Journal of Neural Engineering},</span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">volume</span>={18},</span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>  <span class="dt">number</span>={4},</span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>  <span class="dt">pages</span>={046020},</span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>  <span class="dt">year</span>={2021},</span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>  <span class="dt">publisher</span>={IOP Publishing}</span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="va">@article</span>{<span class="ot">GREEN</span>,</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>    <span class="dt">author</span> = {Paillard, Joseph and Hipp, J{<span class="ch">\"</span>o}rg F. and Engemann, Denis A.},</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    <span class="dt">doi</span> = {10.1016/j.patter.2025.101182},</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>    <span class="dt">journal</span> = {Patterns},</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>    <span class="dt">publisher</span> = {Elsevier},</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>    <span class="dt">title</span> = {GREEN: A lightweight architecture using learnable wavelets and Riemannian geometry for biomarker exploration with EEG signals},</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>    <span class="dt">url</span> = {https://doi.org/10.1016/j.patter.2025.101182}</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
 
 </section>

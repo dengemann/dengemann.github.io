@@ -2,6 +2,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/publications/paillard-2025-green.html",
       "/publications/bomatter-2024-bmx.html",
       "/publications/chamma-2024-AAAI.html",
       "/publications/chamma-2023-neurips.html",
@@ -27,6 +28,7 @@
   {
     "listing": "/publications.html",
     "items": [
+      "/publications/paillard-2025-green.html",
       "/publications/bomatter-2024-bmx.html",
       "/publications/chamma-2024-AAAI.html",
       "/publications/chamma-2023-neurips.html",

@@ -1,0 +1,51 @@
+---
+title: "GREEN: A lightweight architecture for biomarker exploration with EEG signals"
+description: "[{{< ai doi size=xl >}}]( https://www.cell.com/patterns/fulltext/S2666-3899(25)00030-3 ) [{{< bi file-pdf size=1.5em >}}](https://www.cell.com/action/showPdf?pii=S2666-3899%2825%2900030-3) [{{< bi github size=1.5 >}}](https://github.com/Roche/neuro-green)"
+author: Joseph Paillard, Joerg F Hipp and Denis A Engemann
+date: 13/02/2025
+draft: false
+max-description-length: 2000
+# image: 
+categories: [paper, published, neuroscience, EEG, deep learning, Riemannian geometry, biomarker]
+# bibliography: ./references.bib
+---
+
+![](../social_media_cover.png)
+
+
+## Our deep learning for exploring EEG biomarkers is out now in [Patterns](https://www.cell.com/patterns/fulltext/S2666-3899(25)00030-3)!
+
+{{< tweet dngman 1890067319122231327 >}}
+
+## Summary (in brief)
+
+Our brains generate electrical signals
+whose unique patterns reveal information
+about aging, health, and even thoughts.
+This information is useful for studying
+brain disorders and developing novel
+therapies. However, traditional analysis
+methods can miss subtle but important
+brain-activity patterns. GREEN,
+introduced here, is an AI model that
+readily decodes brainwave patterns. By
+combining innovative mathematical tools
+with deep learning, GREEN detects subtle
+changes in brain activity with a low
+computational footprint while providing
+interpretable outputs that reveal insights
+into brain function.
+
+
+## Citation
+
+```bibtex
+@article{GREEN,
+	author = {Paillard, Joseph and Hipp, J{\"o}rg F. and Engemann, Denis A.},
+	doi = {10.1016/j.patter.2025.101182},
+	journal = {Patterns},
+	publisher = {Elsevier},
+	title = {GREEN: A lightweight architecture using learnable wavelets and Riemannian geometry for biomarker exploration with EEG signals},
+	url = {https://doi.org/10.1016/j.patter.2025.101182}
+}
+```

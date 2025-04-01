@@ -1,0 +1,38 @@
+---
+title: "Exploring the neuromagnetic signatures of cognitive decline from mild cognitive impairment to Alzheimer's disease dementia"
+description: "[{{< ai doi size=xl >}}]( https://www.thelancet.com/journals/ebiom/article/PIIS2352-3964(25)00103-3/fulltext ) [{{< bi file-pdf size=1.5em >}}](https://www.thelancet.com/action/showPdf?pii=S2352-3964%2825%2900103-3) [{{< bi github size=1.5 >}}](https://github.com/singaub/meg-biofind-ad-progression-paper-code)"
+author:  Sinead Gaubert, Pilar Garces, Jörg F Hipp, Ricardo Bruña, Maria Eugenia Lopéz, Fernando Maestu, Delshad Vaghari, Rik Henson, Claire Paquetand Denis A Engemann
+date: 03/27/2025
+draft: false
+max-description-length: 2000
+# image: 
+categories: [paper, published, neuroscience, Alzheimer's Diseas, dementia, MEG, MRI, biomarker]
+---
+
+![](../ebiom_ad_cover.jpeg)
+
+## Revealing hidden (brain-activity) patterns in Alzheimer's risk 
+
+Our research in [eBioMedicine – The Lancet Discovery Science](https://www.thelancet.com/journals/ebiom/article/PIIS2352-3964(25)00103-3/fulltext) demonstrates how brain activity patterns measured by magnetoencephalography (MEG) provide valuable insights beyond standard cognitive testing and structural MRI in assessing progression from mild cognitive impairment to Alzheimer's Disease (AD).
+
+From the BioFIND cohort, we analyzed MEG recordings from 150 patients suffering from MCI using a standardized wavelet-based approach [meeglet package](https://roche.github.io/neuro-meeglet/) and leveraging Riemannian statistics. 
+
+We observed dampening of brain activity above 10Hz in future AD converters and found that Riemannian analysis provided an enhanced summary of power, phase-, and amplitude dynamics. MEG covariance spectra emerged as a robust signature, adding information on AD progression over MRI and cognitive assessments.
+
+This work highlights the unique value of measuring brain activity to understand AD risk and opens new avenues for earlier, more comprehensive assessment of risk beyond proteinopathies.
+
+## Citation
+
+```bibtex
+@article{gaubert2025,
+	author = {Gaubert, Sinead and Garces, Pilar and Hipp, J{\"o}rg and Bru{\~n}a, Ricardo and Lop{\'e}z, Maria Eugenia and Maestu, Fernando and Vaghari, Delshad and Henson, Richard and Paquet, Claire and Engemann, Denis-Alexander},
+	doi = {10.1016/j.ebiom.2025.105659},
+	isbn = {2352-3964},
+	journal = {eBioMedicine},
+	title = {Exploring the neuromagnetic signatures of cognitive decline from mild cognitive impairment to Alzheimer's disease dementia},
+	type = {doi: 10.1016/j.ebiom.2025.105659},
+	url = {https://doi.org/10.1016/j.ebiom.2025.105659},
+	volume = {114},
+	year = {2025}
+}
+```

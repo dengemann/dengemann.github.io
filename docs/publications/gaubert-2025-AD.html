@@ -6,11 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Engemann, Denis Alexander, Oleh Kozynets, David Sabbagh, Guillaume Lemaitre, Gaël Varoquaux, Franziskus Liem, and Alexandre Gramfort">
-<meta name="dcterms.date" content="2020-05-19">
+<meta name="author" content="Sinead Gaubert, Pilar Garces, Jörg F Hipp, Ricardo Bruña, Maria Eugenia Lopéz, Fernando Maestu, Delshad Vaghari, Rik Henson, Claire Paquetand Denis A Engemann">
+<meta name="dcterms.date" content="2025-03-27">
 <meta name="description" content="  ">
 
-<title>Combining magnetoencephalography with magnetic resonance imaging enhances learning of surrogate-biomarkers – Denis A. Engemann</title>
+<title>Exploring the neuromagnetic signatures of cognitive decline from mild cognitive impairment to Alzheimer’s disease dementia – Denis A. Engemann</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -111,9 +111,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 <link rel="stylesheet" href="../styles.css">
-<meta name="twitter:title" content="Combining magnetoencephalography with magnetic resonance imaging enhances learning of surrogate-biomarkers – Denis A. Engemann">
+<meta name="twitter:title" content="Exploring the neuromagnetic signatures of cognitive decline from mild cognitive impairment to Alzheimer’s disease dementia – Denis A. Engemann">
 <meta name="twitter:description" content="  ">
-<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="../ebiom_ad_cover.jpeg">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body class="nav-fixed">
@@ -162,8 +163,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#improving-brain-age-modeling-through-joint-modeling-from-mri-fmri-and-meg" id="toc-improving-brain-age-modeling-through-joint-modeling-from-mri-fmri-and-meg" class="nav-link active" data-scroll-target="#improving-brain-age-modeling-through-joint-modeling-from-mri-fmri-and-meg">Improving brain-age modeling through joint modeling from MRI, fMRI and MEG</a></li>
-  <li><a href="#summary" id="toc-summary" class="nav-link" data-scroll-target="#summary">Summary</a></li>
+  <li><a href="#revealing-hidden-brain-activity-patterns-in-alzheimers-risk" id="toc-revealing-hidden-brain-activity-patterns-in-alzheimers-risk" class="nav-link active" data-scroll-target="#revealing-hidden-brain-activity-patterns-in-alzheimers-risk">Revealing hidden (brain-activity) patterns in Alzheimer’s risk</a></li>
   <li><a href="#citation" id="toc-citation" class="nav-link" data-scroll-target="#citation">Citation</a></li>
   </ul>
 </nav>
@@ -173,22 +173,22 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Combining magnetoencephalography with magnetic resonance imaging enhances learning of surrogate-biomarkers</h1>
+<h1 class="title">Exploring the neuromagnetic signatures of cognitive decline from mild cognitive impairment to Alzheimer’s disease dementia</h1>
   <div class="quarto-categories">
     <div class="quarto-category">paper</div>
     <div class="quarto-category">published</div>
     <div class="quarto-category">neuroscience</div>
+    <div class="quarto-category">Alzheimer's Diseas</div>
+    <div class="quarto-category">dementia</div>
+    <div class="quarto-category">MEG</div>
     <div class="quarto-category">MRI</div>
-    <div class="quarto-category">M/EEG</div>
-    <div class="quarto-category">multimodal</div>
-    <div class="quarto-category">machine learning</div>
-    <div class="quarto-category">brain age</div>
+    <div class="quarto-category">biomarker</div>
   </div>
   </div>
 
 <div>
   <div class="description">
-    <a href="https://doi.org/10.7554/eLife.54055"><i class="ai doi ai-size=xl"></i></a> <a href="https://elifesciences.org/download/aHR0cHM6Ly9jZG4uZWxpZmVzY2llbmNlcy5vcmcvYXJ0aWNsZXMvNTQwNTUvZWxpZmUtNTQwNTUtdjIucGRmP2Nhbm9uaWNhbFVyaT1odHRwczovL2VsaWZlc2NpZW5jZXMub3JnL2FydGljbGVzLzU0MDU1/elife-54055-v2.pdf?_hash=g%2FxNeMlXTlw0rGtIFLHu4dyk5IfymyeYu1sxJbVN7ro%3D"><i class="bi-file-pdf " style="" role="img" aria-hidden="true"></i></a> <a href="https://github.com/dengemann/meg-mri-surrogate-biomarkers-aging-2020"><i class="bi-github " style="" role="img" aria-hidden="true"></i></a>
+    <a href="https://www.thelancet.com/journals/ebiom/article/PIIS2352-3964(25)00103-3/fulltext"><i class="ai doi ai-size=xl"></i></a> <a href="https://www.thelancet.com/action/showPdf?pii=S2352-3964%2825%2900103-3"><i class="bi-file-pdf " style="" role="img" aria-hidden="true"></i></a> <a href="https://github.com/singaub/meg-biofind-ad-progression-paper-code"><i class="bi-github " style="" role="img" aria-hidden="true"></i></a>
   </div>
 </div>
 
@@ -198,14 +198,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <div>
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-             <p>Engemann, Denis Alexander, Oleh Kozynets, David Sabbagh, Guillaume Lemaitre, Gaël Varoquaux, Franziskus Liem, and Alexandre Gramfort </p>
+             <p>Sinead Gaubert, Pilar Garces, Jörg F Hipp, Ricardo Bruña, Maria Eugenia Lopéz, Fernando Maestu, Delshad Vaghari, Rik Henson, Claire Paquetand Denis A Engemann </p>
           </div>
   </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">May 19, 2020</p>
+      <p class="date">March 27, 2025</p>
     </div>
   </div>
   
@@ -217,74 +217,27 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<section id="improving-brain-age-modeling-through-joint-modeling-from-mri-fmri-and-meg" class="level2">
-<h2 class="anchored" data-anchor-id="improving-brain-age-modeling-through-joint-modeling-from-mri-fmri-and-meg">Improving brain-age modeling through joint modeling from MRI, fMRI and MEG</h2>
-<p><img src="https://iiif.elifesciences.org/lax/54055%2Felife-54055-fig1-v2.tif/full/1500,/0/default.jpg" class="img-fluid"></p>
-</section>
-<section id="summary" class="level2">
-<h2 class="anchored" data-anchor-id="summary">Summary</h2>
-<p>For a plain English summary, consider the <a href="https://elifesciences.org/digests/54055/imaging-the-brain-s-age">eLife digest</a> by Helena Perez Valle.</p>
-<p>To get an overview on the paper, consider this Twitter thread:</p>
-<p>This Twitter thread summarizes the work and walks you through the main findings.</p>
-<p></p><div id="tweet-38726"></div><script>tweet=<!DOCTYPE html>
-<html lang="en" class="dog">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>X / ?</title>
-    <meta name="version" content="1">
-    <link href="https://abs.twimg.com/favicons/twitter.3.ico" rel="shortcut icon" type="image/x-icon">
-    <link rel="stylesheet" href="https://abs.twimg.com/errors/fullscreen_errors-047ca1475a6efac7c9c89a9ff92b7a20.css">
-  </head>
-  <body dir="auto">
-    <div class="top">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1519 200">
-        <defs/>
-        <path d="M708 103l9-5 13 1 2-2 5 1h8l1-1 42-5h7l7 3v1l12-2a9368 9368 0 0129-6l2-5 12 1 6-2 3 1 2 1v-2l13-2v1l4 2 7-1h1l17-3 1 2 4-1 18-7 3-1 4-1h9l13-1 1-4 3-2 13 1v2l22-2 10-3h6l10 5 16-5 15-3 2-1 8-4 6-2 12-1 7-2 8 5 7 1 22-9h7l5-1v-1l25-3 1 2 5 2v1h11l2 1 8-4h3l-1 1h11l10-6 6 3 9-1 4-1 1 1 1-2 6-1 1-1 10-2h2l7-5v1h4l3-1c11 0 23 2 34-3 2-2 7 0 10 0l12 1 4 1 9 2 12-1 11-3 11 1h4l10-6 17 1 2 1c9 2 19-3 22-11l1-1 9 1 15-5c3-1 9 4 9-5 5 0 5 3 5 7l2 3 4-1 4-2 9-4 3-3h3l8-4 6-3 26 2 7-4h18l7 1c10 3 13-6 17-12l8 4 3-1 14-3 15-2a38 38 0 01-5-1l-8-4 7-8 8-4-10-136-922 71 16 205z"/>
-        <path d="M-36 193l9-5 13 1 2-2 5 1h8l1-1 42-5h7l7 3v1l12-2a9328 9328 0 0129-6l2-5 12 1 6-2 3 1 2 1v-2l13-2v1l4 2 7-1h1l17-3 1 2 4-1 18-7 3-1 4-1h9l13-1 1-4 3-2 13 1v2l22-2 10-3h6l10 5 16-5 15-3 2-1 8-4 6-2 12-1 7-2 8 5 7 1 22-9h7l5-1v-1l25-3 1 2 5 2v1h11l2 1 8-4h3l-1 1h9a6 6 0 002 0l10-6 6 3 9-1 4-1a6 6 0 001 1l1-2 6-1 1-1 10-2h2l7-5v1h4l3-1c11 0 23 2 34-3 2-2 7 0 10 0l12 1 4 1 9 2 12-1 11-3 11 1h4l10-6 17 1 2 1c9 2 19-3 22-11l1-1 9 1 15-5c3-1 9 4 9-5 5 0 5 3 5 7l2 3 4-1 4-2 9-4 3-3h3l8-4 6-3 26 2 7-4h18l7 1c10 3 13-6 17-12l8 4 3-1 14-3 15-2a37 37 0 01-5-1l-8-4 7-8 8-4-10-136-922 71 16 205z"/>
-      </svg>
-    </div>
-    <div class="container">
-      <div class="content">
-        <a href="https://twitter.com" title="X logo">
-          <svg viewBox="0 0 24 24" aria-hidden="true" class="x-logo"><g><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></g></svg>
-        </a>
-        <h1 id="header">Nothing to see here</h1>
-        <p id="description">Looks like this page doesn’t exist. Here’s a picture of a poodle sitting in a chair for your trouble.</p>
-
-          <a id="button_search" href="/" class="button">Looking for this?</a>
-
-      </div>
-      <img id="image" src="https://abs.twimg.com/errors/ErrorState_NotFound.png" alt="A primped poodle with a bow in its hair sitting in a chair like a human.">
-      <div class="footer">
-        <ul>
-          <li><a href="https://twitter.com/" id="footer_home">Home</a></li>
-          <li><a href="https://status.twitterstat.us/" id="footer_status">Status</a></li>
-          <li><a href="https://twitter.com/tos" id="footer_tos">Terms of Service</a></li>
-          <li><a href="https://twitter.com/privacy" id="footer_privacy">Privacy Policy</a></li>
-          <li><a href="https://support.twitter.com/articles/20170514" id="footer_cookie">Cookie Policy</a></li>
-          <li><a href="https://legal.twitter.com/imprint" id="footer_imprint">Imprint</a></li>
-          <li><a href="https://business.twitter.com/en/help/troubleshooting/how-twitter-ads-work.html" id="footer_ads">Ads info</a></li>
-          <li dir="ltr">&copy; X Corp. <span id="copyright-year">&emsp;&emsp;&emsp;&emsp;</span></li>
-        </ul>
-      </div>
-    </div>
-  </body>
-  <script src="https://abs.twimg.com/errors/404-8651f633fd193e0b546010676a4fac06.js"></script>
-
-;document.getElementById("tweet-38726").innerHTML = tweet["html"];<p></p>
+<p><img src="../ebiom_ad_cover.jpeg" class="img-fluid"></p>
+<section id="revealing-hidden-brain-activity-patterns-in-alzheimers-risk" class="level2">
+<h2 class="anchored" data-anchor-id="revealing-hidden-brain-activity-patterns-in-alzheimers-risk">Revealing hidden (brain-activity) patterns in Alzheimer’s risk</h2>
+<p>Our research in <a href="https://www.thelancet.com/journals/ebiom/article/PIIS2352-3964(25)00103-3/fulltext">eBioMedicine – The Lancet Discovery Science</a> demonstrates how brain activity patterns measured by magnetoencephalography (MEG) provide valuable insights beyond standard cognitive testing and structural MRI in assessing progression from mild cognitive impairment to Alzheimer’s Disease (AD).</p>
+<p>From the BioFIND cohort, we analyzed MEG recordings from 150 patients suffering from MCI using a standardized wavelet-based approach <a href="https://roche.github.io/neuro-meeglet/">meeglet package</a> and leveraging Riemannian statistics.</p>
+<p>We observed dampening of brain activity above 10Hz in future AD converters and found that Riemannian analysis provided an enhanced summary of power, phase-, and amplitude dynamics. MEG covariance spectra emerged as a robust signature, adding information on AD progression over MRI and cognitive assessments.</p>
+<p>This work highlights the unique value of measuring brain activity to understand AD risk and opens new avenues for earlier, more comprehensive assessment of risk beyond proteinopathies.</p>
 </section>
 <section id="citation" class="level2">
 <h2 class="anchored" data-anchor-id="citation">Citation</h2>
-<div class="sourceCode" id="cb1"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="va">@article</span>{<span class="ot">engemann2020combining</span>,</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">title</span>={Combining magnetoencephalography with magnetic resonance imaging enhances learning of surrogate-biomarkers},</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">author</span>={Engemann, Denis A and Kozynets, Oleh and Sabbagh, David and Lema{<span class="ch">\^\i</span>}tre, Guillaume and Varoquaux, Gael and Liem, Franziskus and Gramfort, Alexandre},</span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">journal</span>={Elife},</span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">volume</span>={9},</span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>  <span class="dt">pages</span>={e54055},</span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>  <span class="dt">year</span>={2020},</span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>  <span class="dt">publisher</span>={eLife Sciences Publications, Ltd}</span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bibtex code-with-copy"><code class="sourceCode bibtex"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="va">@article</span>{<span class="ot">gaubert2025</span>,</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>    <span class="dt">author</span> = {Gaubert, Sinead and Garces, Pilar and Hipp, J{<span class="ch">\"</span>o}rg and Bru{<span class="ch">\~</span>n}a, Ricardo and Lop{<span class="ch">\'</span>e}z, Maria Eugenia and Maestu, Fernando and Vaghari, Delshad and Henson, Richard and Paquet, Claire and Engemann, Denis-Alexander},</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>    <span class="dt">doi</span> = {10.1016/j.ebiom.2025.105659},</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>    <span class="dt">isbn</span> = {2352-3964},</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>    <span class="dt">journal</span> = {eBioMedicine},</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>    <span class="dt">title</span> = {Exploring the neuromagnetic signatures of cognitive decline from mild cognitive impairment to Alzheimer's disease dementia},</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>    <span class="dt">type</span> = {doi: 10.1016/j.ebiom.2025.105659},</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>    <span class="dt">url</span> = {https://doi.org/10.1016/j.ebiom.2025.105659},</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>    <span class="dt">volume</span> = {114},</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>    <span class="dt">year</span> = {2025}</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
 
 </section>
@@ -856,5 +809,4 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
-<script src="https://platform.twitter.com/widgets.js"></script>
 </body></html>

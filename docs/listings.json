@@ -2,6 +2,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/publications/gaubert-2025-AD.html",
       "/publications/paillard-2025-green.html",
       "/publications/bomatter-2024-bmx.html",
       "/publications/chamma-2024-AAAI.html",
@@ -28,6 +29,7 @@
   {
     "listing": "/publications.html",
     "items": [
+      "/publications/gaubert-2025-AD.html",
       "/publications/paillard-2025-green.html",
       "/publications/bomatter-2024-bmx.html",
       "/publications/chamma-2024-AAAI.html",

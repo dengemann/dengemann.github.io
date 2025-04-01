@@ -25,14 +25,14 @@
     "href": "index.html",
     "title": "Dr. Denis A. Engemann",
     "section": "",
-    "text": "Brains, Biomarker & Cognition\n\n🧠 Exploring the intricacies of the human brain through electrophysiology, imaging, and machine learning is my passion. I channel this enthusiasm towards the development of biomarkers and next generation therapeutics. In my current role at Roche Pharma Research & Early Development in Basel, I apply my expertise to assess the impact of novel compounds on brain dynamics and clinical outcomes, utilizing the knowledge, tools, and resources resulting of my research.\n🖥️ ⚙ Previously, at Inria in Saclay-Île-de-France/Paris, I pioneered machine learning approaches bridging the gap between the laboratory and the real-world applications.\n\n\n\nLatest Publications\n\n\n\n\n\nTitle\n\n\nLinks\n\n\n\n\n\n\nGREEN: A lightweight architecture for biomarker exploration with EEG signals\n\n\n  \n\n\n\n\nMachine learning of brain-specific biomarkers from EEG\n\n\n  \n\n\n\n\nVariable Importance in High-Dimensional Settings Requires Grouping\n\n\n  \n\n\n\n\nStatistically Valid Variable Importance Assessment through Conditional Permutations\n\n\n  \n\n\n\n\nRepurposing electroencephalogram monitoring of general anaesthesia for building biomarkers of brain ageing: an exploratory study\n\n\n  \n\n\n\n\nDo try this at home: Age prediction from sleep and meditation with large-scale low-cost mobile EEG\n\n\n \n\n\n\n\nHarmonizing and aligning M/EEG datasets with covariance-based techniques to enhance predictive regression modeling\n\n\n \n\n\n\n\n\nNo matching items"
+    "text": "Brains, Biomarker & Cognition\n\n🧠 Exploring the intricacies of the human brain through electrophysiology, imaging, and machine learning is my passion. I channel this enthusiasm towards the development of biomarkers and next generation therapeutics. In my current role at Roche Pharma Research & Early Development in Basel, I apply my expertise to assess the impact of novel compounds on brain dynamics and clinical outcomes, utilizing the knowledge, tools, and resources resulting of my research.\n🖥️ ⚙ Previously, at Inria in Saclay-Île-de-France/Paris, I pioneered machine learning approaches bridging the gap between the laboratory and the real-world applications.\n\n\n\nLatest Publications\n\n\n\n\n\nTitle\n\n\nLinks\n\n\n\n\n\n\nExploring the neuromagnetic signatures of cognitive decline from mild cognitive impairment to Alzheimer’s disease dementia\n\n\n  \n\n\n\n\nGREEN: A lightweight architecture for biomarker exploration with EEG signals\n\n\n  \n\n\n\n\nMachine learning of brain-specific biomarkers from EEG\n\n\n  \n\n\n\n\nVariable Importance in High-Dimensional Settings Requires Grouping\n\n\n  \n\n\n\n\nStatistically Valid Variable Importance Assessment through Conditional Permutations\n\n\n  \n\n\n\n\nRepurposing electroencephalogram monitoring of general anaesthesia for building biomarkers of brain ageing: an exploratory study\n\n\n  \n\n\n\n\nDo try this at home: Age prediction from sleep and meditation with large-scale low-cost mobile EEG\n\n\n \n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "publications/engemann-2020-multimodal-benchmark.html#summary",
     "href": "publications/engemann-2020-multimodal-benchmark.html#summary",
     "title": "Combining magnetoencephalography with magnetic resonance imaging enhances learning of surrogate-biomarkers",
     "section": "Summary",
-    "text": "Summary\nFor a plain English summary, consider the eLife digest by Helena Perez Valle.\nTo get an overview on the paper, consider this Twitter thread:\nThis Twitter thread summarizes the work and walks you through the main findings."
+    "text": "Summary\nFor a plain English summary, consider the eLife digest by Helena Perez Valle.\nTo get an overview on the paper, consider this Twitter thread:\nThis Twitter thread summarizes the work and walks you through the main findings.\n\n\n;document.getElementById(\"tweet-38726\").innerHTML = tweet[\"html\"];"
   },
   {
     "objectID": "publications/engemann-2020-multimodal-benchmark.html#citation",
@@ -60,7 +60,7 @@
     "href": "publications/chamma-2024-AAAI.html#summary",
     "title": "Variable Importance in High-Dimensional Settings Requires Grouping",
     "section": "Summary",
-    "text": "Summary\n(reprinted from abstract)\nExplaining the decision process of machine learning algorithms is nowadays crucial for both model’s performance enhancement and human comprehension. This can be achieved by assessing the variable importance of single variables, even for high-capacity non-linear methods, e.g. Deep Neural Networks (DNNs). While only removal-based approaches, such as Permutation Importance (PI), can bring statistical validity, they return misleading results when variables are correlated. Conditional Permutation Importance (CPI) bypasses PI’s limitations in such cases. However, in high-dimensional settings, where high correlations between the variables cancel their conditional importance, the use of CPI as well as other methods leads to unreliable results, besides prohibitive computation costs. Grouping variables statistically via clustering or some prior knowledge gains some power back and leads to better interpretations. In this work, we introduce BCPI (Block-Based Conditional Permutation Importance), a new generic framework for variable importance computation with statistical guarantees handling both single and group cases. Furthermore, as handling groups with high cardinality (such as a set of observations of a given modality) are both time-consuming and resource-intensive, we also introduce a new stacking approach extending the DNN architecture with sub-linear layers adapted to the group structure. We show that the ensuing approach extended with stacking controls the type-I error even with highly-correlated groups and shows top accuracy across benchmarks. Furthermore, we perform a real-world data analysis in a large-scale medical dataset where we aim to show the consistency between our results and the literature for a biomarker prediction.\n(Twitter/X)"
+    "text": "Summary\n(reprinted from abstract)\nExplaining the decision process of machine learning algorithms is nowadays crucial for both model’s performance enhancement and human comprehension. This can be achieved by assessing the variable importance of single variables, even for high-capacity non-linear methods, e.g. Deep Neural Networks (DNNs). While only removal-based approaches, such as Permutation Importance (PI), can bring statistical validity, they return misleading results when variables are correlated. Conditional Permutation Importance (CPI) bypasses PI’s limitations in such cases. However, in high-dimensional settings, where high correlations between the variables cancel their conditional importance, the use of CPI as well as other methods leads to unreliable results, besides prohibitive computation costs. Grouping variables statistically via clustering or some prior knowledge gains some power back and leads to better interpretations. In this work, we introduce BCPI (Block-Based Conditional Permutation Importance), a new generic framework for variable importance computation with statistical guarantees handling both single and group cases. Furthermore, as handling groups with high cardinality (such as a set of observations of a given modality) are both time-consuming and resource-intensive, we also introduce a new stacking approach extending the DNN architecture with sub-linear layers adapted to the group structure. We show that the ensuing approach extended with stacking controls the type-I error even with highly-correlated groups and shows top accuracy across benchmarks. Furthermore, we perform a real-world data analysis in a large-scale medical dataset where we aim to show the consistency between our results and the literature for a biomarker prediction.\n(Twitter/X)\n\n\n;document.getElementById(\"tweet-11701\").innerHTML = tweet[\"html\"];"
   },
   {
     "objectID": "publications/chamma-2024-AAAI.html#citation",
@@ -116,7 +116,7 @@
     "href": "publications/sabbagh-2020-predictive.html#summary",
     "title": "Predictive regression modeling with MEG/EEG: from source power to signals and cognitive states",
     "section": "Summary",
-    "text": "Summary\nThis Twitter thread summarizes the work and walks you through the main findings."
+    "text": "Summary\nThis Twitter thread summarizes the work and walks you through the main findings.\n\n\n;document.getElementById(\"tweet-98056\").innerHTML = tweet[\"html\"];"
   },
   {
     "objectID": "publications/sabbagh-2020-predictive.html#citation",
@@ -124,104 +124,6 @@
     "title": "Predictive regression modeling with MEG/EEG: from source power to signals and cognitive states",
     "section": "Citation",
     "text": "Citation\n@article{sabbagh2020predictive,\n  title={Predictive regression modeling with MEG/EEG: from source power to signals and cognitive states},\n  author={Sabbagh, David and Ablin, Pierre and Varoquaux, Ga{\\\"e}l and Gramfort, Alexandre and Engemann, Denis A},\n  journal={NeuroImage},\n  volume={222},\n  pages={116893},\n  year={2020},\n  publisher={Elsevier}\n}"
-  },
-  {
-    "objectID": "publications/sabbagh-2019-neurips.html#summary",
-    "href": "publications/sabbagh-2019-neurips.html#summary",
-    "title": "Manifold-regression to predict from MEG/EEG brain signals without source modeling",
-    "section": "Summary",
-    "text": "Summary\n(reprinted from the article: “bigger picture”)\nMagnetoencephalography and electroencephalography (M/EEG) can reveal neuronal dynamics non-invasively in real-time and are therefore appreciated methods in medicine and neuroscience. Recent advances in modeling brain-behavior relationships have highlighted the effectiveness of Riemannian geometry for summarizing the spatially correlated time-series from M/EEG in terms of their covariance. However, after artefact-suppression, M/EEG data is often rank deficient which limits the application of Riemannian concepts. In this article, we focus on the task of regression with rank-reduced covariance matrices. We study two Riemannian approaches that vectorize the M/EEG covariance between sensors through projection into a tangent space. The Wasserstein distance readily applies to rank-reduced data but lacks affine-invariance. This can be overcome by finding a common subspace in which the covariance matrices are full rank, enabling the affine-invariant geometric distance. We investigated the implications of these two approaches in synthetic generative models, which allowed us to control estimation bias of a linear model for prediction. We show that Wasserstein and geometric distances allow perfect out-of-sample prediction on the generative models. We then evaluated the methods on real data with regard to their effectiveness in predicting age from M/EEG covariance matrices. The findings suggest that the data-driven Riemannian methods outperform different sensor-space estimators and that they get close to the performance of biophysics-driven source-localization model that requires MRI acquisitions and tedious data processing. Our study suggests that the proposed Riemannian methods can serve as fundamental building-blocks for automated large-scale analysis of M/EEG."
-  },
-  {
-    "objectID": "publications/sabbagh-2019-neurips.html#citation",
-    "href": "publications/sabbagh-2019-neurips.html#citation",
-    "title": "Manifold-regression to predict from MEG/EEG brain signals without source modeling",
-    "section": "Citation",
-    "text": "Citation\n@article{sabbagh2019manifold,\n  title={Manifold-regression to predict from MEG/EEG brain signals without source modeling},\n  author={Sabbagh, David and Ablin, Pierre and Varoquaux, Ga{\\\"e}l and Gramfort, Alexandre and Engemann, Denis A},\n  journal={Advances in Neural Information Processing Systems},\n  volume={32},\n  year={2019}\n}"
-  },
-  {
-    "objectID": "publications/chamma-2023-neurips.html#summary",
-    "href": "publications/chamma-2023-neurips.html#summary",
-    "title": "Statistically Valid Variable Importance Assessment through Conditional Permutations",
-    "section": "Summary",
-    "text": "Summary\n(reprinted from abstract)\nVariable importance assessment has become a crucial step in machine-learning applications when using complex learners, such as deep neural networks, on large-scale data. Removal-based importance assessment is currently the reference approach, particularly when statistical guarantees are sought to justify variable inclusion. It is often implemented with variable permutation schemes. On the flip side, these approaches risk misidentifying unimportant variables as important in the presence of correlations among covariates. Here we develop a systematic approach for studying Conditional Permutation Importance (CPI) that is model agnostic and computationally lean, as well as reusable benchmarks of state-of-the-art variable importance estimators. We show theoretically and empirically that CPI overcomes the limitations of standard permutation importance by providing accurate type-I error control. When used with a deep neural network, CPI consistently showed top accuracy across benchmarks. An experiment on real-world data analysis in a large-scale medical dataset showed that CPI provides a more parsimonious selection of statistically significant variables. Our results suggest that CPI can be readily used as drop-in replacement for permutation-based methods.\n(Twitter/X)"
-  },
-  {
-    "objectID": "publications/chamma-2023-neurips.html#citation",
-    "href": "publications/chamma-2023-neurips.html#citation",
-    "title": "Statistically Valid Variable Importance Assessment through Conditional Permutations",
-    "section": "Citation",
-    "text": "Citation\n@article{chamma2023statistically,\n  title={Statistically Valid Variable Importance Assessment through Conditional Permutations},\n  author={Chamma, Ahmad and Engemann, Denis A and Thirion, Bertrand},\n  journal={arXiv preprint arXiv:2309.07593},\n  year={2023}\n}"
-  },
-  {
-    "objectID": "publications/denissen-2022-MS-brain-age.html#summary",
-    "href": "publications/denissen-2022-MS-brain-age.html#summary",
-    "title": "Brain age as a surrogate marker for cognitive performance in multiple sclerosis",
-    "section": "Summary",
-    "text": "Summary\n(reprinted from the published abstract.)\n\nBackground and purpose\nData from neuro-imaging techniques allow us to estimate a brain’s age. Brain age is easily interpretable as ‘how old the brain looks’ and could therefore be an attractive communication tool for brain health in clinical practice. This study aimed to investigate its clinical utility by investigating the relationship between brain age and cognitive performance in multiple sclerosis (MS).\n\n\nMethods\nA linear regression model was trained to predict age from brain magnetic resonance imaging volumetric features and sex in a healthy control dataset (HC_train, n = 1673). This model was used to predict brain age in two test sets: HC_test (n = 50) and MS_test (n = 201). Brain-predicted age difference (BPAD) was calculated as BPAD = brain age minus chronological age. Cognitive performance was assessed by the Symbol Digit Modalities Test (SDMT).\n\n\nResults\nBrain age was significantly related to SDMT scores in the MS_test dataset (r = −0.46, p &lt; 0.001) and contributed uniquely to variance in SDMT beyond chronological age, reflected by a significant correlation between BPAD and SDMT (r = −0.24, p &lt; 0.001) and a significant weight (−0.25, p = 0.002) in a multivariate regression equation with age.\n\n\nConclusions\nBrain age is a candidate biomarker for cognitive dysfunction in MS and an easy to grasp metric for brain health."
-  },
-  {
-    "objectID": "publications/denissen-2022-MS-brain-age.html#citation",
-    "href": "publications/denissen-2022-MS-brain-age.html#citation",
-    "title": "Brain age as a surrogate marker for cognitive performance in multiple sclerosis",
-    "section": "Citation",
-    "text": "Citation\n@article{denissen2022brain,\n  title={Brain age as a surrogate marker for cognitive performance in multiple sclerosis},\n  author={Denissen, Stijn and Engemann, Denis Alexander and De Cock, Alexander and Costers, Lars and Baijot, Johan and Laton, Jorne and Penner, Iris-Katharina and Grothe, Matthias and Kirsch, Michael and D'hooghe, Marie Beatrice and others},\n  journal={European Journal of Neurology},\n  volume={29},\n  number={10},\n  pages={3039--3049},\n  year={2022},\n  publisher={Wiley Online Library}\n}"
-  },
-  {
-    "objectID": "research.html",
-    "href": "research.html",
-    "title": "Research",
-    "section": "",
-    "text": "About this site"
-  },
-  {
-    "objectID": "publications/banville-2023-sleep.html#summary",
-    "href": "publications/banville-2023-sleep.html#summary",
-    "title": "Do try this at home: Age prediction from sleep and meditation with large-scale low-cost mobile EEG",
-    "section": "Summary",
-    "text": "Summary\n(from bioRxiv abstract)\nEEG is an established method for quantifying large-scale neuronal dynamics which enables diverse real-world biomedical applications including brain-computer interfaces, epilepsy monitoring and sleep staging. Advances in sensor technology have freed EEG from traditional laboratory settings, making low-cost ambulatory or at-home assessments of brain function possible. While ecologically valid brain assessments are becoming more practical, the impact of their reduced spatial resolution and susceptibility to noise remain to be investigated. This study set out to explore the potential of at-home EEG assessments for biomarker discovery using the brain age framework and four-channel consumer EEG data. We analyzed recordings from more than 5200 human subjects (18-81 years) during meditation and sleep, focusing on the age prediction task. With cross-validated R2 scores between 0.3 - 0.5, prediction performance was within the range of results obtained by recent benchmarks focused on laboratory-grade EEG. While age prediction was successful from both meditation and sleep recordings, the latter led to higher performance. Analysis by sleep stage uncovered that N2-N3 stages contained most of the signal. When combined, EEG features extracted from all sleep stages gave the best performance, suggesting that the entire night of sleep contains valuable age-related information. Furthermore, model comparisons suggested that information was spread out across electrodes and frequencies, supporting the use of multivariate modeling approaches. Thanks to our unique dataset of longitudinal repeat sessions spanning 153 to 529 days from eight subjects, we finally evaluated the variability of EEG-based age predictions, showing that they reflect both trait- and state-like information. Overall, our results demonstrate that state-of-the-art machine learning approaches based on age prediction can be readily applied to real-world EEG recordings obtained during at-home sleep and meditation practice."
-  },
-  {
-    "objectID": "publications/banville-2023-sleep.html#citation",
-    "href": "publications/banville-2023-sleep.html#citation",
-    "title": "Do try this at home: Age prediction from sleep and meditation with large-scale low-cost mobile EEG",
-    "section": "Citation",
-    "text": "Citation\n@article{banville2023try,\n  title={Do try this at home: Age prediction from sleep and meditation with large-scale low-cost mobile EEG},\n  author={Banville, Hubert and Abou Jaoude, Maurice and Wood, Sean UN and Aimone, Chris and Holst, Sebastian C and Gramfort, Alexandre and Engemann, Denis-Alexander},\n  journal={bioRxiv},\n  pages={2023--04},\n  year={2023},\n  publisher={Cold Spring Harbor Laboratory}\n}"
-  },
-  {
-    "objectID": "publications/paillard-2025-green.html#our-deep-learning-for-exploring-eeg-biomarkers-is-out-now-in-patterns",
-    "href": "publications/paillard-2025-green.html#our-deep-learning-for-exploring-eeg-biomarkers-is-out-now-in-patterns",
-    "title": "GREEN: A lightweight architecture for biomarker exploration with EEG signals",
-    "section": "Our deep learning for exploring EEG biomarkers is out now in Patterns!",
-    "text": "Our deep learning for exploring EEG biomarkers is out now in Patterns!"
-  },
-  {
-    "objectID": "publications/paillard-2025-green.html#summary-in-brief",
-    "href": "publications/paillard-2025-green.html#summary-in-brief",
-    "title": "GREEN: A lightweight architecture for biomarker exploration with EEG signals",
-    "section": "Summary (in brief)",
-    "text": "Summary (in brief)\nOur brains generate electrical signals whose unique patterns reveal information about aging, health, and even thoughts. This information is useful for studying brain disorders and developing novel therapies. However, traditional analysis methods can miss subtle but important brain-activity patterns. GREEN, introduced here, is an AI model that readily decodes brainwave patterns. By combining innovative mathematical tools with deep learning, GREEN detects subtle changes in brain activity with a low computational footprint while providing interpretable outputs that reveal insights into brain function."
-  },
-  {
-    "objectID": "publications/paillard-2025-green.html#citation",
-    "href": "publications/paillard-2025-green.html#citation",
-    "title": "GREEN: A lightweight architecture for biomarker exploration with EEG signals",
-    "section": "Citation",
-    "text": "Citation\n@article{GREEN,\n    author = {Paillard, Joseph and Hipp, J{\\\"o}rg F. and Engemann, Denis A.},\n    doi = {10.1016/j.patter.2025.101182},\n    journal = {Patterns},\n    publisher = {Elsevier},\n    title = {GREEN: A lightweight architecture using learnable wavelets and Riemannian geometry for biomarker exploration with EEG signals},\n    url = {https://doi.org/10.1016/j.patter.2025.101182}\n}"
-  },
-  {
-    "objectID": "publications/hebling-2022-decline.html#summary",
-    "href": "publications/hebling-2022-decline.html#summary",
-    "title": "Predicting future cognitive decline from non-brain and multimodal brain imaging data in healthy and pathological aging",
-    "section": "Summary",
-    "text": "Summary\n(reprinted from the published abstract.)\nPrevious literature has focused on predicting a diagnostic label from structural brain imaging. Since subtle changes in the brain precede a cognitive decline in healthy and pathological aging, our study predicts future decline as a continuous trajectory instead. Here, we tested whether baseline multimodal neuroimaging data improve the prediction of future cognitive decline in healthy and pathological aging. Nonbrain data (demographics, clinical, and neuropsychological scores), structural MRI, and functional connectivity data from OASIS-3 (N = 662; age = 46–96 years) were entered into cross-validated multitarget random forest models to predict future cognitive decline (measured by CDR and MMSE), on average 5.8 years into the future. The analysis was preregistered, and all analysis code is publicly available. Combining non-brain with structural data improved the continuous prediction of future cognitive decline (best test-set performance: R2 = 0.42). Cognitive performance, daily functioning, and subcortical volume drove the performance of our model. Including functional connectivity did not improve predictive accuracy. In the future, the prognosis of age-related cognitive decline may enable earlier and more effective individualized cognitive, pharmacological, and behavioral interventions."
-  },
-  {
-    "objectID": "publications/hebling-2022-decline.html#citation",
-    "href": "publications/hebling-2022-decline.html#citation",
-    "title": "Predicting future cognitive decline from non-brain and multimodal brain imaging data in healthy and pathological aging",
-    "section": "Citation",
-    "text": "Citation\n@article{vieira2022predicting,\n  title={Predicting future cognitive decline from non-brain and multimodal brain imaging data in healthy and pathological aging},\n  author={Vieira, Bruno Hebling and Liem, Franziskus and Dadi, Kamalaker and Engemann, Denis A and Gramfort, Alexandre and Bellec, Pierre and Craddock, Richard Cameron and Damoiseaux, Jessica S and Steele, Christopher J and Yarkoni, Tal and others},\n  journal={Neurobiology of Aging},\n  volume={118},\n  pages={55--65},\n  year={2022},\n  publisher={Elsevier}\n}"
   },
   {
     "objectID": "publications/bomatter-2024-bmx.html",
@@ -250,6 +152,118 @@
     "title": "Machine learning of brain-specific biomarkers from EEG",
     "section": "Citation",
     "text": "Citation\n@article{bomatter2024,\n    author = {Bomatter, Philipp and Paillard, Joseph and Garces, Pilar and Hipp, J{\\\"o}rg and Engemann, Denis-Alexander},\n    title = {Machine learning of brain-specific biomarkers from EEG},\n    year = {2024},\n    journal = {eBioMedicine},\n    url = {https://doi.org/10.1016/j.ebiom.2024.105259},\n    date = {2024/08/05},\n    publisher = {Elsevier},\n    isbn = {2352-3964},\n    month = {2024/08/06},\n    volume = {106},\n}"
+  },
+  {
+    "objectID": "publications/hebling-2022-decline.html#summary",
+    "href": "publications/hebling-2022-decline.html#summary",
+    "title": "Predicting future cognitive decline from non-brain and multimodal brain imaging data in healthy and pathological aging",
+    "section": "Summary",
+    "text": "Summary\n(reprinted from the published abstract.)\nPrevious literature has focused on predicting a diagnostic label from structural brain imaging. Since subtle changes in the brain precede a cognitive decline in healthy and pathological aging, our study predicts future decline as a continuous trajectory instead. Here, we tested whether baseline multimodal neuroimaging data improve the prediction of future cognitive decline in healthy and pathological aging. Nonbrain data (demographics, clinical, and neuropsychological scores), structural MRI, and functional connectivity data from OASIS-3 (N = 662; age = 46–96 years) were entered into cross-validated multitarget random forest models to predict future cognitive decline (measured by CDR and MMSE), on average 5.8 years into the future. The analysis was preregistered, and all analysis code is publicly available. Combining non-brain with structural data improved the continuous prediction of future cognitive decline (best test-set performance: R2 = 0.42). Cognitive performance, daily functioning, and subcortical volume drove the performance of our model. Including functional connectivity did not improve predictive accuracy. In the future, the prognosis of age-related cognitive decline may enable earlier and more effective individualized cognitive, pharmacological, and behavioral interventions."
+  },
+  {
+    "objectID": "publications/hebling-2022-decline.html#citation",
+    "href": "publications/hebling-2022-decline.html#citation",
+    "title": "Predicting future cognitive decline from non-brain and multimodal brain imaging data in healthy and pathological aging",
+    "section": "Citation",
+    "text": "Citation\n@article{vieira2022predicting,\n  title={Predicting future cognitive decline from non-brain and multimodal brain imaging data in healthy and pathological aging},\n  author={Vieira, Bruno Hebling and Liem, Franziskus and Dadi, Kamalaker and Engemann, Denis A and Gramfort, Alexandre and Bellec, Pierre and Craddock, Richard Cameron and Damoiseaux, Jessica S and Steele, Christopher J and Yarkoni, Tal and others},\n  journal={Neurobiology of Aging},\n  volume={118},\n  pages={55--65},\n  year={2022},\n  publisher={Elsevier}\n}"
+  },
+  {
+    "objectID": "publications/paillard-2025-green.html#our-deep-learning-for-exploring-eeg-biomarkers-is-out-now-in-patterns",
+    "href": "publications/paillard-2025-green.html#our-deep-learning-for-exploring-eeg-biomarkers-is-out-now-in-patterns",
+    "title": "GREEN: A lightweight architecture for biomarker exploration with EEG signals",
+    "section": "Our deep learning for exploring EEG biomarkers is out now in Patterns!",
+    "text": "Our deep learning for exploring EEG biomarkers is out now in Patterns!"
+  },
+  {
+    "objectID": "publications/paillard-2025-green.html#summary-in-brief",
+    "href": "publications/paillard-2025-green.html#summary-in-brief",
+    "title": "GREEN: A lightweight architecture for biomarker exploration with EEG signals",
+    "section": "Summary (in brief)",
+    "text": "Summary (in brief)\nOur brains generate electrical signals whose unique patterns reveal information about aging, health, and even thoughts. This information is useful for studying brain disorders and developing novel therapies. However, traditional analysis methods can miss subtle but important brain-activity patterns. GREEN, introduced here, is an AI model that readily decodes brainwave patterns. By combining innovative mathematical tools with deep learning, GREEN detects subtle changes in brain activity with a low computational footprint while providing interpretable outputs that reveal insights into brain function."
+  },
+  {
+    "objectID": "publications/paillard-2025-green.html#citation",
+    "href": "publications/paillard-2025-green.html#citation",
+    "title": "GREEN: A lightweight architecture for biomarker exploration with EEG signals",
+    "section": "Citation",
+    "text": "Citation\n@article{GREEN,\n    author = {Paillard, Joseph and Hipp, J{\\\"o}rg F. and Engemann, Denis A.},\n    doi = {10.1016/j.patter.2025.101182},\n    journal = {Patterns},\n    publisher = {Elsevier},\n    title = {GREEN: A lightweight architecture using learnable wavelets and Riemannian geometry for biomarker exploration with EEG signals},\n    url = {https://doi.org/10.1016/j.patter.2025.101182}\n}"
+  },
+  {
+    "objectID": "publications/banville-2023-sleep.html#summary",
+    "href": "publications/banville-2023-sleep.html#summary",
+    "title": "Do try this at home: Age prediction from sleep and meditation with large-scale low-cost mobile EEG",
+    "section": "Summary",
+    "text": "Summary\n(from bioRxiv abstract)\nEEG is an established method for quantifying large-scale neuronal dynamics which enables diverse real-world biomedical applications including brain-computer interfaces, epilepsy monitoring and sleep staging. Advances in sensor technology have freed EEG from traditional laboratory settings, making low-cost ambulatory or at-home assessments of brain function possible. While ecologically valid brain assessments are becoming more practical, the impact of their reduced spatial resolution and susceptibility to noise remain to be investigated. This study set out to explore the potential of at-home EEG assessments for biomarker discovery using the brain age framework and four-channel consumer EEG data. We analyzed recordings from more than 5200 human subjects (18-81 years) during meditation and sleep, focusing on the age prediction task. With cross-validated R2 scores between 0.3 - 0.5, prediction performance was within the range of results obtained by recent benchmarks focused on laboratory-grade EEG. While age prediction was successful from both meditation and sleep recordings, the latter led to higher performance. Analysis by sleep stage uncovered that N2-N3 stages contained most of the signal. When combined, EEG features extracted from all sleep stages gave the best performance, suggesting that the entire night of sleep contains valuable age-related information. Furthermore, model comparisons suggested that information was spread out across electrodes and frequencies, supporting the use of multivariate modeling approaches. Thanks to our unique dataset of longitudinal repeat sessions spanning 153 to 529 days from eight subjects, we finally evaluated the variability of EEG-based age predictions, showing that they reflect both trait- and state-like information. Overall, our results demonstrate that state-of-the-art machine learning approaches based on age prediction can be readily applied to real-world EEG recordings obtained during at-home sleep and meditation practice."
+  },
+  {
+    "objectID": "publications/banville-2023-sleep.html#citation",
+    "href": "publications/banville-2023-sleep.html#citation",
+    "title": "Do try this at home: Age prediction from sleep and meditation with large-scale low-cost mobile EEG",
+    "section": "Citation",
+    "text": "Citation\n@article{banville2023try,\n  title={Do try this at home: Age prediction from sleep and meditation with large-scale low-cost mobile EEG},\n  author={Banville, Hubert and Abou Jaoude, Maurice and Wood, Sean UN and Aimone, Chris and Holst, Sebastian C and Gramfort, Alexandre and Engemann, Denis-Alexander},\n  journal={bioRxiv},\n  pages={2023--04},\n  year={2023},\n  publisher={Cold Spring Harbor Laboratory}\n}"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "publications/denissen-2022-MS-brain-age.html#summary",
+    "href": "publications/denissen-2022-MS-brain-age.html#summary",
+    "title": "Brain age as a surrogate marker for cognitive performance in multiple sclerosis",
+    "section": "Summary",
+    "text": "Summary\n(reprinted from the published abstract.)\n\nBackground and purpose\nData from neuro-imaging techniques allow us to estimate a brain’s age. Brain age is easily interpretable as ‘how old the brain looks’ and could therefore be an attractive communication tool for brain health in clinical practice. This study aimed to investigate its clinical utility by investigating the relationship between brain age and cognitive performance in multiple sclerosis (MS).\n\n\nMethods\nA linear regression model was trained to predict age from brain magnetic resonance imaging volumetric features and sex in a healthy control dataset (HC_train, n = 1673). This model was used to predict brain age in two test sets: HC_test (n = 50) and MS_test (n = 201). Brain-predicted age difference (BPAD) was calculated as BPAD = brain age minus chronological age. Cognitive performance was assessed by the Symbol Digit Modalities Test (SDMT).\n\n\nResults\nBrain age was significantly related to SDMT scores in the MS_test dataset (r = −0.46, p &lt; 0.001) and contributed uniquely to variance in SDMT beyond chronological age, reflected by a significant correlation between BPAD and SDMT (r = −0.24, p &lt; 0.001) and a significant weight (−0.25, p = 0.002) in a multivariate regression equation with age.\n\n\nConclusions\nBrain age is a candidate biomarker for cognitive dysfunction in MS and an easy to grasp metric for brain health."
+  },
+  {
+    "objectID": "publications/denissen-2022-MS-brain-age.html#citation",
+    "href": "publications/denissen-2022-MS-brain-age.html#citation",
+    "title": "Brain age as a surrogate marker for cognitive performance in multiple sclerosis",
+    "section": "Citation",
+    "text": "Citation\n@article{denissen2022brain,\n  title={Brain age as a surrogate marker for cognitive performance in multiple sclerosis},\n  author={Denissen, Stijn and Engemann, Denis Alexander and De Cock, Alexander and Costers, Lars and Baijot, Johan and Laton, Jorne and Penner, Iris-Katharina and Grothe, Matthias and Kirsch, Michael and D'hooghe, Marie Beatrice and others},\n  journal={European Journal of Neurology},\n  volume={29},\n  number={10},\n  pages={3039--3049},\n  year={2022},\n  publisher={Wiley Online Library}\n}"
+  },
+  {
+    "objectID": "publications/chamma-2023-neurips.html#summary",
+    "href": "publications/chamma-2023-neurips.html#summary",
+    "title": "Statistically Valid Variable Importance Assessment through Conditional Permutations",
+    "section": "Summary",
+    "text": "Summary\n(reprinted from abstract)\nVariable importance assessment has become a crucial step in machine-learning applications when using complex learners, such as deep neural networks, on large-scale data. Removal-based importance assessment is currently the reference approach, particularly when statistical guarantees are sought to justify variable inclusion. It is often implemented with variable permutation schemes. On the flip side, these approaches risk misidentifying unimportant variables as important in the presence of correlations among covariates. Here we develop a systematic approach for studying Conditional Permutation Importance (CPI) that is model agnostic and computationally lean, as well as reusable benchmarks of state-of-the-art variable importance estimators. We show theoretically and empirically that CPI overcomes the limitations of standard permutation importance by providing accurate type-I error control. When used with a deep neural network, CPI consistently showed top accuracy across benchmarks. An experiment on real-world data analysis in a large-scale medical dataset showed that CPI provides a more parsimonious selection of statistically significant variables. Our results suggest that CPI can be readily used as drop-in replacement for permutation-based methods.\n(Twitter/X)"
+  },
+  {
+    "objectID": "publications/chamma-2023-neurips.html#citation",
+    "href": "publications/chamma-2023-neurips.html#citation",
+    "title": "Statistically Valid Variable Importance Assessment through Conditional Permutations",
+    "section": "Citation",
+    "text": "Citation\n@article{chamma2023statistically,\n  title={Statistically Valid Variable Importance Assessment through Conditional Permutations},\n  author={Chamma, Ahmad and Engemann, Denis A and Thirion, Bertrand},\n  journal={arXiv preprint arXiv:2309.07593},\n  year={2023}\n}"
+  },
+  {
+    "objectID": "publications/sabbagh-2019-neurips.html#summary",
+    "href": "publications/sabbagh-2019-neurips.html#summary",
+    "title": "Manifold-regression to predict from MEG/EEG brain signals without source modeling",
+    "section": "Summary",
+    "text": "Summary\n(reprinted from the article: “bigger picture”)\nMagnetoencephalography and electroencephalography (M/EEG) can reveal neuronal dynamics non-invasively in real-time and are therefore appreciated methods in medicine and neuroscience. Recent advances in modeling brain-behavior relationships have highlighted the effectiveness of Riemannian geometry for summarizing the spatially correlated time-series from M/EEG in terms of their covariance. However, after artefact-suppression, M/EEG data is often rank deficient which limits the application of Riemannian concepts. In this article, we focus on the task of regression with rank-reduced covariance matrices. We study two Riemannian approaches that vectorize the M/EEG covariance between sensors through projection into a tangent space. The Wasserstein distance readily applies to rank-reduced data but lacks affine-invariance. This can be overcome by finding a common subspace in which the covariance matrices are full rank, enabling the affine-invariant geometric distance. We investigated the implications of these two approaches in synthetic generative models, which allowed us to control estimation bias of a linear model for prediction. We show that Wasserstein and geometric distances allow perfect out-of-sample prediction on the generative models. We then evaluated the methods on real data with regard to their effectiveness in predicting age from M/EEG covariance matrices. The findings suggest that the data-driven Riemannian methods outperform different sensor-space estimators and that they get close to the performance of biophysics-driven source-localization model that requires MRI acquisitions and tedious data processing. Our study suggests that the proposed Riemannian methods can serve as fundamental building-blocks for automated large-scale analysis of M/EEG."
+  },
+  {
+    "objectID": "publications/sabbagh-2019-neurips.html#citation",
+    "href": "publications/sabbagh-2019-neurips.html#citation",
+    "title": "Manifold-regression to predict from MEG/EEG brain signals without source modeling",
+    "section": "Citation",
+    "text": "Citation\n@article{sabbagh2019manifold,\n  title={Manifold-regression to predict from MEG/EEG brain signals without source modeling},\n  author={Sabbagh, David and Ablin, Pierre and Varoquaux, Ga{\\\"e}l and Gramfort, Alexandre and Engemann, Denis A},\n  journal={Advances in Neural Information Processing Systems},\n  volume={32},\n  year={2019}\n}"
+  },
+  {
+    "objectID": "publications/gaubert-2025-AD.html#revealing-hidden-brain-activity-patterns-in-alzheimers-risk",
+    "href": "publications/gaubert-2025-AD.html#revealing-hidden-brain-activity-patterns-in-alzheimers-risk",
+    "title": "Exploring the neuromagnetic signatures of cognitive decline from mild cognitive impairment to Alzheimer’s disease dementia",
+    "section": "Revealing hidden (brain-activity) patterns in Alzheimer’s risk",
+    "text": "Revealing hidden (brain-activity) patterns in Alzheimer’s risk\nOur research in eBioMedicine – The Lancet Discovery Science demonstrates how brain activity patterns measured by magnetoencephalography (MEG) provide valuable insights beyond standard cognitive testing and structural MRI in assessing progression from mild cognitive impairment to Alzheimer’s Disease (AD).\nFrom the BioFIND cohort, we analyzed MEG recordings from 150 patients suffering from MCI using a standardized wavelet-based approach meeglet package and leveraging Riemannian statistics.\nWe observed dampening of brain activity above 10Hz in future AD converters and found that Riemannian analysis provided an enhanced summary of power, phase-, and amplitude dynamics. MEG covariance spectra emerged as a robust signature, adding information on AD progression over MRI and cognitive assessments.\nThis work highlights the unique value of measuring brain activity to understand AD risk and opens new avenues for earlier, more comprehensive assessment of risk beyond proteinopathies."
+  },
+  {
+    "objectID": "publications/gaubert-2025-AD.html#citation",
+    "href": "publications/gaubert-2025-AD.html#citation",
+    "title": "Exploring the neuromagnetic signatures of cognitive decline from mild cognitive impairment to Alzheimer’s disease dementia",
+    "section": "Citation",
+    "text": "Citation\n@article{gaubert2025,\n    author = {Gaubert, Sinead and Garces, Pilar and Hipp, J{\\\"o}rg and Bru{\\~n}a, Ricardo and Lop{\\'e}z, Maria Eugenia and Maestu, Fernando and Vaghari, Delshad and Henson, Richard and Paquet, Claire and Engemann, Denis-Alexander},\n    doi = {10.1016/j.ebiom.2025.105659},\n    isbn = {2352-3964},\n    journal = {eBioMedicine},\n    title = {Exploring the neuromagnetic signatures of cognitive decline from mild cognitive impairment to Alzheimer's disease dementia},\n    type = {doi: 10.1016/j.ebiom.2025.105659},\n    url = {https://doi.org/10.1016/j.ebiom.2025.105659},\n    volume = {114},\n    year = {2025}\n}"
   },
   {
     "objectID": "publications/dadi-2021-pop-measures.html#summary",
@@ -291,7 +305,7 @@
     "href": "publications/engemann-2022-benchmark.html#summary",
     "title": "A reusable benchmark of brain-age prediction from M/EEG resting-state signals",
     "section": "Summary",
-    "text": "Summary\nThis Twitter thread summarizes the work and walks you through the main findings."
+    "text": "Summary\nThis Twitter thread summarizes the work and walks you through the main findings.\n\n\n;document.getElementById(\"tweet-43691\").innerHTML = tweet[\"html\"];"
   },
   {
     "objectID": "publications/engemann-2022-benchmark.html#citation",
@@ -305,7 +319,7 @@
     "href": "publications/banville-2022-dynamic.html#summary",
     "title": "Robust learning from corrupted EEG with dynamic spatial filtering",
     "section": "Summary",
-    "text": "Summary\nThis Twitter thread summarizes the work and walks you through the main findings."
+    "text": "Summary\nThis Twitter thread summarizes the work and walks you through the main findings.\n\n\n;document.getElementById(\"tweet-96810\").innerHTML = tweet[\"html\"];"
   },
   {
     "objectID": "publications/banville-2022-dynamic.html#citation",
@@ -319,7 +333,7 @@
     "href": "publications/engemann-2018-disorders-of-consciousness.html#summary",
     "title": "Combining magnetoencephalography with magnetic resonance imaging enhances learning of surrogate-biomarkers",
     "section": "Summary",
-    "text": "Summary\nFor a discussion of the neurophysiological implications, please consider the companion article by Rodika Sokoliuk and Damian Cruse.\nShould you have no time to read the paper, this Twitter thread gives you the gist:"
+    "text": "Summary\nFor a discussion of the neurophysiological implications, please consider the companion article by Rodika Sokoliuk and Damian Cruse.\nShould you have no time to read the paper, this Twitter thread gives you the gist:\n\n\n;document.getElementById(\"tweet-54170\").innerHTML = tweet[\"html\"];"
   },
   {
     "objectID": "publications/engemann-2018-disorders-of-consciousness.html#citation",
@@ -333,7 +347,7 @@
     "href": "publications/banville-2021-ssl.html#summary",
     "title": "Uncovering the structure of clinical EEG signals with self-supervised learning",
     "section": "Summary",
-    "text": "Summary\nThis Twitter thread summarizes the work and walks you through the main findings."
+    "text": "Summary\nThis Twitter thread summarizes the work and walks you through the main findings.\n\n\n;document.getElementById(\"tweet-11701\").innerHTML = tweet[\"html\"];"
   },
   {
     "objectID": "publications/banville-2021-ssl.html#demonstration",
@@ -396,7 +410,7 @@
     "href": "publications.html#peer-reviewed-articles",
     "title": "Full Bibliography",
     "section": "Peer-reviewed Articles",
-    "text": "Peer-reviewed Articles\n\n\n\n\n\n\n\n\n\n\nGREEN: A lightweight architecture for biomarker exploration with EEG signals\n\n\n\n\n\n  \n\n\n\n\n\nJan 2, 2026\n\n\nJoseph Paillard, Joerg F Hipp and Denis A Engemann\n\n\n\n\n\n\n\n\n\n\n\n\nMachine learning of brain-specific biomarkers from EEG\n\n\n\n\n\n  \n\n\n\n\n\nAug 5, 2024\n\n\nPhilipp Bomatter, Joseph Paillard, Pilar Garces, Joerg F Hipp and Denis A Engemann\n\n\n\n\n\n\n\n\n\n\n\n\nVariable Importance in High-Dimensional Settings Requires Grouping\n\n\n\n\n\n  \n\n\n\n\n\nDec 15, 2023\n\n\nAhmad Chamma, Bertrand Thirion and Denis A. Engemann\n\n\n\n\n\n\n\n\n\n\n\n\nStatistically Valid Variable Importance Assessment through Conditional Permutations\n\n\n\n\n\n  \n\n\n\n\n\nDec 10, 2023\n\n\nAhmad Chamma, Denis A. Engemann and Bertrand Thirion\n\n\n\n\n\n\n\n\n\n\n\n\nRepurposing electroencephalogram monitoring of general anaesthesia for building biomarkers of brain ageing: an exploratory study\n\n\n\n\n\n  \n\n\n\n\n\nJun 16, 2023\n\n\nSabbagh, David, Jérôme Cartailler, Cyril Touchard, Jona Joachim, Alexandre Mebazaa, Fabrice Vallée, Étienne Gayat, Alexandre Gramfort, and Denis A. Engemann.\n\n\n\n\n\n\n\n\n\n\n\n\nHarmonizing and aligning M/EEG datasets with covariance-based techniques to enhance predictive regression modeling\n\n\n\n\n\n \n\n\n\n\n\nApr 27, 2023\n\n\nMellot, Apolline, Antoine Collas, Pedro LC Rodrigues, Denis A. Engemann, and Alexandre Gramfort\n\n\n\n\n\n\n\n\n\n\n\n\nA systematic review of multimodal brain age studies: Uncovering a divergence between model accuracy and utility\n\n\n\n\n\n \n\n\n\n\n\nApr 14, 2023\n\n\nJirsaraie, Robert J., Aaron J. Gorelik, Martins M. Gatavins, Denis A. Engemann, Ryan Bogdan, Deanna M. Barch, and Aristeidis Sotiras.\n\n\n\n\n\n\n\n\n\n\n\n\nA reusable benchmark of brain-age prediction from M/EEG resting-state signals\n\n\n\n\n\n  \n\n\n\n\n\nJul 22, 2022\n\n\nEngemann, Denis A., Apolline Mellot, Richard Höchenberger, Hubert Banville, David Sabbagh, Lukas Gemein, Tonio Ball, and Alexandre Gramfort\n\n\n\n\n\n\n\n\n\n\n\n\nPredicting future cognitive decline from non-brain and multimodal brain imaging data in healthy and pathological aging\n\n\n\n\n\n \n\n\n\n\n\nJun 28, 2022\n\n\nVieira, Bruno Hebling, Franziskus Liem, Kamalaker Dadi, Denis A. Engemann, Alexandre Gramfort, Pierre Bellec, Richard Cameron Craddock et al.\n\n\n\n\n\n\n\n\n\n\n\n\nBrain age as a surrogate marker for cognitive performance in multiple sclerosis\n\n\n\n\n\n \n\n\n\n\n\nJun 23, 2022\n\n\nDenissen, Stijn, Denis Alexander Engemann, Alexander De Cock, Lars Costers, Johan Baijot, Jorne Laton, Iris‐Katharina Penner et al.\n\n\n\n\n\n\n\n\n\n\n\n\nRobust learning from corrupted EEG with dynamic spatial filtering\n\n\n\n\n\n  \n\n\n\n\n\nFeb 16, 2022\n\n\nBanville, Hubert, Sean UN Wood, Chris Aimone, Denis-Alexander Engemann, and Alexandre Gramfort.\n\n\n\n\n\n\n\n\n\n\n\n\nPopulation modeling with machine learning can enhance measures of mental health\n\n\n\n\n\n  \n\n\n\n\n\nOct 15, 2021\n\n\nDadi, Kamalaker, Gaël Varoquaux, Josselin Houenou, Danilo Bzdok, Bertrand Thirion, and Denis Engemann.\n\n\n\n\n\n\n\n\n\n\n\n\nUncovering the structure of clinical EEG signals with self-supervised learning\n\n\n\n\n\n \n\n\n\n\n\nMar 31, 2021\n\n\nBanville, Hubert, Omar Chehab, Aapo Hyvärinen, Denis-Alexander Engemann, and Alexandre Gramfort.\n\n\n\n\n\n\n\n\n\n\n\n\nCombining magnetoencephalography with magnetic resonance imaging enhances learning of surrogate-biomarkers\n\n\n\n\n\n  \n\n\n\n\n\nMay 19, 2020\n\n\nEngemann, Denis Alexander, Oleh Kozynets, David Sabbagh, Guillaume Lemaitre, Gaël Varoquaux, Franziskus Liem, and Alexandre Gramfort\n\n\n\n\n\n\n\n\n\n\n\n\nPredictive regression modeling with MEG/EEG: from source power to signals and cognitive states\n\n\n\n\n\n  \n\n\n\n\n\nMay 18, 2020\n\n\nSabbagh, David, Pierre Ablin, Gaël Varoquaux, Alexandre Gramfort, and Denis A. Engemann.\n\n\n\n\n\n\n\n\n\n\n\n\nManifold-regression to predict from MEG/EEG brain signals without source modeling\n\n\n\n\n\n  \n\n\n\n\n\nDec 10, 2019\n\n\nSabbagh, David, Pierre Ablin, Gaël Varoquaux, Alexandre Gramfort, and Denis A. Engemann.\n\n\n\n\n\n\n\n\n\n\n\n\nCombining magnetoencephalography with magnetic resonance imaging enhances learning of surrogate-biomarkers\n\n\n\n\n\n  \n\n\n\n\n\nOct 4, 2018\n\n\nEngemann, Denis A., Federico Raimondo, Jean-Rémi King, Benjamin Rohaut, Gilles Louppe, Frédéric Faugeras, Jitka Annen, … & Jacobo Sitt\n\n\n\n\n\n\n\n\n\n\n\n\nAutoreject: Automated artifact rejection for MEG and EEG data\n\n\n\n\n\n  \n\n\n\n\n\nJun 14, 2017\n\n\nJas, M, Denis A Engemann, Yousra Bekhti, Federico Raimondo, Alexandre Gramfort\n\n\n\n\n\n\n\n\n\n\n\n\nAutomated model selection in covariance estimation and spatial whitening of MEG and EEG signals\n\n\n\n\n\n  \n\n\n\n\n\nDec 4, 2014\n\n\nEngemann, Denis A., Alexandre Gramfort\n\n\n\n\n\n\n\n\n\n\n\n\nAutomated model selection in covariance estimation and spatial whitening of MEG and EEG signals\n\n\n\n\n\n \n\n\n\n\n\nFeb 1, 2014\n\n\nGramfort, A., Martin Luessi, Eric Larson, Denis A Engemann, Daniel Strohmeier, Christian Brodbeck, Lauri Parkkonen, Matti S Hämäläinen\n\n\n\n\n\n\nNo matching items"
+    "text": "Peer-reviewed Articles\n\n\n\n\n\n\n\n\n\n\nExploring the neuromagnetic signatures of cognitive decline from mild cognitive impairment to Alzheimer’s disease dementia\n\n\n\n\n\n  \n\n\n\n\n\nMar 27, 2025\n\n\nSinead Gaubert, Pilar Garces, Jörg F Hipp, Ricardo Bruña, Maria Eugenia Lopéz, Fernando Maestu, Delshad Vaghari, Rik Henson, Claire Paquetand Denis A Engemann\n\n\n\n\n\n\n\n\n\n\n\n\nGREEN: A lightweight architecture for biomarker exploration with EEG signals\n\n\n\n\n\n  \n\n\n\n\n\nFeb 13, 2025\n\n\nJoseph Paillard, Joerg F Hipp and Denis A Engemann\n\n\n\n\n\n\n\n\n\n\n\n\nMachine learning of brain-specific biomarkers from EEG\n\n\n\n\n\n  \n\n\n\n\n\nAug 5, 2024\n\n\nPhilipp Bomatter, Joseph Paillard, Pilar Garces, Joerg F Hipp and Denis A Engemann\n\n\n\n\n\n\n\n\n\n\n\n\nVariable Importance in High-Dimensional Settings Requires Grouping\n\n\n\n\n\n  \n\n\n\n\n\nDec 15, 2023\n\n\nAhmad Chamma, Bertrand Thirion and Denis A. Engemann\n\n\n\n\n\n\n\n\n\n\n\n\nStatistically Valid Variable Importance Assessment through Conditional Permutations\n\n\n\n\n\n  \n\n\n\n\n\nDec 10, 2023\n\n\nAhmad Chamma, Denis A. Engemann and Bertrand Thirion\n\n\n\n\n\n\n\n\n\n\n\n\nRepurposing electroencephalogram monitoring of general anaesthesia for building biomarkers of brain ageing: an exploratory study\n\n\n\n\n\n  \n\n\n\n\n\nJun 16, 2023\n\n\nSabbagh, David, Jérôme Cartailler, Cyril Touchard, Jona Joachim, Alexandre Mebazaa, Fabrice Vallée, Étienne Gayat, Alexandre Gramfort, and Denis A. Engemann.\n\n\n\n\n\n\n\n\n\n\n\n\nHarmonizing and aligning M/EEG datasets with covariance-based techniques to enhance predictive regression modeling\n\n\n\n\n\n \n\n\n\n\n\nApr 27, 2023\n\n\nMellot, Apolline, Antoine Collas, Pedro LC Rodrigues, Denis A. Engemann, and Alexandre Gramfort\n\n\n\n\n\n\n\n\n\n\n\n\nA systematic review of multimodal brain age studies: Uncovering a divergence between model accuracy and utility\n\n\n\n\n\n \n\n\n\n\n\nApr 14, 2023\n\n\nJirsaraie, Robert J., Aaron J. Gorelik, Martins M. Gatavins, Denis A. Engemann, Ryan Bogdan, Deanna M. Barch, and Aristeidis Sotiras.\n\n\n\n\n\n\n\n\n\n\n\n\nA reusable benchmark of brain-age prediction from M/EEG resting-state signals\n\n\n\n\n\n  \n\n\n\n\n\nJul 22, 2022\n\n\nEngemann, Denis A., Apolline Mellot, Richard Höchenberger, Hubert Banville, David Sabbagh, Lukas Gemein, Tonio Ball, and Alexandre Gramfort\n\n\n\n\n\n\n\n\n\n\n\n\nPredicting future cognitive decline from non-brain and multimodal brain imaging data in healthy and pathological aging\n\n\n\n\n\n \n\n\n\n\n\nJun 28, 2022\n\n\nVieira, Bruno Hebling, Franziskus Liem, Kamalaker Dadi, Denis A. Engemann, Alexandre Gramfort, Pierre Bellec, Richard Cameron Craddock et al.\n\n\n\n\n\n\n\n\n\n\n\n\nBrain age as a surrogate marker for cognitive performance in multiple sclerosis\n\n\n\n\n\n \n\n\n\n\n\nJun 23, 2022\n\n\nDenissen, Stijn, Denis Alexander Engemann, Alexander De Cock, Lars Costers, Johan Baijot, Jorne Laton, Iris‐Katharina Penner et al.\n\n\n\n\n\n\n\n\n\n\n\n\nRobust learning from corrupted EEG with dynamic spatial filtering\n\n\n\n\n\n  \n\n\n\n\n\nFeb 16, 2022\n\n\nBanville, Hubert, Sean UN Wood, Chris Aimone, Denis-Alexander Engemann, and Alexandre Gramfort.\n\n\n\n\n\n\n\n\n\n\n\n\nPopulation modeling with machine learning can enhance measures of mental health\n\n\n\n\n\n  \n\n\n\n\n\nOct 15, 2021\n\n\nDadi, Kamalaker, Gaël Varoquaux, Josselin Houenou, Danilo Bzdok, Bertrand Thirion, and Denis Engemann.\n\n\n\n\n\n\n\n\n\n\n\n\nUncovering the structure of clinical EEG signals with self-supervised learning\n\n\n\n\n\n \n\n\n\n\n\nMar 31, 2021\n\n\nBanville, Hubert, Omar Chehab, Aapo Hyvärinen, Denis-Alexander Engemann, and Alexandre Gramfort.\n\n\n\n\n\n\n\n\n\n\n\n\nCombining magnetoencephalography with magnetic resonance imaging enhances learning of surrogate-biomarkers\n\n\n\n\n\n  \n\n\n\n\n\nMay 19, 2020\n\n\nEngemann, Denis Alexander, Oleh Kozynets, David Sabbagh, Guillaume Lemaitre, Gaël Varoquaux, Franziskus Liem, and Alexandre Gramfort\n\n\n\n\n\n\n\n\n\n\n\n\nPredictive regression modeling with MEG/EEG: from source power to signals and cognitive states\n\n\n\n\n\n  \n\n\n\n\n\nMay 18, 2020\n\n\nSabbagh, David, Pierre Ablin, Gaël Varoquaux, Alexandre Gramfort, and Denis A. Engemann.\n\n\n\n\n\n\n\n\n\n\n\n\nManifold-regression to predict from MEG/EEG brain signals without source modeling\n\n\n\n\n\n  \n\n\n\n\n\nDec 10, 2019\n\n\nSabbagh, David, Pierre Ablin, Gaël Varoquaux, Alexandre Gramfort, and Denis A. Engemann.\n\n\n\n\n\n\n\n\n\n\n\n\nCombining magnetoencephalography with magnetic resonance imaging enhances learning of surrogate-biomarkers\n\n\n\n\n\n  \n\n\n\n\n\nOct 4, 2018\n\n\nEngemann, Denis A., Federico Raimondo, Jean-Rémi King, Benjamin Rohaut, Gilles Louppe, Frédéric Faugeras, Jitka Annen, … & Jacobo Sitt\n\n\n\n\n\n\n\n\n\n\n\n\nAutoreject: Automated artifact rejection for MEG and EEG data\n\n\n\n\n\n  \n\n\n\n\n\nJun 14, 2017\n\n\nJas, M, Denis A Engemann, Yousra Bekhti, Federico Raimondo, Alexandre Gramfort\n\n\n\n\n\n\n\n\n\n\n\n\nAutomated model selection in covariance estimation and spatial whitening of MEG and EEG signals\n\n\n\n\n\n  \n\n\n\n\n\nDec 4, 2014\n\n\nEngemann, Denis A., Alexandre Gramfort\n\n\n\n\n\n\n\n\n\n\n\n\nAutomated model selection in covariance estimation and spatial whitening of MEG and EEG signals\n\n\n\n\n\n \n\n\n\n\n\nFeb 1, 2014\n\n\nGramfort, A., Martin Luessi, Eric Larson, Denis A Engemann, Daniel Strohmeier, Christian Brodbeck, Lauri Parkkonen, Matti S Hämäläinen\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "publications.html#preprints",

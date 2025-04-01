@@ -2,7 +2,7 @@
 title: "GREEN: A lightweight architecture for biomarker exploration with EEG signals"
 description: "[{{< ai doi size=xl >}}]( https://www.cell.com/patterns/fulltext/S2666-3899(25)00030-3 ) [{{< bi file-pdf size=1.5em >}}](https://www.cell.com/action/showPdf?pii=S2666-3899%2825%2900030-3) [{{< bi github size=1.5 >}}](https://github.com/Roche/neuro-green)"
 author: Joseph Paillard, Joerg F Hipp and Denis A Engemann
-date: 13/02/2025
+date: 02/13/2025
 draft: false
 max-description-length: 2000
 # image: 
